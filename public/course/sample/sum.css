@@ -1,0 +1,189 @@
+/* 정리 장 새 모양(대표님 2026-10-01 확정) — data/sum.js 에 과가 있으면 .sumwrap 에 sumv2 가 붙고 이 규칙만 걸린다.
+   3급 정리 장과 같은 짜임: 이름표는 칸 위 테두리에 걸침 · 두 칸 사이 넓게 · 주의 칸은 내용만큼, 줄은 위부터.
+   한국어 설명 줄은 슬라이드에서 빼고 교사 메모로(엔진이 sumv2 일 때 .ko 를 그리지 않는다). */
+/* 한국어 설명 줄은 슬라이드에서 뺀다 — 교사 메모로 옮김(대표님 2026-10-01) */
+.sumv2 .sum-warn .ko:empty{display:none}
+.sumv2 .sum-mean:not(.koonly) .ko{display:none}
+/* 3급 시안과 같은 짜임(대표님 2026-10-01 「3급이 낫다」)
+   · 이름표(의미 · 주의할 점)는 칸 위 테두리에 걸쳐 반쯤 밖으로
+   · 두 칸 사이는 넓게 — 두 섹션이 따로 보이게
+   · 주의 칸은 내용만큼만, 줄은 위부터 차례로 · 줄마다 여백을 넉넉히 */
+.sumwrap.sumv2{display:flex!important;flex-direction:column;justify-content:flex-start!important;align-content:flex-start!important;gap:clamp(26px,2.6vw,52px)!important;overflow:visible!important;padding-top:clamp(26px,2.2vw,44px)}
+.sumv2 .sum-mean,.sumv2 .sum-warn{position:relative;align-self:stretch!important;flex:0 0 auto;margin:0!important}
+.sumv2 .sum-mean{padding-top:clamp(30px,2.5vw,50px)!important;padding-bottom:clamp(18px,1.6vw,32px)!important}
+.sumv2 .sum-warn{padding-top:clamp(34px,2.8vw,56px)!important;padding-bottom:clamp(18px,1.6vw,32px)!important}
+.sumv2 .sum-mean > .sum-label,.sumv2 .sum-warn > .sum-label{position:absolute;top:0;left:clamp(32px,2.6vw,52px);transform:translateY(-50%);margin:0!important;box-shadow:0 0 0 4px #fffaf1}
+.sumv2 .sum-warn ol{display:grid!important;gap:clamp(14px,1.3vw,26px)!important}
+.sumv2 .sum-warn li{align-items:center;padding-block:clamp(14px,1.3vw,26px)!important}
+/* 줄이 넷인 과 · 낮은 화면은 여백을 단계로 줄인다(넘치지 않게) */
+.sumv2 .sum-warn ol:has(> li:nth-child(4)){gap:clamp(8px,.7vw,14px)!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) > li{padding-block:clamp(7px,.6vw,12px)!important}
+@media (max-height:950px){
+.sumwrap.sumv2{gap:clamp(20px,1.9vw,36px)!important}
+.sumv2 .sum-mean{padding-top:clamp(24px,2vw,40px)!important;padding-bottom:12px!important}
+.sumv2 .sum-warn{padding-top:clamp(26px,2.2vw,44px)!important;padding-bottom:12px!important}
+.sumv2 .sum-warn ol{gap:clamp(8px,.8vw,16px)!important}
+.sumv2 .sum-warn li{padding-block:clamp(8px,.75vw,15px)!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)){gap:5px!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) > li{padding-block:4px!important}
+}
+@media (max-height:800px){
+.sumwrap.sumv2{gap:18px!important;padding-top:10px}
+.sumv2 .sum-mean{padding-top:20px!important;padding-bottom:8px!important}
+.sumv2 .sum-warn{padding-top:22px!important;padding-bottom:8px!important}
+.sumv2 .sum-warn ol{gap:5px!important}
+.sumv2 .sum-warn li{padding-block:5px!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)){gap:3px!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) > li{padding-block:2px!important}
+}
+.sumv2 .sum-warn .whd{font-weight:800}
+/* 보기는 보기답게 — 머리말과 띄우고, 흰 바탕 상자 + 「e.g.」 딱지로 「이건 예다」를 보인다 */
+.sumv2 .sum-warn .wexi{display:inline-flex;align-items:center;gap:.5em;margin-left:1.6em;padding:.12em .7em .12em .35em;background:#fff;border:1.5px solid #e3d6ec;border-radius:.6em;font-size:.92em;font-weight:700;vertical-align:.05em}
+.sumv2 .sum-warn .wln{display:flex;align-items:flex-start;gap:.5em;width:max-content;max-width:100%;box-sizing:border-box;margin-top:.45em;padding:.3em .8em .3em .35em;background:#fff;border:1.5px solid #e3d6ec;border-radius:.6em;font-size:.92em;font-weight:700}
+.sumv2 .sum-warn .wlnb{display:flex;flex-direction:column;gap:.15em;min-width:0}
+.sumv2 .sum-warn .wlnb>span{display:block}
+/* 세로 대조(12 · 13과) — 이름 칸과 내용 칸이 위아래 줄에서 같은 자리에 선다 */
+.sumv2 .sum-warn .wvt{border:0;background:none;padding:0}
+/* 아래 줄 상자 · 세로 대조도 자리가 있으면 머리말 옆에 — 모자라면 통째로 다음 줄(글머리에서 시작) */
+.sumv2 .sum-warn .wln{display:inline-flex!important;vertical-align:top;margin:0 0 0 1.6em!important}
+.sumv2 .sum-warn .wln.wvt{margin-top:.1em!important}
+.sumv2 .sum-warn .wvtb{display:grid;grid-template-columns:max-content max-content;column-gap:1em;row-gap:.25em;align-items:center}
+.sumv2 .sum-warn .wvl{font-weight:900;color:var(--accent)}
+.sumv2 .sum-warn .wchip{display:inline-block;border-radius:.35em;padding:0 .4em;line-height:1.35}
+.sumv2 .sum-warn .wr.wchip{background:#fde8eb}
+.sumv2 .sum-warn .wbl.wchip{background:#e6ecfb}
+.sumv2 .sum-warn .wpr{display:contents}
+.sumv2 .sum-warn .wpr.pcr{--pc:var(--accent);--ps:#fde8eb}
+.sumv2 .sum-warn .wpr.pcb{--pc:#2349b8;--ps:#e6ecfb}
+.sumv2 .sum-warn .wpr.pcn{--pc:#5b4a70;--ps:#efe9f5}
+/* 시안 3 — 머리 줄이 색칠된 표(이름표 위, 보기 아래) */
+.sumv2 .sum-warn .wtb{display:grid!important;grid-auto-flow:column;grid-template-rows:auto auto;grid-auto-columns:minmax(max-content,1fr);border:2px solid #d8c9e6;border-radius:.55em;overflow:hidden;background:#fff}
+.sumv2 .sum-warn .wpr{display:contents}
+.sumv2 .sum-warn .wpr .wtl{background:var(--ps);color:var(--pc)!important;border:0!important;border-bottom:2px solid var(--pc)!important;padding:.1em .9em!important;text-align:center;font-size:.85em}
+.sumv2 .sum-warn .wpr .wtx{border:0!important;padding:.25em .9em!important;text-align:center}
+.sumv2 .sum-warn .wpr + .wpr .wtl,.sumv2 .sum-warn .wpr + .wpr .wtx{border-left:2px solid #d8c9e6!important}
+.sumv2 .sum-warn .wln:has(.wtb){border:0!important;background:none!important;padding-left:0!important}
+/* 대화 A. B. 는 한 줄에 — B. 앞을 띄운다 */
+.sumv2 .sum-warn .wexb{white-space:pre-wrap}
+/* 주의가 넷인 과는 줄 사이를 한 단 좁힌다 */
+.sumv2 .sum-warn ol:has(> li:nth-child(4)){gap:5px}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) li{padding-block:5px}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) .en{line-height:1.32}
+/* 두 갈래 대조는 표로 — 왼쪽 이름표, 오른쪽 보기 */
+.sumv2 .sum-warn .wtb{display:grid;grid-template-columns:auto auto;min-width:0}
+.sumv2 .sum-warn .wtl{font-weight:900;color:var(--foreground);padding:.1em .8em .1em 0;border-right:2px solid #e3d6ec}
+.sumv2 .sum-warn .wtx{padding:.1em 0 .1em .8em}
+/* 짧은 두 갈래는 가로 한 줄로(머리말 옆) */
+.sumv2 .sum-warn .wln.wrow{display:inline-flex;align-items:center;margin:0 0 0 1.6em;vertical-align:middle}
+.sumv2 .sum-warn .wrow .weg{margin-top:0}
+.sumv2 .sum-warn .wrow .wtb{grid-template-columns:auto auto auto auto}
+.sumv2 .sum-warn .wrow .wtx:nth-child(2){padding-right:1.1em}
+.sumv2 .sum-warn .wrow .wtl:nth-child(n+3),.sumv2 .sum-warn .wrow .wtx:nth-child(n+3){border-top:0}
+.sumv2 .sum-warn .wrow .wtl:nth-child(3){border-left:2px solid #e3d6ec;padding-left:1.1em}
+.sumv2 .sum-warn .wtl:nth-child(n+3),.sumv2 .sum-warn .wtx:nth-child(n+3){border-top:1.5px dashed #e3d6ec}
+/* 형태소 표와 겹치는 줄 — 「형태 만들기」 장에서 확인한다는 표시 */
+.sumv2 .sum-warn .wrule{display:inline-block;margin-left:1.2em;font-size:.68em;font-weight:800;color:#3a2a55;border:1.5px solid #b9a3cf;border-radius:99px;padding:.1em .7em;vertical-align:.12em}
+.sumv2 .sum-warn .weg{flex:none;font-size:.62em;font-weight:900;letter-spacing:.02em;color:#fff;background:var(--level-5,#6b3fa0);border-radius:99px;padding:.15em .55em;line-height:1.3;margin-top:.15em}
+.sumv2 .sum-warn .xq:last-child{margin-right:0}
+.sumv2 .sum-warn .wlab{font-weight:800;color:var(--foreground);margin-right:.35em}
+.sumv2 .sum-warn .wr{color:var(--accent);font-weight:900}
+.sumv2 .sum-warn .wu{text-decoration:underline;text-decoration-thickness:.08em;text-underline-offset:.2em}
+.sumv2 .sum-warn .wbl{color:var(--brand-navy,#2349b8);font-weight:900}
+.sumv2 .sum-warn .whd .g,.sumv2 .sum-warn .whd .g2,.sumv2 .sum-warn .whd .g3,.sumv2 .sum-warn .whd .sf,.sumv2 .sum-warn .whd b{color:var(--accent)!important}
+.sumv2 .sum-warn .wexi :is(.g,.g2,.g3,.sf,b,em,mark),.sumv2 .sum-warn .wln :is(.g,.g2,.g3,.sf,b,em,mark){color:inherit!important;font-weight:inherit!important;background:none!important}
+.sumv2 .sum-warn .xq{display:inline-flex;align-items:center;gap:.3em;white-space:nowrap;margin-right:.9em}
+.sumv2 .sum-warn .oxb{width:1.35em;height:1.35em;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex:none;box-sizing:border-box}
+.sumv2 .sum-warn .oxb .oxi{width:62%;height:62%;display:block}
+.sumv2 .sum-warn .oxb.ok{border:.11em solid var(--level-3);color:var(--level-3);background:#fff}
+.sumv2 .sum-warn .oxb.no{background:var(--accent);color:#fff;border:.11em solid var(--accent)}
+.sumv2 .sum-warn .bad{color:var(--foreground);font-weight:800;text-decoration:underline wavy var(--accent);text-decoration-thickness:.07em;text-underline-offset:.22em;text-decoration-skip-ink:none}
+.sumv2 .sum-warn .okx{color:var(--foreground);font-weight:800}
+@media (max-height:950px){
+.slide:has(.sumv2) .sum-goal{margin-bottom:6px}
+.sumwrap.sumv2{gap:10px}
+.sumv2 .sum-mean,.sumv2 .sum-warn{padding-block:12px}
+.sumv2 .sum-warn ol{gap:6px}
+.sumv2 .sum-warn li{padding-block:5px}
+.sumv2 .sum-label{margin-bottom:8px}
+.sumv2 .sum-warn .en{line-height:1.38;font-size:clamp(16px,1.25vw,27px)}
+.sumv2 .sum-warn .ko{margin-top:1px}
+.sumv2 .sum-mean .ko{margin-top:4px}
+}
+@media (max-height:800px){
+.slide:has(.sumv2) .sum-goal{margin-bottom:4px}
+.slide:has(.sumv2) .sum-goal .form{font-size:clamp(24px,2.4vw,46px)}
+.slide:has(.sumv2) .sum-goal .pos{font-size:clamp(17px,1.5vw,30px)}
+.sumwrap.sumv2{gap:6px}
+.sumv2 .sum-mean,.sumv2 .sum-warn{padding:8px clamp(16px,1.5vw,30px)}
+.sumv2 .sum-label{margin-bottom:6px}
+.sumv2 .sum-warn ol{gap:6px}
+.sumv2 .sum-warn li{padding-block:5px}
+.sumv2 .sum-warn .en{font-size:clamp(13px,1.05vw,21px);line-height:1.32}
+.slide:has(.sumv2) .sum-goal .form{font-size:clamp(19px,1.8vw,34px)}
+.slide:has(.sumv2) .sum-goal .pos{font-size:clamp(15px,1.3vw,26px)}
+.slide:has(.sumv2) .sum-goal .op{font-size:clamp(14px,1.1vw,22px)}
+.sumv2 .sum-warn .wvtb{row-gap:0}
+.sumv2 .sum-warn .wln{line-height:1.25}
+.sumv2 .sum-label{margin-bottom:4px;padding-block:2px}
+.sumv2 .sum-warn li{padding-block:3px}
+.sumv2 .sum-warn ol{gap:3px}
+.slide:has(.sumv2) .sum-goal{margin-bottom:2px;line-height:1.1}
+.slide:has(.sumv2) .sum-goal2{margin-top:0}
+.sumv2 .sum-warn .ko{margin-top:1px;font-size:clamp(11px,.85vw,16px)}
+.sumv2 .sum-warn .n{width:24px;height:24px}
+.sumv2 .sum-mean .ko{margin-top:4px}
+.sumv2 .sum-mean .en{font-size:clamp(15px,1.25vw,27px);line-height:1.35}
+.sumwrap.sumv2{gap:4px}
+.sumv2 .sum-mean .ko{font-size:clamp(11px,.85vw,16px);margin-top:2px}
+.sumv2 .sum-label{font-size:12px;padding-block:1px}
+}
+/* 주의란 손질(대표님 2026-10-02) — 글씨는 모두 머리말과 한 크기, 표는 보기 칸을 아래로 넓히고 테두리를 한 단 진하게, 옆 보기 상자 · 대화 상자도 위아래로 넉넉히 */
+.sumv2 .sum-warn .wexi,.sumv2 .sum-warn .wln,.sumv2 .sum-warn .wtb,.sumv2 .sum-warn .wvtb{font-size:1em!important}
+.sumv2 .sum-warn .wpr .wtl,.sumv2 .sum-warn .wtl,.sumv2 .sum-warn .wtx,.sumv2 .sum-warn .wvl,.sumv2 .sum-warn .wvx{font-size:1em!important}
+.sumv2 .sum-warn .weg,.sumv2 .sum-warn .wrule{font-size:1em!important;line-height:1.25;padding:.05em .6em!important}
+.sumv2 .sum-warn .whd,.sumv2 .sum-warn .wexb,.sumv2 .sum-warn .bad,.sumv2 .sum-warn .okx{font-size:1em!important}
+.sumv2 .sum-warn .wtb{border:2px solid #b9a3cf!important}
+.sumv2 .sum-warn .wpr .wtx{padding:.35em .9em .75em!important}
+.sumv2 .sum-warn .wpr + .wpr .wtl,.sumv2 .sum-warn .wpr + .wpr .wtx{border-left-color:#b9a3cf!important}
+.sumv2 .sum-warn .wexi{padding:.35em .9em .45em .4em!important;border-width:2px!important;border-color:#d8c9e6!important}
+.sumv2 .sum-warn .wln:not(:has(.wtb)):not(.wvt){padding:.45em 1em .55em .45em!important;border-width:2px!important;border-color:#d8c9e6!important}
+/* 주의가 넷인 과는 보기 상자 여백을 한 단 줄인다(넘치지 않게) */
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) .wexi{padding:.2em .8em .25em .35em!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) .wln:not(:has(.wtb)):not(.wvt){padding:.3em .9em .35em .4em!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)) .wpr .wtx{padding:.25em .9em .45em!important}
+.sumv2 .sum-warn ol:has(> li:nth-child(4)){gap:clamp(6px,.55vw,11px)!important}
+
+/* ═══ 1급만 — 대조표(이름표 위 · 보기 아래)가 든 줄은 위아래 여백을 줄인다(26 · 28 · 29과 넘침, 대표님 10/2) ═══ */
+.sumv2 .sum-warn li:has(.wtb){padding-block:clamp(8px,.7vw,14px)!important}
+.sumv2 .sum-warn ol:has(.wtb){gap:clamp(8px,.8vw,14px)!important}
+.sumv2 .sum-warn .wtb .wtl{padding-block:.02em!important}
+.sumv2 .sum-warn .wtb .wtx{padding-block:.12em!important}
+/* 정리 장 — 주의할 점 줄과 e.g. 예문을 의미(Meaning) 줄과 같은 크기로(대표님 2026-10-08 1과 01-07 2차 「의미 수준으로」). 번호 동그라미도 따라 키운다. */
+.sumwrap .sum-warn .en,.sumwrap.sumv2 .sum-warn .en,.sumwrap .sum-mean .en,.sumwrap.sumv2 .sum-mean .en{font-size:calc(clamp(20px,1.7vw,38px) * var(--swz,1))!important}
+.sumwrap .sum-warn .n,.sumwrap.sumv2 .sum-warn .n{width:calc(clamp(28px,2.2vw,46px) * var(--swz,1))!important;height:calc(clamp(28px,2.2vw,46px) * var(--swz,1))!important;font-size:calc(clamp(15px,1.25vw,26px) * var(--swz,1))!important}
+/* 주의할 점 번호는 글 첫 줄에 — 가운데로 모으면 두 줄 · 예시 상자가 붙은 칸에서 번호가 아래로 처졌다(대표님 2026-10-08) */
+.sumwrap.sumv2 .sum-warn li,.sumwrap .sum-warn li{align-items:flex-start}
+.sumwrap .sum-warn li > .n{margin-top:.1em}
+
+/* 보기 꼴이 파랑({{ }})이면 이름표도 파랑(2026-10-09 대표님 12-06 Doing at) */
+.sumv2 .sum-warn .wvl.blu{color:var(--brand-navy,#2349b8)}
+
+/* 초록 표시 %%…%% (2026-10-09 대표님 14-06 받는 쪽 에게서 · 한테서) — 이름표 · 머리말 안 b 도 같은 색 */
+.sumv2 .sum-warn .wgr{color:var(--level-3);font-weight:900}
+.sumv2 .sum-warn .wvl.gr{color:var(--level-3)}
+.sumv2 .sum-warn .whd b.wbl{color:var(--brand-navy,#2349b8)!important}
+.sumv2 .sum-warn .whd b.wgr{color:var(--level-3)!important}
+/* 20과 줄임 꼴 두 줄(2026-10-10) — 왼쪽 꼴이 같은 자리에서 시작, 오른쪽은 e.g. 예문 상자 */
+.sumv2 .sum-warn .wpg{display:inline-grid;grid-template-columns:auto auto;column-gap:1em;row-gap:.35em;align-items:center;vertical-align:top;margin-left:.4em}
+.sumv2 .sum-warn .wpf b{color:var(--brand-red,#c8102e)}
+.sumv2 .sum-warn .wexi.wpx{margin-left:0}
+.sumv2 .sum-warn .wpl{font-weight:900;color:var(--brand-red,#c8102e);margin-right:.5em}
+
+/* ═══ 맛보기 띠만큼 일찍 줄인다 ═══ */
+@media (max-height:1120px){
+.sumwrap.sumv2{gap:clamp(20px,1.9vw,36px)!important}
+.sumv2 .sum-mean{padding-top:clamp(24px,2vw,40px)!important;padding-bottom:12px!important}
+.sumv2 .sum-warn{padding-top:clamp(26px,2.2vw,44px)!important;padding-bottom:12px!important}
+.sumv2 .sum-warn ol{gap:clamp(8px,.8vw,16px)!important}
+.sumv2 .sum-warn li{padding-block:clamp(8px,.75vw,15px)!important}
+}

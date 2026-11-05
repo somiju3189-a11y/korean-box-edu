@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1급 문법 강의안 · 맛보기 1과 · Korean Box</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/course/sample/style.css?v=1540000000000">
+<link rel="stylesheet" href="/course/sample/sum.css?v=1540000000000">
+<script>
+/*
+ * 맛보기 — 휴대폰이면 phone.html 로 넘긴다(대표님 2026-10-08, 「화면째 줄이기」).
+ *
+ * 강의안은 PC 화면에 띄우는 물건이라 좁은 화면에서 접으면 칸이 겹치고 잘렸다. phone.html 은 이 페이지를
+ * 1280×720 틀(iframe, ?fit=0)에 그대로 열고 폭에 맞춰 줄인다 — 판매 페이지 미리보기와 같은 길.
+ * PC · 판매 페이지 미리보기(?bare=1) · 틀 안(?fit=0)에는 걸리지 않는다.
+ * 만드는 곳: scripts/sample-phone-fit.html · scripts/sample-phone.html → build-course-sample.mjs.
+ */
+(function () {
+  var q = location.search;
+  if (/[?&](bare=1|fit=0)/.test(q)) return;
+  if (window.top !== window.self) return;
+  function phone() {
+    var small = Math.min(screen.width, screen.height) < 900;
+    var touch = (window.matchMedia && matchMedia("(pointer: coarse)").matches) || navigator.maxTouchPoints > 0;
+    return small && touch;
+  }
+  function go() { location.replace("phone.html" + q + location.hash); }
+  if (phone()) return go();
+  /* 몇몇 브라우저는 읽기 시작할 때 화면 크기를 늦게 알린다 — 다 읽은 뒤 한 번 더 본다. */
+  document.addEventListener("DOMContentLoaded", function () { if (phone()) go(); });
+})();
+</script>
+</head>
+<body>
+
+<div class="topbar">
+  <!-- 강의안은 한국어 박스 안에 있는 자료다. 이름을 누르면 집으로 돌아간다. -->
+  <a class="logo" href="/" title="한국어 박스 홈으로">Korean <b>Box</b> · 1급</a>
+  <button class="tocbtn" id="tocBtn" type="button">☰ 목차</button>
+  <div class="picker" id="picker"></div>
+  <div class="spacer"></div>
+  <div class="dots" id="dots"></div>
+</div>
+
+<div class="tocpanel" id="tocPanel"></div>
+
+<div class="samplebar">
+  맛보기 · 1급 30과 가운데 <b>1과</b>만 열려 있습니다
+  <a href="/course">전체 교재 보기 →</a>
+</div>
+
+<div class="stage" id="stage"></div>
+
+<div class="nav">
+  <button id="prev" type="button">← 이전</button>
+  <button id="next" type="button">다음 →</button>
+  <div class="step">SLIDE <span id="cur">1</span> / <span id="tot">16</span> · <span class="name" id="sname"></span></div>
+  <div class="spacer"></div>
+  <div class="step lstep">
+    <button id="lprev" class="lbtn" type="button" title="이전 과 (↑)">▲</button>
+    <span><b id="lcur">1</b> / <span id="ltot">60</span>과</span>
+    <button id="lnext" class="lbtn" type="button" title="다음 과 (↓)">▼</button>
+  </div>
+  <div class="step">← → 슬라이드 · ↑ ↓ 과 · 규칙표에서 ⏎</div>
+</div>
+
+<!-- 차례 -->
+<script src="/course/sample/units.js?v=1540000000000"></script>
+
+<!-- 과 데이터 · 파일 순서는 상관없습니다. units.js 차례대로 정렬됩니다. -->
+<script>const LESSONS = [];</script>
+<script src="/course/sample/data/lesson1.js?v=1540000000000"></script>
+<script src="/course/sample/data/lesson2.js"></script>
+<script src="/course/sample/data/lesson3.js"></script>
+<script src="/course/sample/data/lesson4.js"></script>
+<script src="/course/sample/data/sum.js?v=1540000000000"></script>
+<script src="/course/sample/data/check.js?v=1540000000000"></script>
+<script src="/course/sample/data/sitgo.js?v=1540000000000"></script>
+<script src="/course/sample/data/vocabpic.js?v=1540000000000"></script>
+
+<script src="/course/sample/engine.js?v=1540000000000"></script>
+
+<!-- 교사용 메모 — 강의안 위에 띄우는 판. 이 줄 하나로 붙고 떨어진다. -->
+<script src="/course/sample/memo.js?v=1540000000000"></script>
+
+<style>
+  /* ── 「샘플용 한국어 박스」 ── 크게, 비스듬히, 글은 읽히게. */
+  #kbSample{
+    position:fixed; inset:0; z-index:9998; pointer-events:none;
+    display:grid; place-content:center; overflow:hidden;
+    /* 크되 글을 이기지는 않게. 이 값을 올리면 슬라이드가 안 읽힌다. */
+    opacity:.065;
+  }
+  #kbSample span{
+    display:block; white-space:nowrap; font-weight:900;
+    font-size:clamp(30px,4.6vw,64px); letter-spacing:2px; color:#14213d;
+    transform:rotate(-24deg); line-height:2.6;
+  }
+  /*
+   * 파는 화면에 끼워 넣은 조각(?bare=1 · components/sales/slide-frame.tsx)에서는
+   * 작게 깐다. 그 자리는 손바닥만 한 미리보기라, 큰 글씨를 그대로 깔면
+   * 슬라이드가 안 보이고 이름표만 남는다 — 보여 주려고 끼운 것이 가려진다.
+   */
+  html.bare #kbSample{ opacity:.05; }
+  html.bare #kbSample span{ font-size:20px; line-height:3.2; letter-spacing:1px; }
+  /* 끼워 넣은 조각에서는 알림과 가림막이 뜰 일이 없다 — 누를 수 없는 그림이다. */
+  html.bare #kbHide, html.bare #kbNo{ display:none !important; }
+  /* ── 창이 물러난 사이 ── 갈무리 도구를 띄우면 창은 반드시 물러난다. */
+  #kbHide{
+    position:fixed; inset:0; z-index:10001; display:none; place-items:center;
+    /* 틈 없이 덮는다 — 살짝 비치면 그 틈으로 찍힌다. */
+    background:#efe9dc; text-align:center; padding:24px;
+    font-family:"Noto Sans KR",system-ui,sans-serif;
+  }
+  html.kb-away #kbHide{ display:grid; }
+  html.kb-away .stage{ filter:blur(18px); }
+  #kbHide b{ display:block; font-size:22px; line-height:1.5; color:#14213d; }
+  #kbHide p{ margin:10px 0 0; font-size:14px; line-height:1.7; color:#4a4436; }
+  /* ── 걸렸을 때 뜨는 알림 ── */
+  #kbNo{
+    position:fixed; left:50%; top:24px; transform:translateX(-50%) translateY(-140%);
+    z-index:10002; max-width:min(92vw,520px); padding:14px 20px; border-radius:14px;
+    background:#c8102e; color:#fff; box-shadow:0 10px 30px rgba(0,0,0,.25);
+    font:800 15px/1.6 "Noto Sans KR",system-ui,sans-serif; text-align:center;
+    transition:transform .22s ease;
+  }
+  #kbNo.on{ transform:translateX(-50%) translateY(0); }
+  #kbNo small{ display:block; margin-top:4px; font:600 12.5px/1.5 inherit; color:#ffd9de; }
+  /* ── 인쇄·PDF 저장 ── 종이에는 안 나간다. */
+  @media print{
+    body *{ display:none !important; }
+    body::after{
+      content:"보안상 이 맛보기는 인쇄할 수 없습니다 — 샘플용 한국어 박스";
+      display:block; padding:40px; font-size:18px; font-weight:800;
+    }
+  }
+  .stage, .topbar, .nav{ -webkit-user-select:none; user-select:none; }
+</style>
+<div id="kbSample" aria-hidden="true"></div>
+<div id="kbHide" role="status">
+  <div>
+    <b>보안상 화면을 가렸습니다</b>
+    <p>맛보기 수업 화면은 갈무리(캡처)를 할 수 없습니다.<br>
+       이 창으로 돌아오면 다시 보입니다.<br>
+       <span style="opacity:.75">This sample cannot be captured. Return to this window to continue.</span></p>
+  </div>
+</div>
+<div id="kbNo" role="alert" aria-live="assertive"></div>
+<script>
+(function(){
+  /* ① 이름표를 화면 높이만큼 채운다. */
+  var box = document.getElementById('kbSample');
+  function draw(){
+    var rows = Math.ceil(window.innerHeight / 120) + 3;
+    var line = ('샘플용 한국어 박스' + '\u00a0\u00a0·\u00a0\u00a0').repeat(6);
+    var html = '';
+    for(var i=0;i<rows;i++) html += '<span>' + line + '</span>';
+    box.innerHTML = html;
+  }
+  draw();
+  window.addEventListener('resize', draw);
+
+  /* ② 걸렸다고 말한다. */
+  var no = document.getElementById('kbNo');
+  var timer = null;
+  function tell(why){
+    no.innerHTML = '보안상 화면 갈무리(캡처)를 할 수 없습니다' +
+      '<small>' + why + ' · 샘플용 한국어 박스</small>';
+    no.classList.add('on');
+    if(timer) clearTimeout(timer);
+    timer = setTimeout(function(){ no.classList.remove('on'); }, 3200);
+  }
+
+  /* ③ PrintScreen — 눌린 것은 알 수 있다. 담긴 판을 덮어 쓰고 알린다. */
+  function wipe(){
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText('샘플용 한국어 박스 — 이 화면은 갈무리할 수 없습니다 · koreanbox.co.kr');
+      }
+    }catch(e){}
+  }
+  document.addEventListener('keyup', function(e){
+    if(e.key === 'PrintScreen' || e.code === 'PrintScreen'){ wipe(); tell('PrintScreen'); }
+  });
+  document.addEventListener('keydown', function(e){
+    var k = (e.key || '').toLowerCase();
+    var meta = e.ctrlKey || e.metaKey;
+    /* 인쇄 · 저장 · 맥의 갈무리 단축키 · 윈도 캡처 도구 */
+    if(meta && (k === 'p' || k === 's')){ e.preventDefault(); tell(meta && k === 'p' ? '인쇄' : '저장'); return; }
+    if(e.metaKey && e.shiftKey && ['3','4','5'].indexOf(k) >= 0){ e.preventDefault(); wipe(); tell('갈무리 단축키'); return; }
+    if(e.shiftKey && meta && k === 's'){ e.preventDefault(); tell('갈무리 도구'); return; }
+    if(e.key === 'PrintScreen'){ wipe(); tell('PrintScreen'); }
+  });
+
+  /* ④ 창이 물러나면 가린다 — 갈무리 도구는 창을 물러나게 한다. */
+  var root = document.documentElement;
+  function away(){ root.classList.add('kb-away'); }
+  function back(){ root.classList.remove('kb-away'); }
+  window.addEventListener('blur', away);
+  window.addEventListener('focus', back);
+  document.addEventListener('visibilitychange', function(){ if(document.hidden) away(); else back(); });
+
+  /* 무심코 새는 길. */
+  ['contextmenu','dragstart','copy','cut'].forEach(function(ev){
+    document.addEventListener(ev, function(e){
+      e.preventDefault();
+      if(ev === 'copy' || ev === 'cut') tell('복사');
+    });
+  });
+})();
+</script></body>
+</html>

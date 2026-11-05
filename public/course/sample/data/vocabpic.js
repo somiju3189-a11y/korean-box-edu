@@ -1,0 +1,3 @@
+/* scripts/build-course-sample.mjs 가 만든 파일입니다. 직접 고치지 마세요. */
+const V3MAP = {"1|마이클|Michael":"v-1-michael.svg","1|유진|Yujin":"v-1-yujin.svg","1|하준|Hajun":"v-1-hajun.svg","1|리에|Rie":"v-1-rie.svg","1|사라|Sara":"v-1-sara.svg","1|미나|Mina":"v-1-mina.svg","1|책|book":"v-1-book.svg","1|가방|bag":"v-1-bag.svg","1|연필|pencil":"v-1-pencil.svg","1|의자|chair":"v-1-chair.svg","1|커피|coffee":"v-1-coffee.svg","1|학생|student":"v-1-student.svg","1|선생님|teacher":"v-1-teacher.svg","1|회사원|office worker":"v-1-office-worker.svg","1|의사|doctor":"v-1-doctor.svg","1|가수|singer":"v-1-singer.svg","1|요리사|cook":"v-1-cook.svg"};
+const V3SPLIT_DUO = [];
