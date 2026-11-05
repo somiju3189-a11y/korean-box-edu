@@ -1135,7 +1135,7 @@ function buildSlides(L0){
       </div>
       ${/* 오늘의 표현 그림은 장면 일러스트(scenes/hero-NN.svg, NN = 과 번호) — 이모티콘 카드 대신 문장의 뜻이 보이는
             한 장면(대표님 2026-09-29, 2급과 같은 그림체). */''}
-      <div class="hero-right hero-art"><img class="hero-scene" src="scenes/hero-${String(LESSONS.indexOf(L0) + 1).padStart(2, '0')}.svg" alt=""></div>
+      <div class="hero-right hero-art"><img class="hero-scene" src="scenes/hero-${String(LESSONS.indexOf(L0) + 1).padStart(2, '0')}.svg" alt="" onerror="this.style.display='none'"></div>
     </div>`});
 
   /* 2~4 · 예문 */
