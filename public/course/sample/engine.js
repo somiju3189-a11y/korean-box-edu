@@ -756,7 +756,7 @@ function buildSlides(L0){
       if (row && (row.ex || []).some(([, a]) => String(a).endsWith(t))) add(t); };
     const scan = R => { if (!R) return; (R.rows || []).forEach(r => fromF(r.f, r)); (R.irr || []).forEach(r => fromF(r.f, r)); (R.noun || []).forEach(r => fromF(r.f, r)); };
     scan(L0.rules);
-    ((L0.rules.tense && L0.rules.tense.items) || []).forEach(t => { fromF(t.f); scan(t.rules); });
+    (((L0.rules && L0.rules.tense && L0.rules.tense.items)) || []).forEach(t => { fromF(t.f); scan(t.rules); });
     (L0.ex || []).forEach(e => scan(e.rules));
     String(L0.form || '').split('/').forEach(p => {
       const t = p.trim().replace(/^-/, '').replace(/\s*\(.*\)\s*$/, '');
