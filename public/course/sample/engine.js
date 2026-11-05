@@ -222,7 +222,7 @@ const DAY = /^day:([A-Za-z]{2,3})$/;
 /* 새 단어 그림(data/vocabpic.js) — 표에 있으면 그린 그림, 없으면 예전처럼 EMO(국기 · 시계 · 요일 · 이모지). */
 const V3KEY = it => (lesson + 1) + "|" + String(it.w).replace(/<[^>]+>/g, "").trim() + "|" + String(it.g).replace(/<[^>]+>/g, "").trim();
 const V3HAS = it => typeof V3MAP !== "undefined" && !!V3MAP[V3KEY(it)];
-const V3IMG = f => `<img class="v3" src="scenes/vocab/${f}" alt="">`;
+const V3IMG = f => `<img class="v3" src="/course/sample/scenes/vocab/${f}" alt="">`;
 const V3PIC = it => { const f = typeof V3MAP !== "undefined" && V3MAP[V3KEY(it)]; if(!f) return EMO(it.e); return Array.isArray(f) ? `<span class="v3duo">${f.map(V3IMG).join("")}</span>` : V3IMG(f); };
 /* 뜻 줄의 괄호는 한 덩이 — 「(male / speaker)」처럼 가운데서 끊기지 않게(11-04 대표님) */
 const VEN = g => String(g).replace(/\([^)]*\)/g, m => `<span style="white-space:nowrap">${m}</span>`);
@@ -1135,7 +1135,7 @@ function buildSlides(L0){
       </div>
       ${/* 오늘의 표현 그림은 장면 일러스트(scenes/hero-NN.svg, NN = 과 번호) — 이모티콘 카드 대신 문장의 뜻이 보이는
             한 장면(대표님 2026-09-29, 2급과 같은 그림체). */''}
-      <div class="hero-right hero-art"><img class="hero-scene" src="scenes/hero-${String(LESSONS.indexOf(L0) + 1).padStart(2, '0')}.svg" alt="" onerror="this.style.display='none'"></div>
+      <div class="hero-right hero-art"><img class="hero-scene" src="/course/sample/scenes/hero-${String(LESSONS.indexOf(L0) + 1).padStart(2, '0')}.svg" alt=""></div>
     </div>`});
 
   /* 2~4 · 예문 */
@@ -1144,7 +1144,7 @@ function buildSlides(L0){
   L0.ex.forEach((e,n) => out.push({name:`예문 ${CIRC(n)}`, html:`
     <div class="eyebrow${e.fix ? ' fix' : ''}">${String(e.label).replace(/^예문/, '오늘의 대화')}${e.fix ? ' · 고쳐 말하기' : ''}</div>
     <div class="card set${e.fix ? ' fixset' : ''}">
-      <div class="pic${e.scene ? ' has-scene' : ''}">${e.scene ? `<img class="ex-scene" src="${e.scene}" alt="">` : PIC(e.pic)}</div>
+      <div class="pic${e.scene ? ' has-scene' : ''}">${e.scene ? `<img class="ex-scene" src="${e.scene.startsWith('/') ? e.scene : '/course/sample/' + e.scene}" alt="">` : PIC(e.pic)}</div>
       <div class="talk">
         ${e.fix ? `
         <div class="fixrow bad">
@@ -2392,7 +2392,7 @@ const VTITLE = t => { const k = String(t).trim(); const en = TAGEN[k];
     <div class="setslide">${MEMO(G[0].memo, true)}</div>
     <div class="wsets${G.some(v => v.pic) ? ' haspic' : ''}">${G.map(v => { const row = (v.items||[]).map(it => `<div class="ws-w"><b>${it.w}</b><i>${it.g || ''}</i></div>`).join('<span class="ws-ar">↔</span>');
       /* 짝마다 그림(빠르다 · 쉽다는 움직이는 그림) — 그림 위 · 짝 아래(대표님 2026-10-10 21-18) */
-      return v.pic ? `<div class="wset pic"><img class="ws-pic" src="scenes/${v.pic}.svg" alt=""><div class="ws-row">${row}</div></div>` : `<div class="wset">${row}</div>`; }).join('')}</div>`});
+      return v.pic ? `<div class="wset pic"><img class="ws-pic" src="/course/sample/scenes/${v.pic}.svg" alt=""><div class="ws-row">${row}</div></div>` : `<div class="wset">${row}</div>`; }).join('')}</div>`});
   VSHOW.forEach((v,n) => out.push(v.sets ? SETSLIDE(v.sets, n) : v.layout === 'timeline' ? TIMESLIDE(v, n) : {name:`어휘 ${CIRC(n)} ${v.tag}`, html:`
     <div class="eyebrow">새 단어 ${n+1} / ${VTOT}</div>
     <h1 class="slide-title">${v.icon} WORDS : ${VTITLE(v.tag)}</h1>
@@ -2578,12 +2578,12 @@ const VTITLE = t => { const k = String(t).trim(); const en = TAGEN[k];
         <div class="rt-row ex"><span class="rt-who">보기</span><span class="rt-fix">${a.sample[0]}</span><span class="rt-arr">→</span><span class="rt-fix">${a.sample[1]}</span></div>
         ${a.rows.map((w, j) => `<div class="rt-row"><span class="rt-who ${w === '선생님' ? 't' : 's'}">${w}</span>${inp('', `${w} 출발 ${j + 1}`)}<span class="rt-arr">→</span>${inp('', `${w} 도착 ${j + 1}`)}</div>`).join('')}</div>`;
     } else if(a.kind === 'contact'){
-      const ic = a.icons.map((m, j) => `<span class="ct-ic"><img src="scenes/${m}.svg" alt=""><b>${a.ways[j]}</b></span>`).join('');
+      const ic = a.icons.map((m, j) => `<span class="ct-ic"><img src="/course/sample/scenes/${m}.svg" alt=""><b>${a.ways[j]}</b></span>`).join('');
       body = `<div class="contact${a.two ? ' two' : ''}"><div class="ct-top">${ic}</div>
         ${a.two ? '<div class="ct-g">' : ''}${Array.from({ length: a.rows }, (_, j) => `<div class="ct-row"><span class="pk-n">${ROWN[j]}</span>${inp(j ? '' : '엄마', `연락하는 사람 ${j + 1}`)}<span class="ct-b">${a.ways.map(w => `<button type="button" onclick="actOne(this)">${w}</button>`).join('')}</span></div>`).join('')}${a.two ? '</div>' : ''}</div>`;
     } else if(a.kind === 'menu'){
       /* 18과 차림표(대표님 2026-10-10 18-19) — 음료마다 그림 + 이름, 왼쪽 셋 | 점선 | 오른쪽 셋 */
-      const mnRow = ([w, v, ic]) => `<div class="mn-row">${ic ? `<img class="mn-ic" src="scenes/${ic}.svg" alt="">` : ''}<span>${w}</span><i></i><b>₩${v}</b></div>`;
+      const mnRow = ([w, v, ic]) => `<div class="mn-row">${ic ? `<img class="mn-ic" src="/course/sample/scenes/${ic}.svg" alt="">` : ''}<span>${w}</span><i></i><b>₩${v}</b></div>`;
       const half = Math.ceil(a.items.length / 2);
       body = `<div class="menu"><div class="mn-board"><div class="mn-t">${a.title}</div><div class="mn-cols"><div class="mn-col">${a.items.slice(0, half).map(mnRow).join('')}</div><div class="mn-cut"></div><div class="mn-col">${a.items.slice(half).map(mnRow).join('')}</div></div></div></div>`;
     } else if(a.kind === 'cal'){
@@ -2601,7 +2601,7 @@ const VTITLE = t => { const k = String(t).trim(); const en = TAGEN[k];
       body = `<div class="oxb oxg">${a.items.map((t, j) => `<div class="ox-tile"><div class="ox-t"><span class="pk-n">${ROWN[j]}</span>${t}</div>${a.cols.map(c => `<div class="ox-who"><span>${c}</span><span class="ox-c"><button type="button" class="o" onclick="actOX(this)">O</button><button type="button" class="x" onclick="actOX(this)">X</button></span></div>`).join('')}</div>`).join('')}</div>`;
     } else {
       const one = a.img.length === 1;
-      body = `<div class="row ${a.kind}">${a.img.map((m, j) => a.you === j ? `<div class="sc you"><span class="n">${ROWN[j]}</span><div class="you-t">You!</div></div>` : `<div class="sc">${one ? '' : `<span class="n">${ROWN[j]}</span>`}<img src="scenes/${m}.svg" alt="">${a.caps && a.caps[j] ? `<div class="cap">${a.caps[j]}${a.capsEn && a.capsEn[j] ? `<span class="cap-en">${a.capsEn[j]}</span>` : ''}</div>` : ''}${a.times ? `<div class="tm"><label><span>선생님</span>${inp('', `${a.caps[j]} 선생님 시각`)}</label><label><span>학생</span>${inp('', `${a.caps[j]} 학생 시각`)}</label></div>` : ''}</div>`).join('')}</div>`;
+      body = `<div class="row ${a.kind}">${a.img.map((m, j) => a.you === j ? `<div class="sc you"><span class="n">${ROWN[j]}</span><div class="you-t">You!</div></div>` : `<div class="sc">${one ? '' : `<span class="n">${ROWN[j]}</span>`}<img src="/course/sample/scenes/${m}.svg" alt="">${a.caps && a.caps[j] ? `<div class="cap">${a.caps[j]}${a.capsEn && a.capsEn[j] ? `<span class="cap-en">${a.capsEn[j]}</span>` : ''}</div>` : ''}${a.times ? `<div class="tm"><label><span>선생님</span>${inp('', `${a.caps[j]} 선생님 시각`)}</label><label><span>학생</span>${inp('', `${a.caps[j]} 학생 시각`)}</label></div>` : ''}</div>`).join('')}</div>`;
     }
     const tm = a.teach ? MEMO(a.teach.map((x, i) => `${i + 1}. ${x}`).join('<br>'), true) : '';
     return { name:`활동판 ${CIRC(n)}`, html:`
@@ -2634,7 +2634,7 @@ const VTITLE = t => { const k = String(t).trim(); const en = TAGEN[k];
              </div>`
           : `<div class="sf-model"><span class="lbl">대답 예시</span>${L(s.m, B)}</div>` }
       ${ g.alt ? `<div class="sf-alt"><span class="alt-pill">바꿔 묻기</span><span class="cues">${g.alt.map(c => `<span class="cue">${c}</span>`).join('')}</span></div>` : '' }
-      ${pic ? `</div><figure class="sf-pic"><img src="scenes/${pic}.svg" alt=""></figure>` : ''}
+      ${pic ? `</div><figure class="sf-pic"><img src="/course/sample/scenes/${pic}.svg" alt=""></figure>` : ''}
       ${/* 배운 단어 주머니를 잠시 내려 두었습니다. 되살릴 때 → ${bankOf(s)} */ ""}
     </div>`}); ACTS1.filter(a => a.sit === n).forEach(a => out.push(boardSlide(a, n))); });
 
