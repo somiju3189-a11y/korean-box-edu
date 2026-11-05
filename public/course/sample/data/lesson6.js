@@ -1,14 +1,14 @@
-/* Lesson 6: 을/를 · 100% Full Unlocked Data */
+/* Lesson 6: 을/를 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "을/를",
-  "pos": "조사",
+  "pos": "목적격 조사",
   "form": "을/를",
   "opening": {
     "name": "6호선 출발 · 을/를",
     "no": 6,
     "line": "Level 1 · Unit 2: 일상을 이야기해요",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 6 · 을/를<br>Practice everyday Korean step by step.",
+    "en": "Object Marker · 목적격 조사<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 6",
     "next": "Next: 을/를",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "조사",
+      "c": "목적격 조사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "을/를의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point 을/를 in Korean."
+    "ko": "명사 뒤에 붙어 동사의 목적어(행동의 대상)임을 나타냅니다.",
+    "en": "Marks the direct object of an action verb."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ 을/를 ...",
-    "en": "Level 1 Lesson 6 · 을/를"
+    "q": "아침에 커피를 마셔요.",
+    "en": "I drink coffee in the morning."
   },
-  "en": "Level 1 Lesson 6 · 을/를",
+  "en": "Object Marker · 목적격 조사",
   "prior": [],
-  "pat": "○○ 을/를 ...",
+  "pat": "○○을/를 + 동사",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "을/를",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "목적격 조사",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[을/를]] 연습을 해요.",
-      "한국어로 대화를 [[을/를]] 말해요."
+      "아침에 커피[[를]] 마셔요.",
+      "재미있는 책[[을]] 읽어요."
     ],
     "en": [
-      "Practice 을/를 with teacher.",
-      "Speak in Korean naturally."
+      "I drink coffee in the morning.",
+      "I read an interesting book."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 을/를 연습",
+      "label": "예문 ① · 을/를 핵심 상황",
+      "scene": "/course/sample/scenes/hero-06.svg",
       "ask": {
-        "q": "선생님과 함께 [[을/를]] 연습을 해요.",
-        "en": "Practice 을/를 with teacher."
+        "q": "아침에 커피를 마셔요.",
+        "en": "I drink coffee in the morning."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "을/를",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[을/를]] 연습을 해요."
+          "아침에 커피[[를]] 마셔요."
         ],
         "en": [
-          "Practice 을/를 with teacher."
+          "I drink coffee in the morning."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[을/를]] 말해요."
+          "재미있는 책[[을]] 읽어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I read an interesting book."
         ]
       },
       "morph": [
-        "을/를 규칙",
-        "핵심 어휘"
+        "을/를 핵심 표현",
+        "목적격 조사"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-06.svg",
       "ask": {
-        "q": "한국어로 대화를 [[을/를]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "점심에 비빔밥을 먹어요.",
+        "en": "I eat bibimbap for lunch."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[을/를]] 말해요."
+          "점심에 비빔밥을 먹어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I eat bibimbap for lunch."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 을/를 연습을 해요."
+          "주말에 영화를 봐요."
         ],
         "en": [
-          "Yes, that's right."
+          "I watch a movie on the weekend."
         ]
       },
       "morph": [
-        "을/를 실전 적용"
+        "을/를 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 을/를.",
-      "base": "도서관",
+      "ko": "책을 읽어요.",
+      "base": "책",
       "b": true,
       "f": "을/를"
     },
     {
-      "ko": "선생님 을/를.",
-      "base": "선생님",
+      "ko": "밥을 먹어요.",
+      "base": "밥",
       "b": true,
       "f": "을/를"
     },
     {
-      "ko": "한국 을/를.",
-      "base": "한국",
+      "ko": "음악을 들어요.",
+      "base": "음악",
       "b": true,
       "f": "을/를"
     },
     {
-      "ko": "학교 을/를.",
-      "base": "학교",
+      "ko": "선물을 사요.",
+      "base": "선물",
+      "b": true,
+      "f": "을/를"
+    },
+    {
+      "ko": "커피를 마셔요.",
+      "base": "커피",
       "b": false,
       "f": "을/를"
     },
     {
-      "ko": "친구 을/를.",
-      "base": "친구",
+      "ko": "한국어를 배워요.",
+      "base": "한국어",
       "b": false,
       "f": "을/를"
     },
     {
-      "ko": "영화 을/를.",
+      "ko": "영화를 봐요.",
       "base": "영화",
       "b": false,
       "f": "을/를"
     },
     {
-      "ko": "선생님과 함께 [[을/를]] 연습을 해요.",
-      "note": "을/를의 올바른 문장 활용"
+      "ko": "친구를 만나요.",
+      "base": "친구",
+      "b": false,
+      "f": "을/를"
+    },
+    {
+      "ko": "아침에 커피를 마셔요.",
+      "note": "을/를 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
         "k": "받침 O",
-        "f": "+ 을/를",
+        "f": "+ 을",
         "ex": [
           [
-            "선생님",
-            "선생님 을/를"
+            "책",
+            "책을 읽어요"
           ],
           [
-            "도서관",
-            "도서관 을/를"
+            "밥",
+            "밥을 먹어요"
           ],
           [
-            "한국",
-            "한국 을/를"
+            "음악",
+            "음악을 들어요"
+          ],
+          [
+            "선물",
+            "선물을 사요"
           ]
         ]
       },
       {
         "k": "받침 X",
-        "f": "+ 을/를",
+        "f": "+ 를",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 을/를"
+            "커피",
+            "커피를 마셔요"
           ],
           [
-            "학교",
-            "학교 을/를"
+            "한국어",
+            "한국어를 배워요"
           ],
           [
             "영화",
-            "영화 을/를"
+            "영화를 봐요"
+          ],
+          [
+            "친구",
+            "친구를 만나요"
           ]
         ]
       }
@@ -243,208 +265,226 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 을/를 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>을/를</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · 을/를 결합 규칙",
+      "p": "<b>받침 O</b>일 때는 <span class=\"g\">+ 을</span>, <b>받침 X</b>일 때는 <span class=\"g2\">+ 를</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 책을 읽어요 / 커피를 마셔요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "명사 뒤에 붙어 동사의 목적어(행동의 대상)임을 나타냅니다.<br><br>· 아침에 커피를 마셔요.<br>· 재미있는 책을 읽어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>○○을/를 + 동사</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Marks the direct object of an action verb.",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 을/를",
+      "b": "책",
+      "r": "책을 읽어요",
       "t": "받침 O"
     },
     {
-      "b": "선생님",
-      "r": "선생님 을/를",
+      "b": "밥",
+      "r": "밥을 먹어요",
       "t": "받침 O"
     },
     {
-      "b": "한국",
-      "r": "한국 을/를",
+      "b": "음악",
+      "r": "음악을 들어요",
       "t": "받침 O"
     },
     {
-      "b": "학교",
-      "r": "학교 을/를",
+      "b": "선물",
+      "r": "선물을 사요",
+      "t": "받침 O"
+    },
+    {
+      "b": "커피",
+      "r": "커피를 마셔요",
       "t": "받침 X"
     },
     {
-      "b": "친구",
-      "r": "친구 을/를",
+      "b": "한국어",
+      "r": "한국어를 배워요",
       "t": "받침 X"
     },
     {
       "b": "영화",
-      "r": "영화 을/를",
+      "r": "영화를 봐요",
+      "t": "받침 X"
+    },
+    {
+      "b": "친구",
+      "r": "친구를 만나요",
       "t": "받침 X"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 을/를"
+      "책",
+      "책을 읽어요"
     ],
     [
-      "도서관",
-      "도서관 을/를"
+      "밥",
+      "밥을 먹어요"
     ],
     [
-      "한국",
-      "한국 을/를"
+      "음악",
+      "음악을 들어요"
     ],
     [
-      "친구",
-      "친구 을/를"
+      "선물",
+      "선물을 사요"
     ],
     [
-      "학교",
-      "학교 을/를"
+      "커피",
+      "커피를 마셔요"
+    ],
+    [
+      "한국어",
+      "한국어를 배워요"
     ],
     [
       "영화",
-      "영화 을/를"
+      "영화를 봐요"
     ],
     [
-      "사과",
-      "사과"
+      "친구",
+      "친구를 만나요"
     ],
     [
-      "물",
-      "물"
+      "한국어",
+      "아침에 커피를 마셔요."
     ],
     [
-      "시간",
-      "시간"
+      "연습",
+      "재미있는 책을 읽어요."
+    ],
+    [
+      "대화",
+      "점심에 비빔밥을 먹어요."
     ],
     [
       "오늘",
-      "오늘"
+      "주말에 영화를 봐요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "을/를 기본 연습"
+        "t": "을/를 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 을/를"
+        "base": "책",
+        "ans": "책을 읽어요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 을/를"
+        "base": "커피",
+        "ans": "커피를 마셔요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 을/를 연습을 해요."
+        "base": "커피 + 마시다",
+        "ans": "아침에 커피를 마셔요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 을/를 말해요."
+        "base": "책 + 읽다",
+        "ans": "재미있는 책을 읽어요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "학교",
-        "을/를"
+        "커피",
+        "마시다"
       ],
-      "a": "학교에 을/를.",
-      "e": "At school with 을/를."
+      "a": "아침에 커피를 마셔요.",
+      "e": "I drink coffee in the morning."
     },
     {
       "k": [
-        "친구",
-        "을/를"
+        "책",
+        "읽다"
       ],
-      "a": "친구와 을/를.",
-      "e": "With friends and 을/를."
+      "a": "재미있는 책을 읽어요.",
+      "e": "I read an interesting book."
     },
     {
       "k": [
-        "한국",
-        "을/를"
+        "밥",
+        "먹다"
       ],
-      "a": "한국에서 을/를.",
-      "e": "In Korea with 을/를."
+      "a": "점심에 비빔밥을 먹어요.",
+      "e": "I eat bibimbap for lunch."
     },
     {
       "k": [
-        "선생님",
-        "을/를"
+        "영화",
+        "보다"
       ],
-      "a": "선생님과 을/를.",
-      "e": "With teacher and 을/를."
+      "a": "주말에 영화를 봐요.",
+      "e": "I watch a movie on the weekend."
     }
   ],
   "vocab": [
     {
       "tag": "을/를",
       "icon": "📖",
-      "q": "을/를 연습을 해 보세요.",
-      "qen": "Practice 을/를",
-      "pat": "○○ 을/를 ...",
+      "q": "을/를 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 을/를 vocabulary and expressions.",
+      "pat": "○○을/를 + 동사",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 을/를",
+          "w": "책",
+          "g": "Object Marker",
+          "r": "책을 읽어요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "밥",
+          "g": "Object Marker",
+          "r": "밥을 먹어요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 을/를",
+          "e": "☕",
+          "w": "음악",
+          "g": "Object Marker",
+          "r": "음악을 들어요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 을/를",
+          "w": "선물",
+          "g": "Object Marker",
+          "r": "선물을 사요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 을/를",
+          "e": "⏰",
+          "w": "커피",
+          "g": "Object Marker",
+          "r": "커피를 마셔요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 을/를",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 을/를",
+          "e": "🚇",
+          "w": "한국어",
+          "g": "Object Marker",
+          "r": "한국어를 배워요",
           "b": false
         }
       ]
@@ -453,26 +493,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "을/를",
       "q": "Talk about what you eat and drink.",
       "qen": "Talk about what you eat and drink.",
       "m": [
-        "선생님과 함께 [[을/를]] 연습을 해요.",
-        "한국어로 대화를 [[을/를]] 말해요."
+        "아침에 커피[[를]] 마셔요.",
+        "재미있는 책[[을]] 읽어요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「보통 아침에 무엇을 먹어요?」 → 「○○을/를 먹어요」<br>3. 점심 · 저녁으로 바꿔 묻기 — 마셔요까지<br>4. 역할 바꾸기",
       "go": "Talk about what you eat and drink."
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "을/를",
       "q": "Talk about what you like.",
       "qen": "Talk about what you like.",
       "m": [
-        "선생님과 함께 [[을/를]] 연습을 해요.",
-        "한국어로 대화를 [[을/를]] 말해요."
+        "아침에 커피[[를]] 마셔요.",
+        "재미있는 책[[을]] 읽어요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「무엇을 좋아해요?」 → 학생이 좋아하는 것 두 가지<br>3. 「가족은요? 친구는요?」로 다른 사람까지<br>4. 역할 바꾸기",
       "go": "Talk about what you like."
@@ -482,19 +522,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[을/를]] 연습을 해요.",
-          "한국어로 대화를 [[을/를]] 말해요."
+          "아침에 커피[[를]] 마셔요.",
+          "재미있는 책[[을]] 읽어요."
         ],
         "en": [
-          "Practice 을/를 with teacher.",
-          "Speak in Korean naturally."
+          "I drink coffee in the morning.",
+          "I read an interesting book."
         ]
       }
     ],
     "tips": [
-      "<b>을/를</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>을/를</b>: 명사 뒤에 붙어 동사의 목적어(행동의 대상)임을 나타냅니다.",
+      "대표 문장: \"아침에 커피를 마셔요.\"",
+      "대표 문장: \"재미있는 책을 읽어요.\""
     ]
   }
 });

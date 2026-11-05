@@ -1,7 +1,7 @@
-/* Lesson 4: 아니에요 · 100% Full Unlocked Data */
+/* Lesson 4: 아니에요 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "아니에요",
-  "pos": "명사",
+  "pos": "서술격 부정",
   "form": "아니에요",
   "opening": {
     "name": "4호선 출발 · 아니에요",
@@ -31,7 +31,7 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "명사",
+      "c": "서술격 부정",
       "t": "accent"
     }
   ],
@@ -41,17 +41,17 @@ LESSONS.push({
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○이/가 아니에요.",
-    "en": "Negation · '~이/가 아닙니다'"
+    "q": "학생이 아니에요. 의사예요.",
+    "en": "I am not a student. I am a doctor."
   },
   "en": "Negation · '~이/가 아닙니다'",
   "prior": [],
@@ -60,94 +60,96 @@ LESSONS.push({
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "아니에요",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "서술격 부정",
         "t": "accent"
       }
     ],
     "ko": [
-      "학생[[이 아니에요]].",
-      "의사[[가 아니에요]]."
+      "학생[[이 아니에요]]. 의사예요.",
+      "커피[[가 아니에요]]. 녹차예요."
     ],
     "en": [
-      "I am not a student.",
-      "I am not a doctor."
+      "I am not a student. I am a doctor.",
+      "It is not coffee. It is green tea."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 아니에요 연습",
+      "label": "예문 ① · 아니에요 핵심 상황",
+      "scene": "/course/sample/scenes/hero-04.svg",
       "ask": {
-        "q": "학생[[이 아니에요]].",
-        "en": "I am not a student."
+        "q": "학생이 아니에요. 의사예요.",
+        "en": "I am not a student. I am a doctor."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "아니에요",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "학생[[이 아니에요]]."
+          "학생[[이 아니에요]]. 의사예요."
         ],
         "en": [
-          "I am not a student."
+          "I am not a student. I am a doctor."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "의사[[가 아니에요]]."
+          "커피[[가 아니에요]]. 녹차예요."
         ],
         "en": [
-          "I am not a doctor."
+          "It is not coffee. It is green tea."
         ]
       },
       "morph": [
-        "아니에요 규칙",
-        "핵심 어휘"
+        "아니에요 핵심 표현",
+        "서술격 부정"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-04.svg",
       "ask": {
-        "q": "의사[[가 아니에요]].",
-        "en": "I am not a doctor."
+        "q": "이거는 커피가 아니에요.",
+        "en": "This is not coffee."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "의사[[가 아니에요]]."
+          "이거는 커피가 아니에요."
         ],
         "en": [
-          "I am not a doctor."
+          "This is not coffee."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 학생이 아니에요."
+          "저 사람은 선생님이 아니에요."
         ],
         "en": [
-          "Yes, that's right."
+          "That person is not a teacher."
         ]
       },
       "morph": [
-        "아니에요 실전 적용"
+        "아니에요 실전 활용"
       ]
     }
   ],
@@ -171,8 +173,8 @@ LESSONS.push({
       "f": "아니에요"
     },
     {
-      "ko": "회사원이 아니에요.",
-      "base": "회사원",
+      "ko": "가방이 아니에요.",
+      "base": "가방",
       "b": true,
       "f": "아니에요"
     },
@@ -183,14 +185,14 @@ LESSONS.push({
       "f": "아니에요"
     },
     {
-      "ko": "가수가 아니에요.",
-      "base": "가수",
+      "ko": "커피가 아니에요.",
+      "base": "커피",
       "b": false,
       "f": "아니에요"
     },
     {
-      "ko": "친구가 아니에요.",
-      "base": "친구",
+      "ko": "가수가 아니에요.",
+      "base": "가수",
       "b": false,
       "f": "아니에요"
     },
@@ -201,16 +203,16 @@ LESSONS.push({
       "f": "아니에요"
     },
     {
-      "ko": "학생[[이 아니에요]].",
-      "note": "아니에요의 올바른 문장 활용"
+      "ko": "학생이 아니에요. 의사예요.",
+      "note": "아니에요 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
-      "앞말의 받침",
-      "형태",
-      "예"
+      "구분",
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
@@ -228,6 +230,10 @@ LESSONS.push({
           [
             "한국 사람",
             "한국 사람이 아니에요"
+          ],
+          [
+            "가방",
+            "가방이 아니에요"
           ]
         ]
       },
@@ -241,12 +247,16 @@ LESSONS.push({
             "의사가 아니에요"
           ],
           [
+            "커피",
+            "커피가 아니에요"
+          ],
+          [
             "가수",
             "가수가 아니에요"
           ],
           [
-            "친구",
-            "친구가 아니에요"
+            "요리사",
+            "요리사가 아니에요"
           ]
         ]
       }
@@ -255,23 +265,23 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 이에요/예요의 부정형",
-      "p": "앞말에 <span class=\"g\">받침 O → 이 아니에요</span>, <span class=\"g2\">받침 X → 가 아니에요</span>입니다.<br><br><span class=\"yes\">O</span> 학생이 아니에요 / 의사가 아니에요<br><span class=\"no\">X</span> 학생가 아니에요 / 의사이 아니에요"
+      "h": "💡 TIP ① · 아니에요 결합 규칙",
+      "p": "<b>받침 O</b>일 때는 <span class=\"g\">+ 이 아니에요</span>, <b>받침 X</b>일 때는 <span class=\"g2\">+ 가 아니에요</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 학생이 아니에요 / 의사가 아니에요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 천만에요의 의미",
-      "p": "'감사합니다'에 대한 겸양의 대답으로도 일상에서 자주 쓰입니다.<br><br>도와주셔서 감사합니다! → 아니에요~ (천만에요)"
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "명사 뒤에 붙어 주어의 신분이나 사실을 부정할 때 씁니다.<br><br>· 학생이 아니에요. 의사예요.<br>· 커피가 아니에요. 녹차예요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 아닙니다와의 차이",
-      "p": "'아닙니다'는 격식적인 공공장소나 발표에서, '아니에요'는 일상 대화에서 씁니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>○○이/가 아니에요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Negative copula used with 이/가.",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
@@ -290,8 +300,8 @@ LESSONS.push({
       "t": "받침 O"
     },
     {
-      "b": "회사원",
-      "r": "회사원이 아니에요",
+      "b": "가방",
+      "r": "가방이 아니에요",
       "t": "받침 O"
     },
     {
@@ -300,13 +310,13 @@ LESSONS.push({
       "t": "받침 X"
     },
     {
-      "b": "가수",
-      "r": "가수가 아니에요",
+      "b": "커피",
+      "r": "커피가 아니에요",
       "t": "받침 X"
     },
     {
-      "b": "친구",
-      "r": "친구가 아니에요",
+      "b": "가수",
+      "r": "가수가 아니에요",
       "t": "받침 X"
     },
     {
@@ -329,59 +339,67 @@ LESSONS.push({
       "한국 사람이 아니에요"
     ],
     [
+      "가방",
+      "가방이 아니에요"
+    ],
+    [
       "의사",
       "의사가 아니에요"
+    ],
+    [
+      "커피",
+      "커피가 아니에요"
     ],
     [
       "가수",
       "가수가 아니에요"
     ],
     [
-      "친구",
-      "친구가 아니에요"
+      "요리사",
+      "요리사가 아니에요"
     ],
     [
-      "사과",
-      "사과"
+      "한국어",
+      "저는 학생이 아니에요."
     ],
     [
-      "물",
-      "물"
+      "연습",
+      "제 친구는 의사가 아니에요."
     ],
     [
-      "시간",
-      "시간"
+      "대화",
+      "이거는 커피가 아니에요."
     ],
     [
       "오늘",
-      "오늘"
+      "저 사람은 선생님이 아니에요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "아니에요 기본 연습"
+        "t": "아니에요 형태 연습"
       },
       {
-        "base": "연습1",
+        "base": "학생",
         "ans": "학생이 아니에요"
       },
       {
-        "base": "연습2",
-        "ans": "선생님이 아니에요"
+        "base": "의사",
+        "ans": "의사가 아니에요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "학생이 아니에요."
+        "base": "저 + 학생",
+        "ans": "저는 학생이 아니에요."
       },
       {
-        "base": "문장2",
-        "ans": "의사가 아니에요."
+        "base": "친구 + 의사",
+        "ans": "제 친구는 의사가 아니에요."
       }
     ]
   ],
@@ -405,10 +423,10 @@ LESSONS.push({
     {
       "k": [
         "이거",
-        "제 책"
+        "커피"
       ],
-      "a": "이거 제 책이 아니에요.",
-      "e": "This is not my book."
+      "a": "이거는 커피가 아니에요.",
+      "e": "This is not coffee."
     },
     {
       "k": [
@@ -423,51 +441,51 @@ LESSONS.push({
     {
       "tag": "아니에요",
       "icon": "📖",
-      "q": "아니에요 연습을 해 보세요.",
-      "qen": "Practice 아니에요",
+      "q": "아니에요 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 아니에요 vocabulary and expressions.",
       "pat": "○○이/가 아니에요.",
       "items": [
         {
-          "e": "🎓",
+          "e": "🏫",
           "w": "학생",
-          "g": "student",
+          "g": "Negation",
           "r": "학생이 아니에요",
           "b": true
         },
         {
-          "e": "💼",
-          "w": "회사원",
-          "g": "office worker",
-          "r": "회사원이 아니에요",
-          "b": true
-        },
-        {
-          "e": "👨‍⚕️",
-          "w": "의사",
-          "g": "doctor",
-          "r": "의사가 아니에요",
+          "e": "📕",
+          "w": "선생님",
+          "g": "Negation",
+          "r": "선생님이 아니에요",
           "b": false
         },
         {
-          "e": "🎤",
-          "w": "가수",
-          "g": "singer",
-          "r": "가수가 아니에요",
-          "b": false
-        },
-        {
-          "e": "🇰🇷",
+          "e": "☕",
           "w": "한국 사람",
-          "g": "Korean",
+          "g": "Negation",
           "r": "한국 사람이 아니에요",
           "b": true
         },
         {
-          "e": "🇺🇸",
-          "w": "미국 사람",
-          "g": "American",
-          "r": "미국 사람이 아니에요",
+          "e": "👫",
+          "w": "가방",
+          "g": "Negation",
+          "r": "가방이 아니에요",
+          "b": false
+        },
+        {
+          "e": "⏰",
+          "w": "의사",
+          "g": "Negation",
+          "r": "의사가 아니에요",
           "b": true
+        },
+        {
+          "e": "🚇",
+          "w": "커피",
+          "g": "Negation",
+          "r": "커피가 아니에요",
+          "b": false
         }
       ]
     }
@@ -475,26 +493,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "아니에요",
       "q": "Think of a job. Ask each other.",
       "qen": "Think of a job. Ask each other.",
       "m": [
-        "학생[[이 아니에요]].",
-        "의사[[가 아니에요]]."
+        "학생[[이 아니에요]]. 의사예요.",
+        "커피[[가 아니에요]]. 녹차예요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 학생과 교사가 각자 직업을 하나 몰래 정한다(가수 · 의사 · 회사원 …)<br>3. 서로 「○○예요/이에요?」로 맞혀 보기 — 틀리면 「아니요, ○○이/가 아니에요. □□이에요/예요」<br>4. 맞힐 때까지 번갈아 묻기",
       "go": "Think of a job. Ask each other."
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "아니에요",
       "q": "Your teacher guesses wrong. Correct it.",
       "qen": "Your teacher guesses wrong. Correct it.",
       "m": [
-        "학생[[이 아니에요]].",
-        "의사[[가 아니에요]]."
+        "학생[[이 아니에요]]. 의사예요.",
+        "커피[[가 아니에요]]. 녹차예요."
       ],
       "memo": "1. 카드를 하나 짚고 교사가 일부러 틀리게 「이거 커피예요?」<br>2. 학생 「아니요, 커피가 아니에요. 녹차예요」 — 아니에요 뒤에 바른 말까지<br>3. 역할 바꾸기 — 학생이 틀리게 묻고 교사가 고친다",
       "go": "Your teacher guesses wrong. Correct it."
@@ -504,19 +522,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "학생[[이 아니에요]].",
-          "의사[[가 아니에요]]."
+          "학생[[이 아니에요]]. 의사예요.",
+          "커피[[가 아니에요]]. 녹차예요."
         ],
         "en": [
-          "I am not a student.",
-          "I am not a doctor."
+          "I am not a student. I am a doctor.",
+          "It is not coffee. It is green tea."
         ]
       }
     ],
     "tips": [
-      "<b>아니에요</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>아니에요</b>: 명사 뒤에 붙어 주어의 신분이나 사실을 부정할 때 씁니다.",
+      "대표 문장: \"학생이 아니에요. 의사예요.\"",
+      "대표 문장: \"커피가 아니에요. 녹차예요.\""
     ]
   }
 });

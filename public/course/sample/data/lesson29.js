@@ -1,14 +1,14 @@
-/* Lesson 29: 못 · 100% Full Unlocked Data */
+/* Lesson 29: 못 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "못",
-  "pos": "어미·보조용언",
+  "pos": "능력 부정 부사",
   "form": "못",
   "opening": {
     "name": "29호선 출발 · 못",
     "no": 29,
     "line": "Level 1 · Unit 6: 정확한 부정",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 29 · 못<br>Practice everyday Korean step by step.",
+    "en": "Inability Negation · 능력·상황 부정 ('cannot')<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 29",
     "next": "Next: 못",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "어미·보조용언",
+      "c": "능력 부정 부사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "못의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point 못 in Korean."
+    "ko": "동사 앞에 놓여 능력이 없거나 외부 사정 때문에 어떤 행동을 할 수 없음을 나타냅니다.",
+    "en": "Placed before action verbs to express inability or impossibility ('cannot')."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ 못 ...",
-    "en": "Level 1 Lesson 29 · 못"
+    "q": "저는 수영을 못 해요.",
+    "en": "I cannot swim."
   },
-  "en": "Level 1 Lesson 29 · 못",
+  "en": "Inability Negation · 능력·상황 부정 ('cannot')",
   "prior": [],
-  "pat": "○○ 못 ...",
+  "pat": "못 + 동사 (명사 + 못 해요)",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "못",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "능력 부정 부사",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[못]] 연습을 해요.",
-      "한국어로 대화를 [[못]] 말해요."
+      "저는 수영을 [[못]] 해요.",
+      "바빠서 오늘 파티에 [[못]] 가요."
     ],
     "en": [
-      "Practice 못 with teacher.",
-      "Speak in Korean naturally."
+      "I [[cannot]] swim.",
+      "I'm busy so I [[cannot]] go to the party today."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 못 연습",
+      "label": "예문 ① · 못 핵심 상황",
+      "scene": "/course/sample/scenes/hero-29.svg",
       "ask": {
-        "q": "선생님과 함께 [[못]] 연습을 해요.",
-        "en": "Practice 못 with teacher."
+        "q": "저는 수영을 못 해요.",
+        "en": "I cannot swim."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "못",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[못]] 연습을 해요."
+          "저는 수영을 [[못]] 해요."
         ],
         "en": [
-          "Practice 못 with teacher."
+          "I [[cannot]] swim."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[못]] 말해요."
+          "바빠서 오늘 파티에 [[못]] 가요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I'm busy so I [[cannot]] go to the party today."
         ]
       },
       "morph": [
-        "못 규칙",
-        "핵심 어휘"
+        "못 핵심 표현",
+        "능력 부정 부사"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-29.svg",
       "ask": {
-        "q": "한국어로 대화를 [[못]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "매운 음식을 잘 못 먹어요.",
+        "en": "I can't eat spicy food well."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[못]] 말해요."
+          "매운 음식을 잘 못 먹어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I can't eat spicy food well."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 못 연습을 해요."
+          "아직 자동차 운전을 못 해요."
         ],
         "en": [
-          "Yes, that's right."
+          "I cannot drive a car yet."
         ]
       },
       "morph": [
-        "못 실전 적용"
+        "못 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 못.",
-      "base": "도서관",
-      "b": true,
-      "f": "못"
-    },
-    {
-      "ko": "선생님 못.",
-      "base": "선생님",
-      "b": true,
-      "f": "못"
-    },
-    {
-      "ko": "한국 못.",
-      "base": "한국",
-      "b": true,
-      "f": "못"
-    },
-    {
-      "ko": "학교 못.",
-      "base": "학교",
+      "ko": "못 가요.",
+      "base": "가다",
       "b": false,
       "f": "못"
     },
     {
-      "ko": "친구 못.",
-      "base": "친구",
+      "ko": "못 먹어요.",
+      "base": "먹다",
       "b": false,
       "f": "못"
     },
     {
-      "ko": "영화 못.",
-      "base": "영화",
+      "ko": "못 마셔요.",
+      "base": "마시다",
       "b": false,
       "f": "못"
     },
     {
-      "ko": "선생님과 함께 [[못]] 연습을 해요.",
-      "note": "못의 올바른 문장 활용"
+      "ko": "못 만나요.",
+      "base": "만나다",
+      "b": false,
+      "f": "못"
+    },
+    {
+      "ko": "수영을 못 해요.",
+      "base": "수영하다",
+      "b": false,
+      "f": "못"
+    },
+    {
+      "ko": "운전을 못 해요.",
+      "base": "운전하다",
+      "b": false,
+      "f": "못"
+    },
+    {
+      "ko": "요리를 못 해요.",
+      "base": "요리하다",
+      "b": false,
+      "f": "못"
+    },
+    {
+      "ko": "운동을 못 해요.",
+      "base": "운동하다",
+      "b": false,
+      "f": "못"
+    },
+    {
+      "ko": "저는 수영을 못 해요.",
+      "note": "못 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
-        "k": "받침 O",
-        "f": "+ 못",
+        "k": "일반 동작동사",
+        "f": "못 + 동사",
         "ex": [
           [
-            "선생님",
-            "선생님 못"
+            "가다",
+            "못 가요"
           ],
           [
-            "도서관",
-            "도서관 못"
+            "먹다",
+            "못 먹어요"
           ],
           [
-            "한국",
-            "한국 못"
+            "마시다",
+            "못 마셔요"
+          ],
+          [
+            "만나다",
+            "못 만나요"
           ]
         ]
       },
       {
-        "k": "받침 X",
-        "f": "+ 못",
+        "k": "명사 + 하다 동사",
+        "f": "명사(을/를) + 못 해요",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 못"
+            "수영하다",
+            "수영을 못 해요"
           ],
           [
-            "학교",
-            "학교 못"
+            "운전하다",
+            "운전을 못 해요"
           ],
           [
-            "영화",
-            "영화 못"
+            "요리하다",
+            "요리를 못 해요"
+          ],
+          [
+            "운동하다",
+            "운동을 못 해요"
           ]
         ]
       }
@@ -243,208 +265,227 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 못 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>못</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · 못 결합 규칙",
+      "p": "<b>일반 동작동사</b>일 때는 <span class=\"g\">못 + 동사</span>, <b>명사 + 하다 동사</b>일 때는 <span class=\"g2\">명사(을/를) + 못 해요</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 못 가요 / 수영을 못 해요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "동사 앞에 놓여 능력이 없거나 외부 사정 때문에 어떤 행동을 할 수 없음을 나타냅니다.<br><br>· 저는 수영을 못 해요.<br>· 바빠서 오늘 파티에 못 가요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>못 + 동사 (명사 + 못 해요)</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Placed before action verbs to express inability or impossibility ('cannot').",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 못",
-      "t": "받침 O"
+      "b": "가다",
+      "r": "못 가요",
+      "t": "일반 동작동사"
     },
     {
-      "b": "선생님",
-      "r": "선생님 못",
-      "t": "받침 O"
+      "b": "먹다",
+      "r": "못 먹어요",
+      "t": "일반 동작동사"
     },
     {
-      "b": "한국",
-      "r": "한국 못",
-      "t": "받침 O"
+      "b": "마시다",
+      "r": "못 마셔요",
+      "t": "일반 동작동사"
     },
     {
-      "b": "학교",
-      "r": "학교 못",
-      "t": "받침 X"
+      "b": "만나다",
+      "r": "못 만나요",
+      "t": "일반 동작동사"
     },
     {
-      "b": "친구",
-      "r": "친구 못",
-      "t": "받침 X"
+      "b": "수영하다",
+      "r": "수영을 못 해요",
+      "t": "명사 + 하다 동사"
     },
     {
-      "b": "영화",
-      "r": "영화 못",
-      "t": "받침 X"
+      "b": "운전하다",
+      "r": "운전을 못 해요",
+      "t": "명사 + 하다 동사"
+    },
+    {
+      "b": "요리하다",
+      "r": "요리를 못 해요",
+      "t": "명사 + 하다 동사"
+    },
+    {
+      "b": "운동하다",
+      "r": "운동을 못 해요",
+      "t": "명사 + 하다 동사"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 못"
+      "가다",
+      "못 가요"
     ],
     [
-      "도서관",
-      "도서관 못"
+      "먹다",
+      "못 먹어요"
     ],
     [
-      "한국",
-      "한국 못"
+      "마시다",
+      "못 마셔요"
     ],
     [
-      "친구",
-      "친구 못"
+      "만나다",
+      "못 만나요"
     ],
     [
-      "학교",
-      "학교 못"
+      "수영하다",
+      "수영을 못 해요"
     ],
     [
-      "영화",
-      "영화 못"
+      "운전하다",
+      "운전을 못 해요"
     ],
     [
-      "사과",
-      "사과"
+      "요리하다",
+      "요리를 못 해요"
     ],
     [
-      "물",
-      "물"
+      "운동하다",
+      "운동을 못 해요"
     ],
     [
-      "시간",
-      "시간"
+      "한국어",
+      "저는 수영을 못 해요."
+    ],
+    [
+      "연습",
+      "바빠서 오늘 파티에 못 가요."
+    ],
+    [
+      "대화",
+      "매운 음식을 잘 못 먹어요."
     ],
     [
       "오늘",
-      "오늘"
+      "아직 자동차 운전을 못 해요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "못 기본 연습"
+        "t": "못 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 못"
+        "base": "가다",
+        "ans": "못 가요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 못"
+        "base": "수영하다",
+        "ans": "수영을 못 해요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 못 연습을 해요."
+        "base": "수영 + 하다",
+        "ans": "저는 수영을 못 해요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 못 말해요."
+        "base": "오늘 + 파티 + 가다",
+        "ans": "바빠서 오늘 파티에 못 가요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "학교",
-        "못"
+        "수영",
+        "하다"
       ],
-      "a": "학교에 못.",
-      "e": "At school with 못."
+      "a": "저는 수영을 못 해요.",
+      "e": "I cannot swim."
     },
     {
       "k": [
-        "친구",
-        "못"
+        "오늘",
+        "파티",
+        "가다"
       ],
-      "a": "친구와 못.",
-      "e": "With friends and 못."
+      "a": "바빠서 오늘 파티에 못 가요.",
+      "e": "I'm busy so I can't go to the party today."
     },
     {
       "k": [
-        "한국",
-        "못"
+        "매운 음식",
+        "먹다"
       ],
-      "a": "한국에서 못.",
-      "e": "In Korea with 못."
+      "a": "매운 음식을 잘 못 먹어요.",
+      "e": "I can't eat spicy food well."
     },
     {
       "k": [
-        "선생님",
-        "못"
+        "운전",
+        "하다"
       ],
-      "a": "선생님과 못.",
-      "e": "With teacher and 못."
+      "a": "아직 자동차 운전을 못 해요.",
+      "e": "I cannot drive a car yet."
     }
   ],
   "vocab": [
     {
       "tag": "못",
       "icon": "📖",
-      "q": "못 연습을 해 보세요.",
-      "qen": "Practice 못",
-      "pat": "○○ 못 ...",
+      "q": "못 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 못 vocabulary and expressions.",
+      "pat": "못 + 동사 (명사 + 못 해요)",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 못",
+          "w": "가다",
+          "g": "Inability Negation",
+          "r": "못 가요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "먹다",
+          "g": "Inability Negation",
+          "r": "못 먹어요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 못",
+          "e": "☕",
+          "w": "마시다",
+          "g": "Inability Negation",
+          "r": "못 마셔요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 못",
+          "w": "만나다",
+          "g": "Inability Negation",
+          "r": "못 만나요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 못",
+          "e": "⏰",
+          "w": "수영하다",
+          "g": "Inability Negation",
+          "r": "수영을 못 해요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 못",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 못",
+          "e": "🚇",
+          "w": "운전하다",
+          "g": "Inability Negation",
+          "r": "운전을 못 해요",
           "b": false
         }
       ]
@@ -453,26 +494,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "못",
       "q": "Can you do it? Mark O or X.",
       "qen": "Can you do it? Mark O or X.",
       "m": [
-        "선생님과 함께 [[못]] 연습을 해요.",
-        "한국어로 대화를 [[못]] 말해요."
+        "저는 수영을 [[못]] 해요.",
+        "바빠서 오늘 파티에 [[못]] 가요."
       ],
       "memo": "1. 교사 「수영을 잘해요?」 → 학생 「네, 잘해요 / 아니요, 못 해요」 → 학생 칸 O · X<br>2. 학생이 교사에게 같은 물음 → 선생님 칸 O · X<br>3. 다 채우면 「저는 ○○ 못 해요. 선생님은 ○○ 잘해요」로 정리",
       "go": "Can you do it? Mark O or X."
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "못",
       "q": "Your teacher invites you. Say no politely.",
       "qen": "Your teacher invites you. Say no politely.",
       "m": [
-        "선생님과 함께 [[못]] 연습을 해요.",
-        "한국어로 대화를 [[못]] 말해요."
+        "저는 수영을 [[못]] 해요.",
+        "바빠서 오늘 파티에 [[못]] 가요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 초대 「내일 파티에 와요?」<br>3. 학생 「미안해요, 못 가요」 + 까닭 한마디<br>4. 역할 바꾸기 — 학생이 초대",
       "go": "Your teacher invites you. Say no politely."
@@ -482,19 +523,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[못]] 연습을 해요.",
-          "한국어로 대화를 [[못]] 말해요."
+          "저는 수영을 [[못]] 해요.",
+          "바빠서 오늘 파티에 [[못]] 가요."
         ],
         "en": [
-          "Practice 못 with teacher.",
-          "Speak in Korean naturally."
+          "I [[cannot]] swim.",
+          "I'm busy so I [[cannot]] go to the party today."
         ]
       }
     ],
     "tips": [
-      "<b>못</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>못</b>: 동사 앞에 놓여 능력이 없거나 외부 사정 때문에 어떤 행동을 할 수 없음을 나타냅니다.",
+      "대표 문장: \"저는 수영을 못 해요.\"",
+      "대표 문장: \"바빠서 오늘 파티에 못 가요.\""
     ]
   }
 });

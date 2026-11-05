@@ -1,14 +1,14 @@
-/* Lesson 25: -고 있다 · 100% Full Unlocked Data */
+/* Lesson 25: -고 있다 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "-고 있다",
-  "pos": "어미·보조용언",
+  "pos": "진행 보조용언",
   "form": "-고 있다",
   "opening": {
     "name": "25호선 출발 · -고 있다",
     "no": 25,
     "line": "Level 1 · Unit 5: 시제와 바람",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 25 · -고 있다<br>Practice everyday Korean step by step.",
+    "en": "Present Progressive · 현재 진행 ('-ing')<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 25",
     "next": "Next: -고 있다",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "어미·보조용언",
+      "c": "진행 보조용언",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "-고 있다의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point -고 있다 in Korean."
+    "ko": "동사 뒤에 붙어 지금 현재 어떤 동작이 계속 진행 중임을 나타냅니다.",
+    "en": "Indicates an action currently in progress ('is/am/are doing')."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ -고 있다 ...",
-    "en": "Level 1 Lesson 25 · -고 있다"
+    "q": "리에 씨는 지금 커피를 마시고 있어요.",
+    "en": "Rie is drinking coffee right now."
   },
-  "en": "Level 1 Lesson 25 · -고 있다",
+  "en": "Present Progressive · 현재 진행 ('-ing')",
   "prior": [],
-  "pat": "○○ -고 있다 ...",
+  "pat": "동사 어간 + -고 있어요.",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "-고 있다",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "진행 보조용언",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[-고 있다]] 연습을 해요.",
-      "한국어로 대화를 [[-고 있다]] 말해요."
+      "리에 씨는 지금 커피를 마시[[고 있어요]].",
+      "교실에서 한국어를 공부하[[고 있어요]]."
     ],
     "en": [
-      "Practice -고 있다 with teacher.",
-      "Speak in Korean naturally."
+      "Rie [[is drinking]] coffee right now.",
+      "I [[am studying]] Korean in the classroom."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · -고 있다 연습",
+      "label": "예문 ① · -고 있다 핵심 상황",
+      "scene": "/course/sample/scenes/hero-25.svg",
       "ask": {
-        "q": "선생님과 함께 [[-고 있다]] 연습을 해요.",
-        "en": "Practice -고 있다 with teacher."
+        "q": "리에 씨는 지금 커피를 마시고 있어요.",
+        "en": "Rie is drinking coffee right now."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "-고 있다",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[-고 있다]] 연습을 해요."
+          "리에 씨는 지금 커피를 마시[[고 있어요]]."
         ],
         "en": [
-          "Practice -고 있다 with teacher."
+          "Rie [[is drinking]] coffee right now."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[-고 있다]] 말해요."
+          "교실에서 한국어를 공부하[[고 있어요]]."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I [[am studying]] Korean in the classroom."
         ]
       },
       "morph": [
-        "-고 있다 규칙",
-        "핵심 어휘"
+        "-고 있다 핵심 표현",
+        "진행 보조용언"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-25.svg",
       "ask": {
-        "q": "한국어로 대화를 [[-고 있다]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "도서관에서 책을 읽고 있어요.",
+        "en": "I am reading a book at the library."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[-고 있다]] 말해요."
+          "도서관에서 책을 읽고 있어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I am reading a book at the library."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 -고 있다 연습을 해요."
+          "역 앞에서 친구를 기다리고 있어요."
         ],
         "en": [
-          "Yes, that's right."
+          "I am waiting for my friend in front of the station."
         ]
       },
       "morph": [
-        "-고 있다 실전 적용"
+        "-고 있다 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 -고 있다.",
-      "base": "도서관",
-      "b": true,
-      "f": "-고 있다"
-    },
-    {
-      "ko": "선생님 -고 있다.",
-      "base": "선생님",
-      "b": true,
-      "f": "-고 있다"
-    },
-    {
-      "ko": "한국 -고 있다.",
-      "base": "한국",
-      "b": true,
-      "f": "-고 있다"
-    },
-    {
-      "ko": "학교 -고 있다.",
-      "base": "학교",
+      "ko": "마시고 있어요.",
+      "base": "마시다",
       "b": false,
       "f": "-고 있다"
     },
     {
-      "ko": "친구 -고 있다.",
-      "base": "친구",
+      "ko": "먹고 있어요.",
+      "base": "먹다",
       "b": false,
       "f": "-고 있다"
     },
     {
-      "ko": "영화 -고 있다.",
-      "base": "영화",
+      "ko": "읽고 있어요.",
+      "base": "읽다",
       "b": false,
       "f": "-고 있다"
     },
     {
-      "ko": "선생님과 함께 [[-고 있다]] 연습을 해요.",
-      "note": "-고 있다의 올바른 문장 활용"
+      "ko": "보고 있어요.",
+      "base": "보다",
+      "b": false,
+      "f": "-고 있다"
+    },
+    {
+      "ko": "공부하고 있어요.",
+      "base": "공부하다",
+      "b": false,
+      "f": "-고 있다"
+    },
+    {
+      "ko": "운동하고 있어요.",
+      "base": "운동하다",
+      "b": false,
+      "f": "-고 있다"
+    },
+    {
+      "ko": "전화하고 있어요.",
+      "base": "전화하다",
+      "b": false,
+      "f": "-고 있다"
+    },
+    {
+      "ko": "오고 있어요.",
+      "base": "오다",
+      "b": false,
+      "f": "-고 있다"
+    },
+    {
+      "ko": "리에 씨는 지금 커피를 마시고 있어요.",
+      "note": "-고 있다 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
-        "k": "받침 O",
-        "f": "+ -고 있다",
+        "k": "일상 동작",
+        "f": "+ -고 있어요",
         "ex": [
           [
-            "선생님",
-            "선생님 -고 있다"
+            "마시다",
+            "마시고 있어요"
           ],
           [
-            "도서관",
-            "도서관 -고 있다"
+            "먹다",
+            "먹고 있어요"
           ],
           [
-            "한국",
-            "한국 -고 있다"
+            "읽다",
+            "읽고 있어요"
+          ],
+          [
+            "보다",
+            "보고 있어요"
           ]
         ]
       },
       {
-        "k": "받침 X",
-        "f": "+ -고 있다",
+        "k": "하다 동사 / 높임",
+        "f": "+ -고 있어요 / 계세요",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 -고 있다"
+            "공부하다",
+            "공부하고 있어요"
           ],
           [
-            "학교",
-            "학교 -고 있다"
+            "운동하다",
+            "운동하고 있어요"
           ],
           [
-            "영화",
-            "영화 -고 있다"
+            "전화하다",
+            "전화하고 있어요"
+          ],
+          [
+            "오다",
+            "오고 있어요"
           ]
         ]
       }
@@ -243,208 +265,227 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · -고 있다 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>-고 있다</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · -고 있다 결합 규칙",
+      "p": "<b>일상 동작</b>일 때는 <span class=\"g\">+ -고 있어요</span>, <b>하다 동사 / 높임</b>일 때는 <span class=\"g2\">+ -고 있어요 / 계세요</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 마시고 있어요 / 공부하고 있어요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "동사 뒤에 붙어 지금 현재 어떤 동작이 계속 진행 중임을 나타냅니다.<br><br>· 리에 씨는 지금 커피를 마시고 있어요.<br>· 교실에서 한국어를 공부하고 있어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>동사 어간 + -고 있어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Indicates an action currently in progress ('is/am/are doing').",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 -고 있다",
-      "t": "받침 O"
+      "b": "마시다",
+      "r": "마시고 있어요",
+      "t": "일상 동작"
     },
     {
-      "b": "선생님",
-      "r": "선생님 -고 있다",
-      "t": "받침 O"
+      "b": "먹다",
+      "r": "먹고 있어요",
+      "t": "일상 동작"
     },
     {
-      "b": "한국",
-      "r": "한국 -고 있다",
-      "t": "받침 O"
+      "b": "읽다",
+      "r": "읽고 있어요",
+      "t": "일상 동작"
     },
     {
-      "b": "학교",
-      "r": "학교 -고 있다",
-      "t": "받침 X"
+      "b": "보다",
+      "r": "보고 있어요",
+      "t": "일상 동작"
     },
     {
-      "b": "친구",
-      "r": "친구 -고 있다",
-      "t": "받침 X"
+      "b": "공부하다",
+      "r": "공부하고 있어요",
+      "t": "하다 동사 / 높임"
     },
     {
-      "b": "영화",
-      "r": "영화 -고 있다",
-      "t": "받침 X"
+      "b": "운동하다",
+      "r": "운동하고 있어요",
+      "t": "하다 동사 / 높임"
+    },
+    {
+      "b": "전화하다",
+      "r": "전화하고 있어요",
+      "t": "하다 동사 / 높임"
+    },
+    {
+      "b": "오다",
+      "r": "오고 있어요",
+      "t": "하다 동사 / 높임"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 -고 있다"
+      "마시다",
+      "마시고 있어요"
     ],
     [
-      "도서관",
-      "도서관 -고 있다"
+      "먹다",
+      "먹고 있어요"
     ],
     [
-      "한국",
-      "한국 -고 있다"
+      "읽다",
+      "읽고 있어요"
     ],
     [
-      "친구",
-      "친구 -고 있다"
+      "보다",
+      "보고 있어요"
     ],
     [
-      "학교",
-      "학교 -고 있다"
+      "공부하다",
+      "공부하고 있어요"
     ],
     [
-      "영화",
-      "영화 -고 있다"
+      "운동하다",
+      "운동하고 있어요"
     ],
     [
-      "사과",
-      "사과"
+      "전화하다",
+      "전화하고 있어요"
     ],
     [
-      "물",
-      "물"
+      "오다",
+      "오고 있어요"
     ],
     [
-      "시간",
-      "시간"
+      "한국어",
+      "지금 카페에서 커피를 마시고 있어요."
+    ],
+    [
+      "연습",
+      "교실에서 한국어를 공부하고 있어요."
+    ],
+    [
+      "대화",
+      "도서관에서 책을 읽고 있어요."
     ],
     [
       "오늘",
-      "오늘"
+      "역 앞에서 친구를 기다리고 있어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "-고 있다 기본 연습"
+        "t": "-고 있다 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 -고 있다"
+        "base": "마시다",
+        "ans": "마시고 있어요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 -고 있다"
+        "base": "공부하다",
+        "ans": "공부하고 있어요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 -고 있다 연습을 해요."
+        "base": "지금 + 커피 + 마시다",
+        "ans": "지금 카페에서 커피를 마시고 있어요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 -고 있다 말해요."
+        "base": "한국어 + 공부하다",
+        "ans": "교실에서 한국어를 공부하고 있어요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "학교",
-        "-고 있다"
+        "지금",
+        "커피",
+        "마시다"
       ],
-      "a": "학교에 -고 있다.",
-      "e": "At school with -고 있다."
+      "a": "지금 카페에서 커피를 마시고 있어요.",
+      "e": "I am drinking coffee at the cafe right now."
+    },
+    {
+      "k": [
+        "한국어",
+        "공부하다"
+      ],
+      "a": "교실에서 한국어를 공부하고 있어요.",
+      "e": "I am studying Korean in the classroom."
+    },
+    {
+      "k": [
+        "책",
+        "읽다"
+      ],
+      "a": "도서관에서 책을 읽고 있어요.",
+      "e": "I am reading a book at the library."
     },
     {
       "k": [
         "친구",
-        "-고 있다"
+        "기다리다"
       ],
-      "a": "친구와 -고 있다.",
-      "e": "With friends and -고 있다."
-    },
-    {
-      "k": [
-        "한국",
-        "-고 있다"
-      ],
-      "a": "한국에서 -고 있다.",
-      "e": "In Korea with -고 있다."
-    },
-    {
-      "k": [
-        "선생님",
-        "-고 있다"
-      ],
-      "a": "선생님과 -고 있다.",
-      "e": "With teacher and -고 있다."
+      "a": "역 앞에서 친구를 기다리고 있어요.",
+      "e": "I am waiting for my friend in front of the station."
     }
   ],
   "vocab": [
     {
       "tag": "-고 있다",
       "icon": "📖",
-      "q": "-고 있다 연습을 해 보세요.",
-      "qen": "Practice -고 있다",
-      "pat": "○○ -고 있다 ...",
+      "q": "-고 있다 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice -고 있다 vocabulary and expressions.",
+      "pat": "동사 어간 + -고 있어요.",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 -고 있다",
+          "w": "마시다",
+          "g": "Present Progressive",
+          "r": "마시고 있어요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "먹다",
+          "g": "Present Progressive",
+          "r": "먹고 있어요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 -고 있다",
+          "e": "☕",
+          "w": "읽다",
+          "g": "Present Progressive",
+          "r": "읽고 있어요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 -고 있다",
+          "w": "보다",
+          "g": "Present Progressive",
+          "r": "보고 있어요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 -고 있다",
+          "e": "⏰",
+          "w": "공부하다",
+          "g": "Present Progressive",
+          "r": "공부하고 있어요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 -고 있다",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 -고 있다",
+          "e": "🚇",
+          "w": "운동하다",
+          "g": "Present Progressive",
+          "r": "운동하고 있어요",
           "b": false
         }
       ]
@@ -453,26 +494,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "-고 있다",
       "q": "What is each person doing now?",
       "qen": "What is each person doing now?",
       "m": [
-        "선생님과 함께 [[-고 있다]] 연습을 해요.",
-        "한국어로 대화를 [[-고 있다]] 말해요."
+        "리에 씨는 지금 커피를 마시[[고 있어요]].",
+        "교실에서 한국어를 공부하[[고 있어요]]."
       ],
       "memo": "1. 교사 「리에 씨는 지금 뭐 하고 있어요?」 → 「밥을 먹고 있어요」<br>2. 학생이 번호를 골라 묻고 교사가 대답<br>3. 마지막에 「○○ 씨는 지금 뭐 하고 있어요?」로 실제 지금",
       "go": "What is each person doing now?"
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "-고 있다",
       "q": "Talk about what you are learning now.",
       "qen": "Talk about what you are learning now.",
       "m": [
-        "선생님과 함께 [[-고 있다]] 연습을 해요.",
-        "한국어로 대화를 [[-고 있다]] 말해요."
+        "리에 씨는 지금 커피를 마시[[고 있어요]].",
+        "교실에서 한국어를 공부하[[고 있어요]]."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「요즘 뭐 배우고 있어요?」<br>3. 요즘 읽는 책 · 보는 드라마로 바꿔 묻기<br>4. 역할 바꾸기",
       "go": "Talk about what you are learning now."
@@ -482,19 +523,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[-고 있다]] 연습을 해요.",
-          "한국어로 대화를 [[-고 있다]] 말해요."
+          "리에 씨는 지금 커피를 마시[[고 있어요]].",
+          "교실에서 한국어를 공부하[[고 있어요]]."
         ],
         "en": [
-          "Practice -고 있다 with teacher.",
-          "Speak in Korean naturally."
+          "Rie [[is drinking]] coffee right now.",
+          "I [[am studying]] Korean in the classroom."
         ]
       }
     ],
     "tips": [
-      "<b>-고 있다</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>-고 있다</b>: 동사 뒤에 붙어 지금 현재 어떤 동작이 계속 진행 중임을 나타냅니다.",
+      "대표 문장: \"리에 씨는 지금 커피를 마시고 있어요.\"",
+      "대표 문장: \"교실에서 한국어를 공부하고 있어요.\""
     ]
   }
 });

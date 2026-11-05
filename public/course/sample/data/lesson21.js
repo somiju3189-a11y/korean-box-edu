@@ -1,14 +1,14 @@
-/* Lesson 21: 보다 · 100% Full Unlocked Data */
+/* Lesson 21: 보다 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "보다",
-  "pos": "조사",
+  "pos": "비교 부사격 조사",
   "form": "보다",
   "opening": {
     "name": "21호선 출발 · 보다",
     "no": 21,
     "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 21 · 보다<br>Practice everyday Korean step by step.",
+    "en": "Comparative Marker · 비교 ('than')<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 21",
     "next": "Next: 보다",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "조사",
+      "c": "비교 부사격 조사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "보다의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point 보다 in Korean."
+    "ko": "두 대상을 비교할 때 비교의 기준이 되는 말 뒤에 붙여 '~보다 (더)'의 뜻을 나타냅니다.",
+    "en": "Used to compare two things; attaches to the standard of comparison ('than')."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ 보다 ...",
-    "en": "Level 1 Lesson 21 · 보다"
+    "q": "비행기가 기차보다 더 빨라요.",
+    "en": "An airplane is faster than a train."
   },
-  "en": "Level 1 Lesson 21 · 보다",
+  "en": "Comparative Marker · 비교 ('than')",
   "prior": [],
-  "pat": "○○ 보다 ...",
+  "pat": "A이/가 B보다 (더) + 형용사",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "보다",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "비교 부사격 조사",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[보다]] 연습을 해요.",
-      "한국어로 대화를 [[보다]] 말해요."
+      "비행기가 기차[[보다]] 더 빨라요.",
+      "부산이 서울[[보다]] 따뜻해요."
     ],
     "en": [
-      "Practice 보다 with teacher.",
-      "Speak in Korean naturally."
+      "An airplane is faster [[than]] a train.",
+      "Busan is warmer [[than]] Seoul."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 보다 연습",
+      "label": "예문 ① · 보다 핵심 상황",
+      "scene": "/course/sample/scenes/hero-21.svg",
       "ask": {
-        "q": "선생님과 함께 [[보다]] 연습을 해요.",
-        "en": "Practice 보다 with teacher."
+        "q": "비행기가 기차보다 더 빨라요.",
+        "en": "An airplane is faster than a train."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "보다",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[보다]] 연습을 해요."
+          "비행기가 기차[[보다]] 더 빨라요."
         ],
         "en": [
-          "Practice 보다 with teacher."
+          "An airplane is faster [[than]] a train."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[보다]] 말해요."
+          "부산이 서울[[보다]] 따뜻해요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "Busan is warmer [[than]] Seoul."
         ]
       },
       "morph": [
-        "보다 규칙",
-        "핵심 어휘"
+        "보다 핵심 표현",
+        "비교 부사격 조사"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-21.svg",
       "ask": {
-        "q": "한국어로 대화를 [[보다]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "수박이 사과보다 아주 커요.",
+        "en": "Watermelons are much bigger than apples."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[보다]] 말해요."
+          "수박이 사과보다 아주 커요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "Watermelons are much bigger than apples."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 보다 연습을 해요."
+          "오늘이 어제보다 시원해요."
         ],
         "en": [
-          "Yes, that's right."
+          "Today is cooler than yesterday."
         ]
       },
       "morph": [
-        "보다 실전 적용"
+        "보다 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 보다.",
-      "base": "도서관",
-      "b": true,
-      "f": "보다"
-    },
-    {
-      "ko": "선생님 보다.",
-      "base": "선생님",
-      "b": true,
-      "f": "보다"
-    },
-    {
-      "ko": "한국 보다.",
-      "base": "한국",
-      "b": true,
-      "f": "보다"
-    },
-    {
-      "ko": "학교 보다.",
-      "base": "학교",
+      "ko": "비행기가 기차보다 빨라요.",
+      "base": "기차",
       "b": false,
       "f": "보다"
     },
     {
-      "ko": "친구 보다.",
-      "base": "친구",
+      "ko": "지하철이 버스보다 빨라요.",
+      "base": "버스",
       "b": false,
       "f": "보다"
     },
     {
-      "ko": "영화 보다.",
-      "base": "영화",
+      "ko": "수박이 사과보다 커요.",
+      "base": "사과",
       "b": false,
       "f": "보다"
     },
     {
-      "ko": "선생님과 함께 [[보다]] 연습을 해요.",
-      "note": "보다의 올바른 문장 활용"
+      "ko": "오늘이 어제보다 좋아요.",
+      "base": "어제",
+      "b": false,
+      "f": "보다"
+    },
+    {
+      "ko": "부산이 서울보다 더 따뜻해요.",
+      "base": "서울",
+      "b": false,
+      "f": "보다"
+    },
+    {
+      "ko": "겨울보다 여름이 더 좋아요.",
+      "base": "여름",
+      "b": false,
+      "f": "보다"
+    },
+    {
+      "ko": "한국어가 더 재미있어요.",
+      "base": "영어",
+      "b": false,
+      "f": "보다"
+    },
+    {
+      "ko": "녹차보다 커피를 더 좋아해요.",
+      "base": "커피",
+      "b": false,
+      "f": "보다"
+    },
+    {
+      "ko": "비행기가 기차보다 더 빨라요.",
+      "note": "보다 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
-        "k": "받침 O",
-        "f": "+ 보다",
+        "k": "속도·크기 비교",
+        "f": "기준 명사 + 보다",
         "ex": [
           [
-            "선생님",
-            "선생님 보다"
+            "기차",
+            "비행기가 기차보다 빨라요"
           ],
           [
-            "도서관",
-            "도서관 보다"
+            "버스",
+            "지하철이 버스보다 빨라요"
           ],
           [
-            "한국",
-            "한국 보다"
+            "사과",
+            "수박이 사과보다 커요"
+          ],
+          [
+            "어제",
+            "오늘이 어제보다 좋아요"
           ]
         ]
       },
       {
-        "k": "받침 X",
-        "f": "+ 보다",
+        "k": "날씨·성질 비교",
+        "f": "기준 명사 + 보다 더",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 보다"
+            "서울",
+            "부산이 서울보다 더 따뜻해요"
           ],
           [
-            "학교",
-            "학교 보다"
+            "여름",
+            "겨울보다 여름이 더 좋아요"
           ],
           [
-            "영화",
-            "영화 보다"
+            "영어",
+            "한국어가 더 재미있어요"
+          ],
+          [
+            "커피",
+            "녹차보다 커피를 더 좋아해요"
           ]
         ]
       }
@@ -243,208 +265,230 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 보다 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>보다</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · 보다 결합 규칙",
+      "p": "<b>속도·크기 비교</b>일 때는 <span class=\"g\">기준 명사 + 보다</span>, <b>날씨·성질 비교</b>일 때는 <span class=\"g2\">기준 명사 + 보다 더</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 비행기가 기차보다 빨라요 / 부산이 서울보다 더 따뜻해요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "두 대상을 비교할 때 비교의 기준이 되는 말 뒤에 붙여 '~보다 (더)'의 뜻을 나타냅니다.<br><br>· 비행기가 기차보다 더 빨라요.<br>· 부산이 서울보다 따뜻해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>A이/가 B보다 (더) + 형용사</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Used to compare two things; attaches to the standard of comparison ('than').",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 보다",
-      "t": "받침 O"
+      "b": "기차",
+      "r": "비행기가 기차보다 빨라요",
+      "t": "속도·크기 비교"
     },
     {
-      "b": "선생님",
-      "r": "선생님 보다",
-      "t": "받침 O"
+      "b": "버스",
+      "r": "지하철이 버스보다 빨라요",
+      "t": "속도·크기 비교"
     },
     {
-      "b": "한국",
-      "r": "한국 보다",
-      "t": "받침 O"
+      "b": "사과",
+      "r": "수박이 사과보다 커요",
+      "t": "속도·크기 비교"
     },
     {
-      "b": "학교",
-      "r": "학교 보다",
-      "t": "받침 X"
+      "b": "어제",
+      "r": "오늘이 어제보다 좋아요",
+      "t": "속도·크기 비교"
     },
     {
-      "b": "친구",
-      "r": "친구 보다",
-      "t": "받침 X"
+      "b": "서울",
+      "r": "부산이 서울보다 더 따뜻해요",
+      "t": "날씨·성질 비교"
     },
     {
-      "b": "영화",
-      "r": "영화 보다",
-      "t": "받침 X"
+      "b": "여름",
+      "r": "겨울보다 여름이 더 좋아요",
+      "t": "날씨·성질 비교"
+    },
+    {
+      "b": "영어",
+      "r": "한국어가 더 재미있어요",
+      "t": "날씨·성질 비교"
+    },
+    {
+      "b": "커피",
+      "r": "녹차보다 커피를 더 좋아해요",
+      "t": "날씨·성질 비교"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 보다"
+      "기차",
+      "비행기가 기차보다 빨라요"
     ],
     [
-      "도서관",
-      "도서관 보다"
-    ],
-    [
-      "한국",
-      "한국 보다"
-    ],
-    [
-      "친구",
-      "친구 보다"
-    ],
-    [
-      "학교",
-      "학교 보다"
-    ],
-    [
-      "영화",
-      "영화 보다"
+      "버스",
+      "지하철이 버스보다 빨라요"
     ],
     [
       "사과",
-      "사과"
+      "수박이 사과보다 커요"
     ],
     [
-      "물",
-      "물"
+      "어제",
+      "오늘이 어제보다 좋아요"
     ],
     [
-      "시간",
-      "시간"
+      "서울",
+      "부산이 서울보다 더 따뜻해요"
+    ],
+    [
+      "여름",
+      "겨울보다 여름이 더 좋아요"
+    ],
+    [
+      "영어",
+      "한국어가 더 재미있어요"
+    ],
+    [
+      "커피",
+      "녹차보다 커피를 더 좋아해요"
+    ],
+    [
+      "한국어",
+      "비행기가 기차보다 더 빨라요."
+    ],
+    [
+      "연습",
+      "부산이 서울보다 따뜻해요."
+    ],
+    [
+      "대화",
+      "수박이 사과보다 아주 커요."
     ],
     [
       "오늘",
-      "오늘"
+      "오늘이 어제보다 시원해요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "보다 기본 연습"
+        "t": "보다 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 보다"
+        "base": "기차",
+        "ans": "비행기가 기차보다 빨라요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 보다"
+        "base": "서울",
+        "ans": "부산이 서울보다 더 따뜻해요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 보다 연습을 해요."
+        "base": "비행기 + 기차 + 빠르다",
+        "ans": "비행기가 기차보다 더 빨라요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 보다 말해요."
+        "base": "부산 + 서울 + 따뜻하다",
+        "ans": "부산이 서울보다 따뜻해요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "학교",
-        "보다"
+        "비행기",
+        "기차",
+        "빠르다"
       ],
-      "a": "학교에 보다.",
-      "e": "At school with 보다."
+      "a": "비행기가 기차보다 더 빨라요.",
+      "e": "Airplanes are faster than trains."
     },
     {
       "k": [
-        "친구",
-        "보다"
+        "부산",
+        "서울",
+        "따뜻하다"
       ],
-      "a": "친구와 보다.",
-      "e": "With friends and 보다."
+      "a": "부산이 서울보다 따뜻해요.",
+      "e": "Busan is warmer than Seoul."
     },
     {
       "k": [
-        "한국",
-        "보다"
+        "수박",
+        "사과",
+        "크다"
       ],
-      "a": "한국에서 보다.",
-      "e": "In Korea with 보다."
+      "a": "수박이 사과보다 아주 커요.",
+      "e": "Watermelons are much bigger than apples."
     },
     {
       "k": [
-        "선생님",
-        "보다"
+        "오늘",
+        "어제",
+        "시원하다"
       ],
-      "a": "선생님과 보다.",
-      "e": "With teacher and 보다."
+      "a": "오늘이 어제보다 시원해요.",
+      "e": "Today is cooler than yesterday."
     }
   ],
   "vocab": [
     {
       "tag": "보다",
       "icon": "📖",
-      "q": "보다 연습을 해 보세요.",
-      "qen": "Practice 보다",
-      "pat": "○○ 보다 ...",
+      "q": "보다 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 보다 vocabulary and expressions.",
+      "pat": "A이/가 B보다 (더) + 형용사",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 보다",
+          "w": "기차",
+          "g": "Comparative Marker",
+          "r": "비행기가 기차보다 빨라요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "버스",
+          "g": "Comparative Marker",
+          "r": "지하철이 버스보다 빨라요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 보다",
+          "e": "☕",
+          "w": "사과",
+          "g": "Comparative Marker",
+          "r": "수박이 사과보다 커요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 보다",
+          "w": "어제",
+          "g": "Comparative Marker",
+          "r": "오늘이 어제보다 좋아요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 보다",
+          "e": "⏰",
+          "w": "서울",
+          "g": "Comparative Marker",
+          "r": "부산이 서울보다 더 따뜻해요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 보다",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 보다",
+          "e": "🚇",
+          "w": "여름",
+          "g": "Comparative Marker",
+          "r": "겨울보다 여름이 더 좋아요",
           "b": false
         }
       ]
@@ -453,26 +497,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "보다",
       "q": "Compare today and yesterday.",
       "qen": "Compare today and yesterday.",
       "m": [
-        "선생님과 함께 [[보다]] 연습을 해요.",
-        "한국어로 대화를 [[보다]] 말해요."
+        "비행기가 기차[[보다]] 더 빨라요.",
+        "부산이 서울[[보다]] 따뜻해요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「오늘 날씨가 어제보다 더워요?」 — 실제 날씨로<br>3. 사는 곳 날씨로 견주기<br>4. 역할 바꾸기",
       "go": "Compare today and yesterday."
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "보다",
       "q": "Compare the two.",
       "qen": "Compare the two.",
       "m": [
-        "선생님과 함께 [[보다]] 연습을 해요.",
-        "한국어로 대화를 [[보다]] 말해요."
+        "비행기가 기차[[보다]] 더 빨라요.",
+        "부산이 서울[[보다]] 따뜻해요."
       ],
       "memo": "1. 교사 「서울하고 부산 중에서 어디가 더 따뜻해요?」<br>2. 학생 「부산이 서울보다 따뜻해요」 — 반대말로 한 번 더(서울이 더 추워요)<br>3. 학생 고향 · 학생 물건으로 넓히기",
       "go": "Compare the two."
@@ -482,19 +526,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[보다]] 연습을 해요.",
-          "한국어로 대화를 [[보다]] 말해요."
+          "비행기가 기차[[보다]] 더 빨라요.",
+          "부산이 서울[[보다]] 따뜻해요."
         ],
         "en": [
-          "Practice 보다 with teacher.",
-          "Speak in Korean naturally."
+          "An airplane is faster [[than]] a train.",
+          "Busan is warmer [[than]] Seoul."
         ]
       }
     ],
     "tips": [
-      "<b>보다</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>보다</b>: 두 대상을 비교할 때 비교의 기준이 되는 말 뒤에 붙여 '~보다 (더)'의 뜻을 나타냅니다.",
+      "대표 문장: \"비행기가 기차보다 더 빨라요.\"",
+      "대표 문장: \"부산이 서울보다 따뜻해요.\""
     ]
   }
 });

@@ -1,14 +1,14 @@
-/* Lesson 23: -았/었- · 100% Full Unlocked Data */
+/* Lesson 23: -았/었- · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "-았/었-",
-  "pos": "어미·보조용언",
+  "pos": "과거 시제 선어말어미",
   "form": "-았/었-",
   "opening": {
     "name": "23호선 출발 · -았/었-",
     "no": 23,
     "line": "Level 1 · Unit 5: 시제와 바람",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 23 · -았/었-<br>Practice everyday Korean step by step.",
+    "en": "Past Tense Marker · 과거 시제<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 23",
     "next": "Next: -았/었-",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "어미·보조용언",
+      "c": "과거 시제 선어말어미",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "-았/었-의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point -았/었- in Korean."
+    "ko": "동사나 형용사 어간에 붙어 이미 지나간 과거의 일이나 완료된 상태를 나타냅니다.",
+    "en": "Past tense marker attached to verb or adjective stems."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ -았/었- ...",
-    "en": "Level 1 Lesson 23 · -았/었-"
+    "q": "어제 카페에서 친구를 만났어요.",
+    "en": "I met my friend at a cafe yesterday."
   },
-  "en": "Level 1 Lesson 23 · -았/었-",
+  "en": "Past Tense Marker · 과거 시제",
   "prior": [],
-  "pat": "○○ -았/었- ...",
+  "pat": "어간 + -았/었어요.",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "-았/었-",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "과거 시제 선어말어미",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[-았/었-]] 연습을 해요.",
-      "한국어로 대화를 [[-았/었-]] 말해요."
+      "어제 카페에서 친구를 만[[났어요]].",
+      "지난 주말에 재미있는 영화를 [[봤어요]]."
     ],
     "en": [
-      "Practice -았/었- with teacher.",
-      "Speak in Korean naturally."
+      "I [[met]] my friend at a cafe yesterday.",
+      "I [[watched]] an interesting movie last weekend."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · -았/었- 연습",
+      "label": "예문 ① · -았/었- 핵심 상황",
+      "scene": "/course/sample/scenes/hero-23.svg",
       "ask": {
-        "q": "선생님과 함께 [[-았/었-]] 연습을 해요.",
-        "en": "Practice -았/었- with teacher."
+        "q": "어제 카페에서 친구를 만났어요.",
+        "en": "I met my friend at a cafe yesterday."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "-았/었-",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[-았/었-]] 연습을 해요."
+          "어제 카페에서 친구를 만[[났어요]]."
         ],
         "en": [
-          "Practice -았/었- with teacher."
+          "I [[met]] my friend at a cafe yesterday."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[-았/었-]] 말해요."
+          "지난 주말에 재미있는 영화를 [[봤어요]]."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I [[watched]] an interesting movie last weekend."
         ]
       },
       "morph": [
-        "-았/었- 규칙",
-        "핵심 어휘"
+        "-았/었- 핵심 표현",
+        "과거 시제 선어말어미"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-23.svg",
       "ask": {
-        "q": "한국어로 대화를 [[-았/었-]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "오늘 아침에 빵을 먹었어요.",
+        "en": "I ate bread this morning."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[-았/었-]] 말해요."
+          "오늘 아침에 빵을 먹었어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I ate bread this morning."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 -았/었- 연습을 해요."
+          "어제 도서관에서 한국어를 공부했어요."
         ],
         "en": [
-          "Yes, that's right."
+          "I studied Korean at the library yesterday."
         ]
       },
       "morph": [
-        "-았/었- 실전 적용"
+        "-았/었- 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 -았/었-.",
-      "base": "도서관",
-      "b": true,
-      "f": "-았/었-"
-    },
-    {
-      "ko": "선생님 -았/었-.",
-      "base": "선생님",
-      "b": true,
-      "f": "-았/었-"
-    },
-    {
-      "ko": "한국 -았/었-.",
-      "base": "한국",
-      "b": true,
-      "f": "-았/었-"
-    },
-    {
-      "ko": "학교 -았/었-.",
-      "base": "학교",
+      "ko": "만났어요.",
+      "base": "만나다",
       "b": false,
       "f": "-았/었-"
     },
     {
-      "ko": "친구 -았/었-.",
-      "base": "친구",
+      "ko": "봤어요.",
+      "base": "보다",
       "b": false,
       "f": "-았/었-"
     },
     {
-      "ko": "영화 -았/었-.",
-      "base": "영화",
+      "ko": "갔어요.",
+      "base": "가다",
       "b": false,
       "f": "-았/었-"
     },
     {
-      "ko": "선생님과 함께 [[-았/었-]] 연습을 해요.",
-      "note": "-았/었-의 올바른 문장 활용"
+      "ko": "좋았어요.",
+      "base": "좋다",
+      "b": false,
+      "f": "-았/었-"
+    },
+    {
+      "ko": "먹었어요.",
+      "base": "먹다",
+      "b": false,
+      "f": "-았/었-"
+    },
+    {
+      "ko": "읽었어요.",
+      "base": "읽다",
+      "b": false,
+      "f": "-았/었-"
+    },
+    {
+      "ko": "공부했어요.",
+      "base": "공부하다",
+      "b": false,
+      "f": "-았/었-"
+    },
+    {
+      "ko": "운동했어요.",
+      "base": "운동하다",
+      "b": false,
+      "f": "-았/었-"
+    },
+    {
+      "ko": "어제 카페에서 친구를 만났어요.",
+      "note": "-았/었- 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
-        "k": "받침 O",
-        "f": "+ -았/었-",
+        "k": "ㅏ, ㅗ 어간",
+        "f": "+ -았어요",
         "ex": [
           [
-            "선생님",
-            "선생님 -았/었-"
+            "만나다",
+            "만났어요"
           ],
           [
-            "도서관",
-            "도서관 -았/었-"
+            "보다",
+            "봤어요"
           ],
           [
-            "한국",
-            "한국 -았/었-"
+            "가다",
+            "갔어요"
+          ],
+          [
+            "좋다",
+            "좋았어요"
           ]
         ]
       },
       {
-        "k": "받침 X",
-        "f": "+ -았/었-",
+        "k": "그 외 모음 / 하다",
+        "f": "+ -었어요 / 했어요",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 -았/었-"
+            "먹다",
+            "먹었어요"
           ],
           [
-            "학교",
-            "학교 -았/었-"
+            "읽다",
+            "읽었어요"
           ],
           [
-            "영화",
-            "영화 -았/었-"
+            "공부하다",
+            "공부했어요"
+          ],
+          [
+            "운동하다",
+            "운동했어요"
           ]
         ]
       }
@@ -243,208 +265,229 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · -았/었- 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>-았/었-</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · -았/었- 결합 규칙",
+      "p": "<b>ㅏ, ㅗ 어간</b>일 때는 <span class=\"g\">+ -았어요</span>, <b>그 외 모음 / 하다</b>일 때는 <span class=\"g2\">+ -었어요 / 했어요</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 만났어요 / 먹었어요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "동사나 형용사 어간에 붙어 이미 지나간 과거의 일이나 완료된 상태를 나타냅니다.<br><br>· 어제 카페에서 친구를 만났어요.<br>· 지난 주말에 재미있는 영화를 봤어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>어간 + -았/었어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Past tense marker attached to verb or adjective stems.",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 -았/었-",
-      "t": "받침 O"
+      "b": "만나다",
+      "r": "만났어요",
+      "t": "ㅏ, ㅗ 어간"
     },
     {
-      "b": "선생님",
-      "r": "선생님 -았/었-",
-      "t": "받침 O"
+      "b": "보다",
+      "r": "봤어요",
+      "t": "ㅏ, ㅗ 어간"
     },
     {
-      "b": "한국",
-      "r": "한국 -았/었-",
-      "t": "받침 O"
+      "b": "가다",
+      "r": "갔어요",
+      "t": "ㅏ, ㅗ 어간"
     },
     {
-      "b": "학교",
-      "r": "학교 -았/었-",
-      "t": "받침 X"
+      "b": "좋다",
+      "r": "좋았어요",
+      "t": "ㅏ, ㅗ 어간"
     },
     {
-      "b": "친구",
-      "r": "친구 -았/었-",
-      "t": "받침 X"
+      "b": "먹다",
+      "r": "먹었어요",
+      "t": "그 외 모음 / 하다"
     },
     {
-      "b": "영화",
-      "r": "영화 -았/었-",
-      "t": "받침 X"
+      "b": "읽다",
+      "r": "읽었어요",
+      "t": "그 외 모음 / 하다"
+    },
+    {
+      "b": "공부하다",
+      "r": "공부했어요",
+      "t": "그 외 모음 / 하다"
+    },
+    {
+      "b": "운동하다",
+      "r": "운동했어요",
+      "t": "그 외 모음 / 하다"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 -았/었-"
+      "만나다",
+      "만났어요"
     ],
     [
-      "도서관",
-      "도서관 -았/었-"
+      "보다",
+      "봤어요"
     ],
     [
-      "한국",
-      "한국 -았/었-"
+      "가다",
+      "갔어요"
     ],
     [
-      "친구",
-      "친구 -았/었-"
+      "좋다",
+      "좋았어요"
     ],
     [
-      "학교",
-      "학교 -았/었-"
+      "먹다",
+      "먹었어요"
     ],
     [
-      "영화",
-      "영화 -았/었-"
+      "읽다",
+      "읽었어요"
     ],
     [
-      "사과",
-      "사과"
+      "공부하다",
+      "공부했어요"
     ],
     [
-      "물",
-      "물"
+      "운동하다",
+      "운동했어요"
     ],
     [
-      "시간",
-      "시간"
+      "한국어",
+      "어제 카페에서 친구를 만났어요."
+    ],
+    [
+      "연습",
+      "주말에 재미있는 영화를 봤어요."
+    ],
+    [
+      "대화",
+      "오늘 아침에 빵을 먹었어요."
     ],
     [
       "오늘",
-      "오늘"
+      "어제 도서관에서 한국어를 공부했어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "-았/었- 기본 연습"
+        "t": "-았/었- 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 -았/었-"
+        "base": "만나다",
+        "ans": "만났어요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 -았/었-"
+        "base": "먹다",
+        "ans": "먹었어요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 -았/었- 연습을 해요."
+        "base": "어제 + 친구 + 만나다",
+        "ans": "어제 카페에서 친구를 만났어요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 -았/었- 말해요."
+        "base": "주말 + 영화 + 보다",
+        "ans": "주말에 재미있는 영화를 봤어요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "학교",
-        "-았/었-"
-      ],
-      "a": "학교에 -았/었-.",
-      "e": "At school with -았/었-."
-    },
-    {
-      "k": [
+        "어제",
         "친구",
-        "-았/었-"
+        "만나다"
       ],
-      "a": "친구와 -았/었-.",
-      "e": "With friends and -았/었-."
+      "a": "어제 카페에서 친구를 만났어요.",
+      "e": "I met my friend at a cafe yesterday."
     },
     {
       "k": [
-        "한국",
-        "-았/었-"
+        "주말",
+        "영화",
+        "보다"
       ],
-      "a": "한국에서 -았/었-.",
-      "e": "In Korea with -았/었-."
+      "a": "주말에 재미있는 영화를 봤어요.",
+      "e": "I watched an interesting movie on the weekend."
     },
     {
       "k": [
-        "선생님",
-        "-았/었-"
+        "아침",
+        "빵",
+        "먹다"
       ],
-      "a": "선생님과 -았/었-.",
-      "e": "With teacher and -았/었-."
+      "a": "오늘 아침에 빵을 먹었어요.",
+      "e": "I ate bread this morning."
+    },
+    {
+      "k": [
+        "도서관",
+        "공부하다"
+      ],
+      "a": "어제 도서관에서 한국어를 공부했어요.",
+      "e": "I studied Korean at the library yesterday."
     }
   ],
   "vocab": [
     {
       "tag": "-았/었-",
       "icon": "📖",
-      "q": "-았/었- 연습을 해 보세요.",
-      "qen": "Practice -았/었-",
-      "pat": "○○ -았/었- ...",
+      "q": "-았/었- 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice -았/었- vocabulary and expressions.",
+      "pat": "어간 + -았/었어요.",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 -았/었-",
+          "w": "만나다",
+          "g": "Past Tense Marker",
+          "r": "만났어요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "보다",
+          "g": "Past Tense Marker",
+          "r": "봤어요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 -았/었-",
+          "e": "☕",
+          "w": "가다",
+          "g": "Past Tense Marker",
+          "r": "갔어요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 -았/었-",
+          "w": "좋다",
+          "g": "Past Tense Marker",
+          "r": "좋았어요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 -았/었-",
+          "e": "⏰",
+          "w": "먹다",
+          "g": "Past Tense Marker",
+          "r": "먹었어요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 -았/었-",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 -았/었-",
+          "e": "🚇",
+          "w": "읽다",
+          "g": "Past Tense Marker",
+          "r": "읽었어요",
           "b": false
         }
       ]
@@ -453,26 +496,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "-았/었-",
       "q": "Talk about what you did yesterday.",
       "qen": "Talk about what you did yesterday.",
       "m": [
-        "선생님과 함께 [[-았/었-]] 연습을 해요.",
-        "한국어로 대화를 [[-았/었-]] 말해요."
+        "어제 카페에서 친구를 만[[났어요]].",
+        "지난 주말에 재미있는 영화를 [[봤어요]]."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「어제 뭐 했어요?」 → 두 문장(장소 · 한 일)<br>3. 주말 · 지난 방학으로 바꿔 묻기<br>4. 역할 바꾸기",
       "go": "Talk about what you did yesterday."
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "-았/었-",
       "q": "Talk about your weekend and how it was.",
       "qen": "Talk about your weekend and how it was.",
       "m": [
-        "선생님과 함께 [[-았/었-]] 연습을 해요.",
-        "한국어로 대화를 [[-았/었-]] 말해요."
+        "어제 카페에서 친구를 만[[났어요]].",
+        "지난 주말에 재미있는 영화를 [[봤어요]]."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 어땠어요?」 → 한 일 + 기분<br>3. 「왜요?」 대신 「그래서요?」로 이어 묻기<br>4. 역할 바꾸기",
       "go": "Talk about your weekend and how it was."
@@ -482,19 +525,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[-았/었-]] 연습을 해요.",
-          "한국어로 대화를 [[-았/었-]] 말해요."
+          "어제 카페에서 친구를 만[[났어요]].",
+          "지난 주말에 재미있는 영화를 [[봤어요]]."
         ],
         "en": [
-          "Practice -았/었- with teacher.",
-          "Speak in Korean naturally."
+          "I [[met]] my friend at a cafe yesterday.",
+          "I [[watched]] an interesting movie last weekend."
         ]
       }
     ],
     "tips": [
-      "<b>-았/었-</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>-았/었-</b>: 동사나 형용사 어간에 붙어 이미 지나간 과거의 일이나 완료된 상태를 나타냅니다.",
+      "대표 문장: \"어제 카페에서 친구를 만났어요.\"",
+      "대표 문장: \"지난 주말에 재미있는 영화를 봤어요.\""
     ]
   }
 });

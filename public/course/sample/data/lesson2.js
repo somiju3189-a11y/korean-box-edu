@@ -1,4 +1,4 @@
-/* Lesson 2: 은/는 · 100% Full Unlocked Data */
+/* Lesson 2: 은/는 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "은/는",
   "pos": "보조사",
@@ -41,17 +41,17 @@ LESSONS.push({
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○은/는 △△이에요/예요.",
-    "en": "Topic & Contrast marker · 화제와 대조"
+    "q": "저는 학생이에요.",
+    "en": "I am a student."
   },
   "en": "Topic & Contrast marker · 화제와 대조",
   "prior": [],
@@ -60,12 +60,12 @@ LESSONS.push({
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "은/는",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "보조사",
         "t": "accent"
       }
     ],
@@ -80,20 +80,21 @@ LESSONS.push({
   },
   "ex": [
     {
-      "label": "예문 ① · 은/는 연습",
+      "label": "예문 ① · 은/는 핵심 상황",
+      "scene": "/course/sample/scenes/hero-02.svg",
       "ask": {
-        "q": "저[[는]] 학생이에요.",
-        "en": "I [[am]] a student."
+        "q": "저는 학생이에요.",
+        "en": "I am a student."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "은/는",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
           "저[[는]] 학생이에요."
         ],
@@ -102,7 +103,7 @@ LESSONS.push({
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
           "선생님[[은]] 한국 사람이에요."
         ],
@@ -111,43 +112,44 @@ LESSONS.push({
         ]
       },
       "morph": [
-        "은/는 규칙",
-        "핵심 어휘"
+        "은/는 핵심 표현",
+        "보조사"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-02.svg",
       "ask": {
-        "q": "선생님[[은]] 한국 사람이에요.",
-        "en": "The teacher [[is]] Korean."
+        "q": "제 이름은 민수예요.",
+        "en": "My name is Minsu."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "선생님[[은]] 한국 사람이에요."
+          "제 이름은 민수예요."
         ],
         "en": [
-          "The teacher [[is]] Korean."
+          "My name is Minsu."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 저는 학생이에요."
+          "제 친구는 의사예요."
         ],
         "en": [
-          "Yes, that's right."
+          "My friend is a doctor."
         ]
       },
       "morph": [
-        "은/는 실전 적용"
+        "은/는 실전 활용"
       ]
     }
   ],
@@ -177,12 +179,6 @@ LESSONS.push({
       "f": "은/는"
     },
     {
-      "ko": "학생은.",
-      "base": "학생",
-      "b": true,
-      "f": "은/는"
-    },
-    {
       "ko": "저는.",
       "base": "저",
       "b": false,
@@ -201,28 +197,22 @@ LESSONS.push({
       "f": "은/는"
     },
     {
-      "ko": "미국은.",
-      "base": "미국",
-      "b": false,
-      "f": "은/는"
-    },
-    {
       "ko": "가수는.",
       "base": "가수",
       "b": false,
       "f": "은/는"
     },
     {
-      "ko": "저[[는]] 학생이에요.",
-      "note": "은/는의 올바른 문장 활용"
+      "ko": "저는 학생이에요.",
+      "note": "은/는 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
-      "앞말의 받침",
-      "형태",
-      "예"
+      "구분",
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
@@ -265,8 +255,8 @@ LESSONS.push({
             "누나는"
           ],
           [
-            "미국",
-            "미국은"
+            "가수",
+            "가수는"
           ]
         ]
       }
@@ -275,23 +265,23 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 앞말의 받침을 보세요",
-      "p": "앞말에 <span class=\"g\">받침이 있으면 은</span>, <span class=\"g2\">받침이 없으면 는</span>입니다.<br><br><span class=\"yes\">O</span> 사람은 / 친구는<br><span class=\"no\">X</span> 사람는 / 친구은"
+      "h": "💡 TIP ① · 은/는 결합 규칙",
+      "p": "<b>받침 O</b>일 때는 <span class=\"g\">+ 은</span>, <b>받침 X</b>일 때는 <span class=\"g2\">+ 는</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 선생님은 / 저는"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 화제 제시와 대조",
-      "p": "자기소개를 할 때나 두 대상을 비교할 때 씁니다.<br><br>저는 학생이에요. 동생은 의사예요.<br>사과는 싸요. 수박은 비싸요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "문장의 화제(주제)를 제시하거나 다른 대상과의 대조를 나타냅니다.<br><br>· 저는 학생이에요.<br>· 선생님은 한국 사람이에요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 나와 제 이름",
-      "p": "1인칭 대명사 결합 형태를 익힙니다.<br><br>나 → 나는 / 저 → 저는<br>제 이름 → 제 이름은"
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>○○은/는 △△이에요/예요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Topic and contrast marker.",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
@@ -315,11 +305,6 @@ LESSONS.push({
       "t": "받침 O"
     },
     {
-      "b": "학생",
-      "r": "학생은",
-      "t": "받침 O"
-    },
-    {
       "b": "저",
       "r": "저는",
       "t": "받침 X"
@@ -332,11 +317,6 @@ LESSONS.push({
     {
       "b": "누나",
       "r": "누나는",
-      "t": "받침 X"
-    },
-    {
-      "b": "미국",
-      "r": "미국은",
       "t": "받침 X"
     },
     {
@@ -375,50 +355,50 @@ LESSONS.push({
       "누나는"
     ],
     [
-      "미국",
-      "미국은"
+      "가수",
+      "가수는"
     ],
     [
-      "사과",
-      "사과"
+      "한국어",
+      "저는 학생이에요."
     ],
     [
-      "물",
-      "물"
+      "연습",
+      "선생님은 한국 사람이에요."
     ],
     [
-      "시간",
-      "시간"
+      "대화",
+      "제 이름은 민수예요."
     ],
     [
       "오늘",
-      "오늘"
+      "제 친구는 의사예요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "은/는 기본 연습"
+        "t": "은/는 형태 연습"
       },
       {
-        "base": "연습1",
+        "base": "선생님",
         "ans": "선생님은"
       },
       {
-        "base": "연습2",
-        "ans": "이름은"
+        "base": "저",
+        "ans": "저는"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
+        "base": "저 + 학생",
         "ans": "저는 학생이에요."
       },
       {
-        "base": "문장2",
+        "base": "선생님 + 한국 사람",
         "ans": "선생님은 한국 사람이에요."
       }
     ]
@@ -461,51 +441,51 @@ LESSONS.push({
     {
       "tag": "은/는",
       "icon": "📖",
-      "q": "은/는 연습을 해 보세요.",
-      "qen": "Practice 은/는",
+      "q": "은/는 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 은/는 vocabulary and expressions.",
       "pat": "○○은/는 △△이에요/예요.",
       "items": [
         {
-          "e": "🧑",
+          "e": "🏫",
           "w": "선생님",
-          "g": "teacher",
+          "g": "Topic & Contrast marker",
           "r": "선생님은",
           "b": true
         },
         {
-          "e": "🙋",
-          "w": "저",
-          "g": "I / me",
-          "r": "저는",
+          "e": "📕",
+          "w": "이름",
+          "g": "Topic & Contrast marker",
+          "r": "이름은",
           "b": false
         },
         {
-          "e": "👧",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구는",
-          "b": false
-        },
-        {
-          "e": "👦",
+          "e": "☕",
           "w": "동생",
-          "g": "younger sibling",
+          "g": "Topic & Contrast marker",
           "r": "동생은",
           "b": true
         },
         {
-          "e": "🇰🇷",
+          "e": "👫",
           "w": "한국",
-          "g": "Korea",
+          "g": "Topic & Contrast marker",
           "r": "한국은",
+          "b": false
+        },
+        {
+          "e": "⏰",
+          "w": "저",
+          "g": "Topic & Contrast marker",
+          "r": "저는",
           "b": true
         },
         {
-          "e": "🇺🇸",
-          "w": "미국",
-          "g": "USA",
-          "r": "미국은",
-          "b": true
+          "e": "🚇",
+          "w": "친구",
+          "g": "Topic & Contrast marker",
+          "r": "친구는",
+          "b": false
         }
       ]
     }
@@ -513,7 +493,7 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "은/는",
       "q": "Introduce yourself to your teacher.",
       "qen": "Introduce yourself to your teacher.",
@@ -526,7 +506,7 @@ LESSONS.push({
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "은/는",
       "q": "Tell each other about your family.",
       "qen": "Tell each other about your family.",
@@ -552,9 +532,9 @@ LESSONS.push({
       }
     ],
     "tips": [
-      "<b>은/는</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>은/는</b>: 문장의 화제(주제)를 제시하거나 다른 대상과의 대조를 나타냅니다.",
+      "대표 문장: \"저는 학생이에요.\"",
+      "대표 문장: \"선생님은 한국 사람이에요.\""
     ]
   }
 });

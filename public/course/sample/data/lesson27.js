@@ -1,14 +1,14 @@
-/* Lesson 27: 안 · 100% Full Unlocked Data */
+/* Lesson 27: 안 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "안",
-  "pos": "어미·보조용언",
+  "pos": "부정 부사",
   "form": "안",
   "opening": {
     "name": "27호선 출발 · 안",
     "no": 27,
     "line": "Level 1 · Unit 6: 정확한 부정",
     "color": "#0052a4",
-    "en": "Level 1 Lesson 27 · 안<br>Practice everyday Korean step by step.",
+    "en": "Short Form Negation · 의지·단순 부정 ('not')<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 27",
     "next": "Next: 안",
     "stops": [
@@ -31,210 +31,232 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "어미·보조용언",
+      "c": "부정 부사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "안의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
-    "en": "Grammar point 안 in Korean."
+    "ko": "동사나 형용사 바로 앞에 놓여 주어의 의지로 하지 않거나 상태가 그러하지 않음을 나타냅니다.",
+    "en": "Placed directly before a verb/adjective to negate it ('do not / is not')."
   },
   "warn": [
     {
-      "ko": "정확한 억양과 규칙에 맞추어 큰 소리로 따라 말해 보세요.",
-      "en": "Practice speaking aloud with natural intonation."
+      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
+      "en": "Connect the illustration with the key expression and repeat aloud."
     },
     {
-      "ko": "받침 여부에 따른 형태 변화에 주의하세요.",
+      "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
       "en": "Pay attention to form changes based on final consonants."
     }
   ],
   "ask": {
-    "q": "○○ 안 ...",
-    "en": "Level 1 Lesson 27 · 안"
+    "q": "일요일에는 학교에 안 가요.",
+    "en": "I do not go to school on Sundays."
   },
-  "en": "Level 1 Lesson 27 · 안",
+  "en": "Short Form Negation · 의지·단순 부정 ('not')",
   "prior": [],
-  "pat": "○○ 안 ...",
+  "pat": "안 + 동사/형용사 (명사 + 안 해요)",
   "hero": {
     "pic": [
       {
         "e": "🧑",
-        "c": "말하기",
+        "c": "안",
         "t": "navy"
       },
       {
         "e": "💬",
-        "c": "연습",
+        "c": "부정 부사",
         "t": "accent"
       }
     ],
     "ko": [
-      "선생님과 함께 [[안]] 연습을 해요.",
-      "한국어로 대화를 [[안]] 말해요."
+      "일요일에는 학교에 [[안]] 가요.",
+      "이 가방은 [[안]] 비싸요."
     ],
     "en": [
-      "Practice 안 with teacher.",
-      "Speak in Korean naturally."
+      "I [[do not]] go to school on Sundays.",
+      "This bag [[is not]] expensive."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 안 연습",
+      "label": "예문 ① · 안 핵심 상황",
+      "scene": "/course/sample/scenes/hero-27.svg",
       "ask": {
-        "q": "선생님과 함께 [[안]] 연습을 해요.",
-        "en": "Practice 안 with teacher."
+        "q": "일요일에는 학교에 안 가요.",
+        "en": "I do not go to school on Sundays."
       },
       "pic": [
         {
           "e": "🙋",
-          "c": "대화",
+          "c": "안",
           "t": "navy"
         }
       ],
       "a": {
-        "who": "A · 수진",
+        "who": "A · 마이클",
         "ko": [
-          "선생님과 함께 [[안]] 연습을 해요."
+          "일요일에는 학교에 [[안]] 가요."
         ],
         "en": [
-          "Practice 안 with teacher."
+          "I [[do not]] go to school on Sundays."
         ]
       },
       "b": {
-        "who": "B · 민수",
+        "who": "B · 수진",
         "ko": [
-          "한국어로 대화를 [[안]] 말해요."
+          "이 가방은 [[안]] 비싸요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "This bag [[is not]] expensive."
         ]
       },
       "morph": [
-        "안 규칙",
-        "핵심 어휘"
+        "안 핵심 표현",
+        "부정 부사"
       ]
     },
     {
-      "label": "예문 ② · 실전 대화",
+      "label": "예문 ② · 실전 응용 대화",
+      "scene": "/course/sample/scenes/hero-27.svg",
       "ask": {
-        "q": "한국어로 대화를 [[안]] 말해요.",
-        "en": "Speak in Korean naturally."
+        "q": "오늘 아침을 안 먹었어요.",
+        "en": "I didn't eat breakfast today."
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "실전",
+          "c": "응용",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 지훈",
+        "who": "A · 유진",
         "ko": [
-          "한국어로 대화를 [[안]] 말해요."
+          "오늘 아침을 안 먹었어요."
         ],
         "en": [
-          "Speak in Korean naturally."
+          "I didn't eat breakfast today."
         ]
       },
       "b": {
-        "who": "B · 사라",
+        "who": "B · 하준",
         "ko": [
-          "네, 맞아요. 선생님과 함께 안 연습을 해요."
+          "오늘은 날씨가 안 추워요."
         ],
         "en": [
-          "Yes, that's right."
+          "The weather is not cold today."
         ]
       },
       "morph": [
-        "안 실전 적용"
+        "안 실전 활용"
       ]
     }
   ],
   "review": [
     {
-      "ko": "도서관 안.",
-      "base": "도서관",
-      "b": true,
-      "f": "안"
-    },
-    {
-      "ko": "선생님 안.",
-      "base": "선생님",
-      "b": true,
-      "f": "안"
-    },
-    {
-      "ko": "한국 안.",
-      "base": "한국",
-      "b": true,
-      "f": "안"
-    },
-    {
-      "ko": "학교 안.",
-      "base": "학교",
+      "ko": "안 가요.",
+      "base": "가다",
       "b": false,
       "f": "안"
     },
     {
-      "ko": "친구 안.",
-      "base": "친구",
+      "ko": "안 먹어요.",
+      "base": "먹다",
       "b": false,
       "f": "안"
     },
     {
-      "ko": "영화 안.",
-      "base": "영화",
+      "ko": "안 비싸요.",
+      "base": "비싸다",
       "b": false,
       "f": "안"
     },
     {
-      "ko": "선생님과 함께 [[안]] 연습을 해요.",
-      "note": "안의 올바른 문장 활용"
+      "ko": "안 추워요.",
+      "base": "춥다",
+      "b": false,
+      "f": "안"
+    },
+    {
+      "ko": "공부를 안 해요.",
+      "base": "공부하다",
+      "b": false,
+      "f": "안"
+    },
+    {
+      "ko": "운동을 안 해요.",
+      "base": "운동하다",
+      "b": false,
+      "f": "안"
+    },
+    {
+      "ko": "일을 안 해요.",
+      "base": "일하다",
+      "b": false,
+      "f": "안"
+    },
+    {
+      "ko": "요리를 안 해요.",
+      "base": "요리하다",
+      "b": false,
+      "f": "안"
+    },
+    {
+      "ko": "일요일에는 학교에 안 가요.",
+      "note": "안 대표 예문"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
       "구분",
-      "형태",
-      "예"
+      "결합 형태",
+      "예시"
     ],
     "rows": [
       {
-        "k": "받침 O",
-        "f": "+ 안",
+        "k": "일반 동사·형용사",
+        "f": "안 + 용언",
         "ex": [
           [
-            "선생님",
-            "선생님 안"
+            "가다",
+            "안 가요"
           ],
           [
-            "도서관",
-            "도서관 안"
+            "먹다",
+            "안 먹어요"
           ],
           [
-            "한국",
-            "한국 안"
+            "비싸다",
+            "안 비싸요"
+          ],
+          [
+            "춥다",
+            "안 추워요"
           ]
         ]
       },
       {
-        "k": "받침 X",
-        "f": "+ 안",
+        "k": "명사 + 하다 동사",
+        "f": "명사(을/를) + 안 해요",
         "c": "g2",
         "ex": [
           [
-            "친구",
-            "친구 안"
+            "공부하다",
+            "공부를 안 해요"
           ],
           [
-            "학교",
-            "학교 안"
+            "운동하다",
+            "운동을 안 해요"
           ],
           [
-            "영화",
-            "영화 안"
+            "일하다",
+            "일을 안 해요"
+          ],
+          [
+            "요리하다",
+            "요리를 안 해요"
           ]
         ]
       }
@@ -243,208 +265,227 @@ LESSONS.push({
   "tips": [
     {
       "c": "",
-      "h": "💡 TIP ① · 안 기본 결합 원리",
-      "p": "앞말의 품사와 받침 여부에 주의하여 <b>안</b> 형태를 바르게 결합합니다."
+      "h": "💡 TIP ① · 안 결합 규칙",
+      "p": "<b>일반 동사·형용사</b>일 때는 <span class=\"g\">안 + 용언</span>, <b>명사 + 하다 동사</b>일 때는 <span class=\"g2\">명사(을/를) + 안 해요</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 안 가요 / 공부를 안 해요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
-      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+      "h": "💡 TIP ② · 대표 상황 예문",
+      "p": "동사나 형용사 바로 앞에 놓여 주어의 의지로 하지 않거나 상태가 그러하지 않음을 나타냅니다.<br><br>· 일요일에는 학교에 안 가요.<br>· 이 가방은 안 비싸요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
-      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
+      "p": "문장 패턴 <b>안 + 동사/형용사 (명사 + 안 해요)</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
     }
   ],
   "tipsEn": [
-    "Pay attention to the spelling and final consonant rules.",
-    "Repeat each example sentence aloud for best results."
+    "Placed directly before a verb/adjective to negate it ('do not / is not').",
+    "Practice the representative sentences with the situation illustration."
   ],
   "words": [
     {
-      "b": "도서관",
-      "r": "도서관 안",
-      "t": "받침 O"
+      "b": "가다",
+      "r": "안 가요",
+      "t": "일반 동사·형용사"
     },
     {
-      "b": "선생님",
-      "r": "선생님 안",
-      "t": "받침 O"
+      "b": "먹다",
+      "r": "안 먹어요",
+      "t": "일반 동사·형용사"
     },
     {
-      "b": "한국",
-      "r": "한국 안",
-      "t": "받침 O"
+      "b": "비싸다",
+      "r": "안 비싸요",
+      "t": "일반 동사·형용사"
     },
     {
-      "b": "학교",
-      "r": "학교 안",
-      "t": "받침 X"
+      "b": "춥다",
+      "r": "안 추워요",
+      "t": "일반 동사·형용사"
     },
     {
-      "b": "친구",
-      "r": "친구 안",
-      "t": "받침 X"
+      "b": "공부하다",
+      "r": "공부를 안 해요",
+      "t": "명사 + 하다 동사"
     },
     {
-      "b": "영화",
-      "r": "영화 안",
-      "t": "받침 X"
+      "b": "운동하다",
+      "r": "운동을 안 해요",
+      "t": "명사 + 하다 동사"
+    },
+    {
+      "b": "일하다",
+      "r": "일을 안 해요",
+      "t": "명사 + 하다 동사"
+    },
+    {
+      "b": "요리하다",
+      "r": "요리를 안 해요",
+      "t": "명사 + 하다 동사"
     }
   ],
   "bingo": [
     [
-      "선생님",
-      "선생님 안"
+      "가다",
+      "안 가요"
     ],
     [
-      "도서관",
-      "도서관 안"
+      "먹다",
+      "안 먹어요"
     ],
     [
-      "한국",
-      "한국 안"
+      "비싸다",
+      "안 비싸요"
     ],
     [
-      "친구",
-      "친구 안"
+      "춥다",
+      "안 추워요"
     ],
     [
-      "학교",
-      "학교 안"
+      "공부하다",
+      "공부를 안 해요"
     ],
     [
-      "영화",
-      "영화 안"
+      "운동하다",
+      "운동을 안 해요"
     ],
     [
-      "사과",
-      "사과"
+      "일하다",
+      "일을 안 해요"
     ],
     [
-      "물",
-      "물"
+      "요리하다",
+      "요리를 안 해요"
     ],
     [
-      "시간",
-      "시간"
+      "한국어",
+      "일요일에는 학교에 안 가요."
+    ],
+    [
+      "연습",
+      "이 가방은 안 비싸요."
+    ],
+    [
+      "대화",
+      "오늘 아침을 안 먹었어요."
     ],
     [
       "오늘",
-      "오늘"
+      "오늘은 날씨가 안 추워요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "안 기본 연습"
+        "t": "안 형태 연습"
       },
       {
-        "base": "연습1",
-        "ans": "선생님 안"
+        "base": "가다",
+        "ans": "안 가요"
       },
       {
-        "base": "연습2",
-        "ans": "도서관 안"
+        "base": "공부하다",
+        "ans": "공부를 안 해요"
       }
     ],
     [
       {
-        "t": "문장으로 말하기"
+        "t": "상황 문장 말하기"
       },
       {
-        "base": "문장1",
-        "ans": "선생님과 함께 안 연습을 해요."
+        "base": "일요일 + 학교 + 가다",
+        "ans": "일요일에는 학교에 안 가요."
       },
       {
-        "base": "문장2",
-        "ans": "한국어로 대화를 안 말해요."
+        "base": "가방 + 비싸다",
+        "ans": "이 가방은 안 비싸요."
       }
     ]
   ],
   "make": [
     {
       "k": [
+        "일요일",
         "학교",
-        "안"
+        "가다"
       ],
-      "a": "학교에 안.",
-      "e": "At school with 안."
+      "a": "일요일에는 학교에 안 가요.",
+      "e": "I don't go to school on Sundays."
     },
     {
       "k": [
-        "친구",
-        "안"
+        "가방",
+        "비싸다"
       ],
-      "a": "친구와 안.",
-      "e": "With friends and 안."
+      "a": "이 가방은 안 비싸요.",
+      "e": "This bag is not expensive."
     },
     {
       "k": [
-        "한국",
-        "안"
+        "아침",
+        "먹다"
       ],
-      "a": "한국에서 안.",
-      "e": "In Korea with 안."
+      "a": "오늘 아침을 안 먹었어요.",
+      "e": "I didn't eat breakfast today."
     },
     {
       "k": [
-        "선생님",
-        "안"
+        "오늘",
+        "춥다"
       ],
-      "a": "선생님과 안.",
-      "e": "With teacher and 안."
+      "a": "오늘은 날씨가 안 추워요.",
+      "e": "The weather is not cold today."
     }
   ],
   "vocab": [
     {
       "tag": "안",
       "icon": "📖",
-      "q": "안 연습을 해 보세요.",
-      "qen": "Practice 안",
-      "pat": "○○ 안 ...",
+      "q": "안 핵심 어휘와 표현을 연습해 보세요.",
+      "qen": "Practice 안 vocabulary and expressions.",
+      "pat": "안 + 동사/형용사 (명사 + 안 해요)",
       "items": [
         {
           "e": "🏫",
-          "w": "학교",
-          "g": "school",
-          "r": "학교 안",
+          "w": "가다",
+          "g": "Short Form Negation",
+          "r": "안 가요",
+          "b": true
+        },
+        {
+          "e": "📕",
+          "w": "먹다",
+          "g": "Short Form Negation",
+          "r": "안 먹어요",
           "b": false
         },
         {
-          "e": "📚",
-          "w": "도서관",
-          "g": "library",
-          "r": "도서관 안",
+          "e": "☕",
+          "w": "비싸다",
+          "g": "Short Form Negation",
+          "r": "안 비싸요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "친구",
-          "g": "friend",
-          "r": "친구 안",
+          "w": "춥다",
+          "g": "Short Form Negation",
+          "r": "안 추워요",
           "b": false
         },
         {
-          "e": "👨‍🏫",
-          "w": "선생님",
-          "g": "teacher",
-          "r": "선생님 안",
+          "e": "⏰",
+          "w": "공부하다",
+          "g": "Short Form Negation",
+          "r": "공부를 안 해요",
           "b": true
         },
         {
-          "e": "🇰🇷",
-          "w": "한국",
-          "g": "Korea",
-          "r": "한국 안",
-          "b": true
-        },
-        {
-          "e": "🎬",
-          "w": "영화",
-          "g": "movie",
-          "r": "영화 안",
+          "e": "🚇",
+          "w": "운동하다",
+          "g": "Short Form Negation",
+          "r": "운동을 안 해요",
           "b": false
         }
       ]
@@ -453,26 +494,26 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 1",
+      "t": "상황 대화 1",
       "v": "안",
       "q": "Look at the cards. Do you do it today?",
       "qen": "Look at the cards. Do you do it today?",
       "m": [
-        "선생님과 함께 [[안]] 연습을 해요.",
-        "한국어로 대화를 [[안]] 말해요."
+        "일요일에는 학교에 [[안]] 가요.",
+        "이 가방은 [[안]] 비싸요."
       ],
       "memo": "1. 「오늘 학교에 가요?」 → 「아니요, 오늘은 안 가요」를 함께 읽기<br>2. 다음 장 활동판 — 카드마다 교사가 「오늘 △△아요/어요?」<br>3. 학생은 안 하는 일은 「아니요, 오늘은 안 △△아요/어요」, 하는 일은 「네」 — 역할 바꾸기",
       "go": "Look at the cards. Do you do it today?"
     },
     {
       "i": "📕",
-      "t": "대화 2",
+      "t": "상황 대화 2",
       "v": "안",
       "q": "Talk about prices.",
       "qen": "Talk about prices.",
       "m": [
-        "선생님과 함께 [[안]] 연습을 해요.",
-        "한국어로 대화를 [[안]] 말해요."
+        "일요일에는 학교에 [[안]] 가요.",
+        "이 가방은 [[안]] 비싸요."
       ],
       "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 자기 물건을 보여 주며 「이 가방 비싸요?」<br>3. 학생 「별로 안 비싸요 · 하나도 안 비싸요」<br>4. 학생 물건으로 역할 바꾸기",
       "go": "Talk about prices."
@@ -482,19 +523,19 @@ LESSONS.push({
     "ex": [
       {
         "ko": [
-          "선생님과 함께 [[안]] 연습을 해요.",
-          "한국어로 대화를 [[안]] 말해요."
+          "일요일에는 학교에 [[안]] 가요.",
+          "이 가방은 [[안]] 비싸요."
         ],
         "en": [
-          "Practice 안 with teacher.",
-          "Speak in Korean naturally."
+          "I [[do not]] go to school on Sundays.",
+          "This bag [[is not]] expensive."
         ]
       }
     ],
     "tips": [
-      "<b>안</b> 규칙에 맞춰 자연스럽게 발음해 보세요.",
-      "질문할 때는 문장 끝을 올려서 말합니다.",
-      "자주 쓰는 어휘와 결합해 반복 연습합니다."
+      "<b>안</b>: 동사나 형용사 바로 앞에 놓여 주어의 의지로 하지 않거나 상태가 그러하지 않음을 나타냅니다.",
+      "대표 문장: \"일요일에는 학교에 안 가요.\"",
+      "대표 문장: \"이 가방은 안 비싸요.\""
     ]
   }
 });
