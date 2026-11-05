@@ -1,4 +1,17 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/course/sample", "destination": "/course/sample/index.html" },
+    { "source": "/course/sample/", "destination": "/course/sample/index.html" },
+    { "source": "/course", "destination": "/course/index.html" },
+    { "source": "/phrase", "destination": "/phrase/index.html" },
+    { "source": "/board/library", "destination": "/board/library/index.html" },
+    { "source": "/grammar", "destination": "/grammar/index.html" },
+    { "source": "/word", "destination": "/word/index.html" },
+    { "source": "/study/flashcards", "destination": "/study/flashcards/index.html" },
+    { "source": "/talk", "destination": "/talk/index.html" },
+    { "source": "/level/1", "destination": "/level/1/index.html" },
+    { "source": "/board/notice", "destination": "/board/notice/index.html" }
+  ]
 }
