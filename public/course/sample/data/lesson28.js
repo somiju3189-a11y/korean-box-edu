@@ -1,25 +1,8 @@
 /* Lesson 28: -지 않다 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "-지 않다",
-  "pos": "부정 보조용언",
+  "pos": "동사 · 형용사",
   "form": "-지 않다",
-  "opening": {
-    "name": "28호선 출발 · -지 않다",
-    "no": 28,
-    "line": "Level 1 · Unit 6: 정확한 부정",
-    "color": "#0052a4",
-    "en": "Long Form Negation · 긴 부정문 ('-지 않아요')<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 28",
-    "next": "Next: -지 않다",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "부정 보조용언",
+      "c": "동사 · 형용사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "동사나 형용사 어간 뒤에 붙어 부정적인 사실이나 상태를 차분하고 명확하게 나타냅니다.",
-    "en": "Long-form negation attached to any verb or adjective stem."
+    "ko": "동사나 형용사 어간 뒤에 붙어 어떤 행동이나 상태가 아님을 정중하고 차분하게 나타냅니다.",
+    "en": "Long-form negation attached to any verb or adjective stem ('do not / is not')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "한국어 공부가 어렵지 않아요.",
-    "en": "Studying Korean is not difficult."
+    "q": "한국어 공부가 어려워요? 이 음식이 매워요?",
+    "en": "Is studying Korean difficult? Is this food spicy?"
   },
-  "en": "Long Form Negation · 긴 부정문 ('-지 않아요')",
+  "en": "Long Negation · \"-지 않다\" · 동작과 상태를 정중하게 부정해요",
   "prior": [],
   "pat": "동사/형용사 어간 + -지 않아요.",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "부정 보조용언",
+        "c": "동사 · 형용사",
         "t": "accent"
       }
     ],
@@ -80,11 +63,11 @@ LESSONS.push({
   },
   "ex": [
     {
-      "label": "예문 ① · -지 않다 핵심 상황",
-      "scene": "/course/sample/scenes/hero-28.svg",
+      "label": "예문 ① · 한국어 공부 소감",
+      "scene": "/course/sample/scenes/ex-28-1.svg",
       "ask": {
-        "q": "한국어 공부가 어렵지 않아요.",
-        "en": "Studying Korean is not difficult."
+        "q": "한국어 공부가 어렵[[지 않아요]]?",
+        "en": "Isn't studying Korean difficult?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 선생님",
         "ko": [
-          "한국어 공부가 어렵[[지 않아요]]."
+          "사라 씨, 요즘 한국어 공부가 많이 어려워요?"
         ],
         "en": [
-          "Studying Korean [[is not]] difficult."
+          "Sara, is studying Korean very difficult these days?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 사라",
         "ko": [
-          "이 음식은 하나도 맵[[지 않아요]]."
+          "아니요, 한국어 공부가 어렵[[지 않아요]].",
+          "선생님이 친절하셔서 수업이 힘들[[지 않아요]]."
         ],
         "en": [
-          "This food [[is not]] spicy at all."
+          "No, studying Korean [[is not]] difficult.",
+          "Because the teacher is kind, class [[is not]] tiring."
         ]
       },
       "morph": [
-        "-지 않다 핵심 표현",
-        "부정 보조용언"
+        "어렵 + 지 않아요 (형용사)",
+        "힘들 + 지 않아요"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-28.svg",
+      "label": "예문 ② · 음식 맛과 거리 이야기",
+      "scene": "/course/sample/scenes/ex-28-2.svg",
       "ask": {
-        "q": "집에서 학교가 멀지 않아요.",
-        "en": "The school is not far from home."
+        "q": "이 국수가 맵[[지 않아요]]?",
+        "en": "Is this noodle dish not spicy?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "-지 않다",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 요리사",
         "ko": [
-          "집에서 학교가 멀지 않아요."
+          "마이클 씨, 이 국수가 입에 맞아요? 많이 매워요?"
         ],
         "en": [
-          "The school is not far from home."
+          "Michael, does this noodle dish suit your taste? Is it very spicy?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 마이클",
         "ko": [
-          "주말에는 일하지 않아요."
+          "아니요, 하나도 맵[[지 않아요]]. 아주 맛있어요!",
+          "그리고 식당이 집에서 멀[[지 않아요]]."
         ],
         "en": [
-          "I do not work on weekends."
+          "No, it [[is not]] spicy at all. It's very delicious!",
+          "And the restaurant [[is not]] far from home."
         ]
       },
       "morph": [
-        "-지 않다 실전 활용"
+        "맵 + 지 않아요",
+        "멀 + 지 않아요"
       ]
     }
   ],
@@ -270,18 +258,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "동사나 형용사 어간 뒤에 붙어 부정적인 사실이나 상태를 차분하고 명확하게 나타냅니다.<br><br>· 한국어 공부가 어렵지 않아요.<br>· 이 음식은 하나도 맵지 않아요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "동사나 형용사 어간 뒤에 붙어 어떤 행동이나 상태가 아님을 정중하고 차분하게 나타냅니다.<br><br>· 한국어 공부가 어렵지 않아요.<br>· 이 음식은 하나도 맵지 않아요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>동사/형용사 어간 + -지 않아요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"한국어 공부가 어려워요? 이 음식이 매워요?\"</b>에 대해 <b>동사/형용사 어간 + -지 않아요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Long-form negation attached to any verb or adjective stem.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · -지 않다 Conjugation Rule",
+      "p": "Use <span class=\"g\">어간 + -지 않아요</span> for <b>형용사 부정</b> and <span class=\"g2\">어간 + -지 않아요</span> for <b>동사 부정</b>.<br><br><span class=\"yes\">O</span> 어렵지 않아요 / 가지 않아요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Long-form negation attached to any verb or adjective stem ('do not / is not').<br><br>· Studying Korean is not difficult.<br>· This food is not spicy at all."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Is studying Korean difficult? Is this food spicy?\"</b> using the pattern <b>동사/형용사 어간 + -지 않아요.</b>."
+    }
   ],
   "words": [
     {
@@ -363,42 +364,42 @@ LESSONS.push({
       "한국어 공부가 어렵지 않아요."
     ],
     [
-      "연습",
+      "음식",
       "이 음식은 맵지 않아요."
     ],
     [
-      "대화",
+      "학교",
       "집에서 학교가 멀지 않아요."
     ],
     [
-      "오늘",
+      "주말",
       "주말에는 일하지 않아요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "-지 않다 형태 연습"
+        "t": "사라 씨, 요즘 한국어 공부가 많이 어려워요?"
       },
       {
         "base": "어렵다",
-        "ans": "어렵지 않아요"
+        "ans": "어렵지 않아요."
       },
       {
         "base": "가다",
-        "ans": "가지 않아요"
+        "ans": "가지 않아요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "한국어 공부가 어려워요? 이 음식이 매워요?"
       },
       {
-        "base": "한국어 + 어렵다",
+        "base": "한국어 · 어렵다",
         "ans": "한국어 공부가 어렵지 않아요."
       },
       {
-        "base": "음식 + 맵다",
+        "base": "음식 · 맵다",
         "ans": "이 음식은 맵지 않아요."
       }
     ]
@@ -441,49 +442,49 @@ LESSONS.push({
     {
       "tag": "-지 않다",
       "icon": "📖",
-      "q": "-지 않다 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice -지 않다 vocabulary and expressions.",
+      "q": "한국어 공부가 어려워요? 이 음식이 매워요?",
+      "qen": "Is studying Korean difficult? Is this food spicy?",
       "pat": "동사/형용사 어간 + -지 않아요.",
       "items": [
         {
-          "e": "🏫",
+          "e": "🧩",
           "w": "어렵다",
-          "g": "Long Form Negation",
+          "g": "to be difficult",
           "r": "어렵지 않아요",
-          "b": true
+          "b": false
         },
         {
-          "e": "📕",
+          "e": "🌶️",
           "w": "맵다",
-          "g": "Long Form Negation",
+          "g": "to be spicy",
           "r": "맵지 않아요",
           "b": false
         },
         {
-          "e": "☕",
+          "e": "🏷️",
           "w": "비싸다",
-          "g": "Long Form Negation",
+          "g": "to be expensive",
           "r": "비싸지 않아요",
-          "b": true
+          "b": false
         },
         {
-          "e": "👫",
+          "e": "🛤️",
           "w": "멀다",
-          "g": "Long Form Negation",
+          "g": "to be far",
           "r": "멀지 않아요",
           "b": false
         },
         {
-          "e": "⏰",
+          "e": "🚶",
           "w": "가다",
-          "g": "Long Form Negation",
+          "g": "to go",
           "r": "가지 않아요",
-          "b": true
+          "b": false
         },
         {
-          "e": "🚇",
+          "e": "🍽️",
           "w": "먹다",
-          "g": "Long Form Negation",
+          "g": "to eat",
           "r": "먹지 않아요",
           "b": false
         }
@@ -493,48 +494,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "-지 않다",
-      "q": "Is it hard? Talk about Korean.",
-      "qen": "Is it hard? Talk about Korean.",
+      "t": "솔직한 내 생각 말하기",
+      "v": "솔직한 내 생각 말하기",
+      "q": "한국어가 어려워요? 집에서 학교가 멀어요?",
+      "qen": "Is Korean difficult? Is school far from your home?",
       "m": [
-        "한국어 공부가 어렵[[지 않아요]].",
-        "이 음식은 하나도 맵[[지 않아요]]."
+        "아니요, 한국어가 어렵[[지 않아요]].",
+        "집에서 학교가 멀[[지 않아요]]."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「한국어가 어려워요?」 → 「별로 어렵지 않아요」<br>3. 한국 음식 · 날씨로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Is it hard? Talk about Korean."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「한국어가 어려워요?」 → 「별로 어렵지 않아요」<br>3. 한국 음식 · 날씨로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "-지 않다",
-      "q": "Talk about what you don’t eat or drink.",
-      "qen": "Talk about what you don’t eat or drink.",
+      "i": "💬",
+      "t": "건강과 생활 습관",
+      "v": "건강과 생활 습관",
+      "q": "밤늦게 음식을 먹어요? 아침에 지각을 해요?",
+      "qen": "Do you eat food late at night? Are you late in the morning?",
       "m": [
-        "한국어 공부가 어렵[[지 않아요]].",
-        "이 음식은 하나도 맵[[지 않아요]]."
+        "밤늦게 음식을 먹[[지 않아요]].",
+        "수업 시간에 늦[[지 않아요]]."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「술 마셔요?」 → 「저는 ○○을/를 △△지 않아요」<br>3. 담배 · 운동 · 아침밥으로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about what you don’t eat or drink."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「술 마셔요?」 → 「저는 ○○을/를 △△지 않아요」<br>3. 담배 · 운동 · 아침밥으로 바꿔 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "한국어 공부가 어렵[[지 않아요]].",
+          "한국어 공부가 어렵[[지 않아요]]."
+        ],
+        "en": [
+          "Studying Korean [[is not]] difficult."
+        ]
+      },
+      {
+        "ko": [
           "이 음식은 하나도 맵[[지 않아요]]."
         ],
         "en": [
-          "Studying Korean [[is not]] difficult.",
           "This food [[is not]] spicy at all."
         ]
       }
     ],
     "tips": [
-      "<b>-지 않다</b>: 동사나 형용사 어간 뒤에 붙어 부정적인 사실이나 상태를 차분하고 명확하게 나타냅니다.",
-      "대표 문장: \"한국어 공부가 어렵지 않아요.\"",
-      "대표 문장: \"이 음식은 하나도 맵지 않아요.\""
+      "<b>형용사 부정</b> → <span class=\"g\">어간 + -지 않아요</span> / <b>동사 부정</b> → <span class=\"g2\">어간 + -지 않아요</span>",
+      "동사나 형용사 어간 뒤에 붙어 어떤 행동이나 상태가 아님을 정중하고 차분하게 나타냅니다.",
+      "대표 대화: \"한국어 공부가 어려워요? 이 음식이 매워요?\" → \"한국어 공부가 어렵지 않아요.\""
     ]
   }
 });

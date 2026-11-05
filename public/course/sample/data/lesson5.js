@@ -1,25 +1,8 @@
 /* Lesson 5: -아/어요 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "-아/어요",
-  "pos": "종결어미",
+  "pos": "동사 · 형용사",
   "form": "-아/어요",
-  "opening": {
-    "name": "5호선 출발 · -아/어요",
-    "no": 5,
-    "line": "Level 1 · Unit 2: 일상을 이야기해요",
-    "color": "#0052a4",
-    "en": "Present Polite Ending · 현재해요체<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 5",
-    "next": "Next: -아/어요",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "종결어미",
+      "c": "동사 · 형용사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "동사나 형용사 뒤에 붙어 현재의 동작이나 상태를 친근하고 공손하게 나타냅니다.",
-    "en": "Informal polite present tense ending."
+    "ko": "동사나 형용사 어간 뒤에 붙어 현재의 동작이나 상태를 친근하고 정중하게 나타냅니다.",
+    "en": "Informal polite present tense ending attached to verb or adjective stems."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "한국 음식이 맛있어요.",
-    "en": "Korean food is delicious."
+    "q": "한국 음식이 [[어때요]]? 요즘 무엇을 [[공부해요]]?",
+    "en": "How is Korean food? What do you study these days?"
   },
-  "en": "Present Polite Ending · 현재해요체",
+  "en": "Polite Present · \"-아/어요\" · 현재의 동작과 상태를 말해요",
   "prior": [],
   "pat": "동사/형용사 + -아/어요.",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "종결어미",
+        "c": "동사 · 형용사",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "매일 한국어를 공부[[해요]]."
     ],
     "en": [
-      "Korean food is delicious.",
-      "I study Korean every day."
+      "Korean food [[is delicious]].",
+      "I [[study]] Korean every day."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · -아/어요 핵심 상황",
-      "scene": "/course/sample/scenes/hero-05.svg",
+      "label": "예문 ① · 한국 음식 이야기",
+      "scene": "/course/sample/scenes/ex-5-1.svg",
       "ask": {
-        "q": "한국 음식이 맛있어요.",
-        "en": "Korean food is delicious."
+        "q": "비빔밥이 맛있[[어요]]?",
+        "en": "Is bibimbap delicious?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 요리사",
         "ko": [
-          "한국 음식이 맛있[[어요]]."
+          "마이클 씨, 한국 음식이 입에 맞[[아요]]?"
         ],
         "en": [
-          "Korean food is delicious."
+          "Michael, does Korean food suit your taste?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 마이클",
         "ko": [
-          "매일 한국어를 공부[[해요]]."
+          "네, 한국 음식이 정말 맛있[[어요]].",
+          "비빔밥을 아주 좋아[[해요]]."
         ],
         "en": [
-          "I study Korean every day."
+          "Yes, Korean food [[is]] really delicious.",
+          "I [[like]] bibimbap very much."
         ]
       },
       "morph": [
-        "-아/어요 핵심 표현",
-        "종결어미"
+        "맛있 + 어요 (ㅓ 모음)",
+        "좋아하 + 여요 → 좋아해요 (하다)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-05.svg",
+      "label": "예문 ② · 매일 하는 일과",
+      "scene": "/course/sample/scenes/ex-5-2.svg",
       "ask": {
-        "q": "오늘 날씨가 좋아요.",
-        "en": "The weather is nice today."
+        "q": "요즘 무엇을 공부[[해요]]?",
+        "en": "What do you study these days?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "-아/어요",
           "t": "accent"
         }
       ],
       "a": {
         "who": "A · 유진",
         "ko": [
-          "오늘 날씨가 좋아요."
+          "사라 씨, 요즘 매일 무엇을 [[해요]]?"
         ],
         "en": [
-          "The weather is nice today."
+          "Sara, what do you do every day these days?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 사라",
         "ko": [
-          "점심을 맛있게 먹어요."
+          "매일 한국어를 공부[[해요]].",
+          "한국어 수업이 참 재미있[[어요]]."
         ],
         "en": [
-          "I eat lunch deliciously."
+          "I [[study]] Korean every day.",
+          "Korean class [[is]] very fun."
         ]
       },
       "morph": [
-        "-아/어요 실전 활용"
+        "공부하 + 여요 → 공부해요 (하다)",
+        "재미있 + 어요 (ㅣ 모음)"
       ]
     }
   ],
@@ -270,18 +258,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "동사나 형용사 뒤에 붙어 현재의 동작이나 상태를 친근하고 공손하게 나타냅니다.<br><br>· 한국 음식이 맛있어요.<br>· 매일 한국어를 공부해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "동사나 형용사 어간 뒤에 붙어 현재의 동작이나 상태를 친근하고 정중하게 나타냅니다.<br><br>· 한국 음식이 맛있어요.<br>· 매일 한국어를 공부해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>동사/형용사 + -아/어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"한국 음식이 어때요? 요즘 무엇을 공부해요?\"</b>에 대해 <b>동사/형용사 + -아/어요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Informal polite present tense ending.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · -아/어요 Conjugation Rule",
+      "p": "Use <span class=\"g\">+ -아요</span> for <b>ㅏ, ㅗ 모음</b> and <span class=\"g2\">+ -어요 / 해요</span> for <b>그 외 모음 / 하다</b>.<br><br><span class=\"yes\">O</span> 가요 / 맛있어요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Informal polite present tense ending attached to verb or adjective stems.<br><br>· Korean food is delicious.<br>· I study Korean every day."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"How is Korean food? What do you study these days?\"</b> using the pattern <b>동사/형용사 + -아/어요.</b>."
+    }
   ],
   "words": [
     {
@@ -359,46 +360,46 @@ LESSONS.push({
       "운동해요"
     ],
     [
-      "한국어",
+      "한국 음식",
       "한국 음식이 맛있어요."
     ],
     [
-      "연습",
+      "매일",
       "매일 한국어를 공부해요."
     ],
     [
-      "대화",
+      "날씨",
       "오늘 날씨가 좋아요."
     ],
     [
-      "오늘",
+      "점심",
       "점심을 맛있게 먹어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "-아/어요 형태 연습"
+        "t": "마이클 씨, 한국 음식이 입에 맞아요?"
       },
       {
         "base": "가다",
-        "ans": "가요"
+        "ans": "가요."
       },
       {
         "base": "맛있다",
-        "ans": "맛있어요"
+        "ans": "맛있어요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "한국 음식이 어때요? 요즘 무엇을 공부해요?"
       },
       {
-        "base": "한국 음식 + 맛있다",
+        "base": "한국 음식 · 맛있다",
         "ans": "한국 음식이 맛있어요."
       },
       {
-        "base": "매일 + 공부하다",
+        "base": "매일 · 공부하다",
         "ans": "매일 한국어를 공부해요."
       }
     ]
@@ -441,49 +442,49 @@ LESSONS.push({
     {
       "tag": "-아/어요",
       "icon": "📖",
-      "q": "-아/어요 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice -아/어요 vocabulary and expressions.",
+      "q": "한국 음식이 어때요? 요즘 무엇을 공부해요?",
+      "qen": "How is Korean food? What do you study these days?",
       "pat": "동사/형용사 + -아/어요.",
       "items": [
         {
-          "e": "🏫",
+          "e": "🚶",
           "w": "가다",
-          "g": "Present Polite Ending",
+          "g": "to go",
           "r": "가요",
-          "b": true
+          "b": false
         },
         {
-          "e": "📕",
+          "e": "👀",
           "w": "보다",
-          "g": "Present Polite Ending",
+          "g": "to watch / see",
           "r": "봐요",
           "b": false
         },
         {
-          "e": "☕",
+          "e": "👍",
           "w": "좋다",
-          "g": "Present Polite Ending",
+          "g": "to be good",
           "r": "좋아요",
-          "b": true
+          "b": false
         },
         {
-          "e": "👫",
+          "e": "🏠",
           "w": "살다",
-          "g": "Present Polite Ending",
+          "g": "to live",
           "r": "살아요",
           "b": false
         },
         {
-          "e": "⏰",
+          "e": "😋",
           "w": "맛있다",
-          "g": "Present Polite Ending",
+          "g": "to be delicious",
           "r": "맛있어요",
-          "b": true
+          "b": false
         },
         {
-          "e": "🚇",
+          "e": "🍽️",
           "w": "먹다",
-          "g": "Present Polite Ending",
+          "g": "to eat",
           "r": "먹어요",
           "b": false
         }
@@ -493,48 +494,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "-아/어요",
-      "q": "Tell your teacher about your day.",
-      "qen": "Tell your teacher about your day.",
+      "t": "오늘의 하루 일과",
+      "v": "오늘의 하루 일과",
+      "q": "오늘 무엇을 [[해요]]? 아침에 무엇을 [[먹어요]]?",
+      "qen": "What do you do today? What do you eat in the morning?",
       "m": [
-        "한국 음식이 맛있[[어요]].",
-        "매일 한국어를 공부[[해요]]."
+        "아침에 빵을 [[먹어요]].",
+        "학교에서 한국어를 [[공부해요]]."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「보통 뭐 해요?」 → 학생이 자기 하루를 두 문장으로<br>3. 교사가 「주말에는요?」로 때를 바꿔 한 번 더<br>4. 역할 바꾸기",
-      "go": "Tell your teacher about your day."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「보통 뭐 해요?」 → 학생이 자기 하루를 두 문장으로<br>3. 교사가 「주말에는요?」로 때를 바꿔 한 번 더<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "-아/어요",
-      "q": "Talk about how things taste.",
-      "qen": "Talk about how things taste.",
+      "i": "💬",
+      "t": "주말에 하는 일",
+      "v": "주말에 하는 일",
+      "q": "주말에 보통 무엇을 [[해요]]?",
+      "qen": "What do you usually do on weekends?",
       "m": [
-        "한국 음식이 맛있[[어요]].",
-        "매일 한국어를 공부[[해요]]."
+        "주말에 영화를 [[봐요]].",
+        "공원에서 운동[[해요]]."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「한국 음식이 어때요?」 → 맛 형용사(맛있다 · 맵다 · 달다)로 대답<br>3. 다른 것으로 바꿔 묻기 — 한국어 공부 · 날씨 · 학교<br>4. 역할 바꾸기",
-      "go": "Talk about how things taste."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「한국 음식이 어때요?」 → 맛 형용사(맛있다 · 맵다 · 달다)로 대답<br>3. 다른 것으로 바꿔 묻기 — 한국어 공부 · 날씨 · 학교<br>4. 역할 바꾸기"
+    },
+    {
+      "i": "🎯",
+      "t": "안부와 기분",
+      "v": "안부와 기분",
+      "q": "오늘 날씨가 [[어때요]]? 기분이 [[어때요]]?",
+      "qen": "How is the weather today? How do you feel?",
+      "m": [
+        "오늘 날씨가 참 [[좋아요]].",
+        "기분이 아주 [[좋아요]]."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「보통 뭐 해요?」 → 학생이 자기 하루를 두 문장으로<br>3. 교사가 「주말에는요?」로 때를 바꿔 한 번 더<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "한국 음식이 맛있[[어요]].",
+          "한국 음식이 맛있[[어요]]."
+        ],
+        "en": [
+          "Korean food [[is delicious]]."
+        ]
+      },
+      {
+        "ko": [
           "매일 한국어를 공부[[해요]]."
         ],
         "en": [
-          "Korean food is delicious.",
-          "I study Korean every day."
+          "I [[study]] Korean every day."
         ]
       }
     ],
     "tips": [
-      "<b>-아/어요</b>: 동사나 형용사 뒤에 붙어 현재의 동작이나 상태를 친근하고 공손하게 나타냅니다.",
-      "대표 문장: \"한국 음식이 맛있어요.\"",
-      "대표 문장: \"매일 한국어를 공부해요.\""
+      "<b>ㅏ, ㅗ 모음</b> → <span class=\"g\">+ -아요</span> / <b>그 외 모음 / 하다</b> → <span class=\"g2\">+ -어요 / 해요</span>",
+      "동사나 형용사 어간 뒤에 붙어 현재의 동작이나 상태를 친근하고 정중하게 나타냅니다.",
+      "대표 대화: \"한국 음식이 어때요? 요즘 무엇을 공부해요?\" → \"한국 음식이 맛있어요.\""
     ]
   }
 });

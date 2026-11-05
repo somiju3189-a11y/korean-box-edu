@@ -1,25 +1,8 @@
 /* Lesson 9: 에서 (장소) · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "에서 (장소)",
-  "pos": "부사격 조사",
-  "form": "에서 (장소)",
-  "opening": {
-    "name": "9호선 출발 · 에서 (장소)",
-    "no": 9,
-    "line": "Level 1 · Unit 2: 일상을 이야기해요",
-    "color": "#0052a4",
-    "en": "Action Location Marker · 활동 장소<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 9",
-    "next": "Next: 에서 (장소)",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "pos": "장소",
+  "form": "에서",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "부사격 조사",
+      "c": "장소",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "구체적인 동작이나 활동이 이루어지는 장소를 나타냅니다.",
-    "en": "Indicates the location where an action takes place."
+    "ko": "장소 명사 뒤에 붙어 구체적인 동작이나 활동이 이루어지는 공간을 나타냅니다.",
+    "en": "Attached to a place noun to indicate where an action or activity takes place."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "도서관에서 한국어를 공부해요.",
-    "en": "I study Korean at the library."
+    "q": "어디[[에서]] 한국어를 공부해요? 어디[[에서]] 운동해요?",
+    "en": "Where do you study Korean? Where do you exercise?"
   },
-  "en": "Action Location Marker · 활동 장소",
+  "en": "Location of Action · \"~에서\" · 행동하는 장소를 말해요",
   "prior": [],
   "pat": "장소 + 에서 + 동작동사",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "부사격 조사",
+        "c": "장소",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "공원[[에서]] 친구와 운동해요."
     ],
     "en": [
-      "I study Korean at the library.",
-      "I exercise with my friend at the park."
+      "I study Korean [[at]] the library.",
+      "I exercise with my friend [[at]] the park."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 에서 (장소) 핵심 상황",
-      "scene": "/course/sample/scenes/hero-09.svg",
+      "label": "예문 ① · 공부하는 장소",
+      "scene": "/course/sample/scenes/ex-9-1.svg",
       "ask": {
-        "q": "도서관에서 한국어를 공부해요.",
-        "en": "I study Korean at the library."
+        "q": "어디[[에서]] 한국어를 공부해요?",
+        "en": "Where do you study Korean?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 선생님",
         "ko": [
-          "도서관[[에서]] 한국어를 공부해요."
+          "여러분, 보통 어디[[에서]] 한국어를 공부해요?"
         ],
         "en": [
-          "I study Korean at the library."
+          "Everyone, where do you usually study Korean?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 학생",
         "ko": [
-          "공원[[에서]] 친구와 운동해요."
+          "저는 조용한 도서관[[에서]] 공부해요.",
+          "가끔 카페[[에서]] 숙제를 해요."
         ],
         "en": [
-          "I exercise with my friend at the park."
+          "I study [[at]] a quiet library.",
+          "Sometimes I do homework [[at]] a cafe."
         ]
       },
       "morph": [
-        "에서 (장소) 핵심 표현",
-        "부사격 조사"
+        "도서관 + 에서 공부해요",
+        "카페 + 에서 숙제를 해요"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-09.svg",
+      "label": "예문 ② · 주말 활동 장소",
+      "scene": "/course/sample/scenes/ex-9-2.svg",
       "ask": {
-        "q": "카페에서 커피를 마셔요.",
-        "en": "I drink coffee at a cafe."
+        "q": "주말에 어디[[에서]] 운동해요?",
+        "en": "Where do you exercise on the weekend?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "에서 (장소)",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 마이클",
         "ko": [
-          "카페에서 커피를 마셔요."
+          "하준 씨, 주말에 어디[[에서]] 운동해요?"
         ],
         "en": [
-          "I drink coffee at a cafe."
+          "Hajun, where do you exercise on weekends?"
         ]
       },
       "b": {
         "who": "B · 하준",
         "ko": [
-          "식당에서 점심을 먹어요."
+          "집 앞 공원[[에서]] 농구를 해요.",
+          "그리고 식당[[에서]] 점심을 먹어요."
         ],
         "en": [
-          "I eat lunch at a restaurant."
+          "I play basketball [[at]] the park in front of my house.",
+          "And I eat lunch [[at]] a restaurant."
         ]
       },
       "morph": [
-        "에서 (장소) 실전 활용"
+        "공원 + 에서 운동해요",
+        "식당 + 에서 먹어요"
       ]
     }
   ],
@@ -157,43 +145,43 @@ LESSONS.push({
     {
       "ko": "도서관에서 공부해요.",
       "base": "도서관",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
-      "ko": "카페에서 커피를 마셔요.",
+      "ko": "카페에서 마셔요.",
       "base": "카페",
       "b": false,
       "f": "에서 (장소)"
     },
     {
-      "ko": "식당에서 밥을 먹어요.",
+      "ko": "식당에서 먹어요.",
       "base": "식당",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
       "ko": "집에서 쉬어요.",
       "base": "집",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
       "ko": "공원에서 운동해요.",
       "base": "공원",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
       "ko": "운동장에서 축구해요.",
       "base": "운동장",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
       "ko": "백화점에서 쇼핑해요.",
       "base": "백화점",
-      "b": false,
+      "b": true,
       "f": "에서 (장소)"
     },
     {
@@ -225,11 +213,11 @@ LESSONS.push({
           ],
           [
             "카페",
-            "카페에서 커피를 마셔요"
+            "카페에서 마셔요"
           ],
           [
             "식당",
-            "식당에서 밥을 먹어요"
+            "식당에서 먹어요"
           ],
           [
             "집",
@@ -238,7 +226,7 @@ LESSONS.push({
         ]
       },
       {
-        "k": "야외 활동",
+        "k": "야외·기타 활동",
         "f": "장소 + 에서",
         "c": "g2",
         "ex": [
@@ -266,22 +254,35 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 에서 (장소) 결합 규칙",
-      "p": "<b>실내 활동</b>일 때는 <span class=\"g\">장소 + 에서</span>, <b>야외 활동</b>일 때는 <span class=\"g2\">장소 + 에서</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 도서관에서 공부해요 / 공원에서 운동해요"
+      "p": "<b>실내 활동</b>일 때는 <span class=\"g\">장소 + 에서</span>, <b>야외·기타 활동</b>일 때는 <span class=\"g2\">장소 + 에서</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 도서관에서 공부해요 / 공원에서 운동해요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "구체적인 동작이나 활동이 이루어지는 장소를 나타냅니다.<br><br>· 도서관에서 한국어를 공부해요.<br>· 공원에서 친구와 운동해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "장소 명사 뒤에 붙어 구체적인 동작이나 활동이 이루어지는 공간을 나타냅니다.<br><br>· 도서관에서 한국어를 공부해요.<br>· 공원에서 친구와 운동해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>장소 + 에서 + 동작동사</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"어디에서 한국어를 공부해요? 어디에서 운동해요?\"</b>에 대해 <b>장소 + 에서 + 동작동사</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Indicates the location where an action takes place.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 에서 (장소) Conjugation Rule",
+      "p": "Use <span class=\"g\">장소 + 에서</span> for <b>실내 활동</b> and <span class=\"g2\">장소 + 에서</span> for <b>야외·기타 활동</b>.<br><br><span class=\"yes\">O</span> 도서관에서 공부해요 / 공원에서 운동해요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a place noun to indicate where an action or activity takes place.<br><br>· I study Korean at the library.<br>· I exercise with my friend at the park."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Where do you study Korean? Where do you exercise?\"</b> using the pattern <b>장소 + 에서 + 동작동사</b>."
+    }
   ],
   "words": [
     {
@@ -291,12 +292,12 @@ LESSONS.push({
     },
     {
       "b": "카페",
-      "r": "카페에서 커피를 마셔요",
+      "r": "카페에서 마셔요",
       "t": "실내 활동"
     },
     {
       "b": "식당",
-      "r": "식당에서 밥을 먹어요",
+      "r": "식당에서 먹어요",
       "t": "실내 활동"
     },
     {
@@ -307,22 +308,22 @@ LESSONS.push({
     {
       "b": "공원",
       "r": "공원에서 운동해요",
-      "t": "야외 활동"
+      "t": "야외·기타 활동"
     },
     {
       "b": "운동장",
       "r": "운동장에서 축구해요",
-      "t": "야외 활동"
+      "t": "야외·기타 활동"
     },
     {
       "b": "백화점",
       "r": "백화점에서 쇼핑해요",
-      "t": "야외 활동"
+      "t": "야외·기타 활동"
     },
     {
       "b": "학교",
       "r": "학교에서 배워요",
-      "t": "야외 활동"
+      "t": "야외·기타 활동"
     }
   ],
   "bingo": [
@@ -332,11 +333,11 @@ LESSONS.push({
     ],
     [
       "카페",
-      "카페에서 커피를 마셔요"
+      "카페에서 마셔요"
     ],
     [
       "식당",
-      "식당에서 밥을 먹어요"
+      "식당에서 먹어요"
     ],
     [
       "집",
@@ -359,46 +360,46 @@ LESSONS.push({
       "학교에서 배워요"
     ],
     [
-      "한국어",
+      "도서관",
       "도서관에서 한국어를 공부해요."
     ],
     [
-      "연습",
+      "공원",
       "공원에서 아침에 운동해요."
     ],
     [
-      "대화",
+      "카페",
       "카페에서 커피를 마셔요."
     ],
     [
-      "오늘",
+      "식당",
       "식당에서 점심을 먹어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "에서 (장소) 형태 연습"
+        "t": "여러분, 보통 어디에서 한국어를 공부해요?"
       },
       {
         "base": "도서관",
-        "ans": "도서관에서 공부해요"
+        "ans": "도서관에서 공부해요."
       },
       {
         "base": "공원",
-        "ans": "공원에서 운동해요"
+        "ans": "공원에서 운동해요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "어디에서 한국어를 공부해요? 어디에서 운동해요?"
       },
       {
-        "base": "도서관 + 공부하다",
+        "base": "도서관 · 공부하다",
         "ans": "도서관에서 한국어를 공부해요."
       },
       {
-        "base": "공원 + 운동하다",
+        "base": "공원 · 운동하다",
         "ans": "공원에서 아침에 운동해요."
       }
     ]
@@ -441,51 +442,51 @@ LESSONS.push({
     {
       "tag": "에서 (장소)",
       "icon": "📖",
-      "q": "에서 (장소) 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 에서 (장소) vocabulary and expressions.",
+      "q": "어디에서 한국어를 공부해요? 어디에서 운동해요?",
+      "qen": "Where do you study Korean? Where do you exercise?",
       "pat": "장소 + 에서 + 동작동사",
       "items": [
         {
-          "e": "🏫",
+          "e": "📚",
           "w": "도서관",
-          "g": "Action Location Marker",
+          "g": "library",
           "r": "도서관에서 공부해요",
           "b": true
         },
         {
-          "e": "📕",
+          "e": "☕",
           "w": "카페",
-          "g": "Action Location Marker",
-          "r": "카페에서 커피를 마셔요",
+          "g": "cafe",
+          "r": "카페에서 마셔요",
           "b": false
         },
         {
-          "e": "☕",
+          "e": "🍴",
           "w": "식당",
-          "g": "Action Location Marker",
-          "r": "식당에서 밥을 먹어요",
+          "g": "restaurant",
+          "r": "식당에서 먹어요",
           "b": true
         },
         {
-          "e": "👫",
+          "e": "🏠",
           "w": "집",
-          "g": "Action Location Marker",
+          "g": "home",
           "r": "집에서 쉬어요",
-          "b": false
+          "b": true
         },
         {
-          "e": "⏰",
+          "e": "🌳",
           "w": "공원",
-          "g": "Action Location Marker",
+          "g": "park",
           "r": "공원에서 운동해요",
           "b": true
         },
         {
-          "e": "🚇",
+          "e": "⚽",
           "w": "운동장",
-          "g": "Action Location Marker",
+          "g": "playground",
           "r": "운동장에서 축구해요",
-          "b": false
+          "b": true
         }
       ]
     }
@@ -493,48 +494,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "에서 (장소)",
-      "q": "Talk about where you eat.",
-      "qen": "Talk about where you eat.",
+      "t": "공부하는 곳",
+      "v": "공부하는 곳",
+      "q": "보통 어디[[에서]] 한국어를 공부해요?",
+      "qen": "Where do you usually study Korean?",
       "m": [
         "도서관[[에서]] 한국어를 공부해요.",
-        "공원[[에서]] 친구와 운동해요."
+        "집[[에서]] 책을 읽어요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「어디에서 밥을 먹어요?」 → 「○○에서 먹어요」<br>3. 공부 · 운동 · 쉬기로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about where you eat."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「어디에서 밥을 먹어요?」 → 「○○에서 먹어요」<br>3. 공부 · 운동 · 쉬기로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "에서 (장소)",
-      "q": "Ask about places and activities.",
-      "qen": "Ask about places and activities.",
+      "i": "💬",
+      "t": "식사와 여가",
+      "v": "식사와 여가",
+      "q": "점심을 어디[[에서]] 먹어요? 어디[[에서]] 쉬어요?",
+      "qen": "Where do you eat lunch? Where do you rest?",
       "m": [
-        "도서관[[에서]] 한국어를 공부해요.",
+        "학교 식당[[에서]] 밥을 먹어요.",
+        "카페[[에서]] 커피를 마셔요."
+      ],
+      "memo": "1. 장 그림으로 「주말에 공원에서 운동해요?」 대답을 함께 읽기<br>2. 다음 장 활동판으로 — 교사가 장소 하나 + 활동 하나를 묶어 묻는다(「공원에서 운동해요? · 집에서 운동해요?」)<br>3. 학생은 네 · 아니요 + 「저는 ○○에서 △△아요/어요」, 역할 바꾸기"
+    },
+    {
+      "i": "🎯",
+      "t": "에 vs 에서 구분",
+      "v": "에 vs 에서 구분",
+      "q": "어디[[에]] 가요? 거기[[에서]] 무엇을 해요?",
+      "qen": "Where are you going? What do you do there?",
+      "m": [
+        "공원[[에]] 가요.",
         "공원[[에서]] 친구와 운동해요."
       ],
-      "memo": "1. 장 그림으로 「주말에 공원에서 운동해요?」 대답을 함께 읽기<br>2. 다음 장 활동판으로 — 교사가 장소 하나 + 활동 하나를 묶어 묻는다(「공원에서 운동해요? · 집에서 운동해요?」)<br>3. 학생은 네 · 아니요 + 「저는 ○○에서 △△아요/어요」, 역할 바꾸기",
-      "go": "Ask about places and activities."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「어디에서 밥을 먹어요?」 → 「○○에서 먹어요」<br>3. 공부 · 운동 · 쉬기로 바꿔 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "도서관[[에서]] 한국어를 공부해요.",
+          "도서관[[에서]] 한국어를 공부해요."
+        ],
+        "en": [
+          "I study Korean [[at]] the library."
+        ]
+      },
+      {
+        "ko": [
           "공원[[에서]] 친구와 운동해요."
         ],
         "en": [
-          "I study Korean at the library.",
-          "I exercise with my friend at the park."
+          "I exercise with my friend [[at]] the park."
         ]
       }
     ],
     "tips": [
-      "<b>에서 (장소)</b>: 구체적인 동작이나 활동이 이루어지는 장소를 나타냅니다.",
-      "대표 문장: \"도서관에서 한국어를 공부해요.\"",
-      "대표 문장: \"공원에서 친구와 운동해요.\""
+      "<b>실내 활동</b> → <span class=\"g\">장소 + 에서</span> / <b>야외·기타 활동</b> → <span class=\"g2\">장소 + 에서</span>",
+      "장소 명사 뒤에 붙어 구체적인 동작이나 활동이 이루어지는 공간을 나타냅니다.",
+      "대표 대화: \"어디에서 한국어를 공부해요? 어디에서 운동해요?\" → \"도서관에서 한국어를 공부해요.\""
     ]
   }
 });

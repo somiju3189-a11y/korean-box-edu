@@ -1,25 +1,8 @@
 /* Lesson 8: 에 (장소) · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "에 (장소)",
-  "pos": "부사격 조사",
-  "form": "에 (장소)",
-  "opening": {
-    "name": "8호선 출발 · 에 (장소)",
-    "no": 8,
-    "line": "Level 1 · Unit 2: 일상을 이야기해요",
-    "color": "#0052a4",
-    "en": "Location & Destination Marker · 위치와 목적지<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 8",
-    "next": "Next: 에 (장소)",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "pos": "장소",
+  "form": "에",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "부사격 조사",
+      "c": "장소",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "가거나 오는 이동의 목적지, 또는 사람·사물이 있는 위치를 나타냅니다.",
-    "en": "Indicates destination (with go/come) or static location."
+    "ko": "가거나 오는 이동의 목적지, 또는 사람이나 사물이 있는 위치를 나타냅니다.",
+    "en": "Attached to a place noun to indicate destination (with go/come) or static location."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "오늘 학교에 가요.",
-    "en": "I go to school today."
+    "q": "지금 어디[[에]] 가요? 책이 어디[[에]] 있어요?",
+    "en": "Where are you going now? Where is the book?"
   },
-  "en": "Location & Destination Marker · 위치와 목적지",
+  "en": "Location & Destination · \"~에\" · 목적지와 위치를 말해요",
   "prior": [],
   "pat": "장소 + 에 가요/와요/있어요.",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "부사격 조사",
+        "c": "장소",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "책이 책상 위[[에]] 있어요."
     ],
     "en": [
-      "I go to school today.",
-      "The book is on the desk."
+      "I go [[to]] school today.",
+      "The book is [[on]] the desk."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 에 (장소) 핵심 상황",
-      "scene": "/course/sample/scenes/hero-08.svg",
+      "label": "예문 ① · 이동 목적지 묻기",
+      "scene": "/course/sample/scenes/ex-8-1.svg",
       "ask": {
-        "q": "오늘 학교에 가요.",
-        "en": "I go to school today."
+        "q": "지금 어디[[에]] 가요?",
+        "en": "Where are you going now?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 유진",
         "ko": [
-          "오늘 학교[[에]] 가요."
+          "마이클 씨, 지금 어디[[에]] 가요?"
         ],
         "en": [
-          "I go to school today."
+          "Michael, where are you going right now?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 학생",
         "ko": [
-          "책이 책상 위[[에]] 있어요."
+          "한국어 수업이 있어서 학교[[에]] 가요.",
+          "수업 후에 도서관[[에]] 가요."
         ],
         "en": [
-          "The book is on the desk."
+          "I have Korean class, so I'm going [[to]] school.",
+          "After class, I go [[to]] the library."
         ]
       },
       "morph": [
-        "에 (장소) 핵심 표현",
-        "부사격 조사"
+        "학교 + 에 가요 (목적지)",
+        "도서관 + 에 가요 (목적지)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-08.svg",
+      "label": "예문 ② · 물건의 위치 묻기",
+      "scene": "/course/sample/scenes/ex-8-2.svg",
       "ask": {
-        "q": "오후에 집에 와요.",
-        "en": "I come home in the afternoon."
+        "q": "한국어 책이 어디[[에]] 있어요?",
+        "en": "Where is the Korean book?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "에 (장소)",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 하준",
         "ko": [
-          "오후에 집에 와요."
+          "미나 씨, 한국어 책이 어디[[에]] 있어요?"
         ],
         "en": [
-          "I come home in the afternoon."
+          "Mina, where is the Korean book?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 미나",
         "ko": [
-          "친구가 교실에 있어요."
+          "한국어 책이 책상 위[[에]] 있어요.",
+          "연필은 가방 안[[에]] 있어요."
         ],
         "en": [
-          "My friend is in the classroom."
+          "The Korean book is [[on]] the desk.",
+          "The pencil is [[in]] the bag."
         ]
       },
       "morph": [
-        "에 (장소) 실전 활용"
+        "책상 위 + 에 있어요 (위치)",
+        "가방 안 + 에 있어요 (위치)"
       ]
     }
   ],
@@ -163,7 +151,7 @@ LESSONS.push({
     {
       "ko": "집에 가요.",
       "base": "집",
-      "b": false,
+      "b": true,
       "f": "에 (장소)"
     },
     {
@@ -175,13 +163,13 @@ LESSONS.push({
     {
       "ko": "한국에 와요.",
       "base": "한국",
-      "b": false,
+      "b": true,
       "f": "에 (장소)"
     },
     {
       "ko": "교실에 있어요.",
       "base": "교실",
-      "b": false,
+      "b": true,
       "f": "에 (장소)"
     },
     {
@@ -193,13 +181,13 @@ LESSONS.push({
     {
       "ko": "가방 안에 있어요.",
       "base": "가방 안",
-      "b": false,
+      "b": true,
       "f": "에 (장소)"
     },
     {
       "ko": "공원에 있어요.",
       "base": "공원",
-      "b": false,
+      "b": true,
       "f": "에 (장소)"
     },
     {
@@ -270,18 +258,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "가거나 오는 이동의 목적지, 또는 사람·사물이 있는 위치를 나타냅니다.<br><br>· 오늘 학교에 가요.<br>· 책이 책상 위에 있어요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "가거나 오는 이동의 목적지, 또는 사람이나 사물이 있는 위치를 나타냅니다.<br><br>· 오늘 학교에 가요.<br>· 책이 책상 위에 있어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>장소 + 에 가요/와요/있어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"지금 어디에 가요? 책이 어디에 있어요?\"</b>에 대해 <b>장소 + 에 가요/와요/있어요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Indicates destination (with go/come) or static location.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 에 (장소) Conjugation Rule",
+      "p": "Use <span class=\"g\">장소 + 에 가요</span> for <b>이동 목적지</b> and <span class=\"g2\">장소 + 에 있어요</span> for <b>존재 위치</b>.<br><br><span class=\"yes\">O</span> 학교에 가요 / 교실에 있어요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a place noun to indicate destination (with go/come) or static location.<br><br>· I go to school today.<br>· The book is on the desk."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Where are you going now? Where is the book?\"</b> using the pattern <b>장소 + 에 가요/와요/있어요.</b>."
+    }
   ],
   "words": [
     {
@@ -359,46 +360,46 @@ LESSONS.push({
       "공원에 있어요"
     ],
     [
-      "한국어",
+      "학교",
       "오늘 학교에 가요."
     ],
     [
-      "연습",
+      "책상 위",
       "책이 책상 위에 있어요."
     ],
     [
-      "대화",
+      "집",
       "오후에 집에 와요."
     ],
     [
-      "오늘",
+      "교실",
       "친구가 교실에 있어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "에 (장소) 형태 연습"
+        "t": "마이클 씨, 지금 어디에 가요?"
       },
       {
         "base": "학교",
-        "ans": "학교에 가요"
+        "ans": "학교에 가요."
       },
       {
         "base": "교실",
-        "ans": "교실에 있어요"
+        "ans": "교실에 있어요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "지금 어디에 가요? 책이 어디에 있어요?"
       },
       {
-        "base": "학교 + 가다",
+        "base": "학교 · 가다",
         "ans": "오늘 학교에 가요."
       },
       {
-        "base": "책상 위 + 있다",
+        "base": "책상 위 · 있다",
         "ans": "책이 책상 위에 있어요."
       }
     ]
@@ -441,49 +442,49 @@ LESSONS.push({
     {
       "tag": "에 (장소)",
       "icon": "📖",
-      "q": "에 (장소) 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 에 (장소) vocabulary and expressions.",
+      "q": "지금 어디에 가요? 책이 어디에 있어요?",
+      "qen": "Where are you going now? Where is the book?",
       "pat": "장소 + 에 가요/와요/있어요.",
       "items": [
         {
           "e": "🏫",
           "w": "학교",
-          "g": "Location & Destination Marker",
+          "g": "school",
           "r": "학교에 가요",
-          "b": true
+          "b": false
         },
         {
-          "e": "📕",
+          "e": "🏠",
           "w": "집",
-          "g": "Location & Destination Marker",
+          "g": "home",
           "r": "집에 가요",
-          "b": false
-        },
-        {
-          "e": "☕",
-          "w": "회사",
-          "g": "Location & Destination Marker",
-          "r": "회사에 가요",
           "b": true
         },
         {
-          "e": "👫",
-          "w": "한국",
-          "g": "Location & Destination Marker",
-          "r": "한국에 와요",
+          "e": "🏢",
+          "w": "회사",
+          "g": "company / office",
+          "r": "회사에 가요",
           "b": false
         },
         {
-          "e": "⏰",
+          "e": "🇰🇷",
+          "w": "한국",
+          "g": "Korea",
+          "r": "한국에 와요",
+          "b": true
+        },
+        {
+          "e": "🏫",
           "w": "교실",
-          "g": "Location & Destination Marker",
+          "g": "classroom",
           "r": "교실에 있어요",
           "b": true
         },
         {
-          "e": "🚇",
+          "e": "桌",
           "w": "책상 위",
-          "g": "Location & Destination Marker",
+          "g": "on the desk",
           "r": "책상 위에 있어요",
           "b": false
         }
@@ -493,48 +494,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "에 (장소)",
-      "q": "Talk about where you go today.",
-      "qen": "Talk about where you go today.",
+      "t": "수업 후 목적지",
+      "v": "수업 후 목적지",
+      "q": "수업이 끝나고 어디[[에]] 가요?",
+      "qen": "Where do you go after class finishes?",
       "m": [
-        "오늘 학교[[에]] 가요.",
-        "책이 책상 위[[에]] 있어요."
+        "수업 후에 집[[에]] 가요.",
+        "도서관[[에]] 가요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「오늘 어디에 가요?」 → 장소 두 곳<br>3. 「주말에는요?」로 때를 바꾸기<br>4. 역할 바꾸기",
-      "go": "Talk about where you go today."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「오늘 어디에 가요?」 → 장소 두 곳<br>3. 「주말에는요?」로 때를 바꾸기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "에 (장소)",
-      "q": "Ask where things are in the room.",
-      "qen": "Ask where things are in the room.",
+      "i": "💬",
+      "t": "지금 있는 곳",
+      "v": "지금 있는 곳",
+      "q": "지금 가족이나 친구가 어디[[에]] 있어요?",
+      "qen": "Where are your family or friends right now?",
       "m": [
-        "오늘 학교[[에]] 가요.",
-        "책이 책상 위[[에]] 있어요."
+        "제 친구는 교실[[에]] 있어요.",
+        "부모님은 집[[에]] 계세요."
       ],
-      "memo": "1. 교사 「휴대폰이 어디에 있어요?」 → 학생 「휴대폰은 책상 위에 있어요」<br>2. 학생이 묻고 교사가 대답 — 일부러 틀리게 말해 학생이 고치게<br>3. 학생 방 물건으로 넓히기",
-      "go": "Ask where things are in the room."
+      "memo": "1. 교사 「휴대폰이 어디에 있어요?」 → 학생 「휴대폰은 책상 위에 있어요」<br>2. 학생이 묻고 교사가 대답 — 일부러 틀리게 말해 학생이 고치게<br>3. 학생 방 물건으로 넓히기"
+    },
+    {
+      "i": "🎯",
+      "t": "가고 싶은 나라",
+      "v": "가고 싶은 나라",
+      "q": "방학에 어디[[에]] 가고 싶어요?",
+      "qen": "Where do you want to go during vacation?",
+      "m": [
+        "방학에 한국[[에]] 가고 싶어요.",
+        "제주도[[에]] 가요."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「오늘 어디에 가요?」 → 장소 두 곳<br>3. 「주말에는요?」로 때를 바꾸기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "오늘 학교[[에]] 가요.",
+          "오늘 학교[[에]] 가요."
+        ],
+        "en": [
+          "I go [[to]] school today."
+        ]
+      },
+      {
+        "ko": [
           "책이 책상 위[[에]] 있어요."
         ],
         "en": [
-          "I go to school today.",
-          "The book is on the desk."
+          "The book is [[on]] the desk."
         ]
       }
     ],
     "tips": [
-      "<b>에 (장소)</b>: 가거나 오는 이동의 목적지, 또는 사람·사물이 있는 위치를 나타냅니다.",
-      "대표 문장: \"오늘 학교에 가요.\"",
-      "대표 문장: \"책이 책상 위에 있어요.\""
+      "<b>이동 목적지</b> → <span class=\"g\">장소 + 에 가요</span> / <b>존재 위치</b> → <span class=\"g2\">장소 + 에 있어요</span>",
+      "가거나 오는 이동의 목적지, 또는 사람이나 사물이 있는 위치를 나타냅니다.",
+      "대표 대화: \"지금 어디에 가요? 책이 어디에 있어요?\" → \"오늘 학교에 가요.\""
     ]
   }
 });

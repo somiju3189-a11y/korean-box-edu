@@ -1,25 +1,8 @@
 /* Lesson 30: -지 못하다 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "-지 못하다",
-  "pos": "능력 부정 보조용언",
+  "pos": "동사",
   "form": "-지 못하다",
-  "opening": {
-    "name": "30호선 출발 · -지 못하다",
-    "no": 30,
-    "line": "Level 1 · Unit 6: 정확한 부정",
-    "color": "#0052a4",
-    "en": "Long Inability Negation · 긴 능력 부정 ('-지 못해요')<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 30",
-    "next": "Next: -지 못하다",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "능력 부정 보조용언",
+      "c": "동사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "동사 어간 뒤에 붙어 능력 부족이나 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.",
+    "ko": "동작동사 어간 뒤에 붙어 능력 부족이나 외부의 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.",
     "en": "Long-form inability negation attached to action verb stems ('cannot / could not')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "아파서 학교에 가지 못했어요.",
-    "en": "I was sick so I could not go to school."
+    "q": "어제 왜 학교에 안 왔어요? 왜 떡볶이를 안 먹어요?",
+    "en": "Why didn't you come to school yesterday? Why aren't you eating tteokbokki?"
   },
-  "en": "Long Inability Negation · 긴 능력 부정 ('-지 못해요')",
+  "en": "Long Inability Negation · \"-지 못하다\" · 하지 못한 이유와 불가능을 말해요",
   "prior": [],
   "pat": "동사 어간 + -지 못해요 / -지 못했어요.",
   "hero": {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "능력 부정 보조용언",
+        "c": "동사",
         "t": "accent"
       }
     ],
     "ko": [
-      "아파서 학교에 가[[지 못했어요]].",
+      "감기로 아파서 학교에 가[[지 못했어요]].",
       "음식이 너무 매워서 먹[[지 못해요]]."
     ],
     "en": [
-      "I was sick so I [[could not]] go to school.",
-      "The food is too spicy so I [[cannot]] eat it."
+      "I was sick with a cold, so I [[could not]] go to school.",
+      "The food is too spicy, so I [[cannot]] eat it."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · -지 못하다 핵심 상황",
-      "scene": "/course/sample/scenes/hero-30.svg",
+      "label": "예문 ① · 결석한 이유 설명하기",
+      "scene": "/course/sample/scenes/ex-30-1.svg",
       "ask": {
-        "q": "아파서 학교에 가지 못했어요.",
-        "en": "I was sick so I could not go to school."
+        "q": "어제 왜 학교에 오[[지 못했어요]]?",
+        "en": "Why couldn't you come to school yesterday?"
       },
       "pic": [
         {
@@ -94,62 +77,66 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 의사",
         "ko": [
-          "아파서 학교에 가[[지 못했어요]]."
+          "미나 씨, 어제 왜 학교에 안 왔어요?"
         ],
         "en": [
-          "I was sick so I [[could not]] go to school."
+          "Mina, why didn't you come to school yesterday?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 미나",
         "ko": [
-          "음식이 너무 매워서 먹[[지 못해요]]."
+          "감기로 많이 아파서 학교에 가[[지 못했어요]].",
+          "밤에 열이 나서 잠도 잘 자[[지 못했어요]]."
         ],
         "en": [
-          "The food is too spicy so I [[cannot]] eat it."
+          "I was very sick with a cold, so I [[could not]] go to school.",
+          "I had a fever at night, so I [[could not]] sleep well either."
         ]
       },
       "morph": [
-        "-지 못하다 핵심 표현",
-        "능력 부정 보조용언"
+        "가 + 지 못했어요 (과거 불가능)",
+        "자 + 지 못했어요"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-30.svg",
+      "label": "예문 ② · 먹을 수 없는 이유 말하기",
+      "scene": "/course/sample/scenes/ex-30-2.svg",
       "ask": {
-        "q": "바빠서 친구를 만나지 못했어요.",
-        "en": "I was busy so I couldn't meet my friend."
+        "q": "왜 떡볶이를 먹[[지 못해요]]?",
+        "en": "Why can't you eat the tteokbokki?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "-지 못하다",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 하준",
         "ko": [
-          "바빠서 친구를 만나지 못했어요."
+          "리에 씨, 왜 떡볶이를 안 먹어요? 맛이 없어요?"
         ],
         "en": [
-          "I was busy so I couldn't meet my friend."
+          "Rie, why aren't you eating the tteokbokki? Does it not taste good?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 리에",
         "ko": [
-          "피곤해서 운동하지 못했어요."
+          "아니요, 너무 매워서 먹[[지 못해요]].",
+          "저는 매운 음식을 잘 먹[[지 못해요]]."
         ],
         "en": [
-          "I was tired so I couldn't exercise."
+          "No, it's too spicy, so I [[cannot]] eat it.",
+          "I [[cannot]] eat spicy food well."
         ]
       },
       "morph": [
-        "-지 못하다 실전 활용"
+        "먹 + 지 못해요 (현재 불가능)"
       ]
     }
   ],
@@ -203,7 +190,7 @@ LESSONS.push({
       "f": "-지 못하다"
     },
     {
-      "ko": "아파서 학교에 가지 못했어요.",
+      "ko": "감기로 아파서 학교에 가지 못했어요.",
       "note": "-지 못하다 대표 예문"
     }
   ],
@@ -270,18 +257,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "동사 어간 뒤에 붙어 능력 부족이나 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.<br><br>· 아파서 학교에 가지 못했어요.<br>· 음식이 너무 매워서 먹지 못해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "동작동사 어간 뒤에 붙어 능력 부족이나 외부의 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.<br><br>· 감기로 아파서 학교에 가지 못했어요.<br>· 음식이 너무 매워서 먹지 못해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>동사 어간 + -지 못해요 / -지 못했어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"어제 왜 학교에 안 왔어요? 왜 떡볶이를 안 먹어요?\"</b>에 대해 <b>동사 어간 + -지 못해요 / -지 못했어요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Long-form inability negation attached to action verb stems ('cannot / could not').",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · -지 못하다 Conjugation Rule",
+      "p": "Use <span class=\"g\">어간 + -지 못해요</span> for <b>현재 불가능</b> and <span class=\"g2\">어간 + -지 못했어요</span> for <b>과거 불가능</b>.<br><br><span class=\"yes\">O</span> 먹지 못해요 / 가지 못했어요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Long-form inability negation attached to action verb stems ('cannot / could not').<br><br>· I was sick with a cold, so I could not go to school.<br>· The food is too spicy, so I cannot eat it."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Why didn't you come to school yesterday? Why aren't you eating tteokbokki?\"</b> using the pattern <b>동사 어간 + -지 못해요 / -지 못했어요.</b>."
+    }
   ],
   "words": [
     {
@@ -359,46 +359,46 @@ LESSONS.push({
       "보지 못했어요"
     ],
     [
-      "한국어",
+      "아프다",
       "어제 아파서 학교에 가지 못했어요."
     ],
     [
-      "연습",
+      "맵다",
       "음식이 너무 매워서 먹지 못해요."
     ],
     [
-      "대화",
+      "바쁘다",
       "바빠서 친구를 만나지 못했어요."
     ],
     [
-      "오늘",
+      "피곤하다",
       "피곤해서 운동하지 못했어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "-지 못하다 형태 연습"
+        "t": "미나 씨, 어제 왜 학교에 안 왔어요?"
       },
       {
         "base": "먹다",
-        "ans": "먹지 못해요"
+        "ans": "먹지 못해요."
       },
       {
         "base": "가다",
-        "ans": "가지 못했어요"
+        "ans": "가지 못했어요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "어제 왜 학교에 안 왔어요? 왜 떡볶이를 안 먹어요?"
       },
       {
-        "base": "아프다 + 학교 + 가다",
+        "base": "아프다 · 학교 · 가다",
         "ans": "어제 아파서 학교에 가지 못했어요."
       },
       {
-        "base": "맵다 + 먹다",
+        "base": "맵다 · 먹다",
         "ans": "음식이 너무 매워서 먹지 못해요."
       }
     ]
@@ -419,7 +419,7 @@ LESSONS.push({
         "먹다"
       ],
       "a": "음식이 너무 매워서 먹지 못해요.",
-      "e": "The food is too spicy so I cannot eat it."
+      "e": "The food is too spicy, so I cannot eat it."
     },
     {
       "k": [
@@ -427,7 +427,7 @@ LESSONS.push({
         "만나다"
       ],
       "a": "바빠서 친구를 만나지 못했어요.",
-      "e": "I was busy so I couldn't meet my friend."
+      "e": "I was busy, so I couldn't meet my friend."
     },
     {
       "k": [
@@ -435,56 +435,56 @@ LESSONS.push({
         "운동하다"
       ],
       "a": "피곤해서 운동하지 못했어요.",
-      "e": "I was tired so I couldn't exercise."
+      "e": "I was tired, so I couldn't exercise."
     }
   ],
   "vocab": [
     {
       "tag": "-지 못하다",
       "icon": "📖",
-      "q": "-지 못하다 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice -지 못하다 vocabulary and expressions.",
+      "q": "어제 왜 학교에 안 왔어요? 왜 떡볶이를 안 먹어요?",
+      "qen": "Why didn't you come to school yesterday? Why aren't you eating tteokbokki?",
       "pat": "동사 어간 + -지 못해요 / -지 못했어요.",
       "items": [
         {
-          "e": "🏫",
+          "e": "🍽️",
           "w": "먹다",
-          "g": "Long Inability Negation",
+          "g": "to eat",
           "r": "먹지 못해요",
-          "b": true
+          "b": false
         },
         {
-          "e": "📕",
+          "e": "🚶",
           "w": "가다",
-          "g": "Long Inability Negation",
+          "g": "to go",
           "r": "가지 못해요",
           "b": false
         },
         {
-          "e": "☕",
+          "e": "🏊",
           "w": "수영하다",
-          "g": "Long Inability Negation",
+          "g": "to swim",
           "r": "수영하지 못해요",
-          "b": true
+          "b": false
         },
         {
-          "e": "👫",
+          "e": "😴",
           "w": "자다",
-          "g": "Long Inability Negation",
+          "g": "to sleep",
           "r": "자지 못해요",
           "b": false
         },
         {
-          "e": "⏰",
+          "e": "🚶",
           "w": "가다",
-          "g": "Long Inability Negation",
+          "g": "to go",
           "r": "가지 못했어요",
-          "b": true
+          "b": false
         },
         {
-          "e": "🚇",
+          "e": "🤝",
           "w": "만나다",
-          "g": "Long Inability Negation",
+          "g": "to meet",
           "r": "만나지 못했어요",
           "b": false
         }
@@ -494,48 +494,62 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "-지 못하다",
-      "q": "Pick a card. Why didn’t you come?",
-      "qen": "Pick a card. Why didn’t you come?",
+      "t": "어제 하지 못한 일과 이유",
+      "v": "어제 하지 못한 일과 이유",
+      "q": "어제 바빠서 무엇을 하[[지 못했어요]]?",
+      "qen": "What could you not do yesterday because you were busy?",
       "m": [
-        "아파서 학교에 가[[지 못했어요]].",
-        "음식이 너무 매워서 먹[[지 못해요]]."
+        "어제 바빠서 숙제를 하[[지 못했어요]].",
+        "피곤해서 운동하[[지 못했어요]]."
       ],
-      "memo": "1. 교사 「어제 왜 안 왔어요?」 → 학생이 카드를 골라 「아파서 가지 못했어요」<br>2. 카드를 바꿔 두세 번<br>3. 역할 바꾸기 — 교사가 이유를 말하고 학생이 묻는다",
-      "go": "Pick a card. Why didn’t you come?"
+      "memo": "1. 교사 「어제 왜 안 왔어요?」 → 학생이 카드를 골라 「아파서 가지 못했어요」<br>2. 카드를 바꿔 두세 번<br>3. 역할 바꾸기 — 교사가 이유를 말하고 학생이 묻는다"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "-지 못하다",
-      "q": "Talk about food you can’t eat.",
-      "qen": "Talk about food you can’t eat.",
+      "i": "💬",
+      "t": "1급 완주 소감 나누기",
+      "v": "1급 완주 소감 나누기",
+      "q": "한국어 1급 30과를 모두 끝냈어요! 기분이 어때요?",
+      "qen": "You finished all 30 lessons of Korean Level 1! How do you feel?",
       "m": [
-        "아파서 학교에 가[[지 못했어요]].",
-        "음식이 너무 매워서 먹[[지 못해요]]."
+        "처음에는 한국어를 잘하[[지 못했어요]].",
+        "이제 한국어로 재미있게 이야기해요!"
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「김치찌개 어때요?」 → 먹지 못하는 것 · 하지 못하는 것<br>3. 운동 · 노래로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about food you can’t eat."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「김치찌개 어때요?」 → 먹지 못하는 것 · 하지 못하는 것<br>3. 운동 · 노래로 바꿔 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "아파서 학교에 가[[지 못했어요]].",
+          "감기로 아파서 학교에 가[[지 못했어요]]."
+        ],
+        "en": [
+          "I was sick with a cold, so I [[could not]] go to school."
+        ]
+      },
+      {
+        "ko": [
           "음식이 너무 매워서 먹[[지 못해요]]."
         ],
         "en": [
-          "I was sick so I [[could not]] go to school.",
-          "The food is too spicy so I [[cannot]] eat it."
+          "The food is too spicy, so I [[cannot]] eat it."
         ]
       }
     ],
     "tips": [
-      "<b>-지 못하다</b>: 동사 어간 뒤에 붙어 능력 부족이나 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.",
-      "대표 문장: \"아파서 학교에 가지 못했어요.\"",
-      "대표 문장: \"음식이 너무 매워서 먹지 못해요.\""
+      "<b>현재 불가능</b> → <span class=\"g\">어간 + -지 못해요</span> / <b>과거 불가능</b> → <span class=\"g2\">어간 + -지 못했어요</span>",
+      "동작동사 어간 뒤에 붙어 능력 부족이나 외부의 피치 못할 이유로 행동하지 못함을 정중하게 나타냅니다.",
+      "대표 대화: \"어제 왜 학교에 안 왔어요? 왜 떡볶이를 안 먹어요?\" → \"감기로 아파서 학교에 가지 못했어요.\""
     ]
+  },
+  "finale": {
+    "name": "1호선 종착역 · 완주",
+    "done": "Level 1 · 30 Lessons Complete!",
+    "href": "/course",
+    "no": 2,
+    "go": "Level 2 · 2호선으로 환승",
+    "sub": "1과부터 30과까지 한국어 기초 문법 열차를 모두 완주했습니다!",
+    "from": "#0052a4",
+    "to": "#00a84d"
   }
 });

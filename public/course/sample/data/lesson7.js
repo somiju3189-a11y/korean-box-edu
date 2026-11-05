@@ -1,25 +1,8 @@
 /* Lesson 7: 이/가 (주어) · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "이/가 (주어)",
-  "pos": "주격 조사",
-  "form": "이/가 (주어)",
-  "opening": {
-    "name": "7호선 출발 · 이/가 (주어)",
-    "no": 7,
-    "line": "Level 1 · Unit 2: 일상을 이야기해요",
-    "color": "#0052a4",
-    "en": "Subject Marker · 주격 조사<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 7",
-    "next": "Next: 이/가 (주어)",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "pos": "명사",
+  "form": "이/가",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "주격 조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "문장의 주어를 나타내며, 특히 새로운 정보나 상태를 묘사할 때 자연스럽게 쓰입니다.",
-    "en": "Marks the grammatical subject of a sentence."
+    "ko": "문장의 주어를 나타내며, 새로운 정보나 상태·성질을 묘사할 때 자연스럽게 쓰입니다.",
+    "en": "Marks the grammatical subject of a sentence, especially with descriptive adjectives."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "오늘 날씨가 참 좋아요.",
-    "en": "The weather is really nice today."
+    "q": "오늘 날씨[[가]] 어때요? 공원에 무엇[[이]] 예뻐요?",
+    "en": "How is the weather today? What is pretty in the park?"
   },
-  "en": "Subject Marker · 주격 조사",
+  "en": "Subject Marker · \"~이/가\" · 문장의 주어를 나타내요",
   "prior": [],
   "pat": "○○이/가 + 형용사/동사",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "주격 조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "공원에 꽃[[이]] 예뻐요."
     ],
     "en": [
-      "The weather is really nice today.",
-      "The flowers in the park are pretty."
+      "The [[weather]] is really nice today.",
+      "The [[flowers]] in the park are pretty."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 이/가 (주어) 핵심 상황",
-      "scene": "/course/sample/scenes/hero-07.svg",
+      "label": "예문 ① · 공원 산책과 날씨",
+      "scene": "/course/sample/scenes/ex-7-1.svg",
       "ask": {
-        "q": "오늘 날씨가 참 좋아요.",
-        "en": "The weather is really nice today."
+        "q": "오늘 날씨[[가]] 어때요?",
+        "en": "How is the weather today?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 유진",
         "ko": [
-          "오늘 날씨[[가]] 참 좋아요."
+          "마이클 씨, 오늘 날씨[[가]] 어때요?"
         ],
         "en": [
-          "The weather is really nice today."
+          "Michael, how is the weather today?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 마이클",
         "ko": [
-          "공원에 꽃[[이]] 예뻐요."
+          "하늘[[이]] 맑고 날씨[[가]] 참 좋아요.",
+          "공원에 꽃[[이]] 정말 예뻐요."
         ],
         "en": [
-          "The flowers in the park are pretty."
+          "The [[sky]] is clear and the [[weather]] is really nice.",
+          "The [[flowers]] in the park are very pretty."
         ]
       },
       "morph": [
-        "이/가 (주어) 핵심 표현",
-        "주격 조사"
+        "날씨 + 가 (받침 X)",
+        "꽃 + 이 (받침 O)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-07.svg",
+      "label": "예문 ② · 교실과 음식 묘사",
+      "scene": "/course/sample/scenes/ex-7-2.svg",
       "ask": {
-        "q": "한국 음식이 맛있어요.",
-        "en": "Korean food is delicious."
+        "q": "한국 음식[[이]] 어때요?",
+        "en": "How is Korean food?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "이/가 (주어)",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 선생님",
         "ko": [
-          "한국 음식이 맛있어요."
+          "여러분, 우리 한국어 교실[[이]] 어때요?"
         ],
         "en": [
-          "Korean food is delicious."
+          "Everyone, how is our Korean classroom?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 유진",
         "ko": [
-          "이 가방이 아주 커요."
+          "우리 교실[[이]] 아주 넓고 깨끗해요.",
+          "그리고 학교 식당 음식[[이]] 맛있어요."
         ],
         "en": [
-          "This bag is very big."
+          "Our [[classroom]] is very spacious and clean.",
+          "And the school cafeteria [[food]] is delicious."
         ]
       },
       "morph": [
-        "이/가 (주어) 실전 활용"
+        "교실 + 이 (받침 O)",
+        "음식 + 이 (받침 O)"
       ]
     }
   ],
@@ -270,18 +258,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "문장의 주어를 나타내며, 특히 새로운 정보나 상태를 묘사할 때 자연스럽게 쓰입니다.<br><br>· 오늘 날씨가 참 좋아요.<br>· 공원에 꽃이 예뻐요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "문장의 주어를 나타내며, 새로운 정보나 상태·성질을 묘사할 때 자연스럽게 쓰입니다.<br><br>· 오늘 날씨가 참 좋아요.<br>· 공원에 꽃이 예뻐요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>○○이/가 + 형용사/동사</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"오늘 날씨가 어때요? 공원에 무엇이 예뻐요?\"</b>에 대해 <b>○○이/가 + 형용사/동사</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Marks the grammatical subject of a sentence.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 이/가 (주어) Conjugation Rule",
+      "p": "Use <span class=\"g\">+ 이</span> for <b>받침 O</b> and <span class=\"g2\">+ 가</span> for <b>받침 X</b>.<br><br><span class=\"yes\">O</span> 꽃이 예뻐요 / 날씨가 좋아요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Marks the grammatical subject of a sentence, especially with descriptive adjectives.<br><br>· The weather is really nice today.<br>· The flowers in the park are pretty."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"How is the weather today? What is pretty in the park?\"</b> using the pattern <b>○○이/가 + 형용사/동사</b>."
+    }
   ],
   "words": [
     {
@@ -359,46 +360,46 @@ LESSONS.push({
       "비가 와요"
     ],
     [
-      "한국어",
+      "날씨",
       "오늘 날씨가 좋아요."
     ],
     [
-      "연습",
+      "꽃",
       "공원에 꽃이 예뻐요."
     ],
     [
-      "대화",
+      "음식",
       "한국 음식이 맛있어요."
     ],
     [
-      "오늘",
+      "가방",
       "이 가방이 아주 커요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "이/가 (주어) 형태 연습"
+        "t": "마이클 씨, 오늘 날씨가 어때요?"
       },
       {
         "base": "꽃",
-        "ans": "꽃이 예뻐요"
+        "ans": "꽃이 예뻐요."
       },
       {
         "base": "날씨",
-        "ans": "날씨가 좋아요"
+        "ans": "날씨가 좋아요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "오늘 날씨가 어때요? 공원에 무엇이 예뻐요?"
       },
       {
-        "base": "날씨 + 좋다",
+        "base": "날씨 · 좋다",
         "ans": "오늘 날씨가 좋아요."
       },
       {
-        "base": "꽃 + 예쁘다",
+        "base": "꽃 · 예쁘다",
         "ans": "공원에 꽃이 예뻐요."
       }
     ]
@@ -441,49 +442,49 @@ LESSONS.push({
     {
       "tag": "이/가 (주어)",
       "icon": "📖",
-      "q": "이/가 (주어) 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 이/가 (주어) vocabulary and expressions.",
+      "q": "오늘 날씨가 어때요? 공원에 무엇이 예뻐요?",
+      "qen": "How is the weather today? What is pretty in the park?",
       "pat": "○○이/가 + 형용사/동사",
       "items": [
         {
-          "e": "🏫",
+          "e": "🌸",
           "w": "꽃",
-          "g": "Subject Marker",
+          "g": "flower",
           "r": "꽃이 예뻐요",
           "b": true
         },
         {
-          "e": "📕",
+          "e": "🍲",
           "w": "음식",
-          "g": "Subject Marker",
+          "g": "food",
           "r": "음식이 맛있어요",
-          "b": false
+          "b": true
         },
         {
-          "e": "☕",
+          "e": "🎒",
           "w": "가방",
-          "g": "Subject Marker",
+          "g": "bag",
           "r": "가방이 커요",
           "b": true
         },
         {
-          "e": "👫",
+          "e": "🏫",
           "w": "교실",
-          "g": "Subject Marker",
+          "g": "classroom",
           "r": "교실이 넓어요",
-          "b": false
-        },
-        {
-          "e": "⏰",
-          "w": "날씨",
-          "g": "Subject Marker",
-          "r": "날씨가 좋아요",
           "b": true
         },
         {
-          "e": "🚇",
+          "e": "☀️",
+          "w": "날씨",
+          "g": "weather",
+          "r": "날씨가 좋아요",
+          "b": false
+        },
+        {
+          "e": "☕",
           "w": "커피",
-          "g": "Subject Marker",
+          "g": "coffee",
           "r": "커피가 따뜻해요",
           "b": false
         }
@@ -493,48 +494,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "이/가 (주어)",
-      "q": "Look outside and talk about the weather.",
-      "qen": "Look outside and talk about the weather.",
+      "t": "오늘의 날씨",
+      "v": "오늘의 날씨",
+      "q": "오늘 밖의 날씨[[가]] 어때요?",
+      "qen": "How is the weather outside today?",
       "m": [
-        "오늘 날씨[[가]] 참 좋아요.",
-        "공원에 꽃[[이]] 예뻐요."
+        "오늘 날씨[[가]] 아주 좋아요.",
+        "바람[[이]] 시원해요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 창밖 · 날씨 앱을 함께 보며 「오늘 날씨가 어때요?」<br>3. 학생 「○○이/가 △△아요/어요」 — 날씨 · 바람 · 하늘<br>4. 온라인이면 서로 사는 곳 날씨를 견주기",
-      "go": "Look outside and talk about the weather."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 창밖 · 날씨 앱을 함께 보며 「오늘 날씨가 어때요?」<br>3. 학생 「○○이/가 △△아요/어요」 — 날씨 · 바람 · 하늘<br>4. 온라인이면 서로 사는 곳 날씨를 견주기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "이/가 (주어)",
-      "q": "Who does it? Talk about people you know.",
-      "qen": "Who does it? Talk about people you know.",
+      "i": "💬",
+      "t": "누가 했어요?",
+      "v": "누가 했어요?",
+      "q": "교실에 누[[가]] 일찍 왔어요?",
+      "qen": "Who came to the classroom early?",
       "m": [
-        "오늘 날씨[[가]] 참 좋아요.",
-        "공원에 꽃[[이]] 예뻐요."
+        "마이클 씨[[가]] 일찍 왔어요.",
+        "선생님[[이]] 교실에 계세요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「누가 한국어를 공부해요?」 → 이/가로 사람을 세워 대답<br>3. 가족 · 친구로 바꿔 묻기 — 「누가 요리해요?」<br>4. 역할 바꾸기",
-      "go": "Who does it? Talk about people you know."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「누가 한국어를 공부해요?」 → 이/가로 사람을 세워 대답<br>3. 가족 · 친구로 바꿔 묻기 — 「누가 요리해요?」<br>4. 역할 바꾸기"
+    },
+    {
+      "i": "🎯",
+      "t": "좋아하는 계절",
+      "v": "좋아하는 계절",
+      "q": "어느 계절[[이]] 좋아요? 무엇[[이]] 맛있어요?",
+      "qen": "Which season is nice? What is delicious?",
+      "m": [
+        "봄[[이]] 따뜻하고 좋아요.",
+        "한국 음식[[이]] 정말 맛있어요."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 창밖 · 날씨 앱을 함께 보며 「오늘 날씨가 어때요?」<br>3. 학생 「○○이/가 △△아요/어요」 — 날씨 · 바람 · 하늘<br>4. 온라인이면 서로 사는 곳 날씨를 견주기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "오늘 날씨[[가]] 참 좋아요.",
+          "오늘 날씨[[가]] 참 좋아요."
+        ],
+        "en": [
+          "The [[weather]] is really nice today."
+        ]
+      },
+      {
+        "ko": [
           "공원에 꽃[[이]] 예뻐요."
         ],
         "en": [
-          "The weather is really nice today.",
-          "The flowers in the park are pretty."
+          "The [[flowers]] in the park are pretty."
         ]
       }
     ],
     "tips": [
-      "<b>이/가 (주어)</b>: 문장의 주어를 나타내며, 특히 새로운 정보나 상태를 묘사할 때 자연스럽게 쓰입니다.",
-      "대표 문장: \"오늘 날씨가 참 좋아요.\"",
-      "대표 문장: \"공원에 꽃이 예뻐요.\""
+      "<b>받침 O</b> → <span class=\"g\">+ 이</span> / <b>받침 X</b> → <span class=\"g2\">+ 가</span>",
+      "문장의 주어를 나타내며, 새로운 정보나 상태·성질을 묘사할 때 자연스럽게 쓰입니다.",
+      "대표 대화: \"오늘 날씨가 어때요? 공원에 무엇이 예뻐요?\" → \"오늘 날씨가 참 좋아요.\""
     ]
   }
 });

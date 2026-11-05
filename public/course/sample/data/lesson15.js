@@ -1,25 +1,8 @@
 /* Lesson 15: 도 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "도",
-  "pos": "보조사",
+  "pos": "명사",
   "form": "도",
-  "opening": {
-    "name": "15호선 출발 · 도",
-    "no": 15,
-    "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
-    "color": "#0052a4",
-    "en": "Also / Too · 포함과 추가<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 15",
-    "next": "Next: 도",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "보조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "이미 말한 내용에 다른 대상을 똑같이 덧붙이거나 공감할 때 씁니다.",
-    "en": "Means 'also' or 'too'; replaces 이/가 and 을/를."
+    "ko": "명사 뒤에 붙어 앞의 내용과 같거나 더함('~도 역시, 또한')을 나타냅니다. (이/가, 을/를, 은/는 자리에 대신 붙습니다)",
+    "en": "Attached to a noun to mean 'also' or 'too' (replaces subject/object/topic particles)."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,12 +33,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "저는 학생이에요. 저도 학생이에요!",
-    "en": "I am a student. I am also a student!"
+    "q": "유진 씨[[도]] 학생이에요? 무엇[[도]] 좋아해요?",
+    "en": "Are you also a student, Yujin? What else do you like?"
   },
-  "en": "Also / Too · 포함과 추가",
+  "en": "Addition Marker · \"~도\" · 똑같음과 포함을 말해요",
   "prior": [],
-  "pat": "○○도 △△이에요/예요.",
+  "pat": "○○은/는 ~해요. △△도 ~해요.",
   "hero": {
     "pic": [
       {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "보조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
-      "저는 학생이에요. 저[[도]] 학생이에요!",
-      "커피를 좋아해요. 주스[[도]] 좋아해요."
+      "저는 학생이에요. 친구[[도]] 학생이에요.",
+      "커피를 좋아해요. 녹차[[도]] 좋아해요."
     ],
     "en": [
-      "I am a student. I am [[also]] a student!",
-      "I like coffee. I [[also]] like juice."
+      "I am a student. My friend [[is also]] a student.",
+      "I like coffee. I [[also]] like green tea."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 도 핵심 상황",
-      "scene": "/course/sample/scenes/hero-15.svg",
+      "label": "예문 ① · 같은 신분 말하기",
+      "scene": "/course/sample/scenes/ex-15-1.svg",
       "ask": {
-        "q": "저는 학생이에요. 저도 학생이에요!",
-        "en": "I am a student. I am also a student!"
+        "q": "유진 씨[[도]] 한국어를 공부해요?",
+        "en": "Do you also study Korean, Yujin?"
       },
       "pic": [
         {
@@ -96,60 +79,64 @@ LESSONS.push({
       "a": {
         "who": "A · 마이클",
         "ko": [
-          "저는 학생이에요. 저[[도]] 학생이에요!"
+          "저는 대학교에서 한국어를 공부해요."
         ],
         "en": [
-          "I am a student. I am [[also]] a student!"
+          "I study Korean at university."
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 유진",
         "ko": [
-          "커피를 좋아해요. 주스[[도]] 좋아해요."
+          "정말요? 저[[도]] 한국어를 공부해요!",
+          "제 친구 사라 씨[[도]] 한국어를 배워요."
         ],
         "en": [
-          "I like coffee. I [[also]] like juice."
+          "Really? I [[also]] study Korean!",
+          "My friend Sara [[also]] learns Korean."
         ]
       },
       "morph": [
-        "도 핵심 표현",
-        "보조사"
+        "저 + 도 (저도)",
+        "사라 씨 + 도 (받침 무관)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-15.svg",
+      "label": "예문 ② · 좋아하는 것 덧붙이기",
+      "scene": "/course/sample/scenes/ex-15-2.svg",
       "ask": {
-        "q": "오늘 파티에 친구도 와요.",
-        "en": "My friend is also coming to the party today."
+        "q": "커피를 좋아해요? 차[[도]] 좋아해요?",
+        "en": "Do you like coffee? Do you also like tea?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "도",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 사라",
         "ko": [
-          "오늘 파티에 친구도 와요."
+          "리에 씨, 어떤 음료를 좋아해요?"
         ],
         "en": [
-          "My friend is also coming to the party today."
+          "Rie, what kind of beverage do you like?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 리에",
         "ko": [
-          "가방을 사요. 책도 사요."
+          "저는 커피를 좋아해요.",
+          "그리고 따뜻한 녹차[[도]] 아주 좋아해요."
         ],
         "en": [
-          "I buy a bag. I also buy a book."
+          "I like coffee.",
+          "And I [[also]] like warm green tea very much."
         ]
       },
       "morph": [
-        "도 실전 활용"
+        "녹차 + 도 좋아해요 (을/를 대신 '도')"
       ]
     }
   ],
@@ -161,49 +148,49 @@ LESSONS.push({
       "f": "도"
     },
     {
-      "ko": "친구도 한국 사람이에요.",
+      "ko": "친구도 가요.",
       "base": "친구",
       "b": false,
       "f": "도"
     },
     {
-      "ko": "동생도 와요.",
+      "ko": "동생도 좋아해요.",
       "base": "동생",
-      "b": false,
+      "b": true,
       "f": "도"
     },
     {
       "ko": "선생님도 계세요.",
       "base": "선생님",
-      "b": false,
+      "b": true,
       "f": "도"
     },
     {
-      "ko": "커피도 마셔요.",
-      "base": "커피",
+      "ko": "녹차도 마셔요.",
+      "base": "녹차",
       "b": false,
       "f": "도"
     },
     {
       "ko": "책도 읽어요.",
       "base": "책",
+      "b": true,
+      "f": "도"
+    },
+    {
+      "ko": "영화도 봐요.",
+      "base": "영화",
       "b": false,
       "f": "도"
     },
     {
-      "ko": "한국어도 배워요.",
-      "base": "한국어",
-      "b": false,
-      "f": "도"
-    },
-    {
-      "ko": "운동도 좋아해요.",
+      "ko": "운동도 해요.",
       "base": "운동",
-      "b": false,
+      "b": true,
       "f": "도"
     },
     {
-      "ko": "저는 학생이에요. 저도 학생이에요!",
+      "ko": "저는 학생이에요. 친구도 학생이에요.",
       "note": "도 대표 예문"
     }
   ],
@@ -216,8 +203,8 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "주어에 결합",
-        "f": "이/가 → 도",
+        "k": "주어 자리 대체",
+        "f": "명사 + 도",
         "ex": [
           [
             "저",
@@ -225,11 +212,11 @@ LESSONS.push({
           ],
           [
             "친구",
-            "친구도 한국 사람이에요"
+            "친구도 가요"
           ],
           [
             "동생",
-            "동생도 와요"
+            "동생도 좋아해요"
           ],
           [
             "선생님",
@@ -238,25 +225,25 @@ LESSONS.push({
         ]
       },
       {
-        "k": "목적어에 결합",
-        "f": "을/를 → 도",
+        "k": "목적어 자리 대체",
+        "f": "명사 + 도",
         "c": "g2",
         "ex": [
           [
-            "커피",
-            "커피도 마셔요"
+            "녹차",
+            "녹차도 마셔요"
           ],
           [
             "책",
             "책도 읽어요"
           ],
           [
-            "한국어",
-            "한국어도 배워요"
+            "영화",
+            "영화도 봐요"
           ],
           [
             "운동",
-            "운동도 좋아해요"
+            "운동도 해요"
           ]
         ]
       }
@@ -266,63 +253,76 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 도 결합 규칙",
-      "p": "<b>주어에 결합</b>일 때는 <span class=\"g\">이/가 → 도</span>, <b>목적어에 결합</b>일 때는 <span class=\"g2\">을/를 → 도</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 저도 학생이에요 / 커피도 마셔요"
+      "p": "<b>주어 자리 대체</b>일 때는 <span class=\"g\">명사 + 도</span>, <b>목적어 자리 대체</b>일 때는 <span class=\"g2\">명사 + 도</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 저도 학생이에요 / 녹차도 마셔요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "이미 말한 내용에 다른 대상을 똑같이 덧붙이거나 공감할 때 씁니다.<br><br>· 저는 학생이에요. 저도 학생이에요!<br>· 커피를 좋아해요. 주스도 좋아해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "명사 뒤에 붙어 앞의 내용과 같거나 더함('~도 역시, 또한')을 나타냅니다. (이/가, 을/를, 은/는 자리에 대신 붙습니다)<br><br>· 저는 학생이에요. 친구도 학생이에요.<br>· 커피를 좋아해요. 녹차도 좋아해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>○○도 △△이에요/예요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"유진 씨도 학생이에요? 무엇도 좋아해요?\"</b>에 대해 <b>○○은/는 ~해요. △△도 ~해요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Means 'also' or 'too'; replaces 이/가 and 을/를.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 도 Conjugation Rule",
+      "p": "Use <span class=\"g\">명사 + 도</span> for <b>주어 자리 대체</b> and <span class=\"g2\">명사 + 도</span> for <b>목적어 자리 대체</b>.<br><br><span class=\"yes\">O</span> 저도 학생이에요 / 녹차도 마셔요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a noun to mean 'also' or 'too' (replaces subject/object/topic particles).<br><br>· I am a student. My friend is also a student.<br>· I like coffee. I also like green tea."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Are you also a student, Yujin? What else do you like?\"</b> using the pattern <b>○○은/는 ~해요. △△도 ~해요.</b>."
+    }
   ],
   "words": [
     {
       "b": "저",
       "r": "저도 학생이에요",
-      "t": "주어에 결합"
+      "t": "주어 자리 대체"
     },
     {
       "b": "친구",
-      "r": "친구도 한국 사람이에요",
-      "t": "주어에 결합"
+      "r": "친구도 가요",
+      "t": "주어 자리 대체"
     },
     {
       "b": "동생",
-      "r": "동생도 와요",
-      "t": "주어에 결합"
+      "r": "동생도 좋아해요",
+      "t": "주어 자리 대체"
     },
     {
       "b": "선생님",
       "r": "선생님도 계세요",
-      "t": "주어에 결합"
+      "t": "주어 자리 대체"
     },
     {
-      "b": "커피",
-      "r": "커피도 마셔요",
-      "t": "목적어에 결합"
+      "b": "녹차",
+      "r": "녹차도 마셔요",
+      "t": "목적어 자리 대체"
     },
     {
       "b": "책",
       "r": "책도 읽어요",
-      "t": "목적어에 결합"
+      "t": "목적어 자리 대체"
     },
     {
-      "b": "한국어",
-      "r": "한국어도 배워요",
-      "t": "목적어에 결합"
+      "b": "영화",
+      "r": "영화도 봐요",
+      "t": "목적어 자리 대체"
     },
     {
       "b": "운동",
-      "r": "운동도 좋아해요",
-      "t": "목적어에 결합"
+      "r": "운동도 해요",
+      "t": "목적어 자리 대체"
     }
   ],
   "bingo": [
@@ -332,74 +332,74 @@ LESSONS.push({
     ],
     [
       "친구",
-      "친구도 한국 사람이에요"
+      "친구도 가요"
     ],
     [
       "동생",
-      "동생도 와요"
+      "동생도 좋아해요"
     ],
     [
       "선생님",
       "선생님도 계세요"
     ],
     [
-      "커피",
-      "커피도 마셔요"
+      "녹차",
+      "녹차도 마셔요"
     ],
     [
       "책",
       "책도 읽어요"
     ],
     [
-      "한국어",
-      "한국어도 배워요"
+      "영화",
+      "영화도 봐요"
     ],
     [
       "운동",
-      "운동도 좋아해요"
+      "운동도 해요"
     ],
     [
-      "한국어",
-      "저도 한국어 학생이에요."
+      "저",
+      "저도 학생이에요."
     ],
     [
-      "연습",
-      "커피를 좋아해요. 주스도 좋아해요."
+      "녹차",
+      "커피를 좋아해요. 녹차도 좋아해요."
     ],
     [
-      "대화",
-      "오늘 파티에 친구도 와요."
+      "친구",
+      "오늘 제 친구도 교실에 와요."
     ],
     [
-      "오늘",
+      "책",
       "가방을 사요. 책도 사요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "도 형태 연습"
+        "t": "저는 대학교에서 한국어를 공부해요."
       },
       {
         "base": "저",
-        "ans": "저도 학생이에요"
+        "ans": "저도 학생이에요."
       },
       {
-        "base": "커피",
-        "ans": "커피도 마셔요"
+        "base": "녹차",
+        "ans": "녹차도 마셔요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "유진 씨도 학생이에요? 무엇도 좋아해요?"
       },
       {
-        "base": "저 + 학생",
-        "ans": "저도 한국어 학생이에요."
+        "base": "저 · 학생",
+        "ans": "저도 학생이에요."
       },
       {
-        "base": "주스 + 좋아하다",
-        "ans": "커피를 좋아해요. 주스도 좋아해요."
+        "base": "녹차 · 좋아하다",
+        "ans": "커피를 좋아해요. 녹차도 좋아해요."
       }
     ]
   ],
@@ -409,24 +409,24 @@ LESSONS.push({
         "저",
         "학생"
       ],
-      "a": "저도 한국어 학생이에요.",
-      "e": "I am also a Korean language student."
+      "a": "저도 학생이에요.",
+      "e": "I am also a student."
     },
     {
       "k": [
-        "주스",
+        "녹차",
         "좋아하다"
       ],
-      "a": "커피를 좋아해요. 주스도 좋아해요.",
-      "e": "I like coffee. I also like juice."
+      "a": "커피를 좋아해요. 녹차도 좋아해요.",
+      "e": "I like coffee. I also like green tea."
     },
     {
       "k": [
         "친구",
         "오다"
       ],
-      "a": "오늘 파티에 친구도 와요.",
-      "e": "My friend is also coming to the party today."
+      "a": "오늘 제 친구도 교실에 와요.",
+      "e": "My friend is also coming to the classroom today."
     },
     {
       "k": [
@@ -441,51 +441,51 @@ LESSONS.push({
     {
       "tag": "도",
       "icon": "📖",
-      "q": "도 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 도 vocabulary and expressions.",
-      "pat": "○○도 △△이에요/예요.",
+      "q": "유진 씨도 학생이에요? 무엇도 좋아해요?",
+      "qen": "Are you also a student, Yujin? What else do you like?",
+      "pat": "○○은/는 ~해요. △△도 ~해요.",
       "items": [
         {
-          "e": "🏫",
+          "e": "🙋",
           "w": "저",
-          "g": "Also / Too",
+          "g": "I (polite)",
           "r": "저도 학생이에요",
-          "b": true
-        },
-        {
-          "e": "📕",
-          "w": "친구",
-          "g": "Also / Too",
-          "r": "친구도 한국 사람이에요",
           "b": false
-        },
-        {
-          "e": "☕",
-          "w": "동생",
-          "g": "Also / Too",
-          "r": "동생도 와요",
-          "b": true
         },
         {
           "e": "👫",
-          "w": "선생님",
-          "g": "Also / Too",
-          "r": "선생님도 계세요",
+          "w": "친구",
+          "g": "friend",
+          "r": "친구도 가요",
           "b": false
         },
         {
-          "e": "⏰",
-          "w": "커피",
-          "g": "Also / Too",
-          "r": "커피도 마셔요",
+          "e": "👦",
+          "w": "동생",
+          "g": "younger sibling",
+          "r": "동생도 좋아해요",
           "b": true
         },
         {
-          "e": "🚇",
-          "w": "책",
-          "g": "Also / Too",
-          "r": "책도 읽어요",
+          "e": "👩‍🏫",
+          "w": "선생님",
+          "g": "teacher",
+          "r": "선생님도 계세요",
+          "b": true
+        },
+        {
+          "e": "🍵",
+          "w": "녹차",
+          "g": "green tea",
+          "r": "녹차도 마셔요",
           "b": false
+        },
+        {
+          "e": "📕",
+          "w": "책",
+          "g": "book",
+          "r": "책도 읽어요",
+          "b": true
         }
       ]
     }
@@ -493,48 +493,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "도",
-      "q": "Pick a card. Same or different?",
-      "qen": "Pick a card. Same or different?",
+      "t": "짝과 공통점 찾기",
+      "v": "짝과 공통점 찾기",
+      "q": "저는 음악을 좋아해요. 여러분[[도]] 음악을 좋아해요?",
+      "qen": "I like music. Do you also like music?",
       "m": [
-        "저는 학생이에요. 저[[도]] 학생이에요!",
-        "커피를 좋아해요. 주스[[도]] 좋아해요."
+        "네, 저[[도]] 음악을 좋아해요.",
+        "저는 영화[[도]] 좋아해요."
       ],
-      "memo": "1. 장 그림으로 「저도 학생이에요」 맞장구를 함께 읽기<br>2. 다음 장 활동판 — 교사가 카드 하나를 골라 「저는 ○○아요/어요. ○○ 씨는요?」<br>3. 같으면 「저도 ○○아요/어요」(도), 다르면 「저는 □□아요/어요」(는) — 역할 바꾸기",
-      "go": "Pick a card. Same or different?"
+      "memo": "1. 장 그림으로 「저도 학생이에요」 맞장구를 함께 읽기<br>2. 다음 장 활동판 — 교사가 카드 하나를 골라 「저는 ○○아요/어요. ○○ 씨는요?」<br>3. 같으면 「저도 ○○아요/어요」(도), 다르면 「저는 □□아요/어요」(는) — 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "도",
-      "q": "Talk about the places you go.",
-      "qen": "Talk about the places you go.",
+      "i": "💬",
+      "t": "장바구니와 주문",
+      "v": "장바구니와 주문",
+      "q": "카페에서 커피를 주문해요. 무엇[[도]] 주문해요?",
+      "qen": "You order coffee at a cafe. What else do you order?",
       "m": [
-        "저는 학생이에요. 저[[도]] 학생이에요!",
-        "커피를 좋아해요. 주스[[도]] 좋아해요."
+        "커피를 마셔요. 빵[[도]] 먹어요.",
+        "시원한 물[[도]] 주세요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 어디에 가요?」 → 한 곳 말한 뒤 「○○에도 가요」로 더하기<br>3. 교사가 「또요?」로 두세 번 이어 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about the places you go."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 어디에 가요?」 → 한 곳 말한 뒤 「○○에도 가요」로 더하기<br>3. 교사가 「또요?」로 두세 번 이어 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "저는 학생이에요. 저[[도]] 학생이에요!",
-          "커피를 좋아해요. 주스[[도]] 좋아해요."
+          "저는 학생이에요. 친구[[도]] 학생이에요."
         ],
         "en": [
-          "I am a student. I am [[also]] a student!",
-          "I like coffee. I [[also]] like juice."
+          "I am a student. My friend [[is also]] a student."
+        ]
+      },
+      {
+        "ko": [
+          "커피를 좋아해요. 녹차[[도]] 좋아해요."
+        ],
+        "en": [
+          "I like coffee. I [[also]] like green tea."
         ]
       }
     ],
     "tips": [
-      "<b>도</b>: 이미 말한 내용에 다른 대상을 똑같이 덧붙이거나 공감할 때 씁니다.",
-      "대표 문장: \"저는 학생이에요. 저도 학생이에요!\"",
-      "대표 문장: \"커피를 좋아해요. 주스도 좋아해요.\""
+      "<b>주어 자리 대체</b> → <span class=\"g\">명사 + 도</span> / <b>목적어 자리 대체</b> → <span class=\"g2\">명사 + 도</span>",
+      "명사 뒤에 붙어 앞의 내용과 같거나 더함('~도 역시, 또한')을 나타냅니다. (이/가, 을/를, 은/는 자리에 대신 붙습니다)",
+      "대표 대화: \"유진 씨도 학생이에요? 무엇도 좋아해요?\" → \"저는 학생이에요. 친구도 학생이에요.\""
     ]
   }
 });

@@ -1,25 +1,8 @@
 /* Lesson 11: (으)로 (수단·방향) · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "(으)로 (수단·방향)",
-  "pos": "부사격 조사",
-  "form": "(으)로 (수단·방향)",
-  "opening": {
-    "name": "11호선 출발 · (으)로 (수단·방향)",
-    "no": 11,
-    "line": "Level 1 · Unit 3: 이동과 방향",
-    "color": "#0052a4",
-    "en": "Means, Tool & Direction · 수단·도구·방향<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 11",
-    "next": "Next: (으)로 (수단·방향)",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "pos": "명사",
+  "form": "로",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "부사격 조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
     "ko": "교통수단, 사용하는 도구·언어, 또는 이동하는 방향을 나타냅니다.",
-    "en": "Indicates means of transport, instrument/language, or direction."
+    "en": "Indicates means of transport ('by'), instrument/language ('with/in'), or direction ('toward')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "지하철로 회사에 가요.",
-    "en": "I go to the office by subway."
+    "q": "회사에 무엇[[으로]] 가요? 무엇[[으로]] 이름을 써요?",
+    "en": "How do you go to the office? What do you write your name with?"
   },
-  "en": "Means, Tool & Direction · 수단·도구·방향",
+  "en": "Means, Tool & Direction · \"~(으)로\" · 수단·도구·방향을 말해요",
   "prior": [],
   "pat": "명사 + (으)로",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "부사격 조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "연필[[로]] 이름을 써요."
     ],
     "en": [
-      "I go to the office by subway.",
-      "I write my name with a pencil."
+      "I go to the office [[by]] subway.",
+      "I write my name [[with]] a pencil."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · (으)로 (수단·방향) 핵심 상황",
-      "scene": "/course/sample/scenes/hero-11.svg",
+      "label": "예문 ① · 교통수단 묻기",
+      "scene": "/course/sample/scenes/ex-11-1.svg",
       "ask": {
-        "q": "지하철로 회사에 가요.",
-        "en": "I go to the office by subway."
+        "q": "학교나 회사에 어떻게 가요?",
+        "en": "How do you go to school or work?"
       },
       "pic": [
         {
@@ -94,72 +77,71 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 유진",
         "ko": [
-          "지하철[[로]] 회사에 가요."
+          "하준 씨, 매일 회사에 무엇[[으로]] 가요?"
         ],
         "en": [
-          "I go to the office by subway."
+          "Hajun, how do you go to the office every day?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 회사원",
         "ko": [
-          "연필[[로]] 이름을 써요."
+          "저는 지하철[[로]] 회사에 가요.",
+          "가끔 버스[[로]] 갈 때도 있어요."
         ],
         "en": [
-          "I write my name with a pencil."
+          "I go to the office [[by]] subway.",
+          "Sometimes I go [[by]] bus."
         ]
       },
       "morph": [
-        "(으)로 (수단·방향) 핵심 표현",
-        "부사격 조사"
+        "지하철 + 로 (ㄹ 받침)",
+        "버스 + 로 (받침 X)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-11.svg",
+      "label": "예문 ② · 도구와 언어 사용하기",
+      "scene": "/course/sample/scenes/ex-11-2.svg",
       "ask": {
-        "q": "교실에서 한국어로 말해요.",
-        "en": "We speak in Korean in the classroom."
+        "q": "무엇[[으로]] 글씨를 써요?",
+        "en": "What do you write with?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "(으)로 (수단·방향)",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 선생님",
         "ko": [
-          "교실에서 한국어로 말해요."
+          "여러분, 공책에 무엇[[으로]] 이름을 써요?"
         ],
         "en": [
-          "We speak in Korean in the classroom."
+          "Everyone, what do you write your name in the notebook with?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 학생",
         "ko": [
-          "버스로 학교에 와요."
+          "연필[[로]] 공책에 이름을 써요.",
+          "그리고 교실에서 한국어[[로]] 말해요."
         ],
         "en": [
-          "I come to school by bus."
+          "I write my name [[with]] a pencil.",
+          "And I speak [[in]] Korean in the classroom."
         ]
       },
       "morph": [
-        "(으)로 (수단·방향) 실전 활용"
+        "연필 + 로 (ㄹ 받침)",
+        "볼펜 + 으로 (받침 O)"
       ]
     }
   ],
   "review": [
-    {
-      "ko": "트럭으로.",
-      "base": "트럭",
-      "b": true,
-      "f": "(으)로 (수단·방향)"
-    },
     {
       "ko": "볼펜으로 써요.",
       "base": "볼펜",
@@ -179,15 +161,21 @@ LESSONS.push({
       "f": "(으)로 (수단·방향)"
     },
     {
+      "ko": "트럭으로 가요.",
+      "base": "트럭",
+      "b": true,
+      "f": "(으)로 (수단·방향)"
+    },
+    {
       "ko": "지하철로 가요.",
       "base": "지하철",
-      "b": false,
+      "b": true,
       "f": "(으)로 (수단·방향)"
     },
     {
       "ko": "연필로 써요.",
       "base": "연필",
-      "b": false,
+      "b": true,
       "f": "(으)로 (수단·방향)"
     },
     {
@@ -220,10 +208,6 @@ LESSONS.push({
         "f": "+ 으로",
         "ex": [
           [
-            "트럭",
-            "트럭으로"
-          ],
-          [
             "볼펜",
             "볼펜으로 써요"
           ],
@@ -234,6 +218,10 @@ LESSONS.push({
           [
             "젓가락",
             "젓가락으로 먹어요"
+          ],
+          [
+            "트럭",
+            "트럭으로 가요"
           ]
         ]
       },
@@ -266,29 +254,37 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · (으)로 (수단·방향) 결합 규칙",
-      "p": "<b>받침 O (ㄹ 제외)</b>일 때는 <span class=\"g\">+ 으로</span>, <b>받침 X / ㄹ 받침</b>일 때는 <span class=\"g2\">+ 로</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 트럭으로 / 지하철로 가요"
+      "p": "<b>받침 O (ㄹ 제외)</b>일 때는 <span class=\"g\">+ 으로</span>, <b>받침 X / ㄹ 받침</b>일 때는 <span class=\"g2\">+ 로</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 볼펜으로 써요 / 지하철로 가요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
       "p": "교통수단, 사용하는 도구·언어, 또는 이동하는 방향을 나타냅니다.<br><br>· 지하철로 회사에 가요.<br>· 연필로 이름을 써요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>명사 + (으)로</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"회사에 무엇으로 가요? 무엇으로 이름을 써요?\"</b>에 대해 <b>명사 + (으)로</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Indicates means of transport, instrument/language, or direction.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · (으)로 (수단·방향) Conjugation Rule",
+      "p": "Use <span class=\"g\">+ 으로</span> for <b>받침 O (ㄹ 제외)</b> and <span class=\"g2\">+ 로</span> for <b>받침 X / ㄹ 받침</b>.<br><br><span class=\"yes\">O</span> 볼펜으로 써요 / 지하철로 가요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Indicates means of transport ('by'), instrument/language ('with/in'), or direction ('toward').<br><br>· I go to the office by subway.<br>· I write my name with a pencil."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"How do you go to the office? What do you write your name with?\"</b> using the pattern <b>명사 + (으)로</b>."
+    }
   ],
   "words": [
-    {
-      "b": "트럭",
-      "r": "트럭으로",
-      "t": "받침 O (ㄹ 제외)"
-    },
     {
       "b": "볼펜",
       "r": "볼펜으로 써요",
@@ -302,6 +298,11 @@ LESSONS.push({
     {
       "b": "젓가락",
       "r": "젓가락으로 먹어요",
+      "t": "받침 O (ㄹ 제외)"
+    },
+    {
+      "b": "트럭",
+      "r": "트럭으로 가요",
       "t": "받침 O (ㄹ 제외)"
     },
     {
@@ -327,10 +328,6 @@ LESSONS.push({
   ],
   "bingo": [
     [
-      "트럭",
-      "트럭으로"
-    ],
-    [
       "볼펜",
       "볼펜으로 써요"
     ],
@@ -341,6 +338,10 @@ LESSONS.push({
     [
       "젓가락",
       "젓가락으로 먹어요"
+    ],
+    [
+      "트럭",
+      "트럭으로 가요"
     ],
     [
       "지하철",
@@ -359,46 +360,46 @@ LESSONS.push({
       "한국어로 말해요"
     ],
     [
-      "한국어",
+      "지하철",
       "지하철로 회사에 가요."
     ],
     [
-      "연습",
+      "연필",
       "연필로 이름을 써요."
     ],
     [
-      "대화",
-      "교실에서 한국어로 말해요."
+      "젓가락",
+      "젓가락으로 밥을 먹어요."
     ],
     [
-      "오늘",
-      "버스로 학교에 와요."
+      "한국어",
+      "교실에서 한국어로 말해요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "(으)로 (수단·방향) 형태 연습"
+        "t": "하준 씨, 매일 회사에 무엇으로 가요?"
       },
       {
-        "base": "트럭",
-        "ans": "트럭으로"
+        "base": "볼펜",
+        "ans": "볼펜으로 써요."
       },
       {
         "base": "지하철",
-        "ans": "지하철로 가요"
+        "ans": "지하철로 가요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "회사에 무엇으로 가요? 무엇으로 이름을 써요?"
       },
       {
-        "base": "지하철 + 가다",
+        "base": "지하철 · 가다",
         "ans": "지하철로 회사에 가요."
       },
       {
-        "base": "연필 + 쓰다",
+        "base": "연필 · 쓰다",
         "ans": "연필로 이름을 써요."
       }
     ]
@@ -410,7 +411,7 @@ LESSONS.push({
         "가다"
       ],
       "a": "지하철로 회사에 가요.",
-      "e": "I go to work by subway."
+      "e": "I go to the office by subway."
     },
     {
       "k": [
@@ -422,70 +423,70 @@ LESSONS.push({
     },
     {
       "k": [
+        "젓가락",
+        "먹다"
+      ],
+      "a": "젓가락으로 밥을 먹어요.",
+      "e": "I eat a meal with chopsticks."
+    },
+    {
+      "k": [
         "한국어",
         "말하다"
       ],
       "a": "교실에서 한국어로 말해요.",
-      "e": "We speak in Korean in the classroom."
-    },
-    {
-      "k": [
-        "버스",
-        "오다"
-      ],
-      "a": "버스로 학교에 와요.",
-      "e": "I come to school by bus."
+      "e": "I speak in Korean in the classroom."
     }
   ],
   "vocab": [
     {
       "tag": "(으)로 (수단·방향)",
       "icon": "📖",
-      "q": "(으)로 (수단·방향) 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice (으)로 (수단·방향) vocabulary and expressions.",
+      "q": "회사에 무엇으로 가요? 무엇으로 이름을 써요?",
+      "qen": "How do you go to the office? What do you write your name with?",
       "pat": "명사 + (으)로",
       "items": [
         {
-          "e": "🏫",
-          "w": "트럭",
-          "g": "Means, Tool & Direction",
-          "r": "트럭으로",
+          "e": "🖊️",
+          "w": "볼펜",
+          "g": "ballpoint pen",
+          "r": "볼펜으로 써요",
           "b": true
         },
         {
-          "e": "📕",
-          "w": "볼펜",
-          "g": "Means, Tool & Direction",
-          "r": "볼펜으로 써요",
-          "b": false
-        },
-        {
-          "e": "☕",
+          "e": "➡️",
           "w": "오른쪽",
-          "g": "Means, Tool & Direction",
+          "g": "right side",
           "r": "오른쪽으로 가요",
           "b": true
         },
         {
-          "e": "👫",
+          "e": "🥢",
           "w": "젓가락",
-          "g": "Means, Tool & Direction",
+          "g": "chopsticks",
           "r": "젓가락으로 먹어요",
-          "b": false
+          "b": true
         },
         {
-          "e": "⏰",
-          "w": "지하철",
-          "g": "Means, Tool & Direction",
-          "r": "지하철로 가요",
+          "e": "🚚",
+          "w": "트럭",
+          "g": "truck",
+          "r": "트럭으로 가요",
           "b": true
         },
         {
           "e": "🚇",
+          "w": "지하철",
+          "g": "subway",
+          "r": "지하철로 가요",
+          "b": true
+        },
+        {
+          "e": "✏️",
           "w": "연필",
-          "g": "Means, Tool & Direction",
+          "g": "pencil",
           "r": "연필로 써요",
-          "b": false
+          "b": true
         }
       ]
     }
@@ -493,48 +494,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "(으)로 (수단·방향)",
-      "q": "Talk about how you get to school.",
-      "qen": "Talk about how you get to school.",
+      "t": "통학 · 통근 교통수단",
+      "v": "통학 · 통근 교통수단",
+      "q": "오늘 교실에 무엇[[으로]] 왔어요?",
+      "qen": "How did you come to the classroom today?",
       "m": [
-        "지하철[[로]] 회사에 가요.",
-        "연필[[로]] 이름을 써요."
+        "지하철[[로]] 학교에 왔어요.",
+        "버스[[로]] 왔어요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「학교에 뭘 타고 가요?」 → 「○○(으)로 가요」<br>3. 회사 · 고향 · 마트로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about how you get to school."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「학교에 뭘 타고 가요?」 → 「○○(으)로 가요」<br>3. 회사 · 고향 · 마트로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "(으)로 (수단·방향)",
-      "q": "Pick a card. What do you use it for?",
-      "qen": "Pick a card. What do you use it for?",
+      "i": "💬",
+      "t": "도구와 언어",
+      "v": "도구와 언어",
+      "q": "한국 음식을 무엇[[으로]] 먹어요? 수업에서 무슨 말[[로]] 이야기해요?",
+      "qen": "What do you eat Korean food with? What language do you speak in class?",
       "m": [
-        "지하철[[로]] 회사에 가요.",
-        "연필[[로]] 이름을 써요."
+        "숟가락과 젓가락[[으로]] 먹어요.",
+        "한국어[[로]] 이야기해요."
       ],
-      "memo": "1. 교사 「뭘로 잘라요?」 → 학생이 카드를 짚고 「가위로 잘라요」<br>2. 카드를 바꿔 가며 「뭘로 먹어요? · 뭘로 써요?」<br>3. 역할 바꾸기",
-      "go": "Pick a card. What do you use it for?"
+      "memo": "1. 교사 「뭘로 잘라요?」 → 학생이 카드를 짚고 「가위로 잘라요」<br>2. 카드를 바꿔 가며 「뭘로 먹어요? · 뭘로 써요?」<br>3. 역할 바꾸기"
+    },
+    {
+      "i": "🎯",
+      "t": "길 안내하기",
+      "v": "길 안내하기",
+      "q": "도서관에 가려면 어느 쪽[[으로]] 가요?",
+      "qen": "Which way do I go to get to the library?",
+      "m": [
+        "앞[[으로]] 쭉 가세요.",
+        "오른쪽[[으로]] 가세요."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「학교에 뭘 타고 가요?」 → 「○○(으)로 가요」<br>3. 회사 · 고향 · 마트로 바꿔 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "지하철[[로]] 회사에 가요.",
+          "지하철[[로]] 회사에 가요."
+        ],
+        "en": [
+          "I go to the office [[by]] subway."
+        ]
+      },
+      {
+        "ko": [
           "연필[[로]] 이름을 써요."
         ],
         "en": [
-          "I go to the office by subway.",
-          "I write my name with a pencil."
+          "I write my name [[with]] a pencil."
         ]
       }
     ],
     "tips": [
-      "<b>(으)로 (수단·방향)</b>: 교통수단, 사용하는 도구·언어, 또는 이동하는 방향을 나타냅니다.",
-      "대표 문장: \"지하철로 회사에 가요.\"",
-      "대표 문장: \"연필로 이름을 써요.\""
+      "<b>받침 O (ㄹ 제외)</b> → <span class=\"g\">+ 으로</span> / <b>받침 X / ㄹ 받침</b> → <span class=\"g2\">+ 로</span>",
+      "교통수단, 사용하는 도구·언어, 또는 이동하는 방향을 나타냅니다.",
+      "대표 대화: \"회사에 무엇으로 가요? 무엇으로 이름을 써요?\" → \"지하철로 회사에 가요.\""
     ]
   }
 });

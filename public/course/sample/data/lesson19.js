@@ -1,25 +1,8 @@
 /* Lesson 19: 마다 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "마다",
-  "pos": "보조사",
+  "pos": "명사",
   "form": "마다",
-  "opening": {
-    "name": "19호선 출발 · 마다",
-    "no": 19,
-    "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
-    "color": "#0052a4",
-    "en": "Every / Each · 빠짐없는 반복<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 19",
-    "next": "Next: 마다",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "보조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "시간이나 장소, 사람 뒤에 붙어 '모두 빠짐없이 규칙적으로'라는 뜻을 나타냅니다.",
-    "en": "Means 'every' or 'each' (e.g., every morning, every weekend)."
+    "ko": "시간이나 장소, 사람 명사 뒤에 붙어 '빠짐없이 모두, 각각('every / each')'의 뜻을 나타냅니다.",
+    "en": "Attached to a noun to indicate 'every' or 'each' without exception."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "아침마다 공원에서 운동해요.",
-    "en": "I exercise at the park every morning."
+    "q": "언제[[마다]] 운동해요? 언제[[마다]] 한국어를 공부해요?",
+    "en": "How often do you exercise? How often do you study Korean?"
   },
-  "en": "Every / Each · 빠짐없는 반복",
+  "en": "Every / Each Marker · \"~마다\" · 빠짐없이 반복됨을 말해요",
   "prior": [],
   "pat": "시간/명사 + 마다",
   "hero": {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "보조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
       "아침[[마다]] 공원에서 운동해요.",
-      "주말[[마다]] 한국 영화를 봐요."
+      "날[[마다]] 한국어를 공부해요."
     ],
     "en": [
       "I exercise at the park [[every]] morning.",
-      "I watch Korean movies [[every]] weekend."
+      "I study Korean [[every]] day."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 마다 핵심 상황",
-      "scene": "/course/sample/scenes/hero-19.svg",
+      "label": "예문 ① · 규칙적인 운동 습관",
+      "scene": "/course/sample/scenes/ex-19-1.svg",
       "ask": {
-        "q": "아침마다 공원에서 운동해요.",
-        "en": "I exercise at the park every morning."
+        "q": "언제[[마다]] 공원에서 운동해요?",
+        "en": "When do you exercise at the park?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 유진",
         "ko": [
-          "아침[[마다]] 공원에서 운동해요."
+          "마이클 씨, 운동을 자주 해요?"
         ],
         "en": [
-          "I exercise at the park [[every]] morning."
+          "Michael, do you exercise often?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 마이클",
         "ko": [
-          "주말[[마다]] 한국 영화를 봐요."
+          "네, 저는 아침[[마다]] 공원에서 달리기해요.",
+          "그리고 주말[[마다]] 친구랑 축구를 해요."
         ],
         "en": [
-          "I watch Korean movies [[every]] weekend."
+          "Yes, I run at the park [[every]] morning.",
+          "And [[every]] weekend I play soccer with my friend."
         ]
       },
       "morph": [
-        "마다 핵심 표현",
-        "보조사"
+        "아침 + 마다 (받침 무관)",
+        "주말 + 마다"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-19.svg",
+      "label": "예문 ② · 꾸준한 공부와 다양성",
+      "scene": "/course/sample/scenes/ex-19-2.svg",
       "ask": {
-        "q": "주말마다 친구를 만나요.",
-        "en": "I meet my friends every weekend."
+        "q": "날[[마다]] 무엇을 공부해요?",
+        "en": "What do you study every day?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "마다",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 선생님",
         "ko": [
-          "주말마다 친구를 만나요."
+          "리에 씨, 한국어 실력이 정말 좋아졌어요!"
         ],
         "en": [
-          "I meet my friends every weekend."
+          "Rie, your Korean skills have really improved!"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 리에",
         "ko": [
-          "사람마다 생각이 달라요."
+          "감사합니다! 날[[마다]] 한국어 단어를 외워요.",
+          "나라[[마다]] 문화와 언어가 참 재미있어요."
         ],
         "en": [
-          "Every person has different thoughts."
+          "Thank you! I memorize Korean words [[every]] day.",
+          "[[Each]] country's culture and language are very interesting."
         ]
       },
       "morph": [
-        "마다 실전 활용"
+        "날 + 마다 (매일)",
+        "나라 + 마다 (각 나라)"
       ]
     }
   ],
@@ -157,31 +145,31 @@ LESSONS.push({
     {
       "ko": "아침마다 운동해요.",
       "base": "아침",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
       "ko": "날마다 공부해요.",
       "base": "날",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
-      "ko": "주말마다 쉬어요.",
+      "ko": "주말마다 여행해요.",
       "base": "주말",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
-      "ko": "방학마다 여행해요.",
-      "base": "방학",
-      "b": false,
+      "ko": "일요일마다 쉬어요.",
+      "base": "일요일",
+      "b": true,
       "f": "마다"
     },
     {
       "ko": "사람마다 달라요.",
       "base": "사람",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
@@ -193,13 +181,13 @@ LESSONS.push({
     {
       "ko": "교실마다 시계가 있어요.",
       "base": "교실",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
       "ko": "학생마다 책이 있어요.",
       "base": "학생",
-      "b": false,
+      "b": true,
       "f": "마다"
     },
     {
@@ -216,7 +204,7 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "시간의 반복",
+        "k": "시간 반복",
         "f": "시간 + 마다",
         "ex": [
           [
@@ -229,16 +217,16 @@ LESSONS.push({
           ],
           [
             "주말",
-            "주말마다 쉬어요"
+            "주말마다 여행해요"
           ],
           [
-            "방학",
-            "방학마다 여행해요"
+            "일요일",
+            "일요일마다 쉬어요"
           ]
         ]
       },
       {
-        "k": "대상의 전체",
+        "k": "대상 각각",
         "f": "명사 + 마다",
         "c": "g2",
         "ex": [
@@ -266,63 +254,76 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 마다 결합 규칙",
-      "p": "<b>시간의 반복</b>일 때는 <span class=\"g\">시간 + 마다</span>, <b>대상의 전체</b>일 때는 <span class=\"g2\">명사 + 마다</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 아침마다 운동해요 / 사람마다 달라요"
+      "p": "<b>시간 반복</b>일 때는 <span class=\"g\">시간 + 마다</span>, <b>대상 각각</b>일 때는 <span class=\"g2\">명사 + 마다</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 아침마다 운동해요 / 사람마다 달라요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "시간이나 장소, 사람 뒤에 붙어 '모두 빠짐없이 규칙적으로'라는 뜻을 나타냅니다.<br><br>· 아침마다 공원에서 운동해요.<br>· 주말마다 한국 영화를 봐요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "시간이나 장소, 사람 명사 뒤에 붙어 '빠짐없이 모두, 각각('every / each')'의 뜻을 나타냅니다.<br><br>· 아침마다 공원에서 운동해요.<br>· 날마다 한국어를 공부해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>시간/명사 + 마다</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"언제마다 운동해요? 언제마다 한국어를 공부해요?\"</b>에 대해 <b>시간/명사 + 마다</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Means 'every' or 'each' (e.g., every morning, every weekend).",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 마다 Conjugation Rule",
+      "p": "Use <span class=\"g\">시간 + 마다</span> for <b>시간 반복</b> and <span class=\"g2\">명사 + 마다</span> for <b>대상 각각</b>.<br><br><span class=\"yes\">O</span> 아침마다 운동해요 / 사람마다 달라요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a noun to indicate 'every' or 'each' without exception.<br><br>· I exercise at the park every morning.<br>· I study Korean every day."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"How often do you exercise? How often do you study Korean?\"</b> using the pattern <b>시간/명사 + 마다</b>."
+    }
   ],
   "words": [
     {
       "b": "아침",
       "r": "아침마다 운동해요",
-      "t": "시간의 반복"
+      "t": "시간 반복"
     },
     {
       "b": "날",
       "r": "날마다 공부해요",
-      "t": "시간의 반복"
+      "t": "시간 반복"
     },
     {
       "b": "주말",
-      "r": "주말마다 쉬어요",
-      "t": "시간의 반복"
+      "r": "주말마다 여행해요",
+      "t": "시간 반복"
     },
     {
-      "b": "방학",
-      "r": "방학마다 여행해요",
-      "t": "시간의 반복"
+      "b": "일요일",
+      "r": "일요일마다 쉬어요",
+      "t": "시간 반복"
     },
     {
       "b": "사람",
       "r": "사람마다 달라요",
-      "t": "대상의 전체"
+      "t": "대상 각각"
     },
     {
       "b": "나라",
       "r": "나라마다 문화가 있어요",
-      "t": "대상의 전체"
+      "t": "대상 각각"
     },
     {
       "b": "교실",
       "r": "교실마다 시계가 있어요",
-      "t": "대상의 전체"
+      "t": "대상 각각"
     },
     {
       "b": "학생",
       "r": "학생마다 책이 있어요",
-      "t": "대상의 전체"
+      "t": "대상 각각"
     }
   ],
   "bingo": [
@@ -336,11 +337,11 @@ LESSONS.push({
     ],
     [
       "주말",
-      "주말마다 쉬어요"
+      "주말마다 여행해요"
     ],
     [
-      "방학",
-      "방학마다 여행해요"
+      "일요일",
+      "일요일마다 쉬어요"
     ],
     [
       "사람",
@@ -359,47 +360,47 @@ LESSONS.push({
       "학생마다 책이 있어요"
     ],
     [
-      "한국어",
+      "아침",
       "아침마다 공원에서 운동해요."
     ],
     [
-      "연습",
-      "날마다 한국어를 열심히 공부해요."
+      "날",
+      "날마다 한국어를 공부해요."
     ],
     [
-      "대화",
-      "주말마다 친구를 만나요."
+      "주말",
+      "주말마다 가족과 영화를 봐요."
     ],
     [
-      "오늘",
-      "사람마다 생각이 달라요."
+      "사람",
+      "사람마다 좋아하는 음식이 달라요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "마다 형태 연습"
+        "t": "마이클 씨, 운동을 자주 해요?"
       },
       {
         "base": "아침",
-        "ans": "아침마다 운동해요"
+        "ans": "아침마다 운동해요."
       },
       {
         "base": "사람",
-        "ans": "사람마다 달라요"
+        "ans": "사람마다 달라요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "언제마다 운동해요? 언제마다 한국어를 공부해요?"
       },
       {
-        "base": "아침 + 공원 + 운동하다",
+        "base": "아침 · 운동하다",
         "ans": "아침마다 공원에서 운동해요."
       },
       {
-        "base": "날 + 한국어 + 공부하다",
-        "ans": "날마다 한국어를 열심히 공부해요."
+        "base": "날 · 한국어 · 공부하다",
+        "ans": "날마다 한국어를 공부해요."
       }
     ]
   ],
@@ -407,7 +408,6 @@ LESSONS.push({
     {
       "k": [
         "아침",
-        "공원",
         "운동하다"
       ],
       "a": "아침마다 공원에서 운동해요.",
@@ -419,75 +419,75 @@ LESSONS.push({
         "한국어",
         "공부하다"
       ],
-      "a": "날마다 한국어를 열심히 공부해요.",
-      "e": "I study Korean hard every day."
+      "a": "날마다 한국어를 공부해요.",
+      "e": "I study Korean every day."
     },
     {
       "k": [
         "주말",
-        "친구",
-        "만나다"
+        "영화",
+        "보다"
       ],
-      "a": "주말마다 친구를 만나요.",
-      "e": "I meet my friends every weekend."
+      "a": "주말마다 가족과 영화를 봐요.",
+      "e": "I watch a movie with my family every weekend."
     },
     {
       "k": [
         "사람",
-        "생각",
+        "성격",
         "다르다"
       ],
-      "a": "사람마다 생각이 달라요.",
-      "e": "Every person has different thoughts."
+      "a": "사람마다 좋아하는 음식이 달라요.",
+      "e": "Favorite foods differ for each person."
     }
   ],
   "vocab": [
     {
       "tag": "마다",
       "icon": "📖",
-      "q": "마다 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 마다 vocabulary and expressions.",
+      "q": "언제마다 운동해요? 언제마다 한국어를 공부해요?",
+      "qen": "How often do you exercise? How often do you study Korean?",
       "pat": "시간/명사 + 마다",
       "items": [
         {
-          "e": "🏫",
+          "e": "🌅",
           "w": "아침",
-          "g": "Every / Each",
+          "g": "morning",
           "r": "아침마다 운동해요",
           "b": true
         },
         {
-          "e": "📕",
+          "e": "☀️",
           "w": "날",
-          "g": "Every / Each",
+          "g": "day",
           "r": "날마다 공부해요",
-          "b": false
-        },
-        {
-          "e": "☕",
-          "w": "주말",
-          "g": "Every / Each",
-          "r": "주말마다 쉬어요",
           "b": true
         },
         {
-          "e": "👫",
-          "w": "방학",
-          "g": "Every / Each",
-          "r": "방학마다 여행해요",
-          "b": false
+          "e": "🗓️",
+          "w": "주말",
+          "g": "weekend",
+          "r": "주말마다 여행해요",
+          "b": true
         },
         {
-          "e": "⏰",
+          "e": "📅",
+          "w": "일요일",
+          "g": "Sunday",
+          "r": "일요일마다 쉬어요",
+          "b": true
+        },
+        {
+          "e": "🧑",
           "w": "사람",
-          "g": "Every / Each",
+          "g": "person",
           "r": "사람마다 달라요",
           "b": true
         },
         {
-          "e": "🚇",
+          "e": "🌏",
           "w": "나라",
-          "g": "Every / Each",
+          "g": "country",
           "r": "나라마다 문화가 있어요",
           "b": false
         }
@@ -497,48 +497,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "마다",
-      "q": "Talk about what you do every morning.",
-      "qen": "Talk about what you do every morning.",
+      "t": "나의 좋은 습관",
+      "v": "나의 좋은 습관",
+      "q": "아침[[마다]] 무엇을 해요? 주말[[마다]] 무엇을 해요?",
+      "qen": "What do you do every morning? What do you do every weekend?",
       "m": [
-        "아침[[마다]] 공원에서 운동해요.",
-        "주말[[마다]] 한국 영화를 봐요."
+        "아침[[마다]] 커피를 마셔요.",
+        "주말[[마다]] 도서관에 가요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「아침마다 뭐 해요?」<br>3. 주말마다 · 저녁마다로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about what you do every morning."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「아침마다 뭐 해요?」<br>3. 주말마다 · 저녁마다로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "마다",
-      "q": "Talk about your homework.",
-      "qen": "Talk about your homework.",
+      "i": "💬",
+      "t": "나라와 사람마다 다른 점",
+      "v": "나라와 사람마다 다른 점",
+      "q": "나라[[마다]] 무엇이 달라요? 사람[[마다]] 무엇이 달라요?",
+      "qen": "What is different in each country? What is different for each person?",
       "m": [
-        "아침[[마다]] 공원에서 운동해요.",
-        "주말[[마다]] 한국 영화를 봐요."
+        "나라[[마다]] 음식이 달라요.",
+        "사람[[마다]] 취미가 달라요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「수업마다 숙제가 있어요?」 → 네 · 아니요 + 마다<br>3. 시험 · 단어 시험으로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about your homework."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「수업마다 숙제가 있어요?」 → 네 · 아니요 + 마다<br>3. 시험 · 단어 시험으로 바꿔 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "아침[[마다]] 공원에서 운동해요.",
-          "주말[[마다]] 한국 영화를 봐요."
+          "아침[[마다]] 공원에서 운동해요."
         ],
         "en": [
-          "I exercise at the park [[every]] morning.",
-          "I watch Korean movies [[every]] weekend."
+          "I exercise at the park [[every]] morning."
+        ]
+      },
+      {
+        "ko": [
+          "날[[마다]] 한국어를 공부해요."
+        ],
+        "en": [
+          "I study Korean [[every]] day."
         ]
       }
     ],
     "tips": [
-      "<b>마다</b>: 시간이나 장소, 사람 뒤에 붙어 '모두 빠짐없이 규칙적으로'라는 뜻을 나타냅니다.",
-      "대표 문장: \"아침마다 공원에서 운동해요.\"",
-      "대표 문장: \"주말마다 한국 영화를 봐요.\""
+      "<b>시간 반복</b> → <span class=\"g\">시간 + 마다</span> / <b>대상 각각</b> → <span class=\"g2\">명사 + 마다</span>",
+      "시간이나 장소, 사람 명사 뒤에 붙어 '빠짐없이 모두, 각각('every / each')'의 뜻을 나타냅니다.",
+      "대표 대화: \"언제마다 운동해요? 언제마다 한국어를 공부해요?\" → \"아침마다 공원에서 운동해요.\""
     ]
   }
 });

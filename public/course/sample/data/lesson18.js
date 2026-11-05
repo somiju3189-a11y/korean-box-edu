@@ -1,25 +1,8 @@
 /* Lesson 18: (이)나 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "(이)나",
-  "pos": "접속 조사",
-  "form": "(이)나",
-  "opening": {
-    "name": "18호선 출발 · (이)나",
-    "no": 18,
-    "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
-    "color": "#0052a4",
-    "en": "Or · 선택<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 18",
-    "next": "Next: (이)나",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "pos": "명사",
+  "form": "나",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "접속 조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "두 가지 이상의 대상 중에서 어느 하나를 선택할 때 씁니다.",
-    "en": "Used between nouns to mean 'or'."
+    "ko": "두 개 이상의 명사 가운데 어느 하나를 선택함('~또는, ~혹은')을 나타냅니다.",
+    "en": "Attached to a noun to express choice between options ('or')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,12 +33,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "카페에서 커피나 주스를 마셔요.",
-    "en": "I drink coffee or juice at the cafe."
+    "q": "카페에서 무엇을 마셔요? 주말 언제 만나요?",
+    "en": "What do you drink at the cafe? When do we meet on the weekend?"
   },
-  "en": "Or · 선택",
+  "en": "Choice Marker · \"~(이)나\" · 둘 중 하나를 선택해요",
   "prior": [],
-  "pat": "명사A(이)나 명사B",
+  "pat": "명사1 + (이)나 + 명사2",
   "hero": {
     "pic": [
       {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "접속 조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
-      "카페에서 커피[[나]] 주스를 마셔요.",
+      "커피[[나]] 주스를 마셔요.",
       "토요일[[이나]] 일요일에 만나요."
     ],
     "en": [
-      "I drink coffee [[or]] juice at the cafe.",
+      "I drink coffee [[or]] juice.",
       "Let's meet on Saturday [[or]] Sunday."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · (이)나 핵심 상황",
-      "scene": "/course/sample/scenes/hero-18.svg",
+      "label": "예문 ① · 음료 선택하기",
+      "scene": "/course/sample/scenes/ex-18-1.svg",
       "ask": {
-        "q": "카페에서 커피나 주스를 마셔요.",
-        "en": "I drink coffee or juice at the cafe."
+        "q": "카페에서 무엇[[이나]] 무엇을 마셔요?",
+        "en": "What do you drink at the cafe?"
       },
       "pic": [
         {
@@ -94,62 +77,66 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 미나",
         "ko": [
-          "카페에서 커피[[나]] 주스를 마셔요."
+          "유진 씨, 카페에서 무엇을 마실까요?"
         ],
         "en": [
-          "I drink coffee [[or]] juice at the cafe."
+          "Yujin, what shall we drink at the cafe?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 유진",
         "ko": [
-          "토요일[[이나]] 일요일에 만나요."
+          "시원한 커피[[나]] 오렌지 주스를 마셔요.",
+          "그리고 빵[[이나]] 케이크를 먹어요."
         ],
         "en": [
-          "Let's meet on Saturday [[or]] Sunday."
+          "Let's drink iced coffee [[or]] orange juice.",
+          "And let's eat bread [[or]] cake."
         ]
       },
       "morph": [
-        "(이)나 핵심 표현",
-        "접속 조사"
+        "커피 + 나 (받침 X)",
+        "빵 + 이나 (받침 O)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-18.svg",
+      "label": "예문 ② · 약속 요일 정하기",
+      "scene": "/course/sample/scenes/ex-18-2.svg",
       "ask": {
-        "q": "버스나 지하철을 타고 가요.",
-        "en": "I go by bus or subway."
+        "q": "무슨 요일[[이나]] 무슨 요일에 만나요?",
+        "en": "On which day or which day do we meet?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "(이)나",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 하준",
         "ko": [
-          "버스나 지하철을 타고 가요."
+          "사라 씨, 우리 이번 주에 언제 만날까요?"
         ],
         "en": [
-          "I go by bus or subway."
+          "Sara, when shall we meet this week?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 사라",
         "ko": [
-          "아침에 빵이나 과일을 먹어요."
+          "평일에는 바빠요.",
+          "토요일[[이나]] 일요일에 공원에서 만나요!"
         ],
         "en": [
-          "I eat bread or fruit in the morning."
+          "I'm busy on weekdays.",
+          "Let's meet at the park on Saturday [[or]] Sunday!"
         ]
       },
       "morph": [
-        "(이)나 실전 활용"
+        "토요일 + 이나 (받침 O)"
       ]
     }
   ],
@@ -161,14 +148,14 @@ LESSONS.push({
       "f": "(이)나"
     },
     {
-      "ko": "토요일이나 일요일.",
-      "base": "토요일",
+      "ko": "책이나 신문.",
+      "base": "책",
       "b": true,
       "f": "(이)나"
     },
     {
-      "ko": "책이나 신문.",
-      "base": "책",
+      "ko": "토요일이나 일요일.",
+      "base": "토요일",
       "b": true,
       "f": "(이)나"
     },
@@ -185,25 +172,25 @@ LESSONS.push({
       "f": "(이)나"
     },
     {
-      "ko": "버스나 택시.",
-      "base": "버스",
-      "b": false,
-      "f": "(이)나"
-    },
-    {
       "ko": "영화나 드라마.",
       "base": "영화",
       "b": false,
       "f": "(이)나"
     },
     {
-      "ko": "아침이나 저녁.",
-      "base": "아침",
+      "ko": "버스나 택시.",
+      "base": "버스",
       "b": false,
       "f": "(이)나"
     },
     {
-      "ko": "카페에서 커피나 주스를 마셔요.",
+      "ko": "노래나 춤.",
+      "base": "노래",
+      "b": false,
+      "f": "(이)나"
+    },
+    {
+      "ko": "커피나 주스를 마셔요.",
       "note": "(이)나 대표 예문"
     }
   ],
@@ -224,12 +211,12 @@ LESSONS.push({
             "빵이나 밥"
           ],
           [
-            "토요일",
-            "토요일이나 일요일"
-          ],
-          [
             "책",
             "책이나 신문"
+          ],
+          [
+            "토요일",
+            "토요일이나 일요일"
           ],
           [
             "지하철",
@@ -247,16 +234,16 @@ LESSONS.push({
             "커피나 주스"
           ],
           [
-            "버스",
-            "버스나 택시"
-          ],
-          [
             "영화",
             "영화나 드라마"
           ],
           [
-            "아침",
-            "아침이나 저녁"
+            "버스",
+            "버스나 택시"
+          ],
+          [
+            "노래",
+            "노래나 춤"
           ]
         ]
       }
@@ -270,18 +257,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "두 가지 이상의 대상 중에서 어느 하나를 선택할 때 씁니다.<br><br>· 카페에서 커피나 주스를 마셔요.<br>· 토요일이나 일요일에 만나요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "두 개 이상의 명사 가운데 어느 하나를 선택함('~또는, ~혹은')을 나타냅니다.<br><br>· 커피나 주스를 마셔요.<br>· 토요일이나 일요일에 만나요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>명사A(이)나 명사B</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"카페에서 무엇을 마셔요? 주말 언제 만나요?\"</b>에 대해 <b>명사1 + (이)나 + 명사2</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Used between nouns to mean 'or'.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · (이)나 Conjugation Rule",
+      "p": "Use <span class=\"g\">+ 이나</span> for <b>받침 O</b> and <span class=\"g2\">+ 나</span> for <b>받침 X</b>.<br><br><span class=\"yes\">O</span> 빵이나 밥 / 커피나 주스"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a noun to express choice between options ('or').<br><br>· I drink coffee or juice.<br>· Let's meet on Saturday or Sunday."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"What do you drink at the cafe? When do we meet on the weekend?\"</b> using the pattern <b>명사1 + (이)나 + 명사2</b>."
+    }
   ],
   "words": [
     {
@@ -290,13 +290,13 @@ LESSONS.push({
       "t": "받침 O"
     },
     {
-      "b": "토요일",
-      "r": "토요일이나 일요일",
+      "b": "책",
+      "r": "책이나 신문",
       "t": "받침 O"
     },
     {
-      "b": "책",
-      "r": "책이나 신문",
+      "b": "토요일",
+      "r": "토요일이나 일요일",
       "t": "받침 O"
     },
     {
@@ -310,18 +310,18 @@ LESSONS.push({
       "t": "받침 X"
     },
     {
-      "b": "버스",
-      "r": "버스나 택시",
-      "t": "받침 X"
-    },
-    {
       "b": "영화",
       "r": "영화나 드라마",
       "t": "받침 X"
     },
     {
-      "b": "아침",
-      "r": "아침이나 저녁",
+      "b": "버스",
+      "r": "버스나 택시",
+      "t": "받침 X"
+    },
+    {
+      "b": "노래",
+      "r": "노래나 춤",
       "t": "받침 X"
     }
   ],
@@ -331,12 +331,12 @@ LESSONS.push({
       "빵이나 밥"
     ],
     [
-      "토요일",
-      "토요일이나 일요일"
-    ],
-    [
       "책",
       "책이나 신문"
+    ],
+    [
+      "토요일",
+      "토요일이나 일요일"
     ],
     [
       "지하철",
@@ -347,59 +347,59 @@ LESSONS.push({
       "커피나 주스"
     ],
     [
-      "버스",
-      "버스나 택시"
-    ],
-    [
       "영화",
       "영화나 드라마"
     ],
     [
-      "아침",
-      "아침이나 저녁"
+      "버스",
+      "버스나 택시"
     ],
     [
-      "한국어",
-      "카페에서 커피나 주스를 마셔요."
+      "노래",
+      "노래나 춤"
     ],
     [
-      "연습",
-      "토요일이나 일요일에 친구를 만나요."
+      "커피",
+      "커피나 주스를 마셔요."
     ],
     [
-      "대화",
-      "버스나 지하철을 타고 가요."
+      "토요일",
+      "토요일이나 일요일에 만나요."
     ],
     [
-      "오늘",
-      "아침에 빵이나 과일을 먹어요."
+      "지하철",
+      "지하철이나 버스로 학교에 가요."
+    ],
+    [
+      "빵",
+      "아침에 빵이나 김밥을 먹어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "(이)나 형태 연습"
+        "t": "유진 씨, 카페에서 무엇을 마실까요?"
       },
       {
         "base": "빵",
-        "ans": "빵이나 밥"
+        "ans": "빵이나 밥."
       },
       {
         "base": "커피",
-        "ans": "커피나 주스"
+        "ans": "커피나 주스."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "카페에서 무엇을 마셔요? 주말 언제 만나요?"
       },
       {
-        "base": "커피 + 주스 + 마시다",
-        "ans": "카페에서 커피나 주스를 마셔요."
+        "base": "커피 · 주스 · 마시다",
+        "ans": "커피나 주스를 마셔요."
       },
       {
-        "base": "토요일 + 일요일 + 만나다",
-        "ans": "토요일이나 일요일에 친구를 만나요."
+        "base": "토요일 · 일요일 · 만나다",
+        "ans": "토요일이나 일요일에 만나요."
       }
     ]
   ],
@@ -410,8 +410,8 @@ LESSONS.push({
         "주스",
         "마시다"
       ],
-      "a": "카페에서 커피나 주스를 마셔요.",
-      "e": "I drink coffee or juice at the cafe."
+      "a": "커피나 주스를 마셔요.",
+      "e": "I drink coffee or juice."
     },
     {
       "k": [
@@ -419,76 +419,76 @@ LESSONS.push({
         "일요일",
         "만나다"
       ],
-      "a": "토요일이나 일요일에 친구를 만나요.",
-      "e": "I meet my friend on Saturday or Sunday."
+      "a": "토요일이나 일요일에 만나요.",
+      "e": "We meet on Saturday or Sunday."
     },
     {
       "k": [
-        "버스",
         "지하철",
+        "버스",
         "타다"
       ],
-      "a": "버스나 지하철을 타고 가요.",
-      "e": "I go by bus or subway."
+      "a": "지하철이나 버스로 학교에 가요.",
+      "e": "I go to school by subway or bus."
     },
     {
       "k": [
         "빵",
-        "과일",
+        "김밥",
         "먹다"
       ],
-      "a": "아침에 빵이나 과일을 먹어요.",
-      "e": "I eat bread or fruit in the morning."
+      "a": "아침에 빵이나 김밥을 먹어요.",
+      "e": "I eat bread or gimbap in the morning."
     }
   ],
   "vocab": [
     {
       "tag": "(이)나",
       "icon": "📖",
-      "q": "(이)나 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice (이)나 vocabulary and expressions.",
-      "pat": "명사A(이)나 명사B",
+      "q": "카페에서 무엇을 마셔요? 주말 언제 만나요?",
+      "qen": "What do you drink at the cafe? When do we meet on the weekend?",
+      "pat": "명사1 + (이)나 + 명사2",
       "items": [
         {
-          "e": "🏫",
+          "e": "🥐",
           "w": "빵",
-          "g": "Or",
+          "g": "bread",
           "r": "빵이나 밥",
           "b": true
         },
         {
           "e": "📕",
-          "w": "토요일",
-          "g": "Or",
-          "r": "토요일이나 일요일",
-          "b": false
-        },
-        {
-          "e": "☕",
           "w": "책",
-          "g": "Or",
+          "g": "book",
           "r": "책이나 신문",
           "b": true
         },
         {
-          "e": "👫",
-          "w": "지하철",
-          "g": "Or",
-          "r": "지하철이나 버스",
-          "b": false
-        },
-        {
-          "e": "⏰",
-          "w": "커피",
-          "g": "Or",
-          "r": "커피나 주스",
+          "e": "📅",
+          "w": "토요일",
+          "g": "Saturday",
+          "r": "토요일이나 일요일",
           "b": true
         },
         {
           "e": "🚇",
-          "w": "버스",
-          "g": "Or",
-          "r": "버스나 택시",
+          "w": "지하철",
+          "g": "subway",
+          "r": "지하철이나 버스",
+          "b": true
+        },
+        {
+          "e": "☕",
+          "w": "커피",
+          "g": "coffee",
+          "r": "커피나 주스",
+          "b": false
+        },
+        {
+          "e": "🎬",
+          "w": "영화",
+          "g": "movie",
+          "r": "영화나 드라마",
           "b": false
         }
       ]
@@ -497,48 +497,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "(이)나",
-      "q": "Look at the menu. What do you drink?",
-      "qen": "Look at the menu. What do you drink?",
+      "t": "아침 식사 메뉴",
+      "v": "아침 식사 메뉴",
+      "q": "아침에 보통 무엇[[이나]] 무엇을 먹어요?",
+      "qen": "What or what do you usually eat in the morning?",
       "m": [
-        "카페에서 커피[[나]] 주스를 마셔요.",
-        "토요일[[이나]] 일요일에 만나요."
+        "아침에 빵[[이나]] 과일을 먹어요.",
+        "우유[[나]] 주스를 마셔요."
       ],
-      "memo": "1. 교사 「뭐 마셔요?」 → 학생이 둘을 골라 「○○(이)나 □□을/를 마셔요」<br>2. 「그럼 뭐 먹어요?」로 음식까지<br>3. 역할 바꾸기",
-      "go": "Look at the menu. What do you drink?"
+      "memo": "1. 교사 「뭐 마셔요?」 → 학생이 둘을 골라 「○○(이)나 □□을/를 마셔요」<br>2. 「그럼 뭐 먹어요?」로 음식까지<br>3. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "(이)나",
-      "q": "Plan our next class together.",
-      "qen": "Plan our next class together.",
+      "i": "💬",
+      "t": "주말 여가 선택",
+      "v": "주말 여가 선택",
+      "q": "시간이 있을 때 무엇[[이나]] 무엇을 해요?",
+      "qen": "When you have free time, what or what do you do?",
       "m": [
-        "카페에서 커피[[나]] 주스를 마셔요.",
-        "토요일[[이나]] 일요일에 만나요."
+        "집에서 영화[[나]] 드라마를 봐요.",
+        "토요일[[이나]] 일요일에 운동해요."
       ],
-      "memo": "1. 「우리 언제 만나요?」를 함께 읽기<br>2. 다음 장 활동판에서 진짜 다음 수업 날을 정한다 — 「우리 언제 공부해요? 월요일이나 수요일 어때요?」<br>3. 안 되는 칸은 ✕, 정해진 칸은 한 번 더 눌러 「수업」 표시",
-      "go": "Plan our next class together."
+      "memo": "1. 「우리 언제 만나요?」를 함께 읽기<br>2. 다음 장 활동판에서 진짜 다음 수업 날을 정한다 — 「우리 언제 공부해요? 월요일이나 수요일 어때요?」<br>3. 안 되는 칸은 ✕, 정해진 칸은 한 번 더 눌러 「수업」 표시"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "카페에서 커피[[나]] 주스를 마셔요.",
+          "커피[[나]] 주스를 마셔요."
+        ],
+        "en": [
+          "I drink coffee [[or]] juice."
+        ]
+      },
+      {
+        "ko": [
           "토요일[[이나]] 일요일에 만나요."
         ],
         "en": [
-          "I drink coffee [[or]] juice at the cafe.",
           "Let's meet on Saturday [[or]] Sunday."
         ]
       }
     ],
     "tips": [
-      "<b>(이)나</b>: 두 가지 이상의 대상 중에서 어느 하나를 선택할 때 씁니다.",
-      "대표 문장: \"카페에서 커피나 주스를 마셔요.\"",
-      "대표 문장: \"토요일이나 일요일에 만나요.\""
+      "<b>받침 O</b> → <span class=\"g\">+ 이나</span> / <b>받침 X</b> → <span class=\"g2\">+ 나</span>",
+      "두 개 이상의 명사 가운데 어느 하나를 선택함('~또는, ~혹은')을 나타냅니다.",
+      "대표 대화: \"카페에서 무엇을 마셔요? 주말 언제 만나요?\" → \"커피나 주스를 마셔요.\""
     ]
   }
 });

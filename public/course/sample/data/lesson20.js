@@ -1,25 +1,8 @@
 /* Lesson 20: 의 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "의",
-  "pos": "관형격 조사",
+  "pos": "명사",
   "form": "의",
-  "opening": {
-    "name": "20호선 출발 · 의",
-    "no": 20,
-    "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
-    "color": "#0052a4",
-    "en": "Possessive Marker · 소유와 소속 ('s / of)<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 20",
-    "next": "Next: 의",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "관형격 조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "앞 명사가 뒤 명사의 소유주이거나 소속임을 나타냅니다.",
-    "en": "Possessive particle equivalent to 's or 'of'."
+    "ko": "명사 뒤에 붙어 뒤따르는 명사의 소유자나 소속('~의')을 나타냅니다. ('저의→제, 나의→내')",
+    "en": "Possessive marker meaning 'of' or '-’s' (저의 contracts to 제, 나의 to 내)."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,12 +33,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "이거는 리에 씨의 가방이에요.",
-    "en": "This is Rie's bag."
+    "q": "이 가방은 누구[[의]] 가방이에요? 이 책은 누구[[의]] 책이에요?",
+    "en": "Whose bag is this? Whose book is this?"
   },
-  "en": "Possessive Marker · 소유와 소속 ('s / of)",
+  "en": "Possessive Marker · \"~의\" · 소유와 소속을 말해요",
   "prior": [],
-  "pat": "사람/명사 + 의 + 물건",
+  "pat": "명사1(소유자) + 의 + 명사2",
   "hero": {
     "pic": [
       {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "관형격 조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
       "이거는 리에 씨[[의]] 가방이에요.",
-      "저거는 선생님[[의]] 책이에요."
+      "선생님[[의]] 한국어 책이에요."
     ],
     "en": [
-      "This is Rie[['s]] bag.",
-      "That is the teacher[['s]] book."
+      "This is [[Rie's]] bag.",
+      "It is the [[teacher's]] Korean book."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 의 핵심 상황",
-      "scene": "/course/sample/scenes/hero-20.svg",
+      "label": "예문 ① · 물건 주인 찾기",
+      "scene": "/course/sample/scenes/ex-20-1.svg",
       "ask": {
-        "q": "이거는 리에 씨의 가방이에요.",
-        "en": "This is Rie's bag."
+        "q": "이 가방은 누구[[의]] 가방이에요?",
+        "en": "Whose bag is this?"
       },
       "pic": [
         {
@@ -94,104 +77,109 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 선생님",
         "ko": [
-          "이거는 리에 씨[[의]] 가방이에요."
+          "여러분, 의자 위에 있는 이 가방은 누구[[의]] 가방이에요?"
         ],
         "en": [
-          "This is Rie[['s]] bag."
+          "Everyone, whose bag is this on the chair?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 리에",
         "ko": [
-          "저거는 선생님[[의]] 책이에요."
+          "그거는 리에[[의]] 가방이에요!",
+          "그리고 옆에는 [[제]] 우산이에요."
         ],
         "en": [
-          "That is the teacher[['s]] book."
+          "That is [[Rie's]] bag!",
+          "And next to it is [[my]] umbrella."
         ]
       },
       "morph": [
-        "의 핵심 표현",
-        "관형격 조사"
+        "리에 + 의 가방",
+        "저의 → 제 우산"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-20.svg",
+      "label": "예문 ② · 가족과 소속 소개",
+      "scene": "/course/sample/scenes/ex-20-2.svg",
       "ask": {
-        "q": "이거는 제 컴퓨터예요.",
-        "en": "This is my computer."
+        "q": "책상 위의 책은 누구[[의]] 책이에요?",
+        "en": "Whose book is on the desk?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "의",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 학생",
         "ko": [
-          "이거는 제 컴퓨터예요."
+          "유진 씨, 책상 위에 있는 책은 유진 씨[[의]] 책이에요?"
         ],
         "en": [
-          "This is my computer."
+          "Yujin, is the book on the desk your book?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 유진",
         "ko": [
-          "저거는 제 친구의 우산이에요."
+          "아니요, 우리 선생님[[의]] 한국어 책이에요.",
+          "[[제]] 책은 가방 안에 있어요."
         ],
         "en": [
-          "That is my friend's umbrella."
+          "No, it is our [[teacher's]] Korean book.",
+          "[[My]] book is inside my bag."
         ]
       },
       "morph": [
-        "의 실전 활용"
+        "선생님 + 의 책",
+        "저의 → 제 책"
       ]
     }
   ],
   "review": [
     {
-      "ko": "리에 씨의 가방.",
-      "base": "리에 씨",
+      "ko": "리에의 가방.",
+      "base": "리에",
       "b": false,
       "f": "의"
     },
     {
       "ko": "선생님의 책.",
       "base": "선생님",
-      "b": false,
+      "b": true,
       "f": "의"
     },
     {
-      "ko": "친구의 시계.",
+      "ko": "친구의 휴대폰.",
       "base": "친구",
       "b": false,
       "f": "의"
     },
     {
-      "ko": "의사의 가운.",
-      "base": "의사",
+      "ko": "마이클의 시계.",
+      "base": "마이클",
+      "b": true,
+      "f": "의"
+    },
+    {
+      "ko": "제 이름 (저의 이름).",
+      "base": "저",
       "b": false,
       "f": "의"
     },
     {
-      "ko": "제 가방이에요.",
-      "base": "저 + 의",
+      "ko": "제 가방 (저의 가방).",
+      "base": "저",
       "b": false,
       "f": "의"
     },
     {
-      "ko": "내 친구예요.",
-      "base": "나 + 의",
-      "b": false,
-      "f": "의"
-    },
-    {
-      "ko": "우리 학교예요.",
+      "ko": "우리 학교.",
       "base": "우리",
       "b": false,
       "f": "의"
@@ -199,7 +187,7 @@ LESSONS.push({
     {
       "ko": "한국의 음식.",
       "base": "한국",
-      "b": false,
+      "b": true,
       "f": "의"
     },
     {
@@ -216,12 +204,12 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "사람의 소유",
-        "f": "이름/직업 + 의",
+        "k": "이름 · 사람 + 의",
+        "f": "명사 + 의",
         "ex": [
           [
-            "리에 씨",
-            "리에 씨의 가방"
+            "리에",
+            "리에의 가방"
           ],
           [
             "선생님",
@@ -229,30 +217,30 @@ LESSONS.push({
           ],
           [
             "친구",
-            "친구의 시계"
+            "친구의 휴대폰"
           ],
           [
-            "의사",
-            "의사의 가운"
+            "마이클",
+            "마이클의 시계"
           ]
         ]
       },
       {
         "k": "대명사 축약",
-        "f": "저/나/너 + 의 → 제/내/네",
+        "f": "저의 → 제 / 나의 → 내",
         "c": "g2",
         "ex": [
           [
-            "저 + 의",
-            "제 가방이에요"
+            "저",
+            "제 이름 (저의 이름)"
           ],
           [
-            "나 + 의",
-            "내 친구예요"
+            "저",
+            "제 가방 (저의 가방)"
           ],
           [
             "우리",
-            "우리 학교예요"
+            "우리 학교"
           ],
           [
             "한국",
@@ -266,57 +254,70 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 의 결합 규칙",
-      "p": "<b>사람의 소유</b>일 때는 <span class=\"g\">이름/직업 + 의</span>, <b>대명사 축약</b>일 때는 <span class=\"g2\">저/나/너 + 의 → 제/내/네</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 리에 씨의 가방 / 제 가방이에요"
+      "p": "<b>이름 · 사람 + 의</b>일 때는 <span class=\"g\">명사 + 의</span>, <b>대명사 축약</b>일 때는 <span class=\"g2\">저의 → 제 / 나의 → 내</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 리에의 가방 / 제 이름 (저의 이름)"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "앞 명사가 뒤 명사의 소유주이거나 소속임을 나타냅니다.<br><br>· 이거는 리에 씨의 가방이에요.<br>· 저거는 선생님의 책이에요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "명사 뒤에 붙어 뒤따르는 명사의 소유자나 소속('~의')을 나타냅니다. ('저의→제, 나의→내')<br><br>· 이거는 리에 씨의 가방이에요.<br>· 선생님의 한국어 책이에요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>사람/명사 + 의 + 물건</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"이 가방은 누구의 가방이에요? 이 책은 누구의 책이에요?\"</b>에 대해 <b>명사1(소유자) + 의 + 명사2</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Possessive particle equivalent to 's or 'of'.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 의 Conjugation Rule",
+      "p": "Use <span class=\"g\">명사 + 의</span> for <b>이름 · 사람 + 의</b> and <span class=\"g2\">저의 → 제 / 나의 → 내</span> for <b>대명사 축약</b>.<br><br><span class=\"yes\">O</span> 리에의 가방 / 제 이름 (저의 이름)"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Possessive marker meaning 'of' or '-’s' (저의 contracts to 제, 나의 to 내).<br><br>· This is Rie's bag.<br>· It is the teacher's Korean book."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Whose bag is this? Whose book is this?\"</b> using the pattern <b>명사1(소유자) + 의 + 명사2</b>."
+    }
   ],
   "words": [
     {
-      "b": "리에 씨",
-      "r": "리에 씨의 가방",
-      "t": "사람의 소유"
+      "b": "리에",
+      "r": "리에의 가방",
+      "t": "이름 · 사람 + 의"
     },
     {
       "b": "선생님",
       "r": "선생님의 책",
-      "t": "사람의 소유"
+      "t": "이름 · 사람 + 의"
     },
     {
       "b": "친구",
-      "r": "친구의 시계",
-      "t": "사람의 소유"
+      "r": "친구의 휴대폰",
+      "t": "이름 · 사람 + 의"
     },
     {
-      "b": "의사",
-      "r": "의사의 가운",
-      "t": "사람의 소유"
+      "b": "마이클",
+      "r": "마이클의 시계",
+      "t": "이름 · 사람 + 의"
     },
     {
-      "b": "저 + 의",
-      "r": "제 가방이에요",
+      "b": "저",
+      "r": "제 이름 (저의 이름)",
       "t": "대명사 축약"
     },
     {
-      "b": "나 + 의",
-      "r": "내 친구예요",
+      "b": "저",
+      "r": "제 가방 (저의 가방)",
       "t": "대명사 축약"
     },
     {
       "b": "우리",
-      "r": "우리 학교예요",
+      "r": "우리 학교",
       "t": "대명사 축약"
     },
     {
@@ -327,8 +328,8 @@ LESSONS.push({
   ],
   "bingo": [
     [
-      "리에 씨",
-      "리에 씨의 가방"
+      "리에",
+      "리에의 가방"
     ],
     [
       "선생님",
@@ -336,69 +337,69 @@ LESSONS.push({
     ],
     [
       "친구",
-      "친구의 시계"
+      "친구의 휴대폰"
     ],
     [
-      "의사",
-      "의사의 가운"
+      "마이클",
+      "마이클의 시계"
     ],
     [
-      "저 + 의",
-      "제 가방이에요"
+      "저",
+      "제 이름 (저의 이름)"
     ],
     [
-      "나 + 의",
-      "내 친구예요"
+      "저",
+      "제 가방 (저의 가방)"
     ],
     [
       "우리",
-      "우리 학교예요"
+      "우리 학교"
     ],
     [
       "한국",
       "한국의 음식"
     ],
     [
-      "한국어",
+      "리에",
       "이거는 리에 씨의 가방이에요."
     ],
     [
-      "연습",
+      "선생님",
       "책상 위에 선생님의 책이 있어요."
     ],
     [
-      "대화",
-      "이거는 제 컴퓨터예요."
+      "저",
+      "제 이름은 유진이에요."
     ],
     [
-      "오늘",
-      "저거는 제 친구의 우산이에요."
+      "친구",
+      "오늘은 제 친구의 생일이에요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "의 형태 연습"
+        "t": "여러분, 의자 위에 있는 이 가방은 누구의 가방이에요?"
       },
       {
-        "base": "리에 씨",
-        "ans": "리에 씨의 가방"
+        "base": "리에",
+        "ans": "리에의 가방."
       },
       {
-        "base": "저 + 의",
-        "ans": "제 가방이에요"
+        "base": "저",
+        "ans": "제 이름 (저의 이름)."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "이 가방은 누구의 가방이에요? 이 책은 누구의 책이에요?"
       },
       {
-        "base": "리에 씨 + 가방",
+        "base": "리에 · 가방",
         "ans": "이거는 리에 씨의 가방이에요."
       },
       {
-        "base": "선생님 + 책",
+        "base": "선생님 · 책",
         "ans": "책상 위에 선생님의 책이 있어요."
       }
     ]
@@ -406,7 +407,7 @@ LESSONS.push({
   "make": [
     {
       "k": [
-        "리에 씨",
+        "리에",
         "가방"
       ],
       "a": "이거는 리에 씨의 가방이에요.",
@@ -423,68 +424,69 @@ LESSONS.push({
     {
       "k": [
         "저",
-        "컴퓨터"
+        "이름",
+        "유진"
       ],
-      "a": "이거는 제 컴퓨터예요.",
-      "e": "This is my computer."
+      "a": "제 이름은 유진이에요.",
+      "e": "My name is Yujin."
     },
     {
       "k": [
         "친구",
-        "우산"
+        "생일"
       ],
-      "a": "저거는 제 친구의 우산이에요.",
-      "e": "That is my friend's umbrella."
+      "a": "오늘은 제 친구의 생일이에요.",
+      "e": "Today is my friend's birthday."
     }
   ],
   "vocab": [
     {
       "tag": "의",
       "icon": "📖",
-      "q": "의 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 의 vocabulary and expressions.",
-      "pat": "사람/명사 + 의 + 물건",
+      "q": "이 가방은 누구의 가방이에요? 이 책은 누구의 책이에요?",
+      "qen": "Whose bag is this? Whose book is this?",
+      "pat": "명사1(소유자) + 의 + 명사2",
       "items": [
         {
-          "e": "🏫",
-          "w": "리에 씨",
-          "g": "Possessive Marker",
-          "r": "리에 씨의 가방",
-          "b": true
-        },
-        {
-          "e": "📕",
-          "w": "선생님",
-          "g": "Possessive Marker",
-          "r": "선생님의 책",
+          "e": "👧",
+          "w": "리에",
+          "g": "Rie",
+          "r": "리에의 가방",
           "b": false
         },
         {
-          "e": "☕",
-          "w": "친구",
-          "g": "Possessive Marker",
-          "r": "친구의 시계",
+          "e": "👩‍🏫",
+          "w": "선생님",
+          "g": "teacher",
+          "r": "선생님의 책",
           "b": true
         },
         {
           "e": "👫",
-          "w": "의사",
-          "g": "Possessive Marker",
-          "r": "의사의 가운",
+          "w": "친구",
+          "g": "friend",
+          "r": "친구의 휴대폰",
           "b": false
         },
         {
-          "e": "⏰",
-          "w": "저 + 의",
-          "g": "Possessive Marker",
-          "r": "제 가방이에요",
+          "e": "🧑",
+          "w": "마이클",
+          "g": "Michael",
+          "r": "마이클의 시계",
           "b": true
         },
         {
-          "e": "🚇",
-          "w": "나 + 의",
-          "g": "Possessive Marker",
-          "r": "내 친구예요",
+          "e": "🙋",
+          "w": "저",
+          "g": "I (polite)",
+          "r": "제 이름 (저의 이름)",
+          "b": false
+        },
+        {
+          "e": "🙋",
+          "w": "저",
+          "g": "I (polite)",
+          "r": "제 가방 (저의 가방)",
           "b": false
         }
       ]
@@ -493,48 +495,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "의",
-      "q": "Look at the name tags. Whose is it?",
-      "qen": "Look at the name tags. Whose is it?",
+      "t": "교실 물건 주인 찾기",
+      "v": "교실 물건 주인 찾기",
+      "q": "이 연필은 누구[[의]] 연필이에요? 저 가방은 누구 거[[예요]]?",
+      "qen": "Whose pencil is this? Whose bag is that?",
       "m": [
-        "이거는 리에 씨[[의]] 가방이에요.",
-        "저거는 선생님[[의]] 책이에요."
+        "이거는 마이클 씨[[의]] 연필이에요.",
+        "저거는 [[제]] 가방이에요."
       ],
-      "memo": "1. 교사 「이 가방은 누구 거예요?」 → 「리에 씨의 가방이에요」<br>2. 교사 · 학생 실제 물건으로 넓히기 — 「이거 ○○ 씨 거예요?」<br>3. 역할 바꾸기",
-      "go": "Look at the name tags. Whose is it?"
+      "memo": "1. 교사 「이 가방은 누구 거예요?」 → 「리에 씨의 가방이에요」<br>2. 교사 · 학생 실제 물건으로 넓히기 — 「이거 ○○ 씨 거예요?」<br>3. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "의",
-      "q": "Whose is it? Correct your teacher.",
-      "qen": "Whose is it? Correct your teacher.",
+      "i": "💬",
+      "t": "나의 소중한 것 소개",
+      "v": "나의 소중한 것 소개",
+      "q": "여러분[[의]] 취미는 뭐예요? 가장 좋아하는 책은 뭐예요?",
+      "qen": "What is your hobby? What is your favorite book?",
       "m": [
-        "이거는 리에 씨[[의]] 가방이에요.",
-        "저거는 선생님[[의]] 책이에요."
+        "[[제]] 취미는 음악 듣기예요.",
+        "이거는 [[제]] 동생[[의]] 사진이에요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 학생 물건을 짚고 일부러 틀리게 「이거 ○○ 씨 거예요?」<br>3. 학생 「아니요, ○○ 씨 것이 아니에요. 제 □□이에요」<br>4. 역할 바꾸기",
-      "go": "Whose is it? Correct your teacher."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 학생 물건을 짚고 일부러 틀리게 「이거 ○○ 씨 거예요?」<br>3. 학생 「아니요, ○○ 씨 것이 아니에요. 제 □□이에요」<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "이거는 리에 씨[[의]] 가방이에요.",
-          "저거는 선생님[[의]] 책이에요."
+          "이거는 리에 씨[[의]] 가방이에요."
         ],
         "en": [
-          "This is Rie[['s]] bag.",
-          "That is the teacher[['s]] book."
+          "This is [[Rie's]] bag."
+        ]
+      },
+      {
+        "ko": [
+          "선생님[[의]] 한국어 책이에요."
+        ],
+        "en": [
+          "It is the [[teacher's]] Korean book."
         ]
       }
     ],
     "tips": [
-      "<b>의</b>: 앞 명사가 뒤 명사의 소유주이거나 소속임을 나타냅니다.",
-      "대표 문장: \"이거는 리에 씨의 가방이에요.\"",
-      "대표 문장: \"저거는 선생님의 책이에요.\""
+      "<b>이름 · 사람 + 의</b> → <span class=\"g\">명사 + 의</span> / <b>대명사 축약</b> → <span class=\"g2\">저의 → 제 / 나의 → 내</span>",
+      "명사 뒤에 붙어 뒤따르는 명사의 소유자나 소속('~의')을 나타냅니다. ('저의→제, 나의→내')",
+      "대표 대화: \"이 가방은 누구의 가방이에요? 이 책은 누구의 책이에요?\" → \"이거는 리에 씨의 가방이에요.\""
     ]
   }
 });

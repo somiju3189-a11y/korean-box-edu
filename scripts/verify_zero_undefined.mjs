@@ -40,6 +40,10 @@ const sandbox = {
 };
 vm.createContext(sandbox);
 
+for (const aux of ['sitgo.js', 'tipkeep.js', 'vocabpic.js', 'actboard.js', 'check3.js', 'why.js']) {
+  const p = `public/course/sample/data/${aux}`;
+  if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, 'utf8'), sandbox);
+}
 for (let i = 1; i <= 30; i++) {
   vm.runInContext(fs.readFileSync(`public/course/sample/data/lesson${i}.js`, 'utf8'), sandbox);
 }

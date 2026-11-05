@@ -1,25 +1,8 @@
 /* Lesson 3: 이/가 있어요/없어요 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "이/가 있어요/없어요",
-  "pos": "형용사·존재",
+  "pos": "명사",
   "form": "이/가 있어요/없어요",
-  "opening": {
-    "name": "3호선 출발 · 이/가 있어요/없어요",
-    "no": 3,
-    "line": "Level 1 · Unit 1: 나를 소개해요",
-    "color": "#0052a4",
-    "en": "Existence & Possession · 소유와 존재<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 3",
-    "next": "Next: 이/가 있어요/없어요",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "형용사·존재",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "사람이나 사물의 존재 및 소유 여부를 나타냅니다.",
-    "en": "Used to express possession or existence."
+    "ko": "사람이나 사물이 어느 장소에 있거나(존재), 가지고 있음(소유)을 나타냅니다.",
+    "en": "Expresses possession ('have / don't have') or existence ('there is / isn't')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "책이 있어요.",
-    "en": "I have a book."
+    "q": "책상 위에 책[[이 있어요]]? 시계[[가 있어요]]?",
+    "en": "Is there a book on the desk? Do you have a watch?"
   },
-  "en": "Existence & Possession · 소유와 존재",
+  "en": "Possession & Existence · \"~이/가 있어요/없어요\" · 소유와 존재를 말해요",
   "prior": [],
   "pat": "○○이/가 있어요/없어요.",
   "hero": {
@@ -65,7 +48,7 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "형용사·존재",
+        "c": "명사",
         "t": "accent"
       }
     ],
@@ -74,17 +57,17 @@ LESSONS.push({
       "시계[[가 없어요]]."
     ],
     "en": [
-      "I have a book.",
-      "I don't have a watch."
+      "I [[have]] a book.",
+      "I [[don't have]] a watch."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 이/가 있어요/없어요 핵심 상황",
-      "scene": "/course/sample/scenes/hero-03.svg",
+      "label": "예문 ① · 교실 물건 확인하기",
+      "scene": "/course/sample/scenes/ex-3-1.svg",
       "ask": {
-        "q": "책이 있어요.",
-        "en": "I have a book."
+        "q": "한국어 책[[이 있어요]]?",
+        "en": "Do you have a Korean book?"
       },
       "pic": [
         {
@@ -94,62 +77,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 선생님",
         "ko": [
-          "책[[이 있어요]]."
+          "유진 씨, 한국어 책[[이 있어요]]?"
         ],
         "en": [
-          "I have a book."
+          "Yujin, do you have a Korean book?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 유진",
         "ko": [
-          "시계[[가 없어요]]."
+          "네, 가방 안에 한국어 책[[이 있어요]].",
+          "연필도 [[있어요]]."
         ],
         "en": [
-          "I don't have a watch."
+          "Yes, I [[have]] a Korean book in my bag.",
+          "I also [[have]] a pencil."
         ]
       },
       "morph": [
-        "이/가 있어요/없어요 핵심 표현",
-        "형용사·존재"
+        "책 + 이 있어요 (받침 O)",
+        "연필 + 이 있어요 (받침 O)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-03.svg",
+      "label": "예문 ② · 가지고 있는 물건 묻기",
+      "scene": "/course/sample/scenes/ex-3-2.svg",
       "ask": {
-        "q": "오늘 시간이 있어요.",
-        "en": "I have time today."
+        "q": "지금 시계[[가 있어요]]?",
+        "en": "Do you have a watch right now?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "이/가 있어요/없어요",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 하준",
         "ko": [
-          "오늘 시간이 있어요."
+          "미나 씨, 지금 시계[[가 있어요]]?"
         ],
         "en": [
-          "I have time today."
+          "Mina, do you have a watch now?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 미나",
         "ko": [
-          "지금 우산이 없어요."
+          "아니요, 시계[[가 없어요]].",
+          "하지만 휴대폰[[이 있어요]]."
         ],
         "en": [
-          "I don't have an umbrella now."
+          "No, I [[don't have]] a watch.",
+          "But I [[have]] a mobile phone."
         ]
       },
       "morph": [
-        "이/가 있어요/없어요 실전 활용"
+        "시계 + 가 없어요 (받침 X)",
+        "휴대폰 + 이 있어요 (받침 O)"
       ]
     }
   ],
@@ -161,20 +149,20 @@ LESSONS.push({
       "f": "이/가 있어요/없어요"
     },
     {
-      "ko": "돈이 없어요.",
-      "base": "돈",
-      "b": true,
-      "f": "이/가 있어요/없어요"
-    },
-    {
-      "ko": "시간이 있어요.",
-      "base": "시간",
-      "b": true,
-      "f": "이/가 있어요/없어요"
-    },
-    {
-      "ko": "가방이 없어요.",
+      "ko": "가방이 있어요.",
       "base": "가방",
+      "b": true,
+      "f": "이/가 있어요/없어요"
+    },
+    {
+      "ko": "연필이 있어요.",
+      "base": "연필",
+      "b": true,
+      "f": "이/가 있어요/없어요"
+    },
+    {
+      "ko": "시간이 없어요.",
+      "base": "시간",
       "b": true,
       "f": "이/가 있어요/없어요"
     },
@@ -185,20 +173,20 @@ LESSONS.push({
       "f": "이/가 있어요/없어요"
     },
     {
-      "ko": "친구가 있어요.",
-      "base": "친구",
-      "b": false,
-      "f": "이/가 있어요/없어요"
-    },
-    {
       "ko": "의자가 있어요.",
       "base": "의자",
       "b": false,
       "f": "이/가 있어요/없어요"
     },
     {
-      "ko": "모자가 없어요.",
-      "base": "모자",
+      "ko": "커피가 있어요.",
+      "base": "커피",
+      "b": false,
+      "f": "이/가 있어요/없어요"
+    },
+    {
+      "ko": "친구가 있어요.",
+      "base": "친구",
       "b": false,
       "f": "이/가 있어요/없어요"
     },
@@ -224,16 +212,16 @@ LESSONS.push({
             "책이 있어요"
           ],
           [
-            "돈",
-            "돈이 없어요"
+            "가방",
+            "가방이 있어요"
+          ],
+          [
+            "연필",
+            "연필이 있어요"
           ],
           [
             "시간",
-            "시간이 있어요"
-          ],
-          [
-            "가방",
-            "가방이 없어요"
+            "시간이 없어요"
           ]
         ]
       },
@@ -247,16 +235,16 @@ LESSONS.push({
             "시계가 없어요"
           ],
           [
-            "친구",
-            "친구가 있어요"
-          ],
-          [
             "의자",
             "의자가 있어요"
           ],
           [
-            "모자",
-            "모자가 없어요"
+            "커피",
+            "커피가 있어요"
+          ],
+          [
+            "친구",
+            "친구가 있어요"
           ]
         ]
       }
@@ -270,18 +258,31 @@ LESSONS.push({
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "사람이나 사물의 존재 및 소유 여부를 나타냅니다.<br><br>· 책이 있어요.<br>· 시계가 없어요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "사람이나 사물이 어느 장소에 있거나(존재), 가지고 있음(소유)을 나타냅니다.<br><br>· 책이 있어요.<br>· 시계가 없어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>○○이/가 있어요/없어요.</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"책상 위에 책이 있어요? 시계가 있어요?\"</b>에 대해 <b>○○이/가 있어요/없어요.</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Used to express possession or existence.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 이/가 있어요/없어요 Conjugation Rule",
+      "p": "Use <span class=\"g\">+ 이 있어요/없어요</span> for <b>받침 O</b> and <span class=\"g2\">+ 가 있어요/없어요</span> for <b>받침 X</b>.<br><br><span class=\"yes\">O</span> 책이 있어요 / 시계가 없어요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Expresses possession ('have / don't have') or existence ('there is / isn't').<br><br>· I have a book.<br>· I don't have a watch."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Is there a book on the desk? Do you have a watch?\"</b> using the pattern <b>○○이/가 있어요/없어요.</b>."
+    }
   ],
   "words": [
     {
@@ -290,18 +291,18 @@ LESSONS.push({
       "t": "받침 O"
     },
     {
-      "b": "돈",
-      "r": "돈이 없어요",
+      "b": "가방",
+      "r": "가방이 있어요",
+      "t": "받침 O"
+    },
+    {
+      "b": "연필",
+      "r": "연필이 있어요",
       "t": "받침 O"
     },
     {
       "b": "시간",
-      "r": "시간이 있어요",
-      "t": "받침 O"
-    },
-    {
-      "b": "가방",
-      "r": "가방이 없어요",
+      "r": "시간이 없어요",
       "t": "받침 O"
     },
     {
@@ -310,18 +311,18 @@ LESSONS.push({
       "t": "받침 X"
     },
     {
-      "b": "친구",
-      "r": "친구가 있어요",
-      "t": "받침 X"
-    },
-    {
       "b": "의자",
       "r": "의자가 있어요",
       "t": "받침 X"
     },
     {
-      "b": "모자",
-      "r": "모자가 없어요",
+      "b": "커피",
+      "r": "커피가 있어요",
+      "t": "받침 X"
+    },
+    {
+      "b": "친구",
+      "r": "친구가 있어요",
       "t": "받침 X"
     }
   ],
@@ -331,74 +332,74 @@ LESSONS.push({
       "책이 있어요"
     ],
     [
-      "돈",
-      "돈이 없어요"
+      "가방",
+      "가방이 있어요"
+    ],
+    [
+      "연필",
+      "연필이 있어요"
     ],
     [
       "시간",
-      "시간이 있어요"
-    ],
-    [
-      "가방",
-      "가방이 없어요"
+      "시간이 없어요"
     ],
     [
       "시계",
       "시계가 없어요"
     ],
     [
-      "친구",
-      "친구가 있어요"
-    ],
-    [
       "의자",
       "의자가 있어요"
     ],
     [
-      "모자",
-      "모자가 없어요"
+      "커피",
+      "커피가 있어요"
     ],
     [
-      "한국어",
+      "친구",
+      "친구가 있어요"
+    ],
+    [
+      "책",
       "책이 있어요."
     ],
     [
-      "연습",
+      "시계",
       "시계가 없어요."
     ],
     [
-      "대화",
+      "오늘",
       "오늘 시간이 있어요."
     ],
     [
-      "오늘",
+      "지금",
       "지금 우산이 없어요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "이/가 있어요/없어요 형태 연습"
+        "t": "유진 씨, 한국어 책이 있어요?"
       },
       {
         "base": "책",
-        "ans": "책이 있어요"
+        "ans": "책이 있어요."
       },
       {
         "base": "시계",
-        "ans": "시계가 없어요"
+        "ans": "시계가 없어요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "책상 위에 책이 있어요? 시계가 있어요?"
       },
       {
-        "base": "책 + 있다",
+        "base": "책 · 있다",
         "ans": "책이 있어요."
       },
       {
-        "base": "시계 + 없다",
+        "base": "시계 · 없다",
         "ans": "시계가 없어요."
       }
     ]
@@ -410,7 +411,7 @@ LESSONS.push({
         "있다"
       ],
       "a": "책이 있어요.",
-      "e": "There is a book."
+      "e": "I have a book."
     },
     {
       "k": [
@@ -443,50 +444,50 @@ LESSONS.push({
     {
       "tag": "이/가 있어요/없어요",
       "icon": "📖",
-      "q": "이/가 있어요/없어요 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 이/가 있어요/없어요 vocabulary and expressions.",
+      "q": "책상 위에 책이 있어요? 시계가 있어요?",
+      "qen": "Is there a book on the desk? Do you have a watch?",
       "pat": "○○이/가 있어요/없어요.",
       "items": [
         {
-          "e": "🏫",
+          "e": "📕",
           "w": "책",
-          "g": "Existence & Possession",
+          "g": "book",
           "r": "책이 있어요",
           "b": true
         },
         {
-          "e": "📕",
-          "w": "돈",
-          "g": "Existence & Possession",
-          "r": "돈이 없어요",
-          "b": false
-        },
-        {
-          "e": "☕",
-          "w": "시간",
-          "g": "Existence & Possession",
-          "r": "시간이 있어요",
+          "e": "🎒",
+          "w": "가방",
+          "g": "bag",
+          "r": "가방이 있어요",
           "b": true
         },
         {
-          "e": "👫",
-          "w": "가방",
-          "g": "Existence & Possession",
-          "r": "가방이 없어요",
-          "b": false
+          "e": "✏️",
+          "w": "연필",
+          "g": "pencil",
+          "r": "연필이 있어요",
+          "b": true
         },
         {
           "e": "⏰",
-          "w": "시계",
-          "g": "Existence & Possession",
-          "r": "시계가 없어요",
+          "w": "시간",
+          "g": "time",
+          "r": "시간이 없어요",
           "b": true
         },
         {
-          "e": "🚇",
-          "w": "친구",
-          "g": "Existence & Possession",
-          "r": "친구가 있어요",
+          "e": "⌚",
+          "w": "시계",
+          "g": "watch / clock",
+          "r": "시계가 없어요",
+          "b": false
+        },
+        {
+          "e": "🪑",
+          "w": "의자",
+          "g": "chair",
+          "r": "의자가 있어요",
           "b": false
         }
       ]
@@ -495,48 +496,64 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "이/가 있어요/없어요",
-      "q": "Look at the classroom. What is there?",
-      "qen": "Look at the classroom. What is there?",
+      "t": "가방 속 물건",
+      "v": "가방 속 물건",
+      "q": "가방 안에 뭐[[가 있어요]]? 뭐[[가 없어요]]?",
+      "qen": "What is in your bag? What is not in your bag?",
       "m": [
-        "책[[이 있어요]].",
-        "시계[[가 없어요]]."
+        "가방 안에 책[[이 있어요]].",
+        "우산[[이 없어요]]."
       ],
-      "memo": "1. 교실 그림을 보며 「뭐가 있어요?」 — 그림에 있는 것을 「○○이/가 있어요」<br>2. 그림에 없는 것은 상상해서 「○○이/가 없어요」(컴퓨터 · 에어컨 …)<br>3. 학생 방 · 교실로 넓히기 — 「○○ 씨 방에 뭐가 있어요?」",
-      "go": "Look at the classroom. What is there?"
+      "memo": "1. 교실 그림을 보며 「뭐가 있어요?」 — 그림에 있는 것을 「○○이/가 있어요」<br>2. 그림에 없는 것은 상상해서 「○○이/가 없어요」(컴퓨터 · 에어컨 …)<br>3. 학생 방 · 교실로 넓히기 — 「○○ 씨 방에 뭐가 있어요?」"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "이/가 있어요/없어요",
-      "q": "Open your bags and say what’s inside.",
-      "qen": "Open your bags and say what’s inside.",
+      "i": "💬",
+      "t": "가족과 형제",
+      "v": "가족과 형제",
+      "q": "형제[[가 있어요]]? 언니나 동생[[이 있어요]]?",
+      "qen": "Do you have siblings? Do you have an older sister or younger sibling?",
       "m": [
-        "책[[이 있어요]].",
-        "시계[[가 없어요]]."
+        "네, 동생[[이 있어요]].",
+        "아니요, 형제[[가 없어요]]."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 먼저 자기 가방에서 하나씩 꺼내며 「책이 있어요. 시계가 없어요」<br>3. 학생도 가방(필통 · 지갑)을 열어 꺼내며 있어요 · 없어요<br>4. 서로 「○○ 있어요?」로 묻고 대답 — 없는 것도 하나씩 말하게",
-      "go": "Open your bags and say what’s inside."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 교사가 먼저 자기 가방에서 하나씩 꺼내며 「책이 있어요. 시계가 없어요」<br>3. 학생도 가방(필통 · 지갑)을 열어 꺼내며 있어요 · 없어요<br>4. 서로 「○○ 있어요?」로 묻고 대답 — 없는 것도 하나씩 말하게"
+    },
+    {
+      "i": "🎯",
+      "t": "오늘 시간 약속",
+      "v": "오늘 시간 약속",
+      "q": "오늘 오후에 시간[[이 있어요]]?",
+      "qen": "Do you have time this afternoon?",
+      "m": [
+        "네, 오늘 시간[[이 있어요]].",
+        "미안해요. 오늘 시간[[이 없어요]]."
+      ],
+      "memo": "1. 교실 그림을 보며 「뭐가 있어요?」 — 그림에 있는 것을 「○○이/가 있어요」<br>2. 그림에 없는 것은 상상해서 「○○이/가 없어요」(컴퓨터 · 에어컨 …)<br>3. 학생 방 · 교실로 넓히기 — 「○○ 씨 방에 뭐가 있어요?」"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "책[[이 있어요]].",
+          "책[[이 있어요]]."
+        ],
+        "en": [
+          "I [[have]] a book."
+        ]
+      },
+      {
+        "ko": [
           "시계[[가 없어요]]."
         ],
         "en": [
-          "I have a book.",
-          "I don't have a watch."
+          "I [[don't have]] a watch."
         ]
       }
     ],
     "tips": [
-      "<b>이/가 있어요/없어요</b>: 사람이나 사물의 존재 및 소유 여부를 나타냅니다.",
-      "대표 문장: \"책이 있어요.\"",
-      "대표 문장: \"시계가 없어요.\""
+      "<b>받침 O</b> → <span class=\"g\">+ 이 있어요/없어요</span> / <b>받침 X</b> → <span class=\"g2\">+ 가 있어요/없어요</span>",
+      "사람이나 사물이 어느 장소에 있거나(존재), 가지고 있음(소유)을 나타냅니다.",
+      "대표 대화: \"책상 위에 책이 있어요? 시계가 있어요?\" → \"책이 있어요.\""
     ]
   }
 });

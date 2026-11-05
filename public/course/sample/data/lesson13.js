@@ -1,25 +1,10 @@
 /* Lesson 13: 부터 ~ 까지 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "부터 ~ 까지",
-  "pos": "보조사 결합",
+  "pos": "시간",
+  "posT": "시간",
   "form": "부터 ~ 까지",
-  "opening": {
-    "name": "13호선 출발 · 부터 ~ 까지",
-    "no": 13,
-    "line": "Level 1 · Unit 3: 이동과 방향",
-    "color": "#0052a4",
-    "en": "From [Time A] To [Time B] · 시간의 시작과 끝<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 13",
-    "next": "Next: 부터 ~ 까지",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
+  "formT": "부터 <span class=\"pos\">시간</span> + 까지",
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +16,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "보조사 결합",
+      "c": "시간",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "시간이나 기간의 시작 시점과 종료 시점을 함께 나타냅니다.",
-    "en": "Expresses temporal range from start time to end time."
+    "ko": "시간, 요일, 날짜의 시작점(~부터)과 끝점(~까지)을 나타냅니다.",
+    "en": "Indicates the starting time ('from') and ending time ('until/to')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,12 +35,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "아침 9시부터 저녁 6시까지 일해요.",
-    "en": "I work from 9 AM to 6 PM."
+    "q": "몇 시[[부터]] 몇 시[[까지]] 일해요?",
+    "en": "From what time to what time do you work?"
   },
-  "en": "From [Time A] To [Time B] · 시간의 시작과 끝",
+  "en": "Time Range · \"~부터 ~까지\" · 시작 시간과 끝 시간을 말해요",
   "prior": [],
-  "pat": "시간A부터 시간B까지",
+  "pat": "시간1 + 부터 + 시간2 + 까지",
   "hero": {
     "pic": [
       {
@@ -65,26 +50,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "보조사 결합",
+        "c": "시간",
         "t": "accent"
       }
     ],
     "ko": [
       "아침 9시[[부터]] 저녁 6시[[까지]] 일해요.",
-      "월요일[[부터]] 금요일[[까지]] 공부해요."
+      "월요일[[부터]] 금요일[[까지]] 학교에 가요."
     ],
     "en": [
-      "I work from 9 AM to 6 PM.",
-      "I study from Monday to Friday."
+      "I work [[from]] 9 AM [[to]] 6 PM.",
+      "I go to school [[from]] Monday [[to]] Friday."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 부터 ~ 까지 핵심 상황",
-      "scene": "/course/sample/scenes/hero-13.svg",
+      "label": "예문 ① · 근무 시간 말하기",
+      "scene": "/course/sample/scenes/ex-13-1.svg",
       "ask": {
-        "q": "아침 9시부터 저녁 6시까지 일해요.",
-        "en": "I work from 9 AM to 6 PM."
+        "q": "몇 시[[부터]] 몇 시[[까지]] 일해요?",
+        "en": "From what time to what time do you work?"
       },
       "pic": [
         {
@@ -94,62 +79,67 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 미나",
         "ko": [
-          "아침 9시[[부터]] 저녁 6시[[까지]] 일해요."
+          "하준 씨, 회사에서 몇 시[[부터]] 몇 시[[까지]] 일해요?"
         ],
         "en": [
-          "I work from 9 AM to 6 PM."
+          "Hajun, from what time to what time do you work at the company?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 회사원",
         "ko": [
-          "월요일[[부터]] 금요일[[까지]] 공부해요."
+          "아침 9시[[부터]] 저녁 6시[[까지]] 일해요.",
+          "낮 12시[[부터]] 1시[[까지]] 점심시간이에요."
         ],
         "en": [
-          "I study from Monday to Friday."
+          "I work [[from]] 9 AM [[to]] 6 PM.",
+          "Lunchtime is [[from]] 12 PM [[to]] 1 PM."
         ]
       },
       "morph": [
-        "부터 ~ 까지 핵심 표현",
-        "보조사 결합"
+        "9시 + 부터 (시작 시각)",
+        "6시 + 까지 (끝 시각)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-13.svg",
+      "label": "예문 ② · 주간 수업 일정",
+      "scene": "/course/sample/scenes/ex-13-2.svg",
       "ask": {
-        "q": "10시부터 12시까지 수업이 있어요.",
-        "en": "There is class from 10 to 12."
+        "q": "한국어 수업이 무슨 요일[[부터]] 무슨 요일[[까지]] 있어요?",
+        "en": "From what day to what day is the Korean class?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "부터 ~ 까지",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 학생",
         "ko": [
-          "10시부터 12시까지 수업이 있어요."
+          "선생님, 한국어 수업이 언제 있어요?"
         ],
         "en": [
-          "There is class from 10 to 12."
+          "Teacher, when is the Korean class?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 선생님",
         "ko": [
-          "아침부터 밤까지 아주 바빠요."
+          "월요일[[부터]] 금요일[[까지]] 매일 수업이 있어요.",
+          "오전 10시[[부터]] 12시[[까지]] 공부해요."
         ],
         "en": [
-          "I am very busy from morning till night."
+          "There is class every day [[from]] Monday [[to]] Friday.",
+          "We study [[from]] 10 AM [[to]] 12 PM."
         ]
       },
       "morph": [
-        "부터 ~ 까지 실전 활용"
+        "월요일 + 부터",
+        "금요일 + 까지"
       ]
     }
   ],
@@ -161,21 +151,21 @@ LESSONS.push({
       "f": "부터 ~ 까지"
     },
     {
-      "ko": "아침부터.",
-      "base": "아침",
-      "b": false,
+      "ko": "월요일부터.",
+      "base": "월요일",
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
-      "ko": "월요일부터.",
-      "base": "월요일",
-      "b": false,
+      "ko": "아침부터.",
+      "base": "아침",
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
       "ko": "1월부터.",
       "base": "1월",
-      "b": false,
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
@@ -185,21 +175,21 @@ LESSONS.push({
       "f": "부터 ~ 까지"
     },
     {
-      "ko": "저녁까지.",
-      "base": "저녁",
-      "b": false,
+      "ko": "금요일까지.",
+      "base": "금요일",
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
-      "ko": "금요일까지.",
-      "base": "금요일",
-      "b": false,
+      "ko": "저녁까지.",
+      "base": "저녁",
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
       "ko": "3월까지.",
       "base": "3월",
-      "b": false,
+      "b": true,
       "f": "부터 ~ 까지"
     },
     {
@@ -216,20 +206,20 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "시작 시각",
-        "f": "시간 + 부터",
+        "k": "시작 시각·요일",
+        "f": "시간1 + 부터",
         "ex": [
           [
             "9시",
             "9시부터"
           ],
           [
-            "아침",
-            "아침부터"
-          ],
-          [
             "월요일",
             "월요일부터"
+          ],
+          [
+            "아침",
+            "아침부터"
           ],
           [
             "1월",
@@ -238,8 +228,8 @@ LESSONS.push({
         ]
       },
       {
-        "k": "종료 시각",
-        "f": "시간 + 까지",
+        "k": "종료 시각·요일",
+        "f": "시간2 + 까지",
         "c": "g2",
         "ex": [
           [
@@ -247,12 +237,12 @@ LESSONS.push({
             "6시까지"
           ],
           [
-            "저녁",
-            "저녁까지"
-          ],
-          [
             "금요일",
             "금요일까지"
+          ],
+          [
+            "저녁",
+            "저녁까지"
           ],
           [
             "3월",
@@ -266,63 +256,76 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 부터 ~ 까지 결합 규칙",
-      "p": "<b>시작 시각</b>일 때는 <span class=\"g\">시간 + 부터</span>, <b>종료 시각</b>일 때는 <span class=\"g2\">시간 + 까지</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 9시부터 / 6시까지"
+      "p": "<b>시작 시각·요일</b>일 때는 <span class=\"g\">시간1 + 부터</span>, <b>종료 시각·요일</b>일 때는 <span class=\"g2\">시간2 + 까지</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 9시부터 / 6시까지"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "시간이나 기간의 시작 시점과 종료 시점을 함께 나타냅니다.<br><br>· 아침 9시부터 저녁 6시까지 일해요.<br>· 월요일부터 금요일까지 공부해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "시간, 요일, 날짜의 시작점(~부터)과 끝점(~까지)을 나타냅니다.<br><br>· 아침 9시부터 저녁 6시까지 일해요.<br>· 월요일부터 금요일까지 학교에 가요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>시간A부터 시간B까지</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"몇 시부터 몇 시까지 일해요?\"</b>에 대해 <b>시간1 + 부터 + 시간2 + 까지</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Expresses temporal range from start time to end time.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 부터 ~ 까지 Conjugation Rule",
+      "p": "Use <span class=\"g\">시간1 + 부터</span> for <b>시작 시각·요일</b> and <span class=\"g2\">시간2 + 까지</span> for <b>종료 시각·요일</b>.<br><br><span class=\"yes\">O</span> 9시부터 / 6시까지"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Indicates the starting time ('from') and ending time ('until/to').<br><br>· I work from 9 AM to 6 PM.<br>· I go to school from Monday to Friday."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"From what time to what time do you work?\"</b> using the pattern <b>시간1 + 부터 + 시간2 + 까지</b>."
+    }
   ],
   "words": [
     {
       "b": "9시",
       "r": "9시부터",
-      "t": "시작 시각"
-    },
-    {
-      "b": "아침",
-      "r": "아침부터",
-      "t": "시작 시각"
+      "t": "시작 시각·요일"
     },
     {
       "b": "월요일",
       "r": "월요일부터",
-      "t": "시작 시각"
+      "t": "시작 시각·요일"
+    },
+    {
+      "b": "아침",
+      "r": "아침부터",
+      "t": "시작 시각·요일"
     },
     {
       "b": "1월",
       "r": "1월부터",
-      "t": "시작 시각"
+      "t": "시작 시각·요일"
     },
     {
       "b": "6시",
       "r": "6시까지",
-      "t": "종료 시각"
-    },
-    {
-      "b": "저녁",
-      "r": "저녁까지",
-      "t": "종료 시각"
+      "t": "종료 시각·요일"
     },
     {
       "b": "금요일",
       "r": "금요일까지",
-      "t": "종료 시각"
+      "t": "종료 시각·요일"
+    },
+    {
+      "b": "저녁",
+      "r": "저녁까지",
+      "t": "종료 시각·요일"
     },
     {
       "b": "3월",
       "r": "3월까지",
-      "t": "종료 시각"
+      "t": "종료 시각·요일"
     }
   ],
   "bingo": [
@@ -331,12 +334,12 @@ LESSONS.push({
       "9시부터"
     ],
     [
-      "아침",
-      "아침부터"
-    ],
-    [
       "월요일",
       "월요일부터"
+    ],
+    [
+      "아침",
+      "아침부터"
     ],
     [
       "1월",
@@ -347,58 +350,58 @@ LESSONS.push({
       "6시까지"
     ],
     [
-      "저녁",
-      "저녁까지"
-    ],
-    [
       "금요일",
       "금요일까지"
+    ],
+    [
+      "저녁",
+      "저녁까지"
     ],
     [
       "3월",
       "3월까지"
     ],
     [
-      "한국어",
+      "9시",
       "아침 9시부터 저녁 6시까지 일해요."
     ],
     [
-      "연습",
+      "월요일",
       "월요일부터 금요일까지 한국어를 공부해요."
     ],
     [
-      "대화",
-      "10시부터 12시까지 수업이 있어요."
+      "12시",
+      "12시부터 1시까지 점심을 먹어요."
     ],
     [
-      "오늘",
-      "아침부터 밤까지 아주 바빠요."
+      "아침",
+      "오늘은 아침부터 저녁까지 바빠요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "부터 ~ 까지 형태 연습"
+        "t": "하준 씨, 회사에서 몇 시부터 몇 시까지 일해요?"
       },
       {
         "base": "9시",
-        "ans": "9시부터"
+        "ans": "9시부터."
       },
       {
         "base": "6시",
-        "ans": "6시까지"
+        "ans": "6시까지."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "몇 시부터 몇 시까지 일해요?"
       },
       {
-        "base": "9시 + 6시 + 일하다",
+        "base": "9시 · 6시 · 일하다",
         "ans": "아침 9시부터 저녁 6시까지 일해요."
       },
       {
-        "base": "월요일 + 금요일 + 공부하다",
+        "base": "월요일 · 금요일 · 공부하다",
         "ans": "월요일부터 금요일까지 한국어를 공부해요."
       }
     ]
@@ -424,72 +427,72 @@ LESSONS.push({
     },
     {
       "k": [
-        "10시",
         "12시",
-        "수업"
+        "1시",
+        "점심"
       ],
-      "a": "10시부터 12시까지 수업이 있어요.",
-      "e": "There is class from 10 to 12."
+      "a": "12시부터 1시까지 점심을 먹어요.",
+      "e": "I eat lunch from 12 to 1."
     },
     {
       "k": [
         "아침",
-        "밤",
+        "저녁",
         "바쁘다"
       ],
-      "a": "아침부터 밤까지 아주 바빠요.",
-      "e": "I am very busy from morning till night."
+      "a": "오늘은 아침부터 저녁까지 바빠요.",
+      "e": "Today I am busy from morning till evening."
     }
   ],
   "vocab": [
     {
       "tag": "부터 ~ 까지",
       "icon": "📖",
-      "q": "부터 ~ 까지 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 부터 ~ 까지 vocabulary and expressions.",
-      "pat": "시간A부터 시간B까지",
+      "q": "몇 시부터 몇 시까지 일해요?",
+      "qen": "From what time to what time do you work?",
+      "pat": "시간1 + 부터 + 시간2 + 까지",
       "items": [
         {
-          "e": "🏫",
+          "e": "🕘",
           "w": "9시",
-          "g": "From [Time A] To [Time B]",
+          "g": "9 o'clock",
           "r": "9시부터",
-          "b": true
-        },
-        {
-          "e": "📕",
-          "w": "아침",
-          "g": "From [Time A] To [Time B]",
-          "r": "아침부터",
           "b": false
         },
         {
-          "e": "☕",
+          "e": "📅",
           "w": "월요일",
-          "g": "From [Time A] To [Time B]",
+          "g": "Monday",
           "r": "월요일부터",
           "b": true
         },
         {
-          "e": "👫",
-          "w": "1월",
-          "g": "From [Time A] To [Time B]",
-          "r": "1월부터",
-          "b": false
-        },
-        {
-          "e": "⏰",
-          "w": "6시",
-          "g": "From [Time A] To [Time B]",
-          "r": "6시까지",
+          "e": "🌅",
+          "w": "아침",
+          "g": "morning",
+          "r": "아침부터",
           "b": true
         },
         {
-          "e": "🚇",
-          "w": "저녁",
-          "g": "From [Time A] To [Time B]",
-          "r": "저녁까지",
+          "e": "🗓️",
+          "w": "1월",
+          "g": "January",
+          "r": "1월부터",
+          "b": true
+        },
+        {
+          "e": "🕕",
+          "w": "6시",
+          "g": "6 o'clock",
+          "r": "6시까지",
           "b": false
+        },
+        {
+          "e": "📅",
+          "w": "금요일",
+          "g": "Friday",
+          "r": "금요일까지",
+          "b": true
         }
       ]
     }
@@ -497,48 +500,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "부터 ~ 까지",
-      "q": "Talk about your working hours.",
-      "qen": "Talk about your working hours.",
+      "t": "수업과 공부 시간",
+      "v": "수업과 공부 시간",
+      "q": "오늘 몇 시[[부터]] 몇 시[[까지]] 한국어를 공부해요?",
+      "qen": "From what time to what time do you study Korean today?",
       "m": [
-        "아침 9시[[부터]] 저녁 6시[[까지]] 일해요.",
-        "월요일[[부터]] 금요일[[까지]] 공부해요."
+        "오전 10시[[부터]] 12시[[까지]] 공부해요.",
+        "오후 2시[[부터]] 4시[[까지]] 도서관에 있어요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「몇 시부터 몇 시까지 일해요/공부해요?」<br>3. 쉬는 날 · 수업 시간으로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about your working hours."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「몇 시부터 몇 시까지 일해요/공부해요?」<br>3. 쉬는 날 · 수업 시간으로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "부터 ~ 까지",
-      "q": "Talk about your class schedule.",
-      "qen": "Talk about your class schedule.",
+      "i": "💬",
+      "t": "하루 일과와 수면",
+      "v": "하루 일과와 수면",
+      "q": "밤 몇 시[[부터]] 아침 몇 시[[까지]] 자요?",
+      "qen": "From what time at night to what time in the morning do you sleep?",
       "m": [
-        "아침 9시[[부터]] 저녁 6시[[까지]] 일해요.",
-        "월요일[[부터]] 금요일[[까지]] 공부해요."
+        "밤 11시[[부터]] 아침 7시[[까지]] 자요.",
+        "월요일[[부터]] 금요일[[까지]] 일찍 일어나요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「수업이 언제부터 언제까지 있어요?」 — 학생의 실제 시간표로<br>3. 방학 · 시험 기간으로 넓히기<br>4. 역할 바꾸기",
-      "go": "Talk about your class schedule."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「수업이 언제부터 언제까지 있어요?」 — 학생의 실제 시간표로<br>3. 방학 · 시험 기간으로 넓히기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "아침 9시[[부터]] 저녁 6시[[까지]] 일해요.",
-          "월요일[[부터]] 금요일[[까지]] 공부해요."
+          "아침 9시[[부터]] 저녁 6시[[까지]] 일해요."
         ],
         "en": [
-          "I work from 9 AM to 6 PM.",
-          "I study from Monday to Friday."
+          "I work [[from]] 9 AM [[to]] 6 PM."
+        ]
+      },
+      {
+        "ko": [
+          "월요일[[부터]] 금요일[[까지]] 학교에 가요."
+        ],
+        "en": [
+          "I go to school [[from]] Monday [[to]] Friday."
         ]
       }
     ],
     "tips": [
-      "<b>부터 ~ 까지</b>: 시간이나 기간의 시작 시점과 종료 시점을 함께 나타냅니다.",
-      "대표 문장: \"아침 9시부터 저녁 6시까지 일해요.\"",
-      "대표 문장: \"월요일부터 금요일까지 공부해요.\""
+      "<b>시작 시각·요일</b> → <span class=\"g\">시간1 + 부터</span> / <b>종료 시각·요일</b> → <span class=\"g2\">시간2 + 까지</span>",
+      "시간, 요일, 날짜의 시작점(~부터)과 끝점(~까지)을 나타냅니다.",
+      "대표 대화: \"몇 시부터 몇 시까지 일해요?\" → \"아침 9시부터 저녁 6시까지 일해요.\""
     ]
   }
 });

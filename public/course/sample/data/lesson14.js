@@ -1,25 +1,8 @@
 /* Lesson 14: 에게/한테 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "에게/한테",
-  "pos": "부사격 조사",
+  "pos": "명사",
   "form": "에게/한테",
-  "opening": {
-    "name": "14호선 출발 · 에게/한테",
-    "no": 14,
-    "line": "Level 1 · Unit 3: 이동과 방향",
-    "color": "#0052a4",
-    "en": "To [Person] · 행동의 대상(사람·동물)<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 14",
-    "next": "Next: 에게/한테",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "부사격 조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "사람이나 동물 뒤에 붙어 어떤 행동이 향하는 대상(수혜자)임을 나타냅니다.",
-    "en": "Indicates the recipient of an action (to a person/animal)."
+    "ko": "사람이나 동물 명사 뒤에 붙어 어떤 행동이 향하는 대상(받는 사람)을 나타냅니다.",
+    "en": "Attached to a person or animal noun to mark the recipient ('to')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,12 +33,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "친구한테 생일 선물을 줘요.",
-    "en": "I give a birthday gift to my friend."
+    "q": "누구[[한테]] 선물을 줘요? 누구[[에게]] 질문해요?",
+    "en": "Who do you give a gift to? Who do you ask a question to?"
   },
-  "en": "To [Person] · 행동의 대상(사람·동물)",
+  "en": "Recipient Marker · \"~에게/한테\" · 행동의 대상을 말해요",
   "prior": [],
-  "pat": "사람 + 에게 / 한테 (+ 줘요/전화해요)",
+  "pat": "사람 + 에게/한테 + 주다/선물하다/전화하다",
   "hero": {
     "pic": [
       {
@@ -65,26 +48,26 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "부사격 조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
-      "친구[[한테]] 생일 선물을 줘요.",
-      "선생님[[께]] 한국어로 질문해요."
+      "친구[[한테]] 선물을 줘요.",
+      "선생님[[께]] 질문해요."
     ],
     "en": [
-      "I give a birthday gift to my friend.",
-      "I ask a question in Korean to the teacher."
+      "I give a gift [[to]] my friend.",
+      "I ask a question [[to]] the teacher."
     ]
   },
   "ex": [
     {
-      "label": "예문 ① · 에게/한테 핵심 상황",
-      "scene": "/course/sample/scenes/hero-14.svg",
+      "label": "예문 ① · 친구에게 선물 주기",
+      "scene": "/course/sample/scenes/ex-14-1.svg",
       "ask": {
-        "q": "친구한테 생일 선물을 줘요.",
-        "en": "I give a birthday gift to my friend."
+        "q": "그 선물을 누구[[한테]] 줘요?",
+        "en": "Who are you giving that gift to?"
       },
       "pic": [
         {
@@ -94,116 +77,121 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
-        "ko": [
-          "친구[[한테]] 생일 선물을 줘요."
-        ],
-        "en": [
-          "I give a birthday gift to my friend."
-        ]
-      },
-      "b": {
-        "who": "B · 수진",
-        "ko": [
-          "선생님[[께]] 한국어로 질문해요."
-        ],
-        "en": [
-          "I ask a question in Korean to the teacher."
-        ]
-      },
-      "morph": [
-        "에게/한테 핵심 표현",
-        "부사격 조사"
-      ]
-    },
-    {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-14.svg",
-      "ask": {
-        "q": "선생님께 한국어로 질문해요.",
-        "en": "I ask a question to the teacher in Korean."
-      },
-      "pic": [
-        {
-          "e": "🗣️",
-          "c": "응용",
-          "t": "accent"
-        }
-      ],
-      "a": {
         "who": "A · 유진",
         "ko": [
-          "선생님께 한국어로 질문해요."
+          "하준 씨, 그 예쁜 선물을 누구[[한테]] 줘요?"
         ],
         "en": [
-          "I ask a question to the teacher in Korean."
+          "Hajun, who are you giving that pretty gift to?"
         ]
       },
       "b": {
         "who": "B · 하준",
         "ko": [
-          "언니에게 문자를 보내요."
+          "오늘이 미나 씨 생일이에요.",
+          "그래서 미나 씨[[한테]] 생일 선물을 줘요."
         ],
         "en": [
-          "I send a text message to my older sister."
+          "Today is Mina's birthday.",
+          "So I'm giving a birthday gift [[to]] Mina."
         ]
       },
       "morph": [
-        "에게/한테 실전 활용"
+        "누구 + 한테 (구어체)",
+        "미나 씨 + 한테"
+      ]
+    },
+    {
+      "label": "예문 ② · 연락하고 질문하기",
+      "scene": "/course/sample/scenes/ex-14-2.svg",
+      "ask": {
+        "q": "모르는 것은 누구[[에게]] 물어봐요?",
+        "en": "Who do you ask when you don't know something?"
+      },
+      "pic": [
+        {
+          "e": "🗣️",
+          "c": "에게/한테",
+          "t": "accent"
+        }
+      ],
+      "a": {
+        "who": "A · 학생",
+        "ko": [
+          "한국어 숙제가 어려우면 누구[[에게]] 물어봐요?"
+        ],
+        "en": [
+          "If Korean homework is hard, who do you ask?"
+        ]
+      },
+      "b": {
+        "who": "B · 유진",
+        "ko": [
+          "선생님[[께]] 질문을 해요.",
+          "그리고 저녁에 부모님[[께]] 전화해요."
+        ],
+        "en": [
+          "I ask a question [[to]] the teacher (honorific).",
+          "And in the evening, I call [[my]] parents."
+        ]
+      },
+      "morph": [
+        "친구 + 에게 (문어·격식)",
+        "선생님 + 께 (높임)"
       ]
     }
   ],
   "review": [
     {
-      "ko": "친구한테 선물을 줘요.",
+      "ko": "친구한테 줘요.",
       "base": "친구",
       "b": false,
       "f": "에게/한테"
     },
     {
-      "ko": "동생한테 전화해요.",
+      "ko": "동생한테 말해요.",
       "base": "동생",
+      "b": true,
+      "f": "에게/한테"
+    },
+    {
+      "ko": "하준한테 전화해요.",
+      "base": "하준",
+      "b": true,
+      "f": "에게/한테"
+    },
+    {
+      "ko": "형한테 물어요.",
+      "base": "형",
+      "b": true,
+      "f": "에게/한테"
+    },
+    {
+      "ko": "친구에게 보내요.",
+      "base": "친구",
       "b": false,
       "f": "에게/한테"
     },
     {
-      "ko": "언니에게 편지를 써요.",
-      "base": "언니",
-      "b": false,
-      "f": "에게/한테"
-    },
-    {
-      "ko": "강아지한테 밥을 줘요.",
-      "base": "강아지",
-      "b": false,
+      "ko": "학생에게 가르쳐요.",
+      "base": "학생",
+      "b": true,
       "f": "에게/한테"
     },
     {
       "ko": "선생님께 질문해요.",
       "base": "선생님",
-      "b": false,
+      "b": true,
       "f": "에게/한테"
     },
     {
-      "ko": "부모님께 선물을 드려요.",
+      "ko": "부모님께 드려요.",
       "base": "부모님",
-      "b": false,
+      "b": true,
       "f": "에게/한테"
     },
     {
-      "ko": "할머니께 전화드려요.",
-      "base": "할머니",
-      "b": false,
-      "f": "에게/한테"
-    },
-    {
-      "ko": "교수님께 인사해요.",
-      "base": "교수님",
-      "b": false,
-      "f": "에게/한테"
-    },
-    {
-      "ko": "친구한테 생일 선물을 줘요.",
+      "ko": "친구한테 선물을 줘요.",
       "note": "에게/한테 대표 예문"
     }
   ],
@@ -216,47 +204,47 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "구어·문어",
-        "f": "+ 한테 / 에게",
+        "k": "구어체 (대화)",
+        "f": "사람 + 한테",
         "ex": [
           [
             "친구",
-            "친구한테 선물을 줘요"
+            "친구한테 줘요"
           ],
           [
             "동생",
-            "동생한테 전화해요"
+            "동생한테 말해요"
           ],
           [
-            "언니",
-            "언니에게 편지를 써요"
+            "하준",
+            "하준한테 전화해요"
           ],
           [
-            "강아지",
-            "강아지한테 밥을 줘요"
+            "형",
+            "형한테 물어요"
           ]
         ]
       },
       {
-        "k": "높임 표현",
-        "f": "+ 께 (드리다/질문하다)",
+        "k": "문어체 / 높임",
+        "f": "사람 + 에게 / 께",
         "c": "g2",
         "ex": [
+          [
+            "친구",
+            "친구에게 보내요"
+          ],
+          [
+            "학생",
+            "학생에게 가르쳐요"
+          ],
           [
             "선생님",
             "선생님께 질문해요"
           ],
           [
             "부모님",
-            "부모님께 선물을 드려요"
-          ],
-          [
-            "할머니",
-            "할머니께 전화드려요"
-          ],
-          [
-            "교수님",
-            "교수님께 인사해요"
+            "부모님께 드려요"
           ]
         ]
       }
@@ -266,81 +254,102 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 에게/한테 결합 규칙",
-      "p": "<b>구어·문어</b>일 때는 <span class=\"g\">+ 한테 / 에게</span>, <b>높임 표현</b>일 때는 <span class=\"g2\">+ 께 (드리다/질문하다)</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 친구한테 선물을 줘요 / 선생님께 질문해요"
+      "p": "<b>구어체 (대화)</b>일 때는 <span class=\"g\">사람 + 한테</span>, <b>문어체 / 높임</b>일 때는 <span class=\"g2\">사람 + 에게 / 께</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 친구한테 줘요 / 친구에게 보내요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "사람이나 동물 뒤에 붙어 어떤 행동이 향하는 대상(수혜자)임을 나타냅니다.<br><br>· 친구한테 생일 선물을 줘요.<br>· 선생님께 한국어로 질문해요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "사람이나 동물 명사 뒤에 붙어 어떤 행동이 향하는 대상(받는 사람)을 나타냅니다.<br><br>· 친구한테 선물을 줘요.<br>· 선생님께 질문해요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>사람 + 에게 / 한테 (+ 줘요/전화해요)</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"누구한테 선물을 줘요? 누구에게 질문해요?\"</b>에 대해 <b>사람 + 에게/한테 + 주다/선물하다/전화하다</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Indicates the recipient of an action (to a person/animal).",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 에게/한테 Conjugation Rule",
+      "p": "Use <span class=\"g\">사람 + 한테</span> for <b>구어체 (대화)</b> and <span class=\"g2\">사람 + 에게 / 께</span> for <b>문어체 / 높임</b>.<br><br><span class=\"yes\">O</span> 친구한테 줘요 / 친구에게 보내요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a person or animal noun to mark the recipient ('to').<br><br>· I give a gift to my friend.<br>· I ask a question to the teacher."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Who do you give a gift to? Who do you ask a question to?\"</b> using the pattern <b>사람 + 에게/한테 + 주다/선물하다/전화하다</b>."
+    }
   ],
   "words": [
     {
       "b": "친구",
-      "r": "친구한테 선물을 줘요",
-      "t": "구어·문어"
+      "r": "친구한테 줘요",
+      "t": "구어체 (대화)"
     },
     {
       "b": "동생",
-      "r": "동생한테 전화해요",
-      "t": "구어·문어"
+      "r": "동생한테 말해요",
+      "t": "구어체 (대화)"
     },
     {
-      "b": "언니",
-      "r": "언니에게 편지를 써요",
-      "t": "구어·문어"
+      "b": "하준",
+      "r": "하준한테 전화해요",
+      "t": "구어체 (대화)"
     },
     {
-      "b": "강아지",
-      "r": "강아지한테 밥을 줘요",
-      "t": "구어·문어"
+      "b": "형",
+      "r": "형한테 물어요",
+      "t": "구어체 (대화)"
+    },
+    {
+      "b": "친구",
+      "r": "친구에게 보내요",
+      "t": "문어체 / 높임"
+    },
+    {
+      "b": "학생",
+      "r": "학생에게 가르쳐요",
+      "t": "문어체 / 높임"
     },
     {
       "b": "선생님",
       "r": "선생님께 질문해요",
-      "t": "높임 표현"
+      "t": "문어체 / 높임"
     },
     {
       "b": "부모님",
-      "r": "부모님께 선물을 드려요",
-      "t": "높임 표현"
-    },
-    {
-      "b": "할머니",
-      "r": "할머니께 전화드려요",
-      "t": "높임 표현"
-    },
-    {
-      "b": "교수님",
-      "r": "교수님께 인사해요",
-      "t": "높임 표현"
+      "r": "부모님께 드려요",
+      "t": "문어체 / 높임"
     }
   ],
   "bingo": [
     [
       "친구",
-      "친구한테 선물을 줘요"
+      "친구한테 줘요"
     ],
     [
       "동생",
-      "동생한테 전화해요"
+      "동생한테 말해요"
     ],
     [
-      "언니",
-      "언니에게 편지를 써요"
+      "하준",
+      "하준한테 전화해요"
     ],
     [
-      "강아지",
-      "강아지한테 밥을 줘요"
+      "형",
+      "형한테 물어요"
+    ],
+    [
+      "친구",
+      "친구에게 보내요"
+    ],
+    [
+      "학생",
+      "학생에게 가르쳐요"
     ],
     [
       "선생님",
@@ -348,58 +357,50 @@ LESSONS.push({
     ],
     [
       "부모님",
-      "부모님께 선물을 드려요"
+      "부모님께 드려요"
     ],
     [
-      "할머니",
-      "할머니께 전화드려요"
+      "친구",
+      "친구한테 선물을 줘요."
     ],
     [
-      "교수님",
-      "교수님께 인사해요"
+      "동생",
+      "동생한테 전화를 해요."
     ],
     [
-      "한국어",
-      "친구한테 생일 선물을 줘요."
+      "선생님",
+      "선생님께 질문을 해요."
     ],
     [
-      "연습",
-      "저녁에 동생한테 전화해요."
-    ],
-    [
-      "대화",
-      "선생님께 한국어로 질문해요."
-    ],
-    [
-      "오늘",
-      "언니에게 문자를 보내요."
+      "부모님",
+      "부모님에게 편지를 써요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "에게/한테 형태 연습"
+        "t": "하준 씨, 그 예쁜 선물을 누구한테 줘요?"
       },
       {
         "base": "친구",
-        "ans": "친구한테 선물을 줘요"
+        "ans": "친구한테 줘요."
       },
       {
-        "base": "선생님",
-        "ans": "선생님께 질문해요"
+        "base": "친구",
+        "ans": "친구에게 보내요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "누구한테 선물을 줘요? 누구에게 질문해요?"
       },
       {
-        "base": "친구 + 선물 + 주다",
-        "ans": "친구한테 생일 선물을 줘요."
+        "base": "친구 · 선물 · 주다",
+        "ans": "친구한테 선물을 줘요."
       },
       {
-        "base": "동생 + 전화하다",
-        "ans": "저녁에 동생한테 전화해요."
+        "base": "동생 · 전화하다",
+        "ans": "동생한테 전화를 해요."
       }
     ]
   ],
@@ -410,84 +411,84 @@ LESSONS.push({
         "선물",
         "주다"
       ],
-      "a": "친구한테 생일 선물을 줘요.",
-      "e": "I give a birthday gift to my friend."
+      "a": "친구한테 선물을 줘요.",
+      "e": "I give a gift to my friend."
     },
     {
       "k": [
         "동생",
         "전화하다"
       ],
-      "a": "저녁에 동생한테 전화해요.",
-      "e": "I call my younger sibling in the evening."
+      "a": "동생한테 전화를 해요.",
+      "e": "I make a phone call to my younger sibling."
     },
     {
       "k": [
         "선생님",
         "질문하다"
       ],
-      "a": "선생님께 한국어로 질문해요.",
-      "e": "I ask a question to the teacher in Korean."
+      "a": "선생님께 질문을 해요.",
+      "e": "I ask a question to the teacher."
     },
     {
       "k": [
-        "언니",
-        "문자",
-        "보내다"
+        "부모님",
+        "편지",
+        "쓰다"
       ],
-      "a": "언니에게 문자를 보내요.",
-      "e": "I send a text message to my older sister."
+      "a": "부모님에게 편지를 써요.",
+      "e": "I write a letter to my parents."
     }
   ],
   "vocab": [
     {
       "tag": "에게/한테",
       "icon": "📖",
-      "q": "에게/한테 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 에게/한테 vocabulary and expressions.",
-      "pat": "사람 + 에게 / 한테 (+ 줘요/전화해요)",
+      "q": "누구한테 선물을 줘요? 누구에게 질문해요?",
+      "qen": "Who do you give a gift to? Who do you ask a question to?",
+      "pat": "사람 + 에게/한테 + 주다/선물하다/전화하다",
       "items": [
         {
-          "e": "🏫",
+          "e": "👫",
           "w": "친구",
-          "g": "To [Person]",
-          "r": "친구한테 선물을 줘요",
-          "b": true
-        },
-        {
-          "e": "📕",
-          "w": "동생",
-          "g": "To [Person]",
-          "r": "동생한테 전화해요",
+          "g": "friend",
+          "r": "친구한테 줘요",
           "b": false
         },
         {
-          "e": "☕",
-          "w": "언니",
-          "g": "To [Person]",
-          "r": "언니에게 편지를 써요",
+          "e": "👦",
+          "w": "동생",
+          "g": "younger sibling",
+          "r": "동생한테 말해요",
+          "b": true
+        },
+        {
+          "e": "👦",
+          "w": "하준",
+          "g": "Hajun",
+          "r": "하준한테 전화해요",
+          "b": true
+        },
+        {
+          "e": "👦",
+          "w": "형",
+          "g": "older brother",
+          "r": "형한테 물어요",
           "b": true
         },
         {
           "e": "👫",
-          "w": "강아지",
-          "g": "To [Person]",
-          "r": "강아지한테 밥을 줘요",
+          "w": "친구",
+          "g": "friend",
+          "r": "친구에게 보내요",
           "b": false
         },
         {
-          "e": "⏰",
-          "w": "선생님",
-          "g": "To [Person]",
-          "r": "선생님께 질문해요",
+          "e": "🎓",
+          "w": "학생",
+          "g": "student",
+          "r": "학생에게 가르쳐요",
           "b": true
-        },
-        {
-          "e": "🚇",
-          "w": "부모님",
-          "g": "To [Person]",
-          "r": "부모님께 선물을 드려요",
-          "b": false
         }
       ]
     }
@@ -495,48 +496,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "에게/한테",
-      "q": "Who gives what to whom?",
-      "qen": "Who gives what to whom?",
+      "t": "연락과 메시지",
+      "v": "연락과 메시지",
+      "q": "오늘 누구[[한테]] 연락했어요? 누구[[한테]] 문자했어요?",
+      "qen": "Who did you contact today? Who did you text?",
       "m": [
-        "친구[[한테]] 생일 선물을 줘요.",
-        "선생님[[께]] 한국어로 질문해요."
+        "오늘 아침에 친구[[한테]] 문자했어요.",
+        "저녁에 부모님[[께]] 전화해요."
       ],
-      "memo": "1. 장 그림으로 「누구한테 선물을 줘요?」를 함께 읽기<br>2. 다음 장 활동판 — 카드마다 누가 누구한테 무엇을 주는지 「○○이/가 □□한테 △△을/를 줘요」<br>3. 마지막에 「○○ 씨는 누구한테 선물을 줘요?」로 학생 이야기",
-      "go": "Who gives what to whom?"
+      "memo": "1. 장 그림으로 「누구한테 선물을 줘요?」를 함께 읽기<br>2. 다음 장 활동판 — 카드마다 누가 누구한테 무엇을 주는지 「○○이/가 □□한테 △△을/를 줘요」<br>3. 마지막에 「○○ 씨는 누구한테 선물을 줘요?」로 학생 이야기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "에게/한테",
-      "q": "How do you contact people?",
-      "qen": "How do you contact people?",
+      "i": "💬",
+      "t": "선물 주고받기",
+      "v": "선물 주고받기",
+      "q": "생일에 누구[[한테]] 선물을 주고 싶어요?",
+      "qen": "Who do you want to give a gift to on their birthday?",
       "m": [
-        "친구[[한테]] 생일 선물을 줘요.",
-        "선생님[[께]] 한국어로 질문해요."
+        "친한 친구[[한테]] 책을 선물해요.",
+        "선생님[[께]] 카드를 드려요."
       ],
-      "memo": "1. 장 그림으로 「누구한테 연락해요?」를 함께 읽기 — 학생이 「엄마한테 연락해요」처럼 사람을 말한다<br>2. 다음 장 활동판 — 학생이 말한 사람(엄마 · 친구 · 회사 …)을 교사가 왼쪽 칸에 쓴다<br>3. 사람마다 교사가 「○○한테 어떻게 연락해요?」 → 학생 「저는 ○○한테 전화를 해요」<br>4. 이메일 · 전화 · 문자 단추로 표시하고, 다 채우면 역할 바꾸기",
-      "go": "How do you contact people?"
+      "memo": "1. 장 그림으로 「누구한테 연락해요?」를 함께 읽기 — 학생이 「엄마한테 연락해요」처럼 사람을 말한다<br>2. 다음 장 활동판 — 학생이 말한 사람(엄마 · 친구 · 회사 …)을 교사가 왼쪽 칸에 쓴다<br>3. 사람마다 교사가 「○○한테 어떻게 연락해요?」 → 학생 「저는 ○○한테 전화를 해요」<br>4. 이메일 · 전화 · 문자 단추로 표시하고, 다 채우면 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "친구[[한테]] 생일 선물을 줘요.",
-          "선생님[[께]] 한국어로 질문해요."
+          "친구[[한테]] 선물을 줘요."
         ],
         "en": [
-          "I give a birthday gift to my friend.",
-          "I ask a question in Korean to the teacher."
+          "I give a gift [[to]] my friend."
+        ]
+      },
+      {
+        "ko": [
+          "선생님[[께]] 질문해요."
+        ],
+        "en": [
+          "I ask a question [[to]] the teacher."
         ]
       }
     ],
     "tips": [
-      "<b>에게/한테</b>: 사람이나 동물 뒤에 붙어 어떤 행동이 향하는 대상(수혜자)임을 나타냅니다.",
-      "대표 문장: \"친구한테 생일 선물을 줘요.\"",
-      "대표 문장: \"선생님께 한국어로 질문해요.\""
+      "<b>구어체 (대화)</b> → <span class=\"g\">사람 + 한테</span> / <b>문어체 / 높임</b> → <span class=\"g2\">사람 + 에게 / 께</span>",
+      "사람이나 동물 명사 뒤에 붙어 어떤 행동이 향하는 대상(받는 사람)을 나타냅니다.",
+      "대표 대화: \"누구한테 선물을 줘요? 누구에게 질문해요?\" → \"친구한테 선물을 줘요.\""
     ]
   }
 });

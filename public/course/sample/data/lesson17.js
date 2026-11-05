@@ -1,25 +1,8 @@
 /* Lesson 17: 만 · 100% Authentic Situation-Matched Data */
 LESSONS.push({
   "key": "만",
-  "pos": "보조사",
+  "pos": "명사",
   "form": "만",
-  "opening": {
-    "name": "17호선 출발 · 만",
-    "no": 17,
-    "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
-    "color": "#0052a4",
-    "en": "Only · 단독과 한정<br>Practice everyday Korean step by step.",
-    "board": "Departing · Lesson 17",
-    "next": "Next: 만",
-    "stops": [
-      "Unit 1",
-      "Unit 2",
-      "Unit 3",
-      "Unit 4",
-      "Unit 5",
-      "Unit 6"
-    ]
-  },
   "gpic": [
     {
       "e": "📖",
@@ -31,18 +14,18 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "보조사",
+      "c": "명사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "다른 것은 제외하고 오직 그 대상 하나뿐임을 강조할 때 씁니다.",
-    "en": "Means 'only' or 'just'."
+    "ko": "명사 뒤에 붙어 다른 것은 제외하고 오직 그것뿐임('only')을 나타냅니다.",
+    "en": "Attached to a noun to indicate limitation or exclusivity ('only / just')."
   },
   "warn": [
     {
-      "ko": "그림 속 실제 상황과 핵심 표현을 연결하며 큰 소리로 따라 말해 보세요.",
-      "en": "Connect the illustration with the key expression and repeat aloud."
+      "ko": "그림 속 실제 상황과 핵심 문형을 연결하며 자연스럽게 말해 보세요.",
+      "en": "Connect the situation in the illustration with the key pattern and speak naturally."
     },
     {
       "ko": "받침 유무와 결합 형태 변화에 주의하세요.",
@@ -50,10 +33,10 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "아침에 커피만 마셔요.",
-    "en": "I drink only coffee in the morning."
+    "q": "아침에 밥을 먹어요? 일요일에 어디에 가요?",
+    "en": "Do you eat a meal in the morning? Where do you go on Sunday?"
   },
-  "en": "Only · 단독과 한정",
+  "en": "Limitation Marker · \"~만\" · 오직 그것뿐임을 말해요",
   "prior": [],
   "pat": "명사 + 만",
   "hero": {
@@ -65,13 +48,13 @@ LESSONS.push({
       },
       {
         "e": "💬",
-        "c": "보조사",
+        "c": "명사",
         "t": "accent"
       }
     ],
     "ko": [
       "아침에 커피[[만]] 마셔요.",
-      "일요일에 집[[에만]] 있어요."
+      "일요일에 집에[[만]] 있어요."
     ],
     "en": [
       "I drink [[only]] coffee in the morning.",
@@ -80,11 +63,11 @@ LESSONS.push({
   },
   "ex": [
     {
-      "label": "예문 ① · 만 핵심 상황",
-      "scene": "/course/sample/scenes/hero-17.svg",
+      "label": "예문 ① · 아침 식사 습관",
+      "scene": "/course/sample/scenes/ex-17-1.svg",
       "ask": {
-        "q": "아침에 커피만 마셔요.",
-        "en": "I drink only coffee in the morning."
+        "q": "아침에 무엇[[만]] 마셔요?",
+        "en": "What is the only thing you drink in the morning?"
       },
       "pic": [
         {
@@ -94,66 +77,94 @@ LESSONS.push({
         }
       ],
       "a": {
-        "who": "A · 마이클",
+        "who": "A · 리에",
         "ko": [
-          "아침에 커피[[만]] 마셔요."
+          "하준 씨, 아침에 밥하고 빵을 다 먹어요?"
         ],
         "en": [
-          "I drink [[only]] coffee in the morning."
+          "Hajun, do you eat both rice and bread in the morning?"
         ]
       },
       "b": {
-        "who": "B · 수진",
+        "who": "B · 회사원",
         "ko": [
-          "일요일에 집[[에만]] 있어요."
+          "아니요, 아침에는 시간이 없어요.",
+          "그래서 따뜻한 커피[[만]] 한 잔 마셔요."
         ],
         "en": [
-          "I stay [[only]] at home on Sunday."
+          "No, I don't have time in the morning.",
+          "So I drink [[only]] a cup of warm coffee."
         ]
       },
       "morph": [
-        "만 핵심 표현",
-        "보조사"
+        "커피 + 만 (받침 무관)"
       ]
     },
     {
-      "label": "예문 ② · 실전 응용 대화",
-      "scene": "/course/sample/scenes/hero-17.svg",
+      "label": "예문 ② · 주말 휴식 이야기",
+      "scene": "/course/sample/scenes/ex-17-2.svg",
       "ask": {
-        "q": "시원한 물만 한 잔 주세요.",
-        "en": "Please give me just one glass of cool water."
+        "q": "일요일에 어디에[[만]] 있어요?",
+        "en": "Where is the only place you stay on Sunday?"
       },
       "pic": [
         {
           "e": "🗣️",
-          "c": "응용",
+          "c": "만",
           "t": "accent"
         }
       ],
       "a": {
-        "who": "A · 유진",
+        "who": "A · 마이클",
         "ko": [
-          "시원한 물만 한 잔 주세요."
+          "유진 씨, 일요일에 밖에 나가요?"
         ],
         "en": [
-          "Please give me just one glass of cool water."
+          "Yujin, do you go out on Sunday?"
         ]
       },
       "b": {
-        "who": "B · 하준",
+        "who": "B · 유진",
         "ko": [
-          "오늘은 조금만 일해요."
+          "아니요, 일요일에는 집에[[만]] 있어요.",
+          "집에서 좋아하는 영화[[만]] 봐요."
         ],
         "en": [
-          "I work only a little today."
+          "No, on Sunday I stay [[only]] at home.",
+          "At home, I watch [[only]] my favorite movies."
         ]
       },
       "morph": [
-        "만 실전 활용"
+        "집에 + 만 있어요",
+        "영화 + 만 봐요"
       ]
     }
   ],
   "review": [
+    {
+      "ko": "물만 마셔요.",
+      "base": "물",
+      "b": true,
+      "f": "만"
+    },
+    {
+      "ko": "책만 읽어요.",
+      "base": "책",
+      "b": true,
+      "f": "만"
+    },
+    {
+      "ko": "빵만 먹어요.",
+      "base": "빵",
+      "b": true,
+      "f": "만"
+    },
+    {
+      "ko": "한국어만 써요.",
+      "base": "한국어",
+      "b": false,
+      "f": "만"
+    },
     {
       "ko": "커피만 마셔요.",
       "base": "커피",
@@ -161,45 +172,21 @@ LESSONS.push({
       "f": "만"
     },
     {
-      "ko": "물만 마셔요.",
-      "base": "물",
-      "b": false,
-      "f": "만"
-    },
-    {
-      "ko": "저만 학생이에요.",
+      "ko": "저만 알아요.",
       "base": "저",
       "b": false,
       "f": "만"
     },
     {
-      "ko": "조금만 주세요.",
-      "base": "조금",
+      "ko": "야채만 먹어요.",
+      "base": "야채",
       "b": false,
       "f": "만"
     },
     {
       "ko": "집에만 있어요.",
       "base": "집",
-      "b": false,
-      "f": "만"
-    },
-    {
-      "ko": "주말에만 쉬어요.",
-      "base": "주말",
-      "b": false,
-      "f": "만"
-    },
-    {
-      "ko": "아침에만 운동해요.",
-      "base": "아침",
-      "b": false,
-      "f": "만"
-    },
-    {
-      "ko": "교실에만 있어요.",
-      "base": "교실",
-      "b": false,
+      "b": true,
       "f": "만"
     },
     {
@@ -216,47 +203,47 @@ LESSONS.push({
     ],
     "rows": [
       {
-        "k": "주어·목적어",
-        "f": "명사 + 만",
+        "k": "받침 O 명사",
+        "f": "+ 만",
+        "ex": [
+          [
+            "물",
+            "물만 마셔요"
+          ],
+          [
+            "책",
+            "책만 읽어요"
+          ],
+          [
+            "빵",
+            "빵만 먹어요"
+          ],
+          [
+            "한국어",
+            "한국어만 써요"
+          ]
+        ]
+      },
+      {
+        "k": "받침 X / 조사 뒤",
+        "f": "+ 만",
+        "c": "g2",
         "ex": [
           [
             "커피",
             "커피만 마셔요"
           ],
           [
-            "물",
-            "물만 마셔요"
-          ],
-          [
             "저",
-            "저만 학생이에요"
+            "저만 알아요"
           ],
           [
-            "조금",
-            "조금만 주세요"
-          ]
-        ]
-      },
-      {
-        "k": "장소·시간 조사 결합",
-        "f": "에 + 만 → 에만",
-        "c": "g2",
-        "ex": [
+            "야채",
+            "야채만 먹어요"
+          ],
           [
             "집",
             "집에만 있어요"
-          ],
-          [
-            "주말",
-            "주말에만 쉬어요"
-          ],
-          [
-            "아침",
-            "아침에만 운동해요"
-          ],
-          [
-            "교실",
-            "교실에만 있어요"
           ]
         ]
       }
@@ -266,229 +253,238 @@ LESSONS.push({
     {
       "c": "",
       "h": "💡 TIP ① · 만 결합 규칙",
-      "p": "<b>주어·목적어</b>일 때는 <span class=\"g\">명사 + 만</span>, <b>장소·시간 조사 결합</b>일 때는 <span class=\"g2\">에 + 만 → 에만</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 커피만 마셔요 / 집에만 있어요"
+      "p": "<b>받침 O 명사</b>일 때는 <span class=\"g\">+ 만</span>, <b>받침 X / 조사 뒤</b>일 때는 <span class=\"g2\">+ 만</span> 형태를 씁니다.<br><br><span class=\"yes\">O</span> 물만 마셔요 / 커피만 마셔요"
     },
     {
       "c": "navy",
-      "h": "💡 TIP ② · 대표 상황 예문",
-      "p": "다른 것은 제외하고 오직 그 대상 하나뿐임을 강조할 때 씁니다.<br><br>· 아침에 커피만 마셔요.<br>· 일요일에 집에만 있어요."
+      "h": "💡 TIP ② · 핵심 의미와 쓰임",
+      "p": "명사 뒤에 붙어 다른 것은 제외하고 오직 그것뿐임('only')을 나타냅니다.<br><br>· 아침에 커피만 마셔요.<br>· 일요일에 집에만 있어요."
     },
     {
       "c": "teal",
-      "h": "💡 TIP ③ · 자연스러운 억양과 발음",
-      "p": "문장 패턴 <b>명사 + 만</b>에 맞추어 자연스럽게 이어서 발음해 보세요."
+      "h": "💡 TIP ③ · 실전 대화 팁",
+      "p": "질문 <b>\"아침에 밥을 먹어요? 일요일에 어디에 가요?\"</b>에 대해 <b>명사 + 만</b> 패턴으로 자연스럽게 답해 보세요."
     }
   ],
   "tipsEn": [
-    "Means 'only' or 'just'.",
-    "Practice the representative sentences with the situation illustration."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 만 Conjugation Rule",
+      "p": "Use <span class=\"g\">+ 만</span> for <b>받침 O 명사</b> and <span class=\"g2\">+ 만</span> for <b>받침 X / 조사 뒤</b>.<br><br><span class=\"yes\">O</span> 물만 마셔요 / 커피만 마셔요"
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · Core Meaning & Usage",
+      "p": "Attached to a noun to indicate limitation or exclusivity ('only / just').<br><br>· I drink only coffee in the morning.<br>· I stay only at home on Sunday."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · Conversation Practice",
+      "p": "Practice answering <b>\"Do you eat a meal in the morning? Where do you go on Sunday?\"</b> using the pattern <b>명사 + 만</b>."
+    }
   ],
   "words": [
     {
-      "b": "커피",
-      "r": "커피만 마셔요",
-      "t": "주어·목적어"
-    },
-    {
       "b": "물",
       "r": "물만 마셔요",
-      "t": "주어·목적어"
+      "t": "받침 O 명사"
+    },
+    {
+      "b": "책",
+      "r": "책만 읽어요",
+      "t": "받침 O 명사"
+    },
+    {
+      "b": "빵",
+      "r": "빵만 먹어요",
+      "t": "받침 O 명사"
+    },
+    {
+      "b": "한국어",
+      "r": "한국어만 써요",
+      "t": "받침 O 명사"
+    },
+    {
+      "b": "커피",
+      "r": "커피만 마셔요",
+      "t": "받침 X / 조사 뒤"
     },
     {
       "b": "저",
-      "r": "저만 학생이에요",
-      "t": "주어·목적어"
+      "r": "저만 알아요",
+      "t": "받침 X / 조사 뒤"
     },
     {
-      "b": "조금",
-      "r": "조금만 주세요",
-      "t": "주어·목적어"
+      "b": "야채",
+      "r": "야채만 먹어요",
+      "t": "받침 X / 조사 뒤"
     },
     {
       "b": "집",
       "r": "집에만 있어요",
-      "t": "장소·시간 조사 결합"
-    },
-    {
-      "b": "주말",
-      "r": "주말에만 쉬어요",
-      "t": "장소·시간 조사 결합"
-    },
-    {
-      "b": "아침",
-      "r": "아침에만 운동해요",
-      "t": "장소·시간 조사 결합"
-    },
-    {
-      "b": "교실",
-      "r": "교실에만 있어요",
-      "t": "장소·시간 조사 결합"
+      "t": "받침 X / 조사 뒤"
     }
   ],
   "bingo": [
-    [
-      "커피",
-      "커피만 마셔요"
-    ],
     [
       "물",
       "물만 마셔요"
     ],
     [
-      "저",
-      "저만 학생이에요"
+      "책",
+      "책만 읽어요"
     ],
     [
-      "조금",
-      "조금만 주세요"
+      "빵",
+      "빵만 먹어요"
+    ],
+    [
+      "한국어",
+      "한국어만 써요"
+    ],
+    [
+      "커피",
+      "커피만 마셔요"
+    ],
+    [
+      "저",
+      "저만 알아요"
+    ],
+    [
+      "야채",
+      "야채만 먹어요"
     ],
     [
       "집",
       "집에만 있어요"
     ],
     [
-      "주말",
-      "주말에만 쉬어요"
-    ],
-    [
-      "아침",
-      "아침에만 운동해요"
-    ],
-    [
-      "교실",
-      "교실에만 있어요"
-    ],
-    [
-      "한국어",
+      "커피",
       "아침에 커피만 마셔요."
     ],
     [
-      "연습",
-      "일요일에 집에만 있어요."
+      "집",
+      "일요일에는 집에만 있어요."
     ],
     [
-      "대화",
-      "시원한 물만 한 잔 주세요."
+      "한국어",
+      "수업 시간에 한국어만 말해요."
     ],
     [
-      "오늘",
-      "오늘은 조금만 일해요."
+      "물",
+      "운동할 때 물만 마셔요."
     ]
   ],
   "relays": [
     [
       {
-        "t": "만 형태 연습"
+        "t": "하준 씨, 아침에 밥하고 빵을 다 먹어요?"
+      },
+      {
+        "base": "물",
+        "ans": "물만 마셔요."
       },
       {
         "base": "커피",
-        "ans": "커피만 마셔요"
-      },
-      {
-        "base": "집",
-        "ans": "집에만 있어요"
+        "ans": "커피만 마셔요."
       }
     ],
     [
       {
-        "t": "상황 문장 말하기"
+        "t": "아침에 밥을 먹어요? 일요일에 어디에 가요?"
       },
       {
-        "base": "아침 + 커피 + 마시다",
+        "base": "커피 · 마시다",
         "ans": "아침에 커피만 마셔요."
       },
       {
-        "base": "일요일 + 집 + 있다",
-        "ans": "일요일에 집에만 있어요."
+        "base": "집 · 있다",
+        "ans": "일요일에는 집에만 있어요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "아침",
         "커피",
         "마시다"
       ],
       "a": "아침에 커피만 마셔요.",
-      "e": "I only drink coffee in the morning."
+      "e": "I drink only coffee in the morning."
     },
     {
       "k": [
-        "일요일",
         "집",
         "있다"
       ],
-      "a": "일요일에 집에만 있어요.",
-      "e": "I stay only at home on Sunday."
+      "a": "일요일에는 집에만 있어요.",
+      "e": "I stay only at home on Sundays."
+    },
+    {
+      "k": [
+        "한국어",
+        "말하다"
+      ],
+      "a": "수업 시간에 한국어만 말해요.",
+      "e": "We speak only Korean during class."
     },
     {
       "k": [
         "물",
-        "한 잔",
-        "주다"
+        "마시다"
       ],
-      "a": "시원한 물만 한 잔 주세요.",
-      "e": "Please give me just one glass of cool water."
-    },
-    {
-      "k": [
-        "오늘",
-        "조금",
-        "일하다"
-      ],
-      "a": "오늘은 조금만 일해요.",
-      "e": "I work only a little today."
+      "a": "운동할 때 물만 마셔요.",
+      "e": "I drink only water when exercising."
     }
   ],
   "vocab": [
     {
       "tag": "만",
       "icon": "📖",
-      "q": "만 핵심 어휘와 표현을 연습해 보세요.",
-      "qen": "Practice 만 vocabulary and expressions.",
+      "q": "아침에 밥을 먹어요? 일요일에 어디에 가요?",
+      "qen": "Do you eat a meal in the morning? Where do you go on Sunday?",
       "pat": "명사 + 만",
       "items": [
         {
-          "e": "🏫",
-          "w": "커피",
-          "g": "Only",
-          "r": "커피만 마셔요",
+          "e": "💧",
+          "w": "물",
+          "g": "water",
+          "r": "물만 마셔요",
           "b": true
         },
         {
           "e": "📕",
-          "w": "물",
-          "g": "Only",
-          "r": "물만 마셔요",
+          "w": "책",
+          "g": "book",
+          "r": "책만 읽어요",
+          "b": true
+        },
+        {
+          "e": "🥐",
+          "w": "빵",
+          "g": "bread",
+          "r": "빵만 먹어요",
+          "b": true
+        },
+        {
+          "e": "🇰🇷",
+          "w": "한국어",
+          "g": "Korean language",
+          "r": "한국어만 써요",
           "b": false
         },
         {
           "e": "☕",
-          "w": "저",
-          "g": "Only",
-          "r": "저만 학생이에요",
-          "b": true
-        },
-        {
-          "e": "👫",
-          "w": "조금",
-          "g": "Only",
-          "r": "조금만 주세요",
+          "w": "커피",
+          "g": "coffee",
+          "r": "커피만 마셔요",
           "b": false
         },
         {
-          "e": "⏰",
-          "w": "집",
-          "g": "Only",
-          "r": "집에만 있어요",
-          "b": true
-        },
-        {
-          "e": "🚇",
-          "w": "주말",
-          "g": "Only",
-          "r": "주말에만 쉬어요",
+          "e": "🙋",
+          "w": "저",
+          "g": "I (polite)",
+          "r": "저만 알아요",
           "b": false
         }
       ]
@@ -497,48 +493,52 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "상황 대화 1",
-      "v": "만",
-      "q": "Talk about your breakfast.",
-      "qen": "Talk about your breakfast.",
+      "t": "나의 식습관",
+      "v": "나의 식습관",
+      "q": "아침에 밥을 먹어요? 아니면 무엇[[만]] 먹어요?",
+      "qen": "Do you eat breakfast, or what is the only thing you eat/drink?",
       "m": [
-        "아침에 커피[[만]] 마셔요.",
-        "일요일에 집[[에만]] 있어요."
+        "아침에는 커피[[만]] 마셔요.",
+        "과일[[만]] 조금 먹어요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「아침에 빵하고 커피를 먹어요?」 → 하나만 먹으면 「○○만」<br>3. 점심 · 저녁으로 바꿔 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about your breakfast."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「아침에 빵하고 커피를 먹어요?」 → 하나만 먹으면 「○○만」<br>3. 점심 · 저녁으로 바꿔 묻기<br>4. 역할 바꾸기"
     },
     {
-      "i": "📕",
-      "t": "상황 대화 2",
-      "v": "만",
-      "q": "Talk about your weekend at home.",
-      "qen": "Talk about your weekend at home.",
+      "i": "💬",
+      "t": "수업 시간 약속",
+      "v": "수업 시간 약속",
+      "q": "한국어 교실에서 무슨 말[[만]] 해요?",
+      "qen": "What is the only language you speak in the Korean classroom?",
       "m": [
-        "아침에 커피[[만]] 마셔요.",
-        "일요일에 집[[에만]] 있어요."
+        "교실에서는 한국어[[만]] 해요.",
+        "오늘 숙제는 한 장[[만]] 있어요."
       ],
-      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 밖에 나가요?」 → 「집에만 있어요」 같은 대답<br>3. 「왜요?」 없이 「그럼 뭐 해요?」로 이어 묻기<br>4. 역할 바꾸기",
-      "go": "Talk about your weekend at home."
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 밖에 나가요?」 → 「집에만 있어요」 같은 대답<br>3. 「왜요?」 없이 「그럼 뭐 해요?」로 이어 묻기<br>4. 역할 바꾸기"
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "아침에 커피[[만]] 마셔요.",
-          "일요일에 집[[에만]] 있어요."
+          "아침에 커피[[만]] 마셔요."
         ],
         "en": [
-          "I drink [[only]] coffee in the morning.",
+          "I drink [[only]] coffee in the morning."
+        ]
+      },
+      {
+        "ko": [
+          "일요일에 집에[[만]] 있어요."
+        ],
+        "en": [
           "I stay [[only]] at home on Sunday."
         ]
       }
     ],
     "tips": [
-      "<b>만</b>: 다른 것은 제외하고 오직 그 대상 하나뿐임을 강조할 때 씁니다.",
-      "대표 문장: \"아침에 커피만 마셔요.\"",
-      "대표 문장: \"일요일에 집에만 있어요.\""
+      "<b>받침 O 명사</b> → <span class=\"g\">+ 만</span> / <b>받침 X / 조사 뒤</b> → <span class=\"g2\">+ 만</span>",
+      "명사 뒤에 붙어 다른 것은 제외하고 오직 그것뿐임('only')을 나타냅니다.",
+      "대표 대화: \"아침에 밥을 먹어요? 일요일에 어디에 가요?\" → \"아침에 커피만 마셔요.\""
     ]
   }
 });
