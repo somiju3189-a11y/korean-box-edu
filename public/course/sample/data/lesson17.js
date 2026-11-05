@@ -1,14 +1,14 @@
 /* Lesson 17: 만 · 100% Full Unlocked Data */
 LESSONS.push({
   "key": "만",
-  "pos": "보조사",
+  "pos": "조사",
   "form": "만",
   "opening": {
     "name": "17호선 출발 · 만",
     "no": 17,
     "line": "Level 1 · Unit 4: 함께하고 덧붙여요",
     "color": "#0052a4",
-    "en": "Only / just · 한정<br>Practice everyday Korean step by step.",
+    "en": "Level 1 Lesson 17 · 만<br>Practice everyday Korean step by step.",
     "board": "Departing · Lesson 17",
     "next": "Next: 만",
     "stops": [
@@ -31,13 +31,13 @@ LESSONS.push({
     },
     {
       "e": "✨",
-      "c": "보조사",
+      "c": "조사",
       "t": "accent"
     }
   ],
   "mean": {
-    "ko": "다른 것은 제외하고 오직 그것 하나만을 한정함을 나타냅니다.",
-    "en": "Only, just."
+    "ko": "만의 의미와 용법을 익히고 실생활 문장으로 대화합니다.",
+    "en": "Grammar point 만 in Korean."
   },
   "warn": [
     {
@@ -50,12 +50,12 @@ LESSONS.push({
     }
   ],
   "ask": {
-    "q": "○○만 있어요/주세요.",
-    "en": "Only / just · 한정"
+    "q": "○○ 만 ...",
+    "en": "Level 1 Lesson 17 · 만"
   },
-  "en": "Only / just · 한정",
+  "en": "Level 1 Lesson 17 · 만",
   "prior": [],
-  "pat": "○○만 있어요/주세요.",
+  "pat": "○○ 만 ...",
   "hero": {
     "pic": [
       {
@@ -70,20 +70,20 @@ LESSONS.push({
       }
     ],
     "ko": [
-      "물[[만]] 마셔요.",
-      "사과 하나[[만]] 주세요."
+      "선생님과 함께 [[만]] 연습을 해요.",
+      "한국어로 대화를 [[만]] 말해요."
     ],
     "en": [
-      "I only drink water.",
-      "Please give me just one apple."
+      "Practice 만 with teacher.",
+      "Speak in Korean naturally."
     ]
   },
   "ex": [
     {
       "label": "예문 ① · 만 연습",
       "ask": {
-        "q": "물[[만]] 마셔요.",
-        "en": "I only drink water."
+        "q": "선생님과 함께 [[만]] 연습을 해요.",
+        "en": "Practice 만 with teacher."
       },
       "pic": [
         {
@@ -95,19 +95,19 @@ LESSONS.push({
       "a": {
         "who": "A · 수진",
         "ko": [
-          "물[[만]] 마셔요."
+          "선생님과 함께 [[만]] 연습을 해요."
         ],
         "en": [
-          "I only drink water."
+          "Practice 만 with teacher."
         ]
       },
       "b": {
         "who": "B · 민수",
         "ko": [
-          "사과 하나[[만]] 주세요."
+          "한국어로 대화를 [[만]] 말해요."
         ],
         "en": [
-          "Please give me just one apple."
+          "Speak in Korean naturally."
         ]
       },
       "morph": [
@@ -118,8 +118,8 @@ LESSONS.push({
     {
       "label": "예문 ② · 실전 대화",
       "ask": {
-        "q": "사과 하나[[만]] 주세요.",
-        "en": "Please give me just one apple."
+        "q": "한국어로 대화를 [[만]] 말해요.",
+        "en": "Speak in Korean naturally."
       },
       "pic": [
         {
@@ -131,16 +131,16 @@ LESSONS.push({
       "a": {
         "who": "A · 지훈",
         "ko": [
-          "사과 하나[[만]] 주세요."
+          "한국어로 대화를 [[만]] 말해요."
         ],
         "en": [
-          "Please give me just one apple."
+          "Speak in Korean naturally."
         ]
       },
       "b": {
         "who": "B · 사라",
         "ko": [
-          "네, 맞아요. 물만 마셔요."
+          "네, 맞아요. 선생님과 함께 만 연습을 해요."
         ],
         "en": [
           "Yes, that's right."
@@ -153,60 +153,109 @@ LESSONS.push({
   ],
   "review": [
     {
-      "ko": "물[[만]] 마셔요.",
-      "base": "물",
+      "ko": "도서관 만.",
+      "base": "도서관",
       "b": true,
       "f": "만"
     },
     {
-      "ko": "하나[[만]] 주세요.",
-      "base": "하나",
+      "ko": "선생님 만.",
+      "base": "선생님",
       "b": true,
       "f": "만"
     },
     {
-      "ko": "주말에[[만]] 만나요.",
-      "base": "주말",
+      "ko": "한국 만.",
+      "base": "한국",
       "b": true,
       "f": "만"
     },
     {
-      "ko": "물[[만]] 마셔요.",
-      "note": "만의 자연스러운 문장 활용"
+      "ko": "학교 만.",
+      "base": "학교",
+      "b": false,
+      "f": "만"
+    },
+    {
+      "ko": "친구 만.",
+      "base": "친구",
+      "b": false,
+      "f": "만"
+    },
+    {
+      "ko": "영화 만.",
+      "base": "영화",
+      "b": false,
+      "f": "만"
+    },
+    {
+      "ko": "선생님과 함께 [[만]] 연습을 해요.",
+      "note": "만의 올바른 문장 활용"
     }
   ],
   "rules": {
     "head": "Rule <i>규칙</i>",
     "th": [
-      "명사 연결",
+      "구분",
       "형태",
       "예"
     ],
     "rows": [
       {
-        "k": "받침 무관",
+        "k": "받침 O",
         "f": "+ 만",
         "ex": [
           [
-            "물",
-            "물만 마셔요"
+            "선생님",
+            "선생님 만"
           ],
           [
-            "하나",
-            "하나만 주세요"
+            "도서관",
+            "도서관 만"
           ],
           [
-            "주말",
-            "주말에만 만나요"
+            "한국",
+            "한국 만"
+          ]
+        ]
+      },
+      {
+        "k": "받침 X",
+        "f": "+ 만",
+        "c": "g2",
+        "ex": [
+          [
+            "친구",
+            "친구 만"
+          ],
+          [
+            "학교",
+            "학교 만"
+          ],
+          [
+            "영화",
+            "영화 만"
           ]
         ]
       }
     ]
   },
   "tips": [
-    "<b>만</b> 규칙에 맞춰 정확한 발음과 억양으로 따라 해 보세요.",
-    "일상생활 대화에서 자주 쓰이는 핵심 표현입니다.",
-    "예문과 말하기 카드를 통해 반복해서 입으로 연습해 보세요."
+    {
+      "c": "",
+      "h": "💡 TIP ① · 만 기본 결합 원리",
+      "p": "앞말의 품사와 받침 여부에 주의하여 <b>만</b> 형태를 바르게 결합합니다."
+    },
+    {
+      "c": "navy",
+      "h": "💡 TIP ② · 실생활 자주 쓰는 표현",
+      "p": "교실과 일상 대화에서 가장 빈도 높게 쓰이는 패턴으로 큰 소리로 따라 해 보세요."
+    },
+    {
+      "c": "teal",
+      "h": "💡 TIP ③ · 주의해야 할 예외 사항",
+      "p": "불규칙 및 발음의 연음 현상에 유의하여 정확하게 발음합니다."
+    }
   ],
   "tipsEn": [
     "Pay attention to the spelling and final consonant rules.",
@@ -214,53 +263,60 @@ LESSONS.push({
   ],
   "words": [
     {
-      "w": "물",
-      "m": "연습 단어",
-      "f": "물만 마셔요"
+      "b": "도서관",
+      "r": "도서관 만",
+      "t": "받침 O"
     },
     {
-      "w": "하나",
-      "m": "연습 단어",
-      "f": "하나만 주세요"
+      "b": "선생님",
+      "r": "선생님 만",
+      "t": "받침 O"
     },
     {
-      "w": "주말",
-      "m": "연습 단어",
-      "f": "주말에만 만나요"
+      "b": "한국",
+      "r": "한국 만",
+      "t": "받침 O"
     },
     {
-      "w": "친구",
-      "m": "friend",
-      "f": "친구"
+      "b": "학교",
+      "r": "학교 만",
+      "t": "받침 X"
     },
     {
-      "w": "선생님",
-      "m": "teacher",
-      "f": "선생님"
+      "b": "친구",
+      "r": "친구 만",
+      "t": "받침 X"
     },
     {
-      "w": "학교",
-      "m": "school",
-      "f": "학교"
-    },
-    {
-      "w": "한국",
-      "m": "Korea",
-      "f": "한국"
+      "b": "영화",
+      "r": "영화 만",
+      "t": "받침 X"
     }
   ],
   "bingo": [
     [
-      "물",
-      "물만 마셔요"
+      "선생님",
+      "선생님 만"
     ],
     [
-      "하나",
-      "하나만 주세요"
+      "도서관",
+      "도서관 만"
     ],
     [
-      "주말",
-      "주말에만 만나요"
+      "한국",
+      "한국 만"
+    ],
+    [
+      "친구",
+      "친구 만"
+    ],
+    [
+      "학교",
+      "학교 만"
+    ],
+    [
+      "영화",
+      "영화 만"
     ],
     [
       "사과",
@@ -286,11 +342,11 @@ LESSONS.push({
       },
       {
         "base": "연습1",
-        "ans": "물만 마셔요"
+        "ans": "선생님 만"
       },
       {
         "base": "연습2",
-        "ans": "하나만 주세요"
+        "ans": "도서관 만"
       }
     ],
     [
@@ -299,47 +355,46 @@ LESSONS.push({
       },
       {
         "base": "문장1",
-        "ans": "물만 마셔요."
+        "ans": "선생님과 함께 만 연습을 해요."
       },
       {
         "base": "문장2",
-        "ans": "사과 하나만 주세요."
+        "ans": "한국어로 대화를 만 말해요."
       }
     ]
   ],
   "make": [
     {
       "k": [
-        "물",
-        "마시다"
+        "학교",
+        "만"
       ],
-      "a": "물만 마셔요.",
-      "e": "I only drink water."
+      "a": "학교에 만.",
+      "e": "At school with 만."
     },
     {
       "k": [
-        "하나",
-        "주다"
+        "친구",
+        "만"
       ],
-      "a": "하나만 주세요.",
-      "e": "Please give me only one."
+      "a": "친구와 만.",
+      "e": "With friends and 만."
     },
     {
       "k": [
-        "사과",
-        "사다"
+        "한국",
+        "만"
       ],
-      "a": "사과만 사요.",
-      "e": "I only buy apples."
+      "a": "한국에서 만.",
+      "e": "In Korea with 만."
     },
     {
       "k": [
-        "오늘",
-        "시간",
-        "있다"
+        "선생님",
+        "만"
       ],
-      "a": "오늘만 시간이 있어요.",
-      "e": "I only have time today."
+      "a": "선생님과 만.",
+      "e": "With teacher and 만."
     }
   ],
   "vocab": [
@@ -348,19 +403,49 @@ LESSONS.push({
       "icon": "📖",
       "q": "만 연습을 해 보세요.",
       "qen": "Practice 만",
-      "pat": "○○만 있어요/주세요.",
+      "pat": "○○ 만 ...",
       "items": [
         {
-          "k": "물",
-          "m": "물만 마셔요"
+          "e": "🏫",
+          "w": "학교",
+          "g": "school",
+          "r": "학교 만",
+          "b": false
         },
         {
-          "k": "하나",
-          "m": "하나만 주세요"
+          "e": "📚",
+          "w": "도서관",
+          "g": "library",
+          "r": "도서관 만",
+          "b": true
         },
         {
-          "k": "주말",
-          "m": "주말에만 만나요"
+          "e": "👫",
+          "w": "친구",
+          "g": "friend",
+          "r": "친구 만",
+          "b": false
+        },
+        {
+          "e": "👨‍🏫",
+          "w": "선생님",
+          "g": "teacher",
+          "r": "선생님 만",
+          "b": true
+        },
+        {
+          "e": "🇰🇷",
+          "w": "한국",
+          "g": "Korea",
+          "r": "한국 만",
+          "b": true
+        },
+        {
+          "e": "🎬",
+          "w": "영화",
+          "g": "movie",
+          "r": "영화 만",
+          "b": false
         }
       ]
     }
@@ -368,26 +453,41 @@ LESSONS.push({
   "sit": [
     {
       "i": "👋",
-      "t": "대화 연습",
+      "t": "대화 1",
       "v": "만",
-      "q": "오늘 배운 만 표현을 사용해 보세요.",
-      "qen": "Try using the expression learned today.",
+      "q": "Talk about your breakfast.",
+      "qen": "Talk about your breakfast.",
       "m": [
-        "물[[만]] 마셔요.",
-        "사과 하나[[만]] 주세요."
-      ]
+        "선생님과 함께 [[만]] 연습을 해요.",
+        "한국어로 대화를 [[만]] 말해요."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「아침에 빵하고 커피를 먹어요?」 → 하나만 먹으면 「○○만」<br>3. 점심 · 저녁으로 바꿔 묻기<br>4. 역할 바꾸기",
+      "go": "Talk about your breakfast."
+    },
+    {
+      "i": "📕",
+      "t": "대화 2",
+      "v": "만",
+      "q": "Talk about your weekend at home.",
+      "qen": "Talk about your weekend at home.",
+      "m": [
+        "선생님과 함께 [[만]] 연습을 해요.",
+        "한국어로 대화를 [[만]] 말해요."
+      ],
+      "memo": "1. Free talking — 활동판 없이 선생님과 묻고 답한다<br>2. 「주말에 밖에 나가요?」 → 「집에만 있어요」 같은 대답<br>3. 「왜요?」 없이 「그럼 뭐 해요?」로 이어 묻기<br>4. 역할 바꾸기",
+      "go": "Talk about your weekend at home."
     }
   ],
   "wrap": {
     "ex": [
       {
         "ko": [
-          "물[[만]] 마셔요.",
-          "사과 하나[[만]] 주세요."
+          "선생님과 함께 [[만]] 연습을 해요.",
+          "한국어로 대화를 [[만]] 말해요."
         ],
         "en": [
-          "I only drink water.",
-          "Please give me just one apple."
+          "Practice 만 with teacher.",
+          "Speak in Korean naturally."
         ]
       }
     ],
