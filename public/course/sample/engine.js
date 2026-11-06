@@ -2056,6 +2056,7 @@ function buildSlides(L0){
       <div class="card method m1">
         <div class="mtop"><div class="mno">1</div><h3>🎲 Bingo</h3>
           <span class="bwho"><i class="t"></i>선생님<i class="s"></i>학생</span>
+          <span class="bingo-status bstatus-badge" id="bingoStatus"></span>
           <span class="bset" id="bingoSet"></span>
           <button class="mbtn" id="bingoNew" type="button">🔀 새 판</button></div>
         ${/* 판이 여럿인 과는 <b>어느 갈래를 연습하는지</b>를 교사가 곧바로 골라야 한다.
@@ -2065,7 +2066,6 @@ function buildSlides(L0){
           bingoBoards(L0).map((b, i) => `<button class="bpick-b${b.c ? ' ' + b.c : ''}" type="button" data-set="${i}">${b.tag || (i + 1) + '판'}</button>`).join('')}</div>` : ''}
         <div class="how"><b>${L0.bingoForm || F}</b>를 붙여 말한 사람의 색을 누르세요 — <b class="bt-t">빨강은 선생님</b>, <b class="bt-s">파랑은 학생</b>입니다. 칸이 바른 형태로 바뀝니다. 한 줄이면 <b>빙고!</b></div>
         <div class="bingo" id="bingo"></div>
-        <div class="bingo-status" id="bingoStatus"></div>
       </div>`);
   ACT1('· 릴레이', `
       <div class="card method m2">
@@ -4217,10 +4217,12 @@ function drawBingo(){
       `<button class="bdot t${c.hit==='t'?' on':''}" type="button" data-k="${k}" data-by="t" title="선생님이 말했어요"></button>` +
       `<button class="bdot s${c.hit==='s'?' on':''}" type="button" data-k="${k}" data-by="s" title="학생이 말했어요"></button>` +
     `</span></div>`).join('');
-  bingoStatus.textContent = done.length
-    ? `🎉 ${[nT ? `선생님 빙고 ${nT}줄` : '', nS ? `학생 빙고 ${nS}줄` : ''].filter(Boolean).join(' · ')}!`
-    : '말한 사람의 색을 누르세요';
-  bingoStatus.classList.toggle('win', done.length>0);
+  if (bingoStatus) {
+    bingoStatus.textContent = done.length
+      ? `🎉 ${[nT ? `선생님 ${nT}줄` : '', nS ? `학생 ${nS}줄` : ''].filter(Boolean).join(' · ')}!`
+      : '';
+    bingoStatus.classList.toggle('win', done.length > 0);
+  }
 }
 /*
  * 빙고 판을 여러 개 둘 수 있다.
