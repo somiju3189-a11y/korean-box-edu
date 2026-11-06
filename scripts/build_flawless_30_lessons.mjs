@@ -8,6 +8,7 @@ import { SPECS_PART2 } from './specs_part2.mjs';
 import { SPECS_PART3 } from './specs_part3.mjs';
 import { SPECS_PART4 } from './specs_part4.mjs';
 import { SPECS_PART5 } from './specs_part5.mjs';
+import { EXPANSION_SETS } from './expansion_sets.mjs';
 
 const LESSON_SPECS = Object.assign({}, SPECS_PART1, SPECS_PART2, SPECS_PART3, SPECS_PART4, SPECS_PART5);
 
@@ -62,16 +63,18 @@ const v3Map = {
 for (let n = 2; n <= 30; n++) {
   const key = ORDER[n - 1];
   const spec = LESSON_SPECS[n];
+  const exp = EXPANSION_SETS[n] || {};
+
   if (!spec) {
     console.error(`Missing spec for lesson ${n} (${key})`);
     continue;
   }
 
-  // Extract words from rows (exactly 12 items: 6 in row 1, 6 in row 2)
-  const words = [];
+  // 1. Primary Word Set (12 items: 6 in row 1, 6 in row 2)
+  const words1 = [];
   spec.rows.forEach((row) => {
     row.ex.forEach(pair => {
-      words.push({
+      words1.push({
         b: pair[0],
         r: pair[1],
         t: row.k
@@ -79,8 +82,22 @@ for (let n = 2; n <= 30; n++) {
     });
   });
 
+  // 2. Secondary Word Set (12 expansion items: 6 in row 1, 6 in row 2)
+  const words2List = [];
+  if (exp.rows2) {
+    exp.rows2.forEach((row) => {
+      row.ex.forEach(pair => {
+        words2List.push({
+          b: pair[0],
+          r: pair[1],
+          t: row.k
+        });
+      });
+    });
+  }
+
   // Build vocab items with authentic English meanings and accurate 받침 boolean
-  const vocabItems = words.slice(0, 6).map((w) => {
+  const vocabItems = words1.slice(0, 6).map((w) => {
     const info = getWordInfo(w.b);
     if (info.pic) {
       v3Map[`${n}|${w.b}|${info.g}`] = info.pic;
@@ -114,28 +131,47 @@ for (let n = 2; n <= 30; n++) {
     });
   }
 
-  // Bingo Pairs: 100% 1:1 Transformation!
-  // If multi-board or dedicated pairs specified (Lesson 10, 26, 30), use them; otherwise use exact 12 words 1:1
-  let bingoData;
+  // 3. Multi-Board Bingo: 2 Distinct Authentic Boards with [새 판] Switch!
+  let bingoBoards;
   if (spec.bingoMulti) {
-    bingoData = spec.bingoMulti;
-  } else if (spec.bingoPairs) {
-    bingoData = spec.bingoPairs;
+    bingoBoards = spec.bingoMulti;
+  } else if (spec.bingoPairs && exp.rows2) {
+    bingoBoards = [
+      {
+        tag: exp.tag1 || "1판 · 기본 연습",
+        pairs: spec.bingoPairs
+      },
+      {
+        tag: exp.tag2 || "2판 · 실전 확장",
+        c: "g2",
+        pairs: words2List.map(w => [w.b, w.r])
+      }
+    ];
   } else {
-    bingoData = words.map(w => [w.b, w.r]);
+    bingoBoards = [
+      {
+        tag: exp.tag1 || "1판 · 기본 일상 어휘",
+        pairs: words1.map(w => [w.b, w.r])
+      },
+      {
+        tag: exp.tag2 || "2판 · 실전 확장 어휘",
+        c: "g2",
+        pairs: words2List.map(w => [w.b, w.r])
+      }
+    ];
   }
 
-  // Relays: 3 conversational sets matching Lesson 1
+  // 4. Relays: 3 conversational sets matching Lesson 1
   const relays = [
     [
       { t: spec.ex1.aKo[0].replace(/\[\[|\]\]/g, '') },
-      { base: words[0].b, ans: `${words[0].r}.` },
-      { base: words[4].b, ans: `${words[4].r}.` }
+      { base: words1[0].b, ans: `${words1[0].r}.` },
+      { base: words1[4].b, ans: `${words1[4].r}.` }
     ],
     [
       { t: spec.askQ.replace(/\[\[|\]\]/g, '') },
-      { base: words[1].b, ans: `${words[1].r}.` },
-      { base: words[7].b, ans: `${words[7].r}.` }
+      { base: words1[1].b, ans: `${words1[1].r}.` },
+      { base: words1[7].b, ans: `${words1[7].r}.` }
     ],
     [
       { t: spec.ex2.aKo[0].replace(/\[\[|\]\]/g, '') },
@@ -143,6 +179,15 @@ for (let n = 2; n <= 30; n++) {
       { base: spec.make[1].k.join(' · '), ans: spec.make[1].a }
     ]
   ];
+
+  // 5. Build words2 (Set 2 Word Drill Slide)
+  const words2Slide = words2List.length ? [
+    {
+      tag: `🔁 WORD DRILL ② <i>${exp.tag2 || '실전 확장 어휘'}</i>`,
+      sub: "실제 생활에서 가장 자주 쓰이는 심화 어휘들입니다. 소리 내어 말해 보세요.",
+      items: words2List
+    }
+  ] : [];
 
   const lessonObj = {
     key: key,
@@ -214,8 +259,9 @@ for (let n = 2; n <= 30; n++) {
       { c: "navy", h: `💡 TIP ② · Core Meaning & Usage`, p: `${spec.meanEn}<br><br>· ${spec.heroEn[0].replace(/\[\[|\]\]/g, '')}<br>· ${spec.heroEn[1].replace(/\[\[|\]\]/g, '')}` },
       { c: "teal", h: `💡 TIP ③ · Conversation Practice`, p: `Practice answering <b>"${spec.askEn.replace(/\[\[|\]\]/g, '')}"</b> using the pattern <b>${spec.pat}</b>.` }
     ],
-    words: words,
-    bingo: bingoData,
+    words: words1,
+    words2: words2Slide,
+    bingo: bingoBoards,
     relays: relays,
     make: spec.make,
     vocab: [
@@ -251,4 +297,4 @@ for (let n = 2; n <= 30; n++) {
 const vocabPicContent = `/* scripts/build-course-sample.mjs 가 만든 파일입니다. 직접 고치지 마세요. */\nconst V3MAP = ${JSON.stringify(v3Map)};\nconst V3SPLIT_DUO = [];\n`;
 fs.writeFileSync(path.join(dataDir, 'vocabpic.js'), vocabPicContent, 'utf8');
 
-console.log('Successfully generated flawless lessons 2 through 30 and updated vocabpic.js with 0 errors!');
+console.log('Successfully upgraded all 30 lessons with Multi-Board Bingo and 2-Set Word Drill!');
